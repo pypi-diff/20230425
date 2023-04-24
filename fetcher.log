@@ -912,3 +912,24 @@
 [2023-04-25 01:32:07] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-04-25 01:32:55] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-04-25 01:32:55] INFO root fetch - main [MainThread]: Store serial: [17840503]
+[2023-04-25 01:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840503]
+[2023-04-25 01:38:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-25 01:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmesh
+[2023-04-25 01:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fieldservice-sale
+[2023-04-25 01:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sesg
+[2023-04-25 01:38:03] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: New version: [15.0.2.0.1] Old Version: [15.0.2.0.0.6]
+[2023-04-25 01:38:03] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 01:38:03] INFO root fetch - processPackages [sqlmesh]: New version: [0.5.1.dev28] Old Version: [0.5.1.dev22]
+[2023-04-25 01:38:03] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-25 01:38:03] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230425/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 01:38:04] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/ee/c3/5db07ba5db46f9ff6a594256da5fdb35d69b4f7e859e5eb6f982e0e89205/odoo_addon_fieldservice_sale-15.0.2.0.0.6-py3-none-any.whl
+[2023-04-25 01:38:04] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/52/58/2cb9b5022f9b5396a047dce89bc49d61b42448a19284428aea0d7e4906a1/sqlmesh-0.5.1.dev28.tar.gz
+[2023-04-25 01:38:04] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/34/0a/b0493683a68af7ff29e91826768d8c3fe504cf83e25c31001b783cc5212a/odoo_addon_fieldservice_sale-15.0.2.0.1-py3-none-any.whl
+[2023-04-25 01:38:04] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: executing diffoscope
+[2023-04-25 01:38:04] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_sale-15.0.2.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_sale-15.0.2.0.1-py3-none-any.whl.zip --markdown 20230425/o/odoo-addon-fieldservice-sale/15.0.2.0.0.6-15.0.2.0.1/diff.md --exclude *.pyd
+[2023-04-25 01:38:04] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-25 01:38:04] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.5.1.dev22.tar.gz tmp/sqlmesh-0.5.1.dev28.tar.gz --markdown 20230425/s/sqlmesh/0.5.1.dev22-0.5.1.dev28/diff.md --exclude *.pyd
+[2023-04-25 01:38:05] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-25 01:38:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-sale]: success
+[2023-04-25 01:38:10] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-04-25 01:38:10] INFO root fetch - main [MainThread]: Store serial: [17840512]

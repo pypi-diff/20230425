@@ -62,3 +62,53 @@
 [2023-04-25 00:05:00] INFO root fetch - main [MainThread]: End processing [playsoundsimple.py]: success
 [2023-04-25 00:05:01] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-04-25 00:05:01] INFO root fetch - main [MainThread]: Store serial: [17839974]
+[2023-04-25 00:10:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839974]
+[2023-04-25 00:10:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: playsoundsimple.py
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: megamock
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: q2rad
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bizlogic
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: start-html-tag-helpers
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EclipsingBinaries
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-admin-search
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bs-orm
+[2023-04-25 00:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apread
+[2023-04-25 00:10:10] INFO root fetch - processPackages [EclipsingBinaries]: New version: [2.8.4a3] Old Version: [2.8.4a2]
+[2023-04-25 00:10:10] INFO root fetch - processPackages [django-admin-search]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-25 00:10:10] INFO root fetch - processPackages [megamock]: New version: [0.1.0b1] Old Version: [0.1.0a8]
+[2023-04-25 00:10:10] WARNING root fetch - processPackages [start-html-tag-helpers]: Skipping, unable to determine old version
+[2023-04-25 00:10:10] INFO root fetch - main [MainThread]: End processing [start-html-tag-helpers] error
+[2023-04-25 00:10:10] INFO root fetch - processPackages [playsoundsimple.py]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-04-25 00:10:10] INFO root fetch - processPackages [bizlogic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 00:10:10] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-25 00:10:10] INFO root fetch - processPackages [apread]: New version: [1.1.1a1] Old Version: [1.1.0]
+[2023-04-25 00:10:10] WARNING root fetch - processPackages [bs-orm]: Skipping, unable to determine old version
+[2023-04-25 00:10:10] INFO root fetch - main [MainThread]: End processing [bs-orm] error
+[2023-04-25 00:10:10] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2023-04-25 00:10:10] INFO root fetch - processPackages [django-admin-search]: executing diffoscope
+[2023-04-25 00:10:10] INFO root fetch - processPackages [django-admin-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-search-0.3.8.tar.gz tmp/django-admin-search-0.3.9.tar.gz --markdown 20230425/d/django-admin-search/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 00:10:10] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/1b/30/66a2fdf8cc654bcb5d3b01b3e6ba0c7ff937536e23a16595f872afdbb515/EclipsingBinaries-2.8.4a2.tar.gz
+[2023-04-25 00:10:10] INFO root fetch - processPackages [megamock]: Downloading https://files.pythonhosted.org/packages/23/33/c7d9f7e189becc5f2dc15bb53d09a3f4fb8553286b4e0005d3a1e4f52fa5/megamock-0.1.0a8.tar.gz
+[2023-04-25 00:10:10] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-04-25 00:10:10] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.0.8.tar.gz tmp/bizlogic-0.0.9.tar.gz --markdown 20230425/b/bizlogic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 00:10:10] INFO root fetch - processPackages [playsoundsimple.py]: executing diffoscope
+[2023-04-25 00:10:10] INFO root fetch - processPackages [playsoundsimple.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playsoundsimple.py-0.5.5-py3-none-any.whl.zip tmp/playsoundsimple.py-0.6.0-py3-none-any.whl.zip --markdown 20230425/p/playsoundsimple.py/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-04-25 00:10:10] INFO root fetch - processPackages [apread]: executing diffoscope
+[2023-04-25 00:10:10] INFO root fetch - processPackages [apread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apread-1.1.0.tar.gz tmp/apread-1.1.1a1.tar.gz --markdown 20230425/a/apread/1.1.0-1.1.1a1/diff.md --exclude *.pyd
+[2023-04-25 00:10:10] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2023-04-25 00:10:10] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/9f/d6/2062cfecf595fe021cff0fc553d0300c776eeab7aa14601c0ff2d74f00c8/EclipsingBinaries-2.8.4a3.tar.gz
+[2023-04-25 00:10:10] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-04-25 00:10:10] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230425/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-25 00:10:11] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-04-25 00:10:11] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-2.8.4a2.tar.gz tmp/EclipsingBinaries-2.8.4a3.tar.gz --markdown 20230425/E/EclipsingBinaries/2.8.4a2-2.8.4a3/diff.md --exclude *.pyd
+[2023-04-25 00:10:12] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-04-25 00:10:12] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-04-25 00:10:12] INFO root fetch - processPackages [megamock]: Downloading https://files.pythonhosted.org/packages/a8/25/f3c01e9faeba835efd4bcf4f84698ef9c1821fc232fde9d1f215d9df83bd/megamock-0.1.0b1.tar.gz
+[2023-04-25 00:10:12] INFO root fetch - main [MainThread]: End processing [apread]: success
+[2023-04-25 00:10:12] INFO root fetch - processPackages [megamock]: executing diffoscope
+[2023-04-25 00:10:12] INFO root fetch - processPackages [megamock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megamock-0.1.0a8.tar.gz tmp/megamock-0.1.0b1.tar.gz --markdown 20230425/m/megamock/0.1.0a8-0.1.0b1/diff.md --exclude *.pyd
+[2023-04-25 00:10:12] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-04-25 00:10:12] INFO root fetch - main [MainThread]: End processing [django-admin-search]: success
+[2023-04-25 00:10:12] INFO root fetch - main [MainThread]: End processing [playsoundsimple.py]: success
+[2023-04-25 00:10:13] INFO root fetch - main [MainThread]: End processing [megamock]: success
+[2023-04-25 00:10:13] INFO root fetch - main [MainThread]: Store serial: [17840004]

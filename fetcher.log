@@ -112,3 +112,36 @@
 [2023-04-25 00:10:12] INFO root fetch - main [MainThread]: End processing [playsoundsimple.py]: success
 [2023-04-25 00:10:13] INFO root fetch - main [MainThread]: End processing [megamock]: success
 [2023-04-25 00:10:13] INFO root fetch - main [MainThread]: Store serial: [17840004]
+[2023-04-25 00:15:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840004]
+[2023-04-25 00:15:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 00:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OrderLib
+[2023-04-25 00:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamp3
+[2023-04-25 00:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamp3
+[2023-04-25 00:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymwr
+[2023-04-25 00:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: juriscraper
+[2023-04-25 00:15:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyweatherflowudp
+[2023-04-25 00:15:22] INFO root fetch - processPackages [streamp3]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 00:15:22] WARNING root fetch - processPackages [OrderLib]: Skipping, unable to determine old version
+[2023-04-25 00:15:22] WARNING root fetch - processPackages [pymwr]: Skipping, unable to determine old version
+[2023-04-25 00:15:22] INFO root fetch - processPackages [pyweatherflowudp]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-25 00:15:22] INFO root fetch - main [MainThread]: End processing [OrderLib] error
+[2023-04-25 00:15:22] INFO root fetch - main [MainThread]: End processing [pymwr] error
+[2023-04-25 00:15:22] INFO root fetch - processPackages [streamp3]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 00:15:22] INFO root fetch - processPackages [juriscraper]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-04-25 00:15:22] INFO root fetch - processPackages [streamp3]: executing diffoscope
+[2023-04-25 00:15:22] INFO root fetch - processPackages [streamp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamp3-0.1.8.tar.gz tmp/streamp3-0.1.9.tar.gz --markdown 20230425/s/streamp3/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 00:15:22] INFO root fetch - processPackages [streamp3]: executing diffoscope
+[2023-04-25 00:15:22] INFO root fetch - processPackages [streamp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamp3-0.1.8.tar.gz tmp/streamp3-0.1.9.tar.gz --markdown 20230425/s/streamp3/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 00:15:22] INFO root fetch - processPackages [pyweatherflowudp]: Downloading https://files.pythonhosted.org/packages/fe/5b/90772f50360d23cb7f729a6e8679b50c43a5343d3da47908af15a2e9d3aa/pyweatherflowudp-1.4.1.tar.gz
+[2023-04-25 00:15:23] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/06/e9/d9736ce605b0adb715a2da5d2f72437623aabd121bdcd4161eac596aa495/juriscraper-2.5.8.tar.gz
+[2023-04-25 00:15:23] INFO root fetch - processPackages [pyweatherflowudp]: Downloading https://files.pythonhosted.org/packages/50/00/75a505208302ab8099ddb515f409b566f044d1f8c06345cc668f4af61a01/pyweatherflowudp-1.4.2.tar.gz
+[2023-04-25 00:15:23] INFO root fetch - processPackages [pyweatherflowudp]: executing diffoscope
+[2023-04-25 00:15:23] INFO root fetch - processPackages [pyweatherflowudp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyweatherflowudp-1.4.1.tar.gz tmp/pyweatherflowudp-1.4.2.tar.gz --markdown 20230425/p/pyweatherflowudp/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-25 00:15:23] INFO root fetch - processPackages [juriscraper]: Downloading https://files.pythonhosted.org/packages/5f/25/693a53a8b0f40a035585409fb51a372b6f0292d864d13a6feac4974db145/juriscraper-2.5.9.tar.gz
+[2023-04-25 00:15:23] INFO root fetch - processPackages [juriscraper]: executing diffoscope
+[2023-04-25 00:15:23] INFO root fetch - processPackages [juriscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juriscraper-2.5.8.tar.gz tmp/juriscraper-2.5.9.tar.gz --markdown 20230425/j/juriscraper/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-04-25 00:15:24] INFO root fetch - main [MainThread]: End processing [streamp3]: success
+[2023-04-25 00:15:24] INFO root fetch - main [MainThread]: End processing [streamp3]: success
+[2023-04-25 00:15:24] INFO root fetch - main [MainThread]: End processing [pyweatherflowudp]: success
+[2023-04-25 00:15:27] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
+[2023-04-25 00:15:27] INFO root fetch - main [MainThread]: Store serial: [17840060]

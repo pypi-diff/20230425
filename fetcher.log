@@ -1,0 +1,64 @@
+[2023-04-25 00:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17839937]
+[2023-04-25 00:04:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HR-Neural-Networks
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otlmow-converter
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yatracker-linker
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-wrappers
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colorfultxt
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccxt
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bizlogic
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-lang-tts
+[2023-04-25 00:04:51] INFO root fetch - processPackages [HR-Neural-Networks]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-25 00:04:51] WARNING root fetch - processPackages [colorfultxt]: Skipping, unable to determine old version
+[2023-04-25 00:04:51] INFO root fetch - processPackages [colorfultxt]: Start processing: playsoundsimple.py
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ml-wrappers]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-04-25 00:04:51] INFO root fetch - main [MainThread]: End processing [colorfultxt] error
+[2023-04-25 00:04:51] INFO root fetch - processPackages [otlmow-converter]: New version: [0.9] Old Version: [0.8]
+[2023-04-25 00:04:51] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 00:04:51] WARNING root fetch - processPackages [streamlit-lang-tts]: Skipping, unable to determine old version
+[2023-04-25 00:04:51] INFO root fetch - main [MainThread]: End processing [streamlit-lang-tts] error
+[2023-04-25 00:04:51] INFO root fetch - processPackages [bizlogic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ccxt]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-25 00:04:51] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-25 00:04:51] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-25 00:04:51] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-25 00:04:51] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230425/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 00:04:51] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-25 00:04:51] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230425/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-25 00:04:51] INFO root fetch - processPackages [ml-wrappers]: Downloading https://files.pythonhosted.org/packages/19/4b/30ce7ef3696c7b563b4c84579ae5bdbece6fb4c751e9b00f5135cd835497/ml_wrappers-0.4.7.tar.gz
+[2023-04-25 00:04:51] INFO root fetch - processPackages [playsoundsimple.py]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-04-25 00:04:51] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-25 00:04:51] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230425/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-25 00:04:51] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-04-25 00:04:51] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.0.8.tar.gz tmp/bizlogic-0.0.9.tar.gz --markdown 20230425/b/bizlogic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 00:04:52] INFO root fetch - processPackages [otlmow-converter]: Downloading https://files.pythonhosted.org/packages/d8/9b/c7bb2f438cff3f42c7b57717f8e8928f896a1e04ebcff851e5cc79bf3883/otlmow_converter-0.8.tar.gz
+[2023-04-25 00:04:52] INFO root fetch - processPackages [HR-Neural-Networks]: Downloading https://files.pythonhosted.org/packages/c5/a6/2d3987a73375858bea4ba502036dd0790be10b903bab48fcab4312eb40fd/HR_Neural_Networks-1.0.3.tar.gz
+[2023-04-25 00:04:52] INFO root fetch - processPackages [playsoundsimple.py]: Downloading https://files.pythonhosted.org/packages/4e/79/2c8d4b82a3ab238af03b0657222a75714e51082b9748a8b2662778d0ac28/playsoundsimple.py-0.5.5-py3-none-any.whl
+[2023-04-25 00:04:52] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/2e/4c/3a51164f4c0a21fb3df247be9849d627a1182449b0fb9006d67cef7adf30/ccxt-3.0.8.tar.gz
+[2023-04-25 00:04:52] INFO root fetch - processPackages [ml-wrappers]: Downloading https://files.pythonhosted.org/packages/05/8b/07ee2700efc8370d552866093f0a0e6ff9703fd8c697dfdfd0c3fb7e294f/ml_wrappers-0.4.8.tar.gz
+[2023-04-25 00:04:52] INFO root fetch - processPackages [ml-wrappers]: executing diffoscope
+[2023-04-25 00:04:52] INFO root fetch - processPackages [ml-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_wrappers-0.4.7.tar.gz tmp/ml_wrappers-0.4.8.tar.gz --markdown 20230425/m/ml-wrappers/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-04-25 00:04:52] INFO root fetch - processPackages [otlmow-converter]: Downloading https://files.pythonhosted.org/packages/0d/10/0291fca193db6bde455c97caa90df2aad98730c3c257da351667da3a8116/otlmow_converter-0.9.tar.gz
+[2023-04-25 00:04:52] INFO root fetch - processPackages [HR-Neural-Networks]: Downloading https://files.pythonhosted.org/packages/0d/3e/87a684ca60e33b050d6f1544121f2b9e9a9aec04e080a2ecc669a12c1fad/HR_Neural_Networks-1.0.4.tar.gz
+[2023-04-25 00:04:52] INFO root fetch - processPackages [HR-Neural-Networks]: executing diffoscope
+[2023-04-25 00:04:52] INFO root fetch - processPackages [HR-Neural-Networks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HR_Neural_Networks-1.0.3.tar.gz tmp/HR_Neural_Networks-1.0.4.tar.gz --markdown 20230425/H/HR-Neural-Networks/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-25 00:04:52] INFO root fetch - processPackages [otlmow-converter]: executing diffoscope
+[2023-04-25 00:04:52] INFO root fetch - processPackages [otlmow-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otlmow_converter-0.8.tar.gz tmp/otlmow_converter-0.9.tar.gz --markdown 20230425/o/otlmow-converter/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-25 00:04:52] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/8e/7d/1f94d2f0fc89bf8708b279ddd82d30cd2d69c098b14f9d8e0c63f464a35e/ccxt-3.0.9.tar.gz
+[2023-04-25 00:04:53] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-25 00:04:53] INFO root fetch - main [MainThread]: End processing [ml-wrappers]: success
+[2023-04-25 00:04:53] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-25 00:04:54] INFO root fetch - main [MainThread]: End processing [otlmow-converter]: success
+[2023-04-25 00:04:54] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-04-25 00:04:54] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-25 00:04:55] INFO root fetch - main [MainThread]: End processing [HR-Neural-Networks]: success
+[2023-04-25 00:04:55] INFO root fetch - processPackages [playsoundsimple.py]: Downloading https://files.pythonhosted.org/packages/72/fe/cfa3d8b3392b087f4420baab729c89f699e349d28c4fd419733a140b7758/playsoundsimple.py-0.6.0-py3-none-any.whl
+[2023-04-25 00:04:56] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-04-25 00:04:56] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.8.tar.gz tmp/ccxt-3.0.9.tar.gz --markdown 20230425/c/ccxt/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-25 00:04:59] INFO root fetch - processPackages [playsoundsimple.py]: executing diffoscope
+[2023-04-25 00:04:59] INFO root fetch - processPackages [playsoundsimple.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playsoundsimple.py-0.5.5-py3-none-any.whl.zip tmp/playsoundsimple.py-0.6.0-py3-none-any.whl.zip --markdown 20230425/p/playsoundsimple.py/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-04-25 00:05:00] INFO root fetch - main [MainThread]: End processing [playsoundsimple.py]: success
+[2023-04-25 00:05:01] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-04-25 00:05:01] INFO root fetch - main [MainThread]: Store serial: [17839974]

@@ -291,3 +291,78 @@
 [2023-04-25 00:31:10] INFO root fetch - main [MainThread]: End processing [synthesized]: success
 [2023-04-25 00:31:23] INFO root fetch - main [MainThread]: End processing [sarpy]: success
 [2023-04-25 00:31:23] INFO root fetch - main [MainThread]: Store serial: [17840155]
+[2023-04-25 00:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840155]
+[2023-04-25 00:36:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: branch-time
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whispercppy
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reticula
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotlight-dev
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfn-lint
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitem
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: perpetuo
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manifest-ml
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bs-python-utils
+[2023-04-25 00:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyfa-converter
+[2023-04-25 00:36:33] WARNING root fetch - processPackages [branch-time]: Skipping, unable to determine old version
+[2023-04-25 00:36:33] INFO root fetch - processPackages [branch-time]: Start processing: feed-archiver
+[2023-04-25 00:36:33] INFO root fetch - main [MainThread]: End processing [branch-time] error
+[2023-04-25 00:36:34] WARNING root fetch - processPackages [whispercppy]: Skipping, unable to determine old version
+[2023-04-25 00:36:34] INFO root fetch - processPackages [whispercppy]: Start processing: easytorch
+[2023-04-25 00:36:34] INFO root fetch - main [MainThread]: End processing [whispercppy] error
+[2023-04-25 00:36:34] INFO root fetch - processPackages [feed-archiver]: New version: [2.0.1b0] Old Version: [2.0.0b1]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [reticula]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [perpetuo]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [bs-python-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-25 00:36:34] WARNING root fetch - processPackages [spotlight-dev]: Skipping, unable to determine old version
+[2023-04-25 00:36:34] INFO root fetch - processPackages [spotlight-dev]: Start processing: vinterunofficial
+[2023-04-25 00:36:34] INFO root fetch - main [MainThread]: End processing [spotlight-dev] error
+[2023-04-25 00:36:34] INFO root fetch - processPackages [pyfa-converter]: New version: [1.0.4.0a0] Old Version: [1.0.4.0]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [unitem]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [manifest-ml]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [cfn-lint]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [easytorch]: New version: [3.7.5] Old Version: [3.7.4]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [feed-archiver]: executing diffoscope
+[2023-04-25 00:36:34] INFO root fetch - processPackages [feed-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feed-archiver-2.0.0b1.tar.gz tmp/feed-archiver-2.0.1b0.tar.gz --markdown 20230425/f/feed-archiver/2.0.0b1-2.0.1b0/diff.md --exclude *.pyd
+[2023-04-25 00:36:34] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/76/b8/443cd8edf3f7b83d7004ec59a509118232247c6f36a7d83a700f67c16f38/bs_python_utils-0.0.1.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [pyfa-converter]: Downloading https://files.pythonhosted.org/packages/9c/0f/1d54a2f2dd4c512bc9505060c1750314fc30a172523b7af4e1bbed3c68ad/pyfa_converter-1.0.4.0.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [vinterunofficial]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-25 00:36:34] INFO root fetch - processPackages [reticula]: Downloading https://files.pythonhosted.org/packages/e0/6b/1fe01f635aea67aa30cf5834d5119bd1a1feabef5466c80fe5bc8883e44c/reticula-0.7.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 00:36:34] INFO root fetch - processPackages [perpetuo]: Downloading https://files.pythonhosted.org/packages/7c/19/f6c28df001a5f99d1bfc98834eaf492eedea8c13c4192eb40d113ec74600/perpetuo-0.0.1.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [easytorch]: Downloading https://files.pythonhosted.org/packages/0e/00/740a4b9d69284d95220a3652d6e164868fa471585c885dc38fc915598643/easytorch-3.7.4.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/65/62/726431917e4bcaffa4900d222da90c7f3d60b664e3c58a5413f5614b2a2f/cfn-lint-1.0.0a2.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [unitem]: Downloading https://files.pythonhosted.org/packages/2d/74/53c42d6982a69b504f24dacf4eb594554eb510e7111f4b13c9488049c02a/unitem-1.2.5.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [manifest-ml]: Downloading https://files.pythonhosted.org/packages/4d/86/3e031c85fefdcb78b784aa551bc156ca16a179a42fb627032da963cedd0f/manifest-ml-0.1.3.tar.gz
+[2023-04-25 00:36:34] WARNING root fetch - processPackages [reticula]: Skipping package: exceeds size limit 26585612>=10485760
+[2023-04-25 00:36:34] INFO root fetch - main [MainThread]: End processing [reticula] error
+[2023-04-25 00:36:34] WARNING root fetch - processPackages [unitem]: Skipping package: exceeds size limit 12784605>=10485760
+[2023-04-25 00:36:34] INFO root fetch - main [MainThread]: End processing [unitem] error
+[2023-04-25 00:36:34] INFO root fetch - processPackages [vinterunofficial]: Downloading https://files.pythonhosted.org/packages/39/5e/2cbd7770b0287e2d8573c1d0a18e8ff91d161f90b61863f3643725976a58/vinterunofficial-0.1.7.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [perpetuo]: Downloading https://files.pythonhosted.org/packages/a1/a0/9e45796405f7caab2fba9f353477f4650356e4a81811a8943eb8fd38bb57/perpetuo-0.1.0.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [easytorch]: Downloading https://files.pythonhosted.org/packages/6b/5b/eb4b1f84ae64ad73413a9067861888594b6a27aac678b418a51a6bc88371/easytorch-3.7.5.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [pyfa-converter]: Downloading https://files.pythonhosted.org/packages/54/b4/342dc60d6c30ba30343d5724c066ce2eb4be8223da97d140c5b157def69a/pyfa_converter-1.0.4.0a0.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [manifest-ml]: Downloading https://files.pythonhosted.org/packages/2c/d6/da38cca29c2b3789fb9140632a16d24a281ea63d2b8f7d41f1de36c416c7/manifest-ml-0.1.4.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [bs-python-utils]: Downloading https://files.pythonhosted.org/packages/29/c5/83c63032b39f055963ceb396883964ecc801d71ba97f962110673c20892c/bs_python_utils-0.0.2.tar.gz
+[2023-04-25 00:36:34] INFO root fetch - processPackages [perpetuo]: executing diffoscope
+[2023-04-25 00:36:34] INFO root fetch - processPackages [perpetuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perpetuo-0.0.1.tar.gz tmp/perpetuo-0.1.0.tar.gz --markdown 20230425/p/perpetuo/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-25 00:36:34] INFO root fetch - processPackages [easytorch]: executing diffoscope
+[2023-04-25 00:36:34] INFO root fetch - processPackages [easytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytorch-3.7.4.tar.gz tmp/easytorch-3.7.5.tar.gz --markdown 20230425/e/easytorch/3.7.4-3.7.5/diff.md --exclude *.pyd
+[2023-04-25 00:36:34] INFO root fetch - processPackages [pyfa-converter]: executing diffoscope
+[2023-04-25 00:36:34] INFO root fetch - processPackages [pyfa-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfa_converter-1.0.4.0.tar.gz tmp/pyfa_converter-1.0.4.0a0.tar.gz --markdown 20230425/p/pyfa-converter/1.0.4.0-1.0.4.0a0/diff.md --exclude *.pyd
+[2023-04-25 00:36:34] INFO root fetch - processPackages [manifest-ml]: executing diffoscope
+[2023-04-25 00:36:34] INFO root fetch - processPackages [manifest-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifest-ml-0.1.3.tar.gz tmp/manifest-ml-0.1.4.tar.gz --markdown 20230425/m/manifest-ml/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-25 00:36:34] INFO root fetch - processPackages [cfn-lint]: executing diffoscope
+[2023-04-25 00:36:34] INFO root fetch - processPackages [cfn-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-lint-1.0.0a2.tar.gz tmp/cfn-lint-1.0.0a3.tar.gz --markdown 20230425/c/cfn-lint/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-04-25 00:36:34] INFO root fetch - processPackages [bs-python-utils]: executing diffoscope
+[2023-04-25 00:36:34] INFO root fetch - processPackages [bs-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_python_utils-0.0.1.tar.gz tmp/bs_python_utils-0.0.2.tar.gz --markdown 20230425/b/bs-python-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-25 00:36:34] INFO root fetch - processPackages [vinterunofficial]: Downloading https://files.pythonhosted.org/packages/40/f9/b949ab3f443ccdf8b6c898982693e934730b2edc61561c303bd2ace8ca26/vinterunofficial-0.1.8.tar.gz
+[2023-04-25 00:36:35] INFO root fetch - processPackages [vinterunofficial]: executing diffoscope
+[2023-04-25 00:36:35] INFO root fetch - processPackages [vinterunofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinterunofficial-0.1.7.tar.gz tmp/vinterunofficial-0.1.8.tar.gz --markdown 20230425/v/vinterunofficial/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-25 00:36:36] INFO root fetch - main [MainThread]: End processing [pyfa-converter]: success
+[2023-04-25 00:36:36] INFO root fetch - main [MainThread]: End processing [perpetuo]: success
+[2023-04-25 00:36:36] INFO root fetch - main [MainThread]: End processing [vinterunofficial]: success
+[2023-04-25 00:36:36] INFO root fetch - main [MainThread]: End processing [easytorch]: success
+[2023-04-25 00:36:36] INFO root fetch - main [MainThread]: End processing [manifest-ml]: success
+[2023-04-25 00:36:36] INFO root fetch - main [MainThread]: End processing [bs-python-utils]: success
+[2023-04-25 00:36:36] INFO root fetch - main [MainThread]: End processing [feed-archiver]: success
+[2023-04-25 00:38:30] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
+[2023-04-25 00:38:30] INFO root fetch - main [MainThread]: Store serial: [17840212]

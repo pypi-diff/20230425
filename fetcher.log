@@ -790,3 +790,63 @@
 [2023-04-25 01:20:52] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
 [2023-04-25 01:20:54] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
 [2023-04-25 01:20:54] INFO root fetch - main [MainThread]: Store serial: [17840420]
+[2023-04-25 01:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840420]
+[2023-04-25 01:26:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-core
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-pyodide
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-ligand
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: army-db
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klp-commons
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appengine-python-standard
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-25 01:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gdsfactory
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flet-pyodide]: New version: [0.6.0.dev1350] Old Version: [0.6.0.dev1344]
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flet-core]: New version: [0.6.0.dev1350] Old Version: [0.6.0.dev1344]
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flask-ligand]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-25 01:26:03] INFO root fetch - processPackages [appengine-python-standard]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-25 01:26:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.287] Old Version: [0.3.286]
+[2023-04-25 01:26:03] WARNING root fetch - processPackages [army-db]: Skipping, unable to determine old version
+[2023-04-25 01:26:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.287] Old Version: [0.3.286]
+[2023-04-25 01:26:03] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 01:26:03] INFO root fetch - main [MainThread]: End processing [army-db] error
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flet]: New version: [0.6.0.dev1350] Old Version: [0.6.0.dev1344]
+[2023-04-25 01:26:03] INFO root fetch - processPackages [gdsfactory]: New version: [6.90.0] Old Version: [6.9.0]
+[2023-04-25 01:26:03] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/e3/94/b9d41734be8fbd3cebf962ef11a4248d4440e5a30e129d67ac7ed28b4f70/klp-commons-0.0.8.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/3e/e8/9e714ec6f9d867c7b750188159ab257757e8202f7c3733ef0cdafb6a1f27/pepperize.cdk-ses-smtp-credentials-0.3.287.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flask-ligand]: Downloading https://files.pythonhosted.org/packages/b4/09/d51ead605c7491206ccda36b5d5eae53845170c609d50875ec710a3a956d/flask-ligand-0.7.5.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/3e/e8/9e714ec6f9d867c7b750188159ab257757e8202f7c3733ef0cdafb6a1f27/pepperize.cdk-ses-smtp-credentials-0.3.287.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [appengine-python-standard]: Downloading https://files.pythonhosted.org/packages/45/0f/0ef98a92229145c29169f518fa180046f5a4b126298382f7c424bc76ed08/appengine-python-standard-1.1.1.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/51/e1/bea9be10e53a3f646a2bc569ab98aa0db7b687da72ac78a2d51eac5c8a5e/gdsfactory-6.9.0.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/22/24/0da00ad89fd84dbc5ed7de795755f5eacdae42b1ea6401b7d80dc4550e91/flet_core-0.6.0.dev1350.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/b4/19/96b27ba0446149ec43978ac725a5bfa4ef215e68919aae64f958a06001ff/flet_pyodide-0.6.0.dev1350.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-25 01:26:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.286.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.287.tar.gz --markdown 20230425/p/pepperize.cdk-ses-smtp-credentials/0.3.286-0.3.287/diff.md --exclude *.pyd
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/6d/01/74beeaa051cd9df7baec0ff5f15a96216394edf176f81cd660e8a257bde4/flet-0.6.0.dev1350.tar.gz
+[2023-04-25 01:26:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-25 01:26:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.286.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.287.tar.gz --markdown 20230425/p/pepperize.cdk-ses-smtp-credentials/0.3.286-0.3.287/diff.md --exclude *.pyd
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flask-ligand]: executing diffoscope
+[2023-04-25 01:26:03] INFO root fetch - processPackages [flask-ligand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-ligand-0.7.4.tar.gz tmp/flask-ligand-0.7.5.tar.gz --markdown 20230425/f/flask-ligand/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-25 01:26:03] INFO root fetch - processPackages [appengine-python-standard]: executing diffoscope
+[2023-04-25 01:26:03] INFO root fetch - processPackages [appengine-python-standard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appengine-python-standard-1.1.0.tar.gz tmp/appengine-python-standard-1.1.1.tar.gz --markdown 20230425/a/appengine-python-standard/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-25 01:26:03] WARNING root fetch - processPackages [gdsfactory]: Skipping package: exceeds size limit 11141129>=10485760
+[2023-04-25 01:26:03] INFO root fetch - main [MainThread]: End processing [gdsfactory] error
+[2023-04-25 01:26:04] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-04-25 01:26:04] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.6.0.dev1344.tar.gz tmp/flet_core-0.6.0.dev1350.tar.gz --markdown 20230425/f/flet-core/0.6.0.dev1344-0.6.0.dev1350/diff.md --exclude *.pyd
+[2023-04-25 01:26:04] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/53/33/d9ffdd5b9e8330b9db6c43b84e3bde30134298a6bf8696655c5c0ee970e2/klp-commons-0.0.9.tar.gz
+[2023-04-25 01:26:04] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-04-25 01:26:04] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.6.0.dev1344.tar.gz tmp/flet_pyodide-0.6.0.dev1350.tar.gz --markdown 20230425/f/flet-pyodide/0.6.0.dev1344-0.6.0.dev1350/diff.md --exclude *.pyd
+[2023-04-25 01:26:04] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-04-25 01:26:04] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230425/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 01:26:04] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-04-25 01:26:04] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.6.0.dev1344.tar.gz tmp/flet-0.6.0.dev1350.tar.gz --markdown 20230425/f/flet/0.6.0.dev1344-0.6.0.dev1350/diff.md --exclude *.pyd
+[2023-04-25 01:26:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-25 01:26:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-25 01:26:05] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-04-25 01:26:05] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-04-25 01:26:06] INFO root fetch - main [MainThread]: End processing [appengine-python-standard]: success
+[2023-04-25 01:26:06] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-04-25 01:26:06] INFO root fetch - main [MainThread]: End processing [flask-ligand]: success
+[2023-04-25 01:26:54] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-04-25 01:26:54] INFO root fetch - main [MainThread]: Store serial: [17840463]

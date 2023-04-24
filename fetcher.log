@@ -963,3 +963,55 @@
 [2023-04-25 01:43:20] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2023-04-25 01:43:22] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2023-04-25 01:43:22] INFO root fetch - main [MainThread]: Store serial: [17840540]
+[2023-04-25 01:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840540]
+[2023-04-25 01:48:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-25 01:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netpackAIO
+[2023-04-25 01:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genocide
+[2023-04-25 01:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-fastly
+[2023-04-25 01:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkglog
+[2023-04-25 01:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantconnect-stubs
+[2023-04-25 01:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tradchat
+[2023-04-25 01:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poc-poetry-partifact-plugin
+[2023-04-25 01:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-civo
+[2023-04-25 01:48:30] INFO root fetch - processPackages [netpackAIO]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-04-25 01:48:30] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2023-04-25 01:48:30] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 01:48:30] INFO root fetch - processPackages [tradchat]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 01:48:30] INFO root fetch - processPackages [pulumi-fastly]: New version: [7.4.0a1682378133] Old Version: [7.4.0a1682376810]
+[2023-04-25 01:48:30] INFO root fetch - processPackages [pkglog]: New version: [1.9] Old Version: [1.8]
+[2023-04-25 01:48:30] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1682377387] Old Version: [2.4.0a1681926811]
+[2023-04-25 01:48:30] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-25 01:48:30] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: executing diffoscope
+[2023-04-25 01:48:30] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_poetry_partifact_plugin-0.8.0.tar.gz tmp/poc_poetry_partifact_plugin-0.9.0.tar.gz --markdown 20230425/p/poc-poetry-partifact-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 01:48:30] INFO root fetch - processPackages [netpackAIO]: Downloading https://files.pythonhosted.org/packages/40/d3/d7b81304de8479a4c45bba9f361320bf11807d24ab38aa1e3702336846d2/netpackAIO-0.0.2.tar.gz
+[2023-04-25 01:48:30] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2023-04-25 01:48:30] INFO root fetch - processPackages [pkglog]: executing diffoscope
+[2023-04-25 01:48:30] INFO root fetch - processPackages [pkglog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkglog-1.8.tar.gz tmp/pkglog-1.9.tar.gz --markdown 20230425/p/pkglog/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-25 01:48:31] INFO root fetch - processPackages [tradchat]: Downloading https://files.pythonhosted.org/packages/73/db/328dbf04fa572fab71c50ef65f741cd07f9aef385b4d36150935e6851c5d/tradchat-0.0.5.tar.gz
+[2023-04-25 01:48:31] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-25 01:48:31] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230425/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-25 01:48:31] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/42/b9/2165d14c9f6eebd5a0dc71bd4954dd926595d65527539beb7ad6653a6a1a/pulumi_civo-2.4.0a1681926811.tar.gz
+[2023-04-25 01:48:31] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/fc/b2/0cce89059e499d1f4f0190d2e2b25fe67311cce958c5468dcb314121c9a0/pulumi_fastly-7.4.0a1682378133.tar.gz
+[2023-04-25 01:48:31] INFO root fetch - processPackages [netpackAIO]: Downloading https://files.pythonhosted.org/packages/8b/41/3c43e07d7e2f1ed89eef0f69865beec596bf1255c25e026a25b4797aafa0/netpackAIO-0.0.4.tar.gz
+[2023-04-25 01:48:31] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-04-25 01:48:31] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-7.4.0a1682376810.tar.gz tmp/pulumi_fastly-7.4.0a1682378133.tar.gz --markdown 20230425/p/pulumi-fastly/7.4.0a1682376810-7.4.0a1682378133/diff.md --exclude *.pyd
+[2023-04-25 01:48:31] INFO root fetch - processPackages [netpackAIO]: executing diffoscope
+[2023-04-25 01:48:31] INFO root fetch - processPackages [netpackAIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netpackAIO-0.0.2.tar.gz tmp/netpackAIO-0.0.4.tar.gz --markdown 20230425/n/netpackAIO/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 01:48:31] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/52/eb/71ee755641e7cfa2b6e0c17dfc0a62bec0b9188a3cc180d41da24ee4f03f/pulumi_civo-2.4.0a1682377387.tar.gz
+[2023-04-25 01:48:31] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-04-25 01:48:31] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1681926811.tar.gz tmp/pulumi_civo-2.4.0a1682377387.tar.gz --markdown 20230425/p/pulumi-civo/2.4.0a1681926811-2.4.0a1682377387/diff.md --exclude *.pyd
+[2023-04-25 01:48:31] INFO root fetch - processPackages [tradchat]: Downloading https://files.pythonhosted.org/packages/f6/b5/aea72ebdc8da508f7aafafe14b196d14e7a0d20cf9b218ad121cbbf52185/tradchat-0.0.6.tar.gz
+[2023-04-25 01:48:31] INFO root fetch - processPackages [tradchat]: executing diffoscope
+[2023-04-25 01:48:31] INFO root fetch - processPackages [tradchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradchat-0.0.5.tar.gz tmp/tradchat-0.0.6.tar.gz --markdown 20230425/t/tradchat/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 01:48:31] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2023-04-25 01:48:32] INFO root fetch - main [MainThread]: End processing [poc-poetry-partifact-plugin]: success
+[2023-04-25 01:48:32] INFO root fetch - main [MainThread]: End processing [pkglog]: success
+[2023-04-25 01:48:32] INFO root fetch - main [MainThread]: End processing [netpackAIO]: success
+[2023-04-25 01:48:32] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-04-25 01:48:32] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-04-25 01:48:32] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2023-04-25 01:48:32] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20230425/g/genocide/90-91/diff.md --exclude *.pyd
+[2023-04-25 01:48:34] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2023-04-25 01:48:34] INFO root fetch - main [MainThread]: End processing [tradchat]: success
+[2023-04-25 01:48:37] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-25 01:48:37] INFO root fetch - main [MainThread]: Store serial: [17840563]

@@ -623,3 +623,64 @@
 [2023-04-25 01:04:46] INFO root fetch - main [MainThread]: End processing [LarpixParser]: success
 [2023-04-25 01:04:53] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-25 01:04:53] INFO root fetch - main [MainThread]: Store serial: [17840344]
+[2023-04-25 01:09:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840344]
+[2023-04-25 01:10:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dyn2py
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apie
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alchemical
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beet
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prettyqt
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parsenv
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lacrosse-view
+[2023-04-25 01:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agent360
+[2023-04-25 01:10:02] INFO root fetch - processPackages [apie]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [dyn2py]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [alchemical]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [parsenv]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [lacrosse-view]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [agent360]: New version: [1.2.42] Old Version: [1.2.41]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [beet]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-25 01:10:02] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-04-25 01:10:02] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230425/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-04-25 01:10:02] INFO root fetch - processPackages [beet]: executing diffoscope
+[2023-04-25 01:10:02] INFO root fetch - processPackages [beet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beet-0.9.3.tar.gz tmp/beet-0.9.4.tar.gz --markdown 20230425/b/beet/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-25 01:10:02] INFO root fetch - processPackages [parsenv]: Downloading https://files.pythonhosted.org/packages/9f/05/28a03171c06778042055ccfa9ed4d075e27602fb420d94cba8c46cc5daa5/parsenv-0.1.3.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [dyn2py]: Downloading https://files.pythonhosted.org/packages/e3/1f/8dec639e120012d1ef4ccd56d5741c4a84eb585d924c7e71cbc82aec1dd1/dyn2py-0.4.1.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [apie]: Downloading https://files.pythonhosted.org/packages/3d/b7/d0fe7228dc62cea5c801217326f77e540bd85e83102d1a956d33bc97a60b/apie-0.0.4.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [alchemical]: Downloading https://files.pythonhosted.org/packages/03/a8/2aabdb4ae4a857d4f3e0ec767df423b45bef5472f993cb2599f57380cdcc/alchemical-0.7.0.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [agent360]: Downloading https://files.pythonhosted.org/packages/af/04/713deb7da54692921e788dc6c63daf4e2459cb9d51921c5bacbe79c96321/agent360-1.2.41.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [lacrosse-view]: Downloading https://files.pythonhosted.org/packages/f5/21/046283e89173bc11ecaf43ee2cee0f647268c2a133dfbbd5052df2dabdee/lacrosse_view-0.0.9.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [dyn2py]: executing diffoscope
+[2023-04-25 01:10:02] INFO root fetch - processPackages [dyn2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyn2py-0.4.0.tar.gz tmp/dyn2py-0.4.1.tar.gz --markdown 20230425/d/dyn2py/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-25 01:10:02] INFO root fetch - processPackages [alchemical]: Downloading https://files.pythonhosted.org/packages/7f/97/53b03f82bdfa8bbc98beb5fb7768e53fc3df7794654e7df795e6f7a7fbca/alchemical-0.7.1.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [parsenv]: Downloading https://files.pythonhosted.org/packages/d2/12/dc0340e307126c586bed05c3b032b873ef011e1ddf2d12352a30d55e6ffc/parsenv-0.1.4.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [agent360]: Downloading https://files.pythonhosted.org/packages/36/39/90933d36cd3fe83a1b3173414c100448e561f33e0622d6062149976d88b8/agent360-1.2.42.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [apie]: Downloading https://files.pythonhosted.org/packages/33/34/100b0ba013ebe3aa058856de4c3b360d895434fc12d52fbf9396dd4c5036/apie-0.0.6.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [lacrosse-view]: Downloading https://files.pythonhosted.org/packages/23/20/e843c8ed8f22ff0eab49d72d28235185b8522746dc969d0a39ce710adf7c/lacrosse_view-1.0.0.tar.gz
+[2023-04-25 01:10:02] INFO root fetch - processPackages [parsenv]: executing diffoscope
+[2023-04-25 01:10:02] INFO root fetch - processPackages [parsenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsenv-0.1.3.tar.gz tmp/parsenv-0.1.4.tar.gz --markdown 20230425/p/parsenv/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-25 01:10:02] INFO root fetch - processPackages [alchemical]: executing diffoscope
+[2023-04-25 01:10:02] INFO root fetch - processPackages [alchemical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemical-0.7.0.tar.gz tmp/alchemical-0.7.1.tar.gz --markdown 20230425/a/alchemical/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-25 01:10:02] INFO root fetch - processPackages [agent360]: executing diffoscope
+[2023-04-25 01:10:02] INFO root fetch - processPackages [agent360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent360-1.2.41.tar.gz tmp/agent360-1.2.42.tar.gz --markdown 20230425/a/agent360/1.2.41-1.2.42/diff.md --exclude *.pyd
+[2023-04-25 01:10:02] INFO root fetch - processPackages [apie]: executing diffoscope
+[2023-04-25 01:10:02] INFO root fetch - processPackages [apie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apie-0.0.4.tar.gz tmp/apie-0.0.6.tar.gz --markdown 20230425/a/apie/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 01:10:02] INFO root fetch - processPackages [lacrosse-view]: executing diffoscope
+[2023-04-25 01:10:02] INFO root fetch - processPackages [lacrosse-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacrosse_view-0.0.9.tar.gz tmp/lacrosse_view-1.0.0.tar.gz --markdown 20230425/l/lacrosse-view/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-25 01:10:03] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-04-25 01:10:03] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-04-25 01:10:03] INFO root fetch - main [MainThread]: End processing [beet]: success
+[2023-04-25 01:10:03] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-25 01:10:03] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230425/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-25 01:10:03] INFO root fetch - main [MainThread]: End processing [dyn2py]: success
+[2023-04-25 01:10:04] INFO root fetch - main [MainThread]: End processing [parsenv]: success
+[2023-04-25 01:10:04] INFO root fetch - main [MainThread]: End processing [alchemical]: success
+[2023-04-25 01:10:04] INFO root fetch - main [MainThread]: End processing [lacrosse-view]: success
+[2023-04-25 01:10:04] INFO root fetch - main [MainThread]: End processing [agent360]: success
+[2023-04-25 01:10:04] INFO root fetch - main [MainThread]: End processing [apie]: success
+[2023-04-25 01:10:11] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-25 01:10:11] INFO root fetch - main [MainThread]: Store serial: [17840371]

@@ -145,3 +145,62 @@
 [2023-04-25 00:15:24] INFO root fetch - main [MainThread]: End processing [pyweatherflowudp]: success
 [2023-04-25 00:15:27] INFO root fetch - main [MainThread]: End processing [juriscraper]: success
 [2023-04-25 00:15:27] INFO root fetch - main [MainThread]: Store serial: [17840060]
+[2023-04-25 00:20:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840060]
+[2023-04-25 00:20:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domolibrary
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cochleogram
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tweepy
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yatracker-linker
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pash-annotations
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynast
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: perfect-physics
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discovery-transition-ds
+[2023-04-25 00:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-lang-tts
+[2023-04-25 00:20:35] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [dynast]: New version: [1.1.1rc1] Old Version: [1.1.0rc4]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [pash-annotations]: New version: [0.2.1] Old Version: [0.2]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [cochleogram]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [perfect-physics]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [streamlit-lang-tts]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [tweepy]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-25 00:20:35] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-25 00:20:35] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230425/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 00:20:35] INFO root fetch - processPackages [pash-annotations]: Downloading https://files.pythonhosted.org/packages/7f/2d/36c48d2665e81ca185b6baf6005716259d3698f340a7adf861145899c2aa/pash-annotations-0.2.tar.gz
+[2023-04-25 00:20:35] INFO root fetch - processPackages [streamlit-lang-tts]: Downloading https://files.pythonhosted.org/packages/b4/bb/5c2d2296bfc9dc6b06228e15d52c357646b0ac1e18753bccbb2b505b11ea/streamlit_lang_tts-0.0.1.tar.gz
+[2023-04-25 00:20:35] INFO root fetch - processPackages [perfect-physics]: executing diffoscope
+[2023-04-25 00:20:35] INFO root fetch - processPackages [perfect-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfect_physics-0.1.5-py3-none-any.whl.zip tmp/perfect_physics-0.1.6-py3-none-any.whl.zip --markdown 20230425/p/perfect-physics/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-25 00:20:35] INFO root fetch - processPackages [tweepy]: Downloading https://files.pythonhosted.org/packages/4f/92/ab209175cec0290a0d3d6e0738873af70a2952aaecd1e85abda7467e1296/tweepy-4.8.0.tar.gz
+[2023-04-25 00:20:35] INFO root fetch - processPackages [cochleogram]: Downloading https://files.pythonhosted.org/packages/8b/e8/d1b3ccbbe62e66d5c793e34a30da8d778f12299c10ae71bc37a28b9d9960/cochleogram-0.1.7.tar.gz
+[2023-04-25 00:20:35] INFO root fetch - processPackages [dynast]: Downloading https://files.pythonhosted.org/packages/ea/e0/4595e5650ceca6fbc271eed9344e771075cdb1c669c981a04647c8253674/dynast-1.1.0rc4.tar.gz
+[2023-04-25 00:20:36] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-04-25 00:20:36] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230425/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-25 00:20:36] INFO root fetch - processPackages [dynast]: Downloading https://files.pythonhosted.org/packages/34/21/124978e020d31aa7d62b2d3d94f8d5e8f6d84c0be8bb16f8e8c0d4b23794/dynast-1.1.1rc1.tar.gz
+[2023-04-25 00:20:36] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/b1/fb/267a580387a554eb30937f984154eaffb30e0477fb1525e025f31b1c7ebd/domolibrary-0.0.83.tar.gz
+[2023-04-25 00:20:36] INFO root fetch - processPackages [cochleogram]: Downloading https://files.pythonhosted.org/packages/03/df/09ccbdbb6ee7eeef4ab4a7f392ecf56d252d376354c9e8afbdf1b48ad998/cochleogram-0.1.8.tar.gz
+[2023-04-25 00:20:36] INFO root fetch - processPackages [cochleogram]: executing diffoscope
+[2023-04-25 00:20:36] INFO root fetch - processPackages [cochleogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cochleogram-0.1.7.tar.gz tmp/cochleogram-0.1.8.tar.gz --markdown 20230425/c/cochleogram/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-25 00:20:36] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-25 00:20:36] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.83.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230425/d/domolibrary/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 00:20:36] INFO root fetch - processPackages [pash-annotations]: Downloading https://files.pythonhosted.org/packages/a7/0a/96d4d348fbcee2c770a5f0f87db3cf336aba50be3958b901f8d21629b0f5/pash-annotations-0.2.1.tar.gz
+[2023-04-25 00:20:36] INFO root fetch - processPackages [streamlit-lang-tts]: Downloading https://files.pythonhosted.org/packages/15/70/dd440bf42f8987719cb4d93663be374f5614004b33ee987ac9d7e9e56e29/streamlit_lang_tts-0.0.2.tar.gz
+[2023-04-25 00:20:36] INFO root fetch - processPackages [pash-annotations]: executing diffoscope
+[2023-04-25 00:20:36] INFO root fetch - processPackages [pash-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pash-annotations-0.2.tar.gz tmp/pash-annotations-0.2.1.tar.gz --markdown 20230425/p/pash-annotations/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-04-25 00:20:36] INFO root fetch - processPackages [dynast]: executing diffoscope
+[2023-04-25 00:20:36] INFO root fetch - processPackages [dynast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynast-1.1.0rc4.tar.gz tmp/dynast-1.1.1rc1.tar.gz --markdown 20230425/d/dynast/1.1.0rc4-1.1.1rc1/diff.md --exclude *.pyd
+[2023-04-25 00:20:36] INFO root fetch - processPackages [streamlit-lang-tts]: executing diffoscope
+[2023-04-25 00:20:36] INFO root fetch - processPackages [streamlit-lang-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_lang_tts-0.0.1.tar.gz tmp/streamlit_lang_tts-0.0.2.tar.gz --markdown 20230425/s/streamlit-lang-tts/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-25 00:20:36] INFO root fetch - processPackages [tweepy]: Downloading https://files.pythonhosted.org/packages/04/71/679d75c0e71c2be117e164c2aec5c5b7537b57264c6b395fc1e206768376/tweepy-4.9.0.tar.gz
+[2023-04-25 00:20:37] INFO root fetch - processPackages [tweepy]: executing diffoscope
+[2023-04-25 00:20:37] INFO root fetch - processPackages [tweepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweepy-4.8.0.tar.gz tmp/tweepy-4.9.0.tar.gz --markdown 20230425/t/tweepy/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-04-25 00:20:37] INFO root fetch - main [MainThread]: End processing [perfect-physics]: success
+[2023-04-25 00:20:37] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-25 00:20:38] INFO root fetch - main [MainThread]: End processing [streamlit-lang-tts]: success
+[2023-04-25 00:20:38] INFO root fetch - main [MainThread]: End processing [pash-annotations]: success
+[2023-04-25 00:20:38] INFO root fetch - main [MainThread]: End processing [tweepy]: success
+[2023-04-25 00:20:38] INFO root fetch - main [MainThread]: End processing [dynast]: success
+[2023-04-25 00:20:38] INFO root fetch - main [MainThread]: End processing [cochleogram]: success
+[2023-04-25 00:20:39] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-04-25 00:20:40] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-25 00:20:40] INFO root fetch - main [MainThread]: Store serial: [17840086]

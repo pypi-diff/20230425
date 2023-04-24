@@ -366,3 +366,59 @@
 [2023-04-25 00:36:36] INFO root fetch - main [MainThread]: End processing [feed-archiver]: success
 [2023-04-25 00:38:30] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
 [2023-04-25 00:38:30] INFO root fetch - main [MainThread]: Store serial: [17840212]
+[2023-04-25 00:43:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840212]
+[2023-04-25 00:43:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vault-dump
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piro
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tap-norwaycitybikeapi
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synapseml
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rubpy
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: viddiffusion
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shadpy
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupylite-duckdb
+[2023-04-25 00:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: parsl
+[2023-04-25 00:43:40] INFO root fetch - processPackages [rubpy]: New version: [6.1.2] Old Version: [6.1.0]
+[2023-04-25 00:43:40] INFO root fetch - processPackages [shadpy]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-25 00:43:40] INFO root fetch - processPackages [jupylite-duckdb]: New version: [0.0.18a3] Old Version: [0.0.18a2]
+[2023-04-25 00:43:40] INFO root fetch - processPackages [piro]: New version: [2023.4.24] Old Version: [2022.10.18]
+[2023-04-25 00:43:40] INFO root fetch - processPackages [synapseml]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-25 00:43:40] INFO root fetch - processPackages [shadpy]: executing diffoscope
+[2023-04-25 00:43:40] INFO root fetch - processPackages [shadpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadpy-2.1.0.tar.gz tmp/shadpy-2.1.1.tar.gz --markdown 20230425/s/shadpy/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-25 00:43:40] WARNING root fetch - processPackages [vault-dump]: Skipping, unable to determine old version
+[2023-04-25 00:43:40] INFO root fetch - main [MainThread]: End processing [vault-dump] error
+[2023-04-25 00:43:40] INFO root fetch - processPackages [jupylite-duckdb]: executing diffoscope
+[2023-04-25 00:43:40] INFO root fetch - processPackages [jupylite-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupylite_duckdb-0.0.18a2-py3-none-any.whl.zip tmp/jupylite_duckdb-0.0.18a3-py3-none-any.whl.zip --markdown 20230425/j/jupylite-duckdb/0.0.18a2-0.0.18a3/diff.md --exclude *.pyd
+[2023-04-25 00:43:40] INFO root fetch - processPackages [viddiffusion]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 00:43:40] INFO root fetch - processPackages [tap-norwaycitybikeapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 00:43:40] INFO root fetch - processPackages [piro]: Downloading https://files.pythonhosted.org/packages/ae/c5/0e65314044c4638bf1606fd0582a1d59bbb4c35ec1682e53509d9cedbc06/piro-2022.10.18.tar.gz
+[2023-04-25 00:43:40] INFO root fetch - processPackages [parsl]: New version: [2023.4.3] Old Version: [2023.4.24]
+[2023-04-25 00:43:40] INFO root fetch - processPackages [synapseml]: Downloading https://files.pythonhosted.org/packages/22/b6/d6f41f44f00543893dd468707ae7a9cac217edcf7521af8cb7a795659931/synapseml-0.9.4-py2.py3-none-any.whl
+[2023-04-25 00:43:40] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/09/99/2f25a54a2db98f107ea16f1615767178e4ee455339bc6c281622b3fd142e/rubpy-6.1.2.tar.gz
+[2023-04-25 00:43:40] INFO root fetch - processPackages [viddiffusion]: Downloading https://files.pythonhosted.org/packages/ed/ee/98f5026f4e8e8b8bf7133fe4bbed62360807d9d9f0dcd0af8a9f98d38a8d/viddiffusion-0.1.1.tar.gz
+[2023-04-25 00:43:40] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/db/e8/c4b73f6acf80287c21f62df444d5f9d4c97f1ac544ec05bb693183980901/parsl-2023.4.24.tar.gz
+[2023-04-25 00:43:40] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-04-25 00:43:40] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.1.0.tar.gz tmp/rubpy-6.1.2.tar.gz --markdown 20230425/r/rubpy/6.1.0-6.1.2/diff.md --exclude *.pyd
+[2023-04-25 00:43:40] INFO root fetch - processPackages [synapseml]: Downloading https://files.pythonhosted.org/packages/8c/89/c2d5b41909133c34a132016124f2104f81c369de5164428f1979c0554ecb/synapseml-0.9.5-py2.py3-none-any.whl
+[2023-04-25 00:43:41] INFO root fetch - processPackages [tap-norwaycitybikeapi]: Downloading https://files.pythonhosted.org/packages/61/82/86ad05882d7fc04072d819ff0ca5b3800702bd28d9a18077b3dc146bf391/tap_norwaycitybikeapi-0.1.1.tar.gz
+[2023-04-25 00:43:41] INFO root fetch - processPackages [viddiffusion]: Downloading https://files.pythonhosted.org/packages/5c/36/6e946438d570b9a79cdc407b4560dada994e69a1fd7e2bf3b930a66350ba/viddiffusion-0.1.2.tar.gz
+[2023-04-25 00:43:41] INFO root fetch - processPackages [piro]: Downloading https://files.pythonhosted.org/packages/b5/1f/2957ac00639bee62759d4f28999b66bbacc90a2b27845333d2957d221462/piro-2023.4.24.tar.gz
+[2023-04-25 00:43:41] INFO root fetch - processPackages [tap-norwaycitybikeapi]: executing diffoscope
+[2023-04-25 00:43:41] INFO root fetch - processPackages [tap-norwaycitybikeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_norwaycitybikeapi-0.1.0.tar.gz tmp/tap_norwaycitybikeapi-0.1.1.tar.gz --markdown 20230425/t/tap-norwaycitybikeapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 00:43:41] INFO root fetch - processPackages [synapseml]: executing diffoscope
+[2023-04-25 00:43:41] INFO root fetch - processPackages [synapseml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapseml-0.9.4-py2.py3-none-any.whl.zip tmp/synapseml-0.9.5-py2.py3-none-any.whl.zip --markdown 20230425/s/synapseml/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-25 00:43:41] INFO root fetch - processPackages [viddiffusion]: executing diffoscope
+[2023-04-25 00:43:41] INFO root fetch - processPackages [viddiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viddiffusion-0.1.1.tar.gz tmp/viddiffusion-0.1.2.tar.gz --markdown 20230425/v/viddiffusion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 00:43:41] INFO root fetch - main [MainThread]: End processing [jupylite-duckdb]: success
+[2023-04-25 00:43:41] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/4d/b6/fb54627bb7c20d983b002aeade534a01765a697cf2cdfab9427687e2ea60/parsl-2023.4.3.tar.gz
+[2023-04-25 00:43:41] INFO root fetch - processPackages [piro]: executing diffoscope
+[2023-04-25 00:43:41] INFO root fetch - processPackages [piro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piro-2022.10.18.tar.gz tmp/piro-2023.4.24.tar.gz --markdown 20230425/p/piro/2022.10.18-2023.4.24/diff.md --exclude *.pyd
+[2023-04-25 00:43:41] INFO root fetch - main [MainThread]: End processing [shadpy]: success
+[2023-04-25 00:43:41] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-04-25 00:43:41] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.4.24.tar.gz tmp/parsl-2023.4.3.tar.gz --markdown 20230425/p/parsl/2023.4.24-2023.4.3/diff.md --exclude *.pyd
+[2023-04-25 00:43:42] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-04-25 00:43:42] INFO root fetch - main [MainThread]: End processing [viddiffusion]: success
+[2023-04-25 00:43:42] INFO root fetch - main [MainThread]: End processing [tap-norwaycitybikeapi]: success
+[2023-04-25 00:43:42] INFO root fetch - main [MainThread]: End processing [piro]: success
+[2023-04-25 00:43:45] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-04-25 00:43:45] INFO root fetch - main [MainThread]: End processing [synapseml]: success
+[2023-04-25 00:43:45] INFO root fetch - main [MainThread]: Store serial: [17840238]

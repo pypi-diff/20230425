@@ -204,3 +204,50 @@
 [2023-04-25 00:20:39] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-04-25 00:20:40] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-04-25 00:20:40] INFO root fetch - main [MainThread]: Store serial: [17840086]
+[2023-04-25 00:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840086]
+[2023-04-25 00:25:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-25 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rembg
+[2023-04-25 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odb-plotter
+[2023-04-25 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowflake-snowpark-python
+[2023-04-25 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: featurizerai
+[2023-04-25 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jurebes
+[2023-04-25 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tbpy
+[2023-04-25 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: waterline
+[2023-04-25 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tradchat
+[2023-04-25 00:25:48] INFO root fetch - processPackages [snowflake-snowpark-python]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-25 00:25:48] INFO root fetch - processPackages [rembg]: New version: [2.0.34] Old Version: [2.0.33]
+[2023-04-25 00:25:48] INFO root fetch - processPackages [odb-plotter]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-25 00:25:48] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-04-25 00:25:48] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-04-25 00:25:48] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-04-25 00:25:48] INFO root fetch - processPackages [waterline]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-25 00:25:48] INFO root fetch - processPackages [featurizerai]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-04-25 00:25:48] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/4a/13/a6fefc9c6110432764e4227885f77ef9eb32a8c39e3e0d993d7675cbfe2a/snowflake-snowpark-python-1.3.0.tar.gz
+[2023-04-25 00:25:48] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-25 00:25:48] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a2-py3-none-any.whl.zip tmp/jurebes-0.1.1a3-py3-none-any.whl.zip --markdown 20230425/j/jurebes/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-04-25 00:25:49] INFO root fetch - processPackages [waterline]: Downloading https://files.pythonhosted.org/packages/ca/fa/fdf361214ddb6b36486df5da50b0b795a5e4839b32d8cd061d1801c8d442/waterline-0.1.7-py3-none-any.whl
+[2023-04-25 00:25:49] WARNING root fetch - processPackages [tbpy]: Skipping, unable to determine old version
+[2023-04-25 00:25:49] INFO root fetch - main [MainThread]: End processing [tbpy] error
+[2023-04-25 00:25:49] INFO root fetch - processPackages [odb-plotter]: Downloading https://files.pythonhosted.org/packages/91/9c/6b613a9d4f67df435dcd7526472c03ccef1f7505e6d705cc5ec14c93cbd7/odb-plotter-0.4.5.tar.gz
+[2023-04-25 00:25:49] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/07/86/e5e0bae04441d07e2fd020f137e63760ab1d1dc1147496b4252d26a72073/rembg-2.0.34.tar.gz
+[2023-04-25 00:25:49] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/e0/65/6e70f1e6e184735db86d5ba761e1692aa4a393c2ee068c952cbe6f56352c/snowflake-snowpark-python-1.4.0.tar.gz
+[2023-04-25 00:25:49] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2023-04-25 00:25:49] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.33.tar.gz tmp/rembg-2.0.34.tar.gz --markdown 20230425/r/rembg/2.0.33-2.0.34/diff.md --exclude *.pyd
+[2023-04-25 00:25:49] INFO root fetch - processPackages [snowflake-snowpark-python]: executing diffoscope
+[2023-04-25 00:25:49] INFO root fetch - processPackages [snowflake-snowpark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-snowpark-python-1.3.0.tar.gz tmp/snowflake-snowpark-python-1.4.0.tar.gz --markdown 20230425/s/snowflake-snowpark-python/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-25 00:25:49] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/fa/84/6989052106474130c76f8651ac741e2e13ce0fc5056b585ccd2178bf8735/featurizerai-1.4.6.tar.gz
+[2023-04-25 00:25:49] INFO root fetch - processPackages [odb-plotter]: Downloading https://files.pythonhosted.org/packages/74/11/ad2c577b3e954ff4e14a68cfd73acd29d1bd181150943795752d42867b44/odb-plotter-0.4.6.tar.gz
+[2023-04-25 00:25:49] INFO root fetch - processPackages [odb-plotter]: executing diffoscope
+[2023-04-25 00:25:49] INFO root fetch - processPackages [odb-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odb-plotter-0.4.5.tar.gz tmp/odb-plotter-0.4.6.tar.gz --markdown 20230425/o/odb-plotter/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-25 00:25:49] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-25 00:25:49] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.4.5.tar.gz tmp/featurizerai-1.4.6.tar.gz --markdown 20230425/f/featurizerai/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-04-25 00:25:50] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-25 00:25:50] INFO root fetch - processPackages [waterline]: Downloading https://files.pythonhosted.org/packages/a1/34/f43283a3d74491f2aee39f7edf7255913204a534ac4acafe8bc665b552f4/waterline-0.1.8-py3-none-any.whl
+[2023-04-25 00:25:50] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-25 00:25:50] INFO root fetch - main [MainThread]: End processing [odb-plotter]: success
+[2023-04-25 00:25:51] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2023-04-25 00:25:51] INFO root fetch - main [MainThread]: End processing [snowflake-snowpark-python]: success
+[2023-04-25 00:25:54] INFO root fetch - processPackages [waterline]: executing diffoscope
+[2023-04-25 00:25:54] INFO root fetch - processPackages [waterline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waterline-0.1.7-py3-none-any.whl.zip tmp/waterline-0.1.8-py3-none-any.whl.zip --markdown 20230425/w/waterline/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-25 00:25:56] INFO root fetch - main [MainThread]: End processing [waterline]: success
+[2023-04-25 00:25:56] INFO root fetch - main [MainThread]: Store serial: [17840117]

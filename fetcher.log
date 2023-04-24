@@ -464,3 +464,61 @@
 [2023-04-25 00:48:58] INFO root fetch - main [MainThread]: End processing [opteryx]: success
 [2023-04-25 00:49:08] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2023-04-25 00:49:08] INFO root fetch - main [MainThread]: Store serial: [17840268]
+[2023-04-25 00:54:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840268]
+[2023-04-25 00:54:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-akamai
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkglog
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dyn2py
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pash-annotations
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: it-quotes
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aegis-tools
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mythic-container
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dynast
+[2023-04-25 00:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: discovery-transition-ds
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pash-annotations]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pkglog]: New version: [1.9] Old Version: [1.8]
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.5.0a1682374769] Old Version: [4.5.0a1681926751]
+[2023-04-25 00:54:17] WARNING root fetch - processPackages [it-quotes]: Skipping, unable to determine old version
+[2023-04-25 00:54:17] INFO root fetch - main [MainThread]: End processing [it-quotes] error
+[2023-04-25 00:54:17] INFO root fetch - processPackages [mythic-container]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dyn2py]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-04-25 00:54:17] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dynast]: New version: [1.2.0rc1] Old Version: [1.1.1rc1]
+[2023-04-25 00:54:17] INFO root fetch - processPackages [aegis-tools]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/04/bd/4d8d4683446acc77ea338ce3cf7b97d8d468212d26776536faa6afcd2cfb/pulumi_akamai-4.5.0a1681926751.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pkglog]: Downloading https://files.pythonhosted.org/packages/b1/6e/bf9b5bb041dd77abaf3c3d2af4d51b3f0d34611a1e6469674784fa7c6a55/pkglog-1.8.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/24/37/a5851c163cb1733b461d3d7f484d8fe8a15373cc5bbc71ad5a36e9505187/aegis-tools-2.1.2.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/65/f6/f1d64f7b271eb470129fb815b0c0f2933efa233d3bd2970228fcba3ad4cc/mythic_container-0.2.0rc8.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dynast]: Downloading https://files.pythonhosted.org/packages/cc/65/383159f02764809eeefc632deecaa1a21493d1977e4a65ff425de5ee45f8/dynast-1.2.0rc1.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pash-annotations]: Downloading https://files.pythonhosted.org/packages/93/80/60a3ef91d92a554bf0d871513932350da65dd34a8bd0140773831e21e239/pash-annotations-0.2.2.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dyn2py]: Downloading https://files.pythonhosted.org/packages/bb/83/9f5bf6963d412c5892acfee49e1d546892a4a912ec21e823ba64204b2a9a/dyn2py-0.3.3.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-04-25 00:54:17] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230425/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pash-annotations]: executing diffoscope
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pash-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pash-annotations-0.2.1.tar.gz tmp/pash-annotations-0.2.2.tar.gz --markdown 20230425/p/pash-annotations/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dynast]: executing diffoscope
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dynast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynast-1.1.1rc1.tar.gz tmp/dynast-1.2.0rc1.tar.gz --markdown 20230425/d/dynast/1.1.1rc1-1.2.0rc1/diff.md --exclude *.pyd
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/2b/34/17590144b47f9192b4cbbd0eed43f9d80d08b2cbfa462b63c3e66be5db3f/pulumi_akamai-4.5.0a1682374769.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dyn2py]: Downloading https://files.pythonhosted.org/packages/aa/60/ffa28617207e1b41f5fd6664027902f3c5ad59d735191217672377f3bfba/dyn2py-0.4.0.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/28/7f/259e0a4de4cda5ffb27d71a7f1779831112d43816fd0648971b8e3d16dab/mythic_container-0.2.0rc9.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pkglog]: Downloading https://files.pythonhosted.org/packages/13/f4/c1b17ccae3c8e359ca72e37b10fa544b6c5754902de435d0b61b4ac24580/pkglog-1.9.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/e6/8a/372ae6c0556b593db42d791fd31e2f9b75f00cde722862f5aae6542081a0/aegis-tools-2.1.3.tar.gz
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.5.0a1681926751.tar.gz tmp/pulumi_akamai-4.5.0a1682374769.tar.gz --markdown 20230425/p/pulumi-akamai/4.5.0a1681926751-4.5.0a1682374769/diff.md --exclude *.pyd
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dyn2py]: executing diffoscope
+[2023-04-25 00:54:17] INFO root fetch - processPackages [dyn2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyn2py-0.3.3.tar.gz tmp/dyn2py-0.4.0.tar.gz --markdown 20230425/d/dyn2py/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pkglog]: executing diffoscope
+[2023-04-25 00:54:17] INFO root fetch - processPackages [pkglog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkglog-1.8.tar.gz tmp/pkglog-1.9.tar.gz --markdown 20230425/p/pkglog/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-25 00:54:17] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-04-25 00:54:17] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.0rc8.tar.gz tmp/mythic_container-0.2.0rc9.tar.gz --markdown 20230425/m/mythic-container/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2023-04-25 00:54:18] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2023-04-25 00:54:18] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.1.2.tar.gz tmp/aegis-tools-2.1.3.tar.gz --markdown 20230425/a/aegis-tools/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-04-25 00:54:19] INFO root fetch - main [MainThread]: End processing [pash-annotations]: success
+[2023-04-25 00:54:19] INFO root fetch - main [MainThread]: End processing [dyn2py]: success
+[2023-04-25 00:54:19] INFO root fetch - main [MainThread]: End processing [pkglog]: success
+[2023-04-25 00:54:19] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2023-04-25 00:54:19] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-04-25 00:54:20] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-04-25 00:54:20] INFO root fetch - main [MainThread]: End processing [dynast]: success
+[2023-04-25 00:54:21] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-04-25 00:54:21] INFO root fetch - main [MainThread]: Store serial: [17840293]

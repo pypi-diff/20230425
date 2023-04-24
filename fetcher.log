@@ -684,3 +684,66 @@
 [2023-04-25 01:10:04] INFO root fetch - main [MainThread]: End processing [apie]: success
 [2023-04-25 01:10:11] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-25 01:10:11] INFO root fetch - main [MainThread]: Store serial: [17840371]
+[2023-04-25 01:15:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840371]
+[2023-04-25 01:15:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clkhash
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strawberry-graphql
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyradiance
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hoppr-nexus-bundler
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chessmaker
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymf6
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perfect-physics
+[2023-04-25 01:15:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poc-poetry-partifact-plugin
+[2023-04-25 01:15:20] INFO root fetch - processPackages [clkhash]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pyradiance]: New version: [0.0.8a1] Old Version: [0.0.7a1]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.285] Old Version: [0.3.284]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pymf6]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [perfect-physics]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [hoppr-nexus-bundler]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [chessmaker]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-04-25 01:15:20] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: executing diffoscope
+[2023-04-25 01:15:20] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_poetry_partifact_plugin-0.8.0.tar.gz tmp/poc_poetry_partifact_plugin-0.9.0.tar.gz --markdown 20230425/p/poc-poetry-partifact-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/6d/6a/9f6c624cd232c55d68f0d71deecddd55269c52f3c9d00f5552552cf435b0/pepperize.cdk-ses-smtp-credentials-0.3.284.tar.gz
+[2023-04-25 01:15:20] INFO root fetch - processPackages [clkhash]: Downloading https://files.pythonhosted.org/packages/4b/f7/38bd6ab5308955dd5907273927e25afbe2bf9f89d4e06aff6126a09ba01c/clkhash-0.8.1.tar.gz
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pymf6]: Downloading https://files.pythonhosted.org/packages/75/16/a1967b8a755a1dc76c3d9a794b4893cc2a89b39f59f870d1b3633f6be185/pymf6-1.0.3-py3-none-any.whl
+[2023-04-25 01:15:20] INFO root fetch - processPackages [perfect-physics]: Downloading https://files.pythonhosted.org/packages/2f/80/9f0ac815fa645b470cc3d306e57aacc3d09bb3ccf844cc028401bf8b2bd2/perfect_physics-0.1.8-py3-none-any.whl
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pyradiance]: Downloading https://files.pythonhosted.org/packages/ff/ab/a4d189e0bacbe54a3d74b9c4b9c9e7b43608aae8de0f9061d25a3004bfc2/pyradiance-0.0.7a1-py3-none-win_amd64.whl
+[2023-04-25 01:15:20] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/b8/34/03fe63c29cc69d98611a382d6cb6ed7429902bbd91ea40fd4f354da16d52/hoppr_nexus_bundler-0.4.5-py3-none-any.whl
+[2023-04-25 01:15:20] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-04-25 01:15:20] INFO root fetch - processPackages [chessmaker]: Downloading https://files.pythonhosted.org/packages/f9/ee/81980f57a5e6da7f5fadcfe9f0a2f059a7342ad23674c3074d809d4a8006/chessmaker-0.4.2.tar.gz
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pymf6]: Downloading https://files.pythonhosted.org/packages/d5/e1/d5fdda0d7b72dc515d8061043de24ddc7064e0fd3f2f945d4984bfebf436/pymf6-1.1.0.tar.gz
+[2023-04-25 01:15:20] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/ff/91/50db871d724f2ea6bcb3e5192e32d55a876b1bce709c8b8c5d66404ba8f0/hoppr_nexus_bundler-0.4.6.tar.gz
+[2023-04-25 01:15:20] INFO root fetch - processPackages [chessmaker]: executing diffoscope
+[2023-04-25 01:15:20] INFO root fetch - processPackages [chessmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chessmaker-0.4.1.tar.gz tmp/chessmaker-0.4.2.tar.gz --markdown 20230425/c/chessmaker/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pyradiance]: Downloading https://files.pythonhosted.org/packages/c5/90/3b8e6ee69e38ab38042921189ed38bd43e131bd0dfb90d03412f608637db/pyradiance-0.0.8a1-py3-none-win_amd64.whl
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/dc/c7/43f741872f9ec56e33717e207055f5cdce395678ffc345d9bc56baf928ae/pepperize.cdk-ses-smtp-credentials-0.3.285.tar.gz
+[2023-04-25 01:15:20] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-04-25 01:15:20] INFO root fetch - processPackages [perfect-physics]: Downloading https://files.pythonhosted.org/packages/b4/68/6e774b36ab47c44ddb3b29df315465227a31cf3d2afc8efb21ad86d0a703/perfect_physics-0.1.9-py3-none-any.whl
+[2023-04-25 01:15:20] INFO root fetch - processPackages [hoppr-nexus-bundler]: executing diffoscope
+[2023-04-25 01:15:20] INFO root fetch - processPackages [hoppr-nexus-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_nexus_bundler-0.4.5-py3-none-any.whl.zip tmp/hoppr_nexus_bundler-0.4.6.tar.gz --markdown 20230425/h/hoppr-nexus-bundler/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.284.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.285.tar.gz --markdown 20230425/p/pepperize.cdk-ses-smtp-credentials/0.3.284-0.3.285/diff.md --exclude *.pyd
+[2023-04-25 01:15:20] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-04-25 01:15:20] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230425/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pymf6]: executing diffoscope
+[2023-04-25 01:15:20] INFO root fetch - processPackages [pymf6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymf6-1.0.3-py3-none-any.whl.zip tmp/pymf6-1.1.0.tar.gz --markdown 20230425/p/pymf6/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-25 01:15:20] INFO root fetch - processPackages [perfect-physics]: executing diffoscope
+[2023-04-25 01:15:20] INFO root fetch - processPackages [perfect-physics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perfect_physics-0.1.8-py3-none-any.whl.zip tmp/perfect_physics-0.1.9-py3-none-any.whl.zip --markdown 20230425/p/perfect-physics/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 01:15:21] INFO root fetch - processPackages [clkhash]: Downloading https://files.pythonhosted.org/packages/36/53/41f394a97f17c5e19de699708fa566702815d5cab8bf8318aff3c7827ac6/clkhash-0.9.0.tar.gz
+[2023-04-25 01:15:21] INFO root fetch - main [MainThread]: End processing [poc-poetry-partifact-plugin]: success
+[2023-04-25 01:15:21] INFO root fetch - processPackages [pyradiance]: executing diffoscope
+[2023-04-25 01:15:21] INFO root fetch - processPackages [pyradiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyradiance-0.0.7a1-py3-none-win_amd64.whl.zip tmp/pyradiance-0.0.8a1-py3-none-win_amd64.whl.zip --markdown 20230425/p/pyradiance/0.0.7a1-0.0.8a1/diff.md --exclude *.pyd
+[2023-04-25 01:15:21] INFO root fetch - processPackages [clkhash]: executing diffoscope
+[2023-04-25 01:15:21] INFO root fetch - processPackages [clkhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clkhash-0.8.1.tar.gz tmp/clkhash-0.9.0.tar.gz --markdown 20230425/c/clkhash/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 01:15:21] INFO root fetch - main [MainThread]: End processing [hoppr-nexus-bundler]: success
+[2023-04-25 01:15:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-25 01:15:22] INFO root fetch - main [MainThread]: End processing [perfect-physics]: success
+[2023-04-25 01:15:22] INFO root fetch - main [MainThread]: End processing [chessmaker]: success
+[2023-04-25 01:15:22] INFO root fetch - main [MainThread]: End processing [pymf6]: success
+[2023-04-25 01:15:23] INFO root fetch - main [MainThread]: End processing [clkhash]: success
+[2023-04-25 01:15:26] INFO root fetch - main [MainThread]: End processing [pyradiance]: success
+[2023-04-25 01:15:40] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-04-25 01:15:40] INFO root fetch - main [MainThread]: Store serial: [17840401]

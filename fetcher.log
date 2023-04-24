@@ -422,3 +422,45 @@
 [2023-04-25 00:43:45] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2023-04-25 00:43:45] INFO root fetch - main [MainThread]: End processing [synapseml]: success
 [2023-04-25 00:43:45] INFO root fetch - main [MainThread]: Store serial: [17840238]
+[2023-04-25 00:48:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840238]
+[2023-04-25 00:48:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 00:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chia-blockchain
+[2023-04-25 00:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-settings
+[2023-04-25 00:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numalogic-prometheus
+[2023-04-25 00:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conductor-py
+[2023-04-25 00:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opteryx
+[2023-04-25 00:48:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-ligand
+[2023-04-25 00:48:54] INFO root fetch - processPackages [pydantic-settings]: New version: [2.0a1] Old Version: [0.2.5]
+[2023-04-25 00:48:54] INFO root fetch - processPackages [flask-ligand]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-04-25 00:48:54] INFO root fetch - processPackages [numalogic-prometheus]: New version: [0.3.1a0] Old Version: [0.3.0]
+[2023-04-25 00:48:54] INFO root fetch - processPackages [conductor-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-25 00:48:54] INFO root fetch - processPackages [chia-blockchain]: New version: [1.8.0rc3] Old Version: [1.8.0rc2]
+[2023-04-25 00:48:54] INFO root fetch - processPackages [opteryx]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-25 00:48:54] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/d4/0d/5eb89b2c1fc0da90c7726d86ace4996fc8b916409fa4b40aff97158c3d19/pydantic-settings-0.2.5.tar.gz
+[2023-04-25 00:48:54] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/49/07/0a1ba5e52851c98273695d5b9f79beafc63eeb6d354945a2eb6c62e13aec/numalogic_prometheus-0.3.0.tar.gz
+[2023-04-25 00:48:54] INFO root fetch - processPackages [flask-ligand]: Downloading https://files.pythonhosted.org/packages/39/2e/ebbfb436490627642f56fd7ad8867d55d5a36314d441753d0e0d599f6dd6/flask-ligand-0.7.4.tar.gz
+[2023-04-25 00:48:54] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/5e/91/765e2a472f1ca3feaa2526a4bbec45d770e3d67f120965da4092459d8d99/opteryx-0.9.2.tar.gz
+[2023-04-25 00:48:54] INFO root fetch - processPackages [conductor-py]: Downloading https://files.pythonhosted.org/packages/f9/63/83cfbe69ff223b9ce18fea3d6525a91e9964a95b2be343750819b6d3aabb/conductor_py-0.0.2.tar.gz
+[2023-04-25 00:48:54] INFO root fetch - processPackages [conductor-py]: executing diffoscope
+[2023-04-25 00:48:54] INFO root fetch - processPackages [conductor-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conductor_py-0.0.1.tar.gz tmp/conductor_py-0.0.2.tar.gz --markdown 20230425/c/conductor-py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-25 00:48:54] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/4a/0b/27457e959ea40b8a04e142521216647666dc5ed8046b53139f940b1752e1/pydantic_settings-2.0a1.tar.gz
+[2023-04-25 00:48:54] INFO root fetch - processPackages [flask-ligand]: executing diffoscope
+[2023-04-25 00:48:54] INFO root fetch - processPackages [flask-ligand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-ligand-0.7.3.tar.gz tmp/flask-ligand-0.7.4.tar.gz --markdown 20230425/f/flask-ligand/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-04-25 00:48:55] INFO root fetch - processPackages [pydantic-settings]: executing diffoscope
+[2023-04-25 00:48:55] INFO root fetch - processPackages [pydantic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-settings-0.2.5.tar.gz tmp/pydantic_settings-2.0a1.tar.gz --markdown 20230425/p/pydantic-settings/0.2.5-2.0a1/diff.md --exclude *.pyd
+[2023-04-25 00:48:55] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/1e/55/c1cee486a906a6a159b191b8b2fabfe153d3780f2656c8246af0476f8a29/chia-blockchain-1.8.0rc3.tar.gz
+[2023-04-25 00:48:55] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/b6/bf/c5c82916c3bfca80f05d8ef9953d0583f0ead28df89930abf90099ec2567/numalogic_prometheus-0.3.1a0.tar.gz
+[2023-04-25 00:48:55] INFO root fetch - main [MainThread]: End processing [pydantic-settings]: success
+[2023-04-25 00:48:55] INFO root fetch - main [MainThread]: End processing [conductor-py]: success
+[2023-04-25 00:48:55] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-04-25 00:48:55] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.0rc2.tar.gz tmp/chia-blockchain-1.8.0rc3.tar.gz --markdown 20230425/c/chia-blockchain/1.8.0rc2-1.8.0rc3/diff.md --exclude *.pyd
+[2023-04-25 00:48:55] INFO root fetch - processPackages [numalogic-prometheus]: executing diffoscope
+[2023-04-25 00:48:55] INFO root fetch - processPackages [numalogic-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic_prometheus-0.3.0.tar.gz tmp/numalogic_prometheus-0.3.1a0.tar.gz --markdown 20230425/n/numalogic-prometheus/0.3.0-0.3.1a0/diff.md --exclude *.pyd
+[2023-04-25 00:48:56] INFO root fetch - processPackages [opteryx]: Downloading https://files.pythonhosted.org/packages/64/71/44793ad728906cb5f308a98ffac1dea36c22000fac4080dd51bc5c9a0ef4/opteryx-0.9.3.tar.gz
+[2023-04-25 00:48:56] INFO root fetch - processPackages [opteryx]: executing diffoscope
+[2023-04-25 00:48:56] INFO root fetch - processPackages [opteryx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opteryx-0.9.2.tar.gz tmp/opteryx-0.9.3.tar.gz --markdown 20230425/o/opteryx/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-25 00:48:56] INFO root fetch - main [MainThread]: End processing [flask-ligand]: success
+[2023-04-25 00:48:56] INFO root fetch - main [MainThread]: End processing [numalogic-prometheus]: success
+[2023-04-25 00:48:58] INFO root fetch - main [MainThread]: End processing [opteryx]: success
+[2023-04-25 00:49:08] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-04-25 00:49:08] INFO root fetch - main [MainThread]: Store serial: [17840268]

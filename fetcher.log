@@ -15310,3 +15310,153 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 13:52:42] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
 [2023-04-25 13:52:55] INFO root fetch - main [MainThread]: End processing [epytope]: success
 [2023-04-25 13:52:55] INFO root fetch - main [MainThread]: Store serial: [17848440]
+[2023-04-25 13:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848440]
+[2023-04-25 13:58:06] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coursebox
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cleez
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudify-common
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abilian-devtools
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: via-hub-logistc
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hydrogibs
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spring-config-client
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bitmovin-api-sdk
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vantage6-common
+[2023-04-25 13:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vantage6-client
+[2023-04-25 13:58:06] INFO root fetch - processPackages [abilian-devtools]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cleez]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [hydrogibs]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cloudify-common]: New version: [7.0.0] Old Version: [6.4.2]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [spring-config-client]: New version: [1.0.0] Old Version: [0.2]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [via-hub-logistc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-client]: New version: [3.8.3] Old Version: [3.8.2rc1]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-common]: New version: [3.8.3] Old Version: [3.8.2rc1]
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cleez]: Downloading https://files.pythonhosted.org/packages/4a/6d/1f8497ee25a3ac496017ed4aa5053d630e2313452acce65bf9e537e35762/cleez-0.1.7.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [abilian-devtools]: Downloading https://files.pythonhosted.org/packages/03/a5/7062d89fc1ee71051ee785f703a84233c69b27a256d7581e74c8de7f5726/abilian_devtools-0.5.0.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cloudify-common]: Downloading https://files.pythonhosted.org/packages/93/0d/e51c6638fc84388c1db6786f1d2a811557ebe0a10491ea2dc43f6b0c4d0d/cloudify-common-6.4.2.0.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/dd/59/3134e83413f663d706ba732c77eec8b2dedfe4a9c711fea2e7391e8660ef/hydrogibs-0.1.0.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/b2/99/e074732fa1b0069eddd4b2d58d73489dfa7a837abba76df6f00aba618cbd/vantage6-client-3.8.2rc1.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [via-hub-logistc]: Downloading https://files.pythonhosted.org/packages/35/07/df61a7c05820d98b086c0b5ecf4192e30cea045ddd3432362544462c25eb/via-hub-logistc-1.0.1.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/1b/b4/aa4b4efd9c666463c47e7a1cb7be01bddd04762a739e1c3e057cf4fd0413/vantage6-common-3.8.2rc1.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230425/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [spring-config-client]: Downloading https://files.pythonhosted.org/packages/eb/0e/378e5e48eddbfe3181ee7e69ff7cf3224132fb7dfecc6852ee899d89b135/spring-config-client-1.0.0.linux-x86_64.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.9.tar.gz tmp/hydrogibs-0.1.0.tar.gz --markdown 20230425/h/hydrogibs/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cleez]: Downloading https://files.pythonhosted.org/packages/bb/82/d4bd79aa2140b41f80d6da7d535f6693aba179e9457f4dc6a51c1b83d23c/cleez-0.1.8.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [via-hub-logistc]: Downloading https://files.pythonhosted.org/packages/d5/b9/89b2cf42547ab296aca08bf7e7adc9d1152a4c08e8101d3e87457fbb043e/via-hub-logistc-1.0.2.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [abilian-devtools]: Downloading https://files.pythonhosted.org/packages/70/a7/acbc2c57a928c29db603b782af397d8826fcb7eaab630991f89ec9d5319f/abilian_devtools-0.5.1.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cloudify-common]: Downloading https://files.pythonhosted.org/packages/04/67/34e912b257765402b3cf0e3bb8a7772107b6218286899ac0e5edbd93f224/cloudify-common-7.0.0.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [spring-config-client]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [spring-config-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spring-config-client-0.2.tar.gz tmp/spring-config-client-1.0.0.linux-x86_64.tar.gz --markdown 20230425/s/spring-config-client/0.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/56/3e/29de38ab554f54a46d0ce1ee4d8be4560cd3b207b379d419b9e035a23b3d/vantage6-client-3.8.3.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/41/db/7ae9d9e35b78618a08c57f52272a57b0849d305f117ecd4c21b8d223077d/vantage6-common-3.8.3.tar.gz
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cleez]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cleez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleez-0.1.7.tar.gz tmp/cleez-0.1.8.tar.gz --markdown 20230425/c/cleez/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230425/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [abilian-devtools]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [abilian-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abilian_devtools-0.5.0.tar.gz tmp/abilian_devtools-0.5.1.tar.gz --markdown 20230425/a/abilian-devtools/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [via-hub-logistc]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [via-hub-logistc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-hub-logistc-1.0.1.tar.gz tmp/via-hub-logistc-1.0.2.tar.gz --markdown 20230425/v/via-hub-logistc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cloudify-common]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [cloudify-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudify-common-6.4.2.0.tar.gz tmp/cloudify-common-7.0.0.tar.gz --markdown 20230425/c/cloudify-common/6.4.2-7.0.0/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.8.2rc1.tar.gz tmp/vantage6-client-3.8.3.tar.gz --markdown 20230425/v/vantage6-client/3.8.2rc1-3.8.3/diff.md --exclude *.pyd
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-04-25 13:58:06] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.8.2rc1.tar.gz tmp/vantage6-common-3.8.3.tar.gz --markdown 20230425/v/vantage6-common/3.8.2rc1-3.8.3/diff.md --exclude *.pyd
+[2023-04-25 13:58:08] INFO root fetch - processPackages [hydrogibs]: Start processing: vantage6
+[2023-04-25 13:58:08] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6]: New version: [3.8.3] Old Version: [3.8.2rc1]
+[2023-04-25 13:58:08] INFO root fetch - processPackages [spring-config-client]: Start processing: vantage6-node
+[2023-04-25 13:58:08] INFO root fetch - main [MainThread]: End processing [spring-config-client]: success
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6-node]: New version: [3.8.3] Old Version: [3.8.2rc1]
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/f8/eb/7181b511b4f9ed773fbf062702b76a732d89a67e4e4a3a114c18caeffab0/vantage6-3.8.2rc1.tar.gz
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/15/49/15367f062d4901dfe0121f96bd1f53f7a9cff8b91d6469efefa17a5127b3/vantage6-node-3.8.2rc1.tar.gz
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6-common]: Start processing: cloudify
+[2023-04-25 13:58:08] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-04-25 13:58:08] INFO root fetch - processPackages [cloudify]: New version: [7.0.0] Old Version: [6.4.2]
+[2023-04-25 13:58:08] INFO root fetch - processPackages [via-hub-logistc]: Start processing: vantage6-server
+[2023-04-25 13:58:08] INFO root fetch - main [MainThread]: End processing [via-hub-logistc]: success
+[2023-04-25 13:58:08] INFO root fetch - processPackages [coursebox]: Start processing: abst
+[2023-04-25 13:58:08] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-04-25 13:58:08] INFO root fetch - processPackages [cleez]: Start processing: codeforlife-portal
+[2023-04-25 13:58:08] INFO root fetch - main [MainThread]: End processing [cleez]: success
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6-server]: New version: [3.8.3] Old Version: [3.8.2rc1]
+[2023-04-25 13:58:08] INFO root fetch - processPackages [abst]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-25 13:58:08] INFO root fetch - processPackages [abilian-devtools]: Start processing: mrsal
+[2023-04-25 13:58:08] INFO root fetch - main [MainThread]: End processing [abilian-devtools]: success
+[2023-04-25 13:58:08] INFO root fetch - processPackages [mrsal]: New version: [0.4.0a0] Old Version: [0.3.0a0]
+[2023-04-25 13:58:08] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/74/f6/3f8f05d4cc13fcc7d230d075bb290178751255a027133e4106e289033e6a/vantage6-3.8.3.tar.gz
+[2023-04-25 13:58:08] INFO root fetch - processPackages [cloudify]: Downloading https://files.pythonhosted.org/packages/67/df/008583e134cdc95faad4d5ab4c583499498138a1a65c1467f2f1da29c299/cloudify-6.4.2.tar.gz
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/e6/d9/b0dacf7787ee50bb29b15aed65ea8be48bed761c3ec90581c853f29d1cae/vantage6-node-3.8.3.tar.gz
+[2023-04-25 13:58:08] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-04-25 13:58:08] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230425/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-04-25 13:58:08] INFO root fetch - processPackages [abst]: Downloading https://files.pythonhosted.org/packages/95/d0/28a11c5b3561f1e0af84e44b93a26135e11284dd0be32b2e4744b1de24f3/abst-1.9.4.tar.gz
+[2023-04-25 13:58:08] INFO root fetch - processPackages [mrsal]: Downloading https://files.pythonhosted.org/packages/9c/7e/3c629a706f81fdc1f64ff983f92d75d3f1cfe07d7eeb5e6f5bd01de2207b/mrsal-0.3.0a0.tar.gz
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/ad/5e/fa081cc7b8f4142e05f61736861e2b7bfc19bfa06ca741f1559d2ca0002e/vantage6-server-3.8.2rc1.tar.gz
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.8.2rc1.tar.gz tmp/vantage6-3.8.3.tar.gz --markdown 20230425/v/vantage6/3.8.2rc1-3.8.3/diff.md --exclude *.pyd
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-04-25 13:58:08] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.8.2rc1.tar.gz tmp/vantage6-node-3.8.3.tar.gz --markdown 20230425/v/vantage6-node/3.8.2rc1-3.8.3/diff.md --exclude *.pyd
+[2023-04-25 13:58:09] INFO root fetch - processPackages [cloudify]: Downloading https://files.pythonhosted.org/packages/65/3d/732b152a785ff26eae454c656dfda0f75b841905d2c1706ad5952c0859c4/cloudify-7.0.0.tar.gz
+[2023-04-25 13:58:09] INFO root fetch - processPackages [vantage6-client]: Start processing: torcheval-nightly
+[2023-04-25 13:58:09] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-04-25 13:58:09] INFO root fetch - processPackages [abst]: Downloading https://files.pythonhosted.org/packages/87/1a/fb6ce1b495e1ca393b3ba3e0b75022536f6b4b9720af8da306c285286632/abst-1.9.5.tar.gz
+[2023-04-25 13:58:09] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-25 13:58:09] INFO root fetch - processPackages [mrsal]: Downloading https://files.pythonhosted.org/packages/8f/6a/a37dee91421742c7ddd73ac04c60e9f8b884ab864684052dafa099f1dc60/mrsal-0.4.0a0.tar.gz
+[2023-04-25 13:58:09] INFO root fetch - processPackages [cloudify]: executing diffoscope
+[2023-04-25 13:58:09] INFO root fetch - processPackages [cloudify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudify-6.4.2.tar.gz tmp/cloudify-7.0.0.tar.gz --markdown 20230425/c/cloudify/6.4.2-7.0.0/diff.md --exclude *.pyd
+[2023-04-25 13:58:09] INFO root fetch - processPackages [abst]: executing diffoscope
+[2023-04-25 13:58:09] INFO root fetch - processPackages [abst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abst-1.9.4.tar.gz tmp/abst-1.9.5.tar.gz --markdown 20230425/a/abst/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-25 13:58:09] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/a5/25/b996e59eb01b63232a9547d233388e20ea4e08d21634e2d3144a561118f3/vantage6-server-3.8.3.tar.gz
+[2023-04-25 13:58:09] INFO root fetch - processPackages [mrsal]: executing diffoscope
+[2023-04-25 13:58:09] INFO root fetch - processPackages [mrsal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrsal-0.3.0a0.tar.gz tmp/mrsal-0.4.0a0.tar.gz --markdown 20230425/m/mrsal/0.3.0a0-0.4.0a0/diff.md --exclude *.pyd
+[2023-04-25 13:58:09] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-04-25 13:58:09] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.8.2rc1.tar.gz tmp/vantage6-server-3.8.3.tar.gz --markdown 20230425/v/vantage6-server/3.8.2rc1-3.8.3/diff.md --exclude *.pyd
+[2023-04-25 13:58:09] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-04-25 13:58:09] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.8.tar.gz tmp/torcheval-nightly-2023.4.9.tar.gz --markdown 20230425/t/torcheval-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-25 13:58:10] INFO root fetch - processPackages [mrsal]: Start processing: pybiolib
+[2023-04-25 13:58:10] INFO root fetch - main [MainThread]: End processing [mrsal]: success
+[2023-04-25 13:58:10] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-04-25 13:58:10] INFO root fetch - processPackages [vantage6]: Start processing: cfl-common
+[2023-04-25 13:58:10] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-04-25 13:58:10] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-04-25 13:58:11] INFO root fetch - processPackages [abst]: Start processing: reacton
+[2023-04-25 13:58:11] INFO root fetch - main [MainThread]: End processing [abst]: success
+[2023-04-25 13:58:11] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-04-25 13:58:11] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230425/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-04-25 13:58:11] INFO root fetch - processPackages [reacton]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-25 13:58:11] INFO root fetch - processPackages [vantage6-node]: Start processing: python-roborock
+[2023-04-25 13:58:11] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-04-25 13:58:11] INFO root fetch - processPackages [python-roborock]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-25 13:58:11] INFO root fetch - processPackages [reacton]: Downloading https://files.pythonhosted.org/packages/21/bc/88f4055936c2cddad9b4baea4c758f24331802aadc6cab3ddc260a87281c/reacton-1.6.0.tar.gz
+[2023-04-25 13:58:11] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/6e/4c/42041bfd8f929df0670502413c8df5fdc7587f03f46ba3391a00a8ebd4fc/python_roborock-0.7.2.tar.gz
+[2023-04-25 13:58:11] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-04-25 13:58:11] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230425/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-04-25 13:58:11] INFO root fetch - processPackages [vantage6-server]: Start processing: signal-ocean
+[2023-04-25 13:58:11] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-04-25 13:58:11] INFO root fetch - processPackages [signal-ocean]: New version: [6.0.0] Old Version: [5.1.0]
+[2023-04-25 13:58:11] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-25 13:58:11] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.7.1.tar.gz tmp/python_roborock-0.7.2.tar.gz --markdown 20230425/p/python-roborock/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-25 13:58:11] INFO root fetch - processPackages [reacton]: Downloading https://files.pythonhosted.org/packages/02/e0/98534f621a5b7ba00ea6b2546300eeff7ef588f1d886b4e5f295aa830b8b/reacton-1.6.1.tar.gz
+[2023-04-25 13:58:11] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/1f/3e/d89cb4bdf3569566b34b06719f0c63174e8f4ff305cd43be47a7f6f66ca6/signal-ocean-6.0.0.tar.gz
+[2023-04-25 13:58:11] INFO root fetch - processPackages [reacton]: executing diffoscope
+[2023-04-25 13:58:11] INFO root fetch - processPackages [reacton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reacton-1.6.0.tar.gz tmp/reacton-1.6.1.tar.gz --markdown 20230425/r/reacton/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-25 13:58:11] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-04-25 13:58:11] INFO root fetch - processPackages [signal-ocean]: executing diffoscope
+[2023-04-25 13:58:11] INFO root fetch - processPackages [signal-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal-ocean-5.1.0.tar.gz tmp/signal-ocean-6.0.0.tar.gz --markdown 20230425/s/signal-ocean/5.1.0-6.0.0/diff.md --exclude *.pyd
+[2023-04-25 13:58:12] INFO root fetch - main [MainThread]: End processing [cloudify]: success
+[2023-04-25 13:58:12] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-25 13:58:12] INFO root fetch - main [MainThread]: End processing [cloudify-common]: success
+[2023-04-25 13:58:13] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-04-25 13:58:13] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-04-25 13:58:14] INFO root fetch - main [MainThread]: End processing [reacton]: success
+[2023-04-25 13:58:15] INFO root fetch - main [MainThread]: End processing [signal-ocean]: success
+[2023-04-25 13:58:15] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-04-25 13:58:42] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-04-25 13:58:42] INFO root fetch - main [MainThread]: Store serial: [17848513]

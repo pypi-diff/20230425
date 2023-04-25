@@ -8078,3 +8078,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:56:21] INFO root fetch - main [MainThread]: End processing [pystorz]: success
 [2023-04-25 05:56:21] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
 [2023-04-25 05:56:21] INFO root fetch - main [MainThread]: Store serial: [17844155]
+[2023-04-25 06:01:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844155]
+[2023-04-25 06:01:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyopenbook
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sesg
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JustTry
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mage-ai
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: animethemes-batch-encoder
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyVIA
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recurrent-memory-transformer-pytorch
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kkpyutil
+[2023-04-25 06:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zcbot-celery-sdk
+[2023-04-25 06:01:29] INFO root fetch - processPackages [pyopenbook]: New version: [0.7.1a0] Old Version: [0.7.0a0]
+[2023-04-25 06:01:29] WARNING root fetch - processPackages [JustTry]: Skipping, unable to determine old version
+[2023-04-25 06:01:29] INFO root fetch - main [MainThread]: End processing [JustTry] error
+[2023-04-25 06:01:29] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 06:01:29] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 06:01:29] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 06:01:29] INFO root fetch - processPackages [animethemes-batch-encoder]: New version: [1.1] Old Version: [1.0.1]
+[2023-04-25 06:01:29] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 06:01:29] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-04-25 06:01:29] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-25 06:01:30] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-25 06:01:30] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230425/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 06:01:30] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-04-25 06:01:30] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.8.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230425/p/pyVIA/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 06:01:30] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-04-25 06:01:30] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230425/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-04-25 06:01:30] INFO root fetch - processPackages [pyopenbook]: Downloading https://files.pythonhosted.org/packages/22/34/d25f57851b76ef5aca95c5a9973e4d50ad3eab84777056259f52e436a937/pyopenbook-0.7.0a0.tar.gz
+[2023-04-25 06:01:30] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-04-25 06:01:30] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230425/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 06:01:30] INFO root fetch - processPackages [animethemes-batch-encoder]: Downloading https://files.pythonhosted.org/packages/23/06/f31d06a136cbe45bb3541f1c0780b42d78666bd18e7342f54d1ccc443963/animethemes-batch-encoder-1.0.1.tar.gz
+[2023-04-25 06:01:30] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/d8/f1/206020fc20b4824552c8b49cb9cf4d9a10f4a9c8133ca4fb1fc9667d87cd/mage-ai-0.8.8.tar.gz
+[2023-04-25 06:01:30] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: executing diffoscope
+[2023-04-25 06:01:30] INFO root fetch - processPackages [recurrent-memory-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurrent-memory-transformer-pytorch-0.0.8.tar.gz tmp/recurrent-memory-transformer-pytorch-0.0.9.tar.gz --markdown 20230425/r/recurrent-memory-transformer-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 06:01:30] INFO root fetch - processPackages [animethemes-batch-encoder]: Downloading https://files.pythonhosted.org/packages/fe/46/9410ba69056e1e0db644d9fc1681eee26b86d8bf3cd55eb7e0416d7e7ffd/animethemes-batch-encoder-1.1.tar.gz
+[2023-04-25 06:01:30] INFO root fetch - processPackages [pyopenbook]: Downloading https://files.pythonhosted.org/packages/e4/d7/9256fc9e041ca6bbad9ef7dc6791946d7eeb9f101f8a7dc8218ec1a1ad80/pyopenbook-0.7.1a0.tar.gz
+[2023-04-25 06:01:30] INFO root fetch - processPackages [animethemes-batch-encoder]: executing diffoscope
+[2023-04-25 06:01:30] INFO root fetch - processPackages [animethemes-batch-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animethemes-batch-encoder-1.0.1.tar.gz tmp/animethemes-batch-encoder-1.1.tar.gz --markdown 20230425/a/animethemes-batch-encoder/1.0.1-1.1/diff.md --exclude *.pyd
+[2023-04-25 06:01:30] INFO root fetch - processPackages [pyopenbook]: executing diffoscope
+[2023-04-25 06:01:30] INFO root fetch - processPackages [pyopenbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenbook-0.7.0a0.tar.gz tmp/pyopenbook-0.7.1a0.tar.gz --markdown 20230425/p/pyopenbook/0.7.0a0-0.7.1a0/diff.md --exclude *.pyd
+[2023-04-25 06:01:31] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-04-25 06:01:31] INFO root fetch - main [MainThread]: End processing [recurrent-memory-transformer-pytorch]: success
+[2023-04-25 06:01:31] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/8b/c6/2ffc10c42d453735347d31b5d865f060c7ea95dad9c502d809dcd7867e95/mage-ai-0.8.9.tar.gz
+[2023-04-25 06:01:31] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-04-25 06:01:31] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-04-25 06:01:31] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-25 06:01:31] INFO root fetch - main [MainThread]: End processing [animethemes-batch-encoder]: success
+[2023-04-25 06:01:32] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-04-25 06:01:32] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230425/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-25 06:01:32] INFO root fetch - main [MainThread]: End processing [pyopenbook]: success
+[2023-04-25 06:01:42] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-04-25 06:01:42] INFO root fetch - main [MainThread]: Store serial: [17844187]

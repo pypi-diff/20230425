@@ -6503,3 +6503,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 03:36:16] INFO root fetch - main [MainThread]: End processing [navigator-auth]: success
 [2023-04-25 03:36:17] INFO root fetch - main [MainThread]: End processing [arize]: success
 [2023-04-25 03:36:17] INFO root fetch - main [MainThread]: Store serial: [17843224]
+[2023-04-25 03:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843224]
+[2023-04-25 03:41:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkgmt
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pytorch
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amiyabot
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-to-avro
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: realnet
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-scipy
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hello2
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prettyqt
+[2023-04-25 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-lambda-layer-wget
+[2023-04-25 03:41:26] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [json-to-avro]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [pkgmt]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [amiyabot]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [realnet]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [hello2]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-25 03:41:26] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev8.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev9.tar.gz --markdown 20230425/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-25 03:41:26] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-25 03:41:26] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230425/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-25 03:41:26] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-25 03:41:26] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230425/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-25 03:41:26] INFO root fetch - processPackages [json-to-avro]: Downloading https://files.pythonhosted.org/packages/97/7e/48f9100fe2a89fc92ae3c6dd6b5d271e04411edc7a54a34b7a8325cb41e5/json_to_avro-0.1.0a3.tar.gz
+[2023-04-25 03:41:26] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/ce/9b/1ab2c69ee61b2d4c55afdad2eb9e407442af76fb538012aebf4b2770d551/amiyabot-1.4.3-py3-none-any.whl
+[2023-04-25 03:41:26] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/25/c6/f644a0190298a9b3428385335401947350a62d3584d0d3b9ea3cb12cbaa5/pkgmt-0.3.0.tar.gz
+[2023-04-25 03:41:26] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11298372>=10485760
+[2023-04-25 03:41:26] INFO root fetch - processPackages [amiyabot]: Start processing: nbdev-sphinx
+[2023-04-25 03:41:26] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-04-25 03:41:26] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/ac/d1/bbd03452e561466abda8b7d62806cec367e036be6e1933d80852e494246d/hello2-1.6.1.tar.gz
+[2023-04-25 03:41:26] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/3f/58/f7330a0f2184720189dfadde827b35d569d8e1ca028d2454c4dd84bff395/realnet-0.0.97.tar.gz
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230425/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230425/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-25 03:41:26] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230425/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 03:41:26] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/66/9b/54dc64a0aae673830885a307e6c621c1a87fe54f8bd900be51e2b880ef9e/pkgmt-0.3.1.tar.gz
+[2023-04-25 03:41:26] INFO root fetch - processPackages [json-to-avro]: Downloading https://files.pythonhosted.org/packages/a0/fd/40a082da3e8c675a77680dcd27e9c8d68029bffa1a0d93221633284cb2bf/json_to_avro-0.1.0a4.tar.gz
+[2023-04-25 03:41:26] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/eb/cd/b9050c4823871c26d77d8d9bb616f8c2f72ecb6a5ae528bbbcb631ffcee4/hello2-1.6.2.tar.gz
+[2023-04-25 03:41:26] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/14/7a/ce955eb858773e2e56fbb853c0cb11ab4d94c2a8d998a6e3f80bb9a3b262/realnet-0.0.98.tar.gz
+[2023-04-25 03:41:26] INFO root fetch - processPackages [pkgmt]: executing diffoscope
+[2023-04-25 03:41:26] INFO root fetch - processPackages [pkgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgmt-0.3.0.tar.gz tmp/pkgmt-0.3.1.tar.gz --markdown 20230425/p/pkgmt/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-25 03:41:26] INFO root fetch - processPackages [json-to-avro]: executing diffoscope
+[2023-04-25 03:41:26] INFO root fetch - processPackages [json-to-avro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_to_avro-0.1.0a3.tar.gz tmp/json_to_avro-0.1.0a4.tar.gz --markdown 20230425/j/json-to-avro/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-04-25 03:41:27] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-04-25 03:41:27] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.6.1.tar.gz tmp/hello2-1.6.2.tar.gz --markdown 20230425/h/hello2/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-04-25 03:41:27] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-04-25 03:41:27] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.97.tar.gz tmp/realnet-0.0.98.tar.gz --markdown 20230425/r/realnet/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-04-25 03:41:27] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: Start processing: python-roborock
+[2023-04-25 03:41:27] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-25 03:41:28] INFO root fetch - processPackages [python-roborock]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-25 03:41:28] INFO root fetch - main [MainThread]: End processing [json-to-avro]: success
+[2023-04-25 03:41:28] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/c7/db/433e70001d88978241af1f3a5392c51ad5a3029508d00c85ca92aee20704/python_roborock-0.6.8.tar.gz
+[2023-04-25 03:41:28] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-25 03:41:28] INFO root fetch - main [MainThread]: End processing [pkgmt]: success
+[2023-04-25 03:41:28] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/d4/9f/d11438580c6413e1ce9fbf47822ed8d69cb761be5aa463bf5ab41e8ce5e7/python_roborock-0.6.9.tar.gz
+[2023-04-25 03:41:28] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-25 03:41:28] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.6.8.tar.gz tmp/python_roborock-0.6.9.tar.gz --markdown 20230425/p/python-roborock/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-25 03:41:29] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-25 03:41:29] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-25 03:41:29] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-25 03:41:29] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-04-25 03:41:30] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-04-25 03:41:30] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-25 03:41:36] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-25 03:41:36] INFO root fetch - main [MainThread]: Store serial: [17843301]

@@ -17325,3 +17325,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 15:34:33] INFO root fetch - main [MainThread]: End processing [django-cms]: success
 [2023-04-25 15:34:34] INFO root fetch - main [MainThread]: End processing [arch]: success
 [2023-04-25 15:34:34] INFO root fetch - main [MainThread]: Store serial: [17849610]
+[2023-04-25 15:39:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17849610]
+[2023-04-25 15:39:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watchtower-browser-testing
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-app-launcher
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyp-beagle
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shub-workflow
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydrogibs
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docstring-auditor
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seelabutk-substrate
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htseq-clip
+[2023-04-25 15:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: launchflow
+[2023-04-25 15:39:54] INFO root fetch - processPackages [seelabutk-substrate]: New version: [1.8.0] Old Version: [1.7.2]
+[2023-04-25 15:39:54] INFO root fetch - processPackages [docstring-auditor]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-04-25 15:39:54] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-04-25 15:39:54] WARNING root fetch - processPackages [hydrogibs]: Skipping, unable to determine old version
+[2023-04-25 15:39:54] INFO root fetch - main [MainThread]: End processing [hydrogibs] error
+[2023-04-25 15:39:54] INFO root fetch - processPackages [docstring-auditor]: executing diffoscope
+[2023-04-25 15:39:54] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-25 15:39:54] INFO root fetch - processPackages [docstring-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_auditor-0.1.1.tar.gz tmp/docstring_auditor-0.1.3.tar.gz --markdown 20230425/d/docstring-auditor/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-04-25 15:39:54] INFO root fetch - processPackages [htseq-clip]: New version: [2.9.0b0] Old Version: [2.8.0b0]
+[2023-04-25 15:39:54] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-04-25 15:39:54] INFO root fetch - processPackages [jupyter-app-launcher]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-25 15:39:54] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230425/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-04-25 15:39:54] INFO root fetch - processPackages [launchflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 15:39:54] INFO root fetch - processPackages [pyp-beagle]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-25 15:39:54] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/2a/b0/56dc7bd9ba2263bd34aa1a371f6b9c20aea5efc162d9c5179983dcd3fd1b/launchflow-0.1.8.tar.gz
+[2023-04-25 15:39:54] INFO root fetch - processPackages [seelabutk-substrate]: Downloading https://files.pythonhosted.org/packages/c2/58/3c808dffc9cfe81ba26efbdc9b405a952abd1f8df02c4e3d039b6515e801/seelabutk-substrate-1.8.0.tar.gz
+[2023-04-25 15:39:54] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/3e/d0/efc7cef5efd974fb19baa8867ae596702ad2d30a14b3b4e673cc5fe06e62/watchtower_browser_testing-0.4.2.tar.gz
+[2023-04-25 15:39:54] INFO root fetch - processPackages [jupyter-app-launcher]: Downloading https://files.pythonhosted.org/packages/98/65/6d250ced8d0d85f5c777ecbd100114af8ffacbc10843d618e5902651ee0e/jupyter_app_launcher-0.1.5.tar.gz
+[2023-04-25 15:39:54] INFO root fetch - processPackages [htseq-clip]: Downloading https://files.pythonhosted.org/packages/ae/a3/ae6f45d1c0c70272e869163881ff7067fcea084fc37da41daca0a08254f9/htseq-clip-2.8.0b0.tar.gz
+[2023-04-25 15:39:54] INFO root fetch - processPackages [seelabutk-substrate]: executing diffoscope
+[2023-04-25 15:39:54] INFO root fetch - processPackages [seelabutk-substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seelabutk-substrate-1.7.2.tar.gz tmp/seelabutk-substrate-1.8.0.tar.gz --markdown 20230425/s/seelabutk-substrate/1.7.2-1.8.0/diff.md --exclude *.pyd
+[2023-04-25 15:39:54] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/e8/2b/ab71239f68895dbe9aa43bfdde0090c003c53d900ace8c808c9b2e76854f/watchtower_browser_testing-0.4.3.tar.gz
+[2023-04-25 15:39:54] INFO root fetch - processPackages [pyp-beagle]: executing diffoscope
+[2023-04-25 15:39:54] INFO root fetch - processPackages [pyp-beagle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyp_beagle-0.9.8.tar.gz tmp/pyp_beagle-0.9.9.tar.gz --markdown 20230425/p/pyp-beagle/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-25 15:39:54] INFO root fetch - processPackages [jupyter-app-launcher]: Downloading https://files.pythonhosted.org/packages/be/25/f13ad095e6848aa70fcb771fdf01f7616f8586435db0ce304a656ce5d6c4/jupyter_app_launcher-0.1.6.tar.gz
+[2023-04-25 15:39:54] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-25 15:39:54] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.4.2.tar.gz tmp/watchtower_browser_testing-0.4.3.tar.gz --markdown 20230425/w/watchtower-browser-testing/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-25 15:39:54] INFO root fetch - processPackages [htseq-clip]: Downloading https://files.pythonhosted.org/packages/11/98/731d8a69c80dc7784b0d951cec501bbd22f3a4f0f32732be7846d8d98841/htseq-clip-2.9.0b0.tar.gz
+[2023-04-25 15:39:54] WARNING root fetch - processPackages [launchflow]: Skipping package: exceeds size limit 96610312>=10485760
+[2023-04-25 15:39:54] INFO root fetch - main [MainThread]: End processing [launchflow] error
+[2023-04-25 15:39:54] INFO root fetch - processPackages [jupyter-app-launcher]: executing diffoscope
+[2023-04-25 15:39:54] INFO root fetch - processPackages [jupyter-app-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_app_launcher-0.1.5.tar.gz tmp/jupyter_app_launcher-0.1.6.tar.gz --markdown 20230425/j/jupyter-app-launcher/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-25 15:39:55] INFO root fetch - processPackages [htseq-clip]: executing diffoscope
+[2023-04-25 15:39:55] INFO root fetch - processPackages [htseq-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htseq-clip-2.8.0b0.tar.gz tmp/htseq-clip-2.9.0b0.tar.gz --markdown 20230425/h/htseq-clip/2.8.0b0-2.9.0b0/diff.md --exclude *.pyd
+[2023-04-25 15:39:55] INFO root fetch - main [MainThread]: End processing [docstring-auditor]: success
+[2023-04-25 15:39:55] INFO root fetch - main [MainThread]: End processing [seelabutk-substrate]: success
+[2023-04-25 15:39:55] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-25 15:39:56] INFO root fetch - main [MainThread]: End processing [pyp-beagle]: success
+[2023-04-25 15:39:56] INFO root fetch - main [MainThread]: End processing [htseq-clip]: success
+[2023-04-25 15:39:56] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-04-25 15:39:57] INFO root fetch - main [MainThread]: End processing [jupyter-app-launcher]: success
+[2023-04-25 15:39:57] INFO root fetch - main [MainThread]: Store serial: [17849653]

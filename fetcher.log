@@ -8884,3 +8884,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 07:29:21] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
 [2023-04-25 07:29:21] INFO root fetch - main [MainThread]: End processing [strictly-typed-pandas]: success
 [2023-04-25 07:29:21] INFO root fetch - main [MainThread]: Store serial: [17844648]
+[2023-04-25 07:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844648]
+[2023-04-25 07:34:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-25 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hiddifypanel
+[2023-04-25 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2023-04-25 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coconut-develop
+[2023-04-25 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bw2regional
+[2023-04-25 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflow-dataset
+[2023-04-25 07:34:30] INFO root fetch - processPackages [bw2regional]: New version: [0.6.dev8] Old Version: [0.6.dev6]
+[2023-04-25 07:34:30] INFO root fetch - processPackages [hiddifypanel]: New version: [5.0.0.dev9] Old Version: [5.0.0.dev8]
+[2023-04-25 07:34:30] INFO root fetch - processPackages [hiddifypanel]: New version: [5.0.0.dev9] Old Version: [5.0.0.dev8]
+[2023-04-25 07:34:30] INFO root fetch - processPackages [tensorflow-dataset]: New version: [0.4.1] Old Version: [0.1.1]
+[2023-04-25 07:34:30] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.0a0.dev9] Old Version: [3.0.0a0.dev8]
+[2023-04-25 07:34:30] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/1e/fb/d4febd9a1b0761c2f2de01ff395e5568fa9a2eb0d771177a7293d8d388e3/coconut-develop-3.0.0a0.dev8.tar.gz
+[2023-04-25 07:34:31] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/9f/ca/1c715218d286a2126318982635fbaa1d0490bc456771a7c764c1042d2e7a/hiddifypanel-5.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-25 07:34:31] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/9f/ca/1c715218d286a2126318982635fbaa1d0490bc456771a7c764c1042d2e7a/hiddifypanel-5.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-25 07:34:31] INFO root fetch - processPackages [bw2regional]: Downloading https://files.pythonhosted.org/packages/33/d6/e372108ca30cb0b48af1e516db720845bfaa2e7992d53aa512ddfd7b2e14/bw2regional-0.6.dev6.tar.gz
+[2023-04-25 07:34:31] INFO root fetch - processPackages [tensorflow-dataset]: Downloading https://files.pythonhosted.org/packages/49/66/218b565469b620c853899276630109b620d1dff01642064ec276deec82bf/tensorflow_dataset-0.1.1.tar.gz
+[2023-04-25 07:34:31] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/6e/ef/0f602043bf1c1cd4e53801e76c7ce54a860c3f3dbb8e86449dc033df9eed/coconut-develop-3.0.0a0.dev9.tar.gz
+[2023-04-25 07:34:31] INFO root fetch - processPackages [tensorflow-dataset]: Downloading https://files.pythonhosted.org/packages/47/01/6455f08bb65141e5ad3cd3c0b628a20a0d28df03eef256366469b2e408f6/tensorflow_dataset-0.4.1.tar.gz
+[2023-04-25 07:34:31] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-04-25 07:34:31] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev8.tar.gz tmp/coconut-develop-3.0.0a0.dev9.tar.gz --markdown 20230425/c/coconut-develop/3.0.0a0.dev8-3.0.0a0.dev9/diff.md --exclude *.pyd
+[2023-04-25 07:34:31] INFO root fetch - processPackages [bw2regional]: Downloading https://files.pythonhosted.org/packages/f5/63/7b0e3e88fb17edfccf58bffb00e6d58ddeea9dc1cd6ee8ff524962f4585b/bw2regional-0.6.dev8.tar.gz
+[2023-04-25 07:34:31] INFO root fetch - processPackages [tensorflow-dataset]: executing diffoscope
+[2023-04-25 07:34:31] INFO root fetch - processPackages [tensorflow-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_dataset-0.1.1.tar.gz tmp/tensorflow_dataset-0.4.1.tar.gz --markdown 20230425/t/tensorflow-dataset/0.1.1-0.4.1/diff.md --exclude *.pyd
+[2023-04-25 07:34:31] INFO root fetch - processPackages [bw2regional]: executing diffoscope
+[2023-04-25 07:34:31] INFO root fetch - processPackages [bw2regional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw2regional-0.6.dev6.tar.gz tmp/bw2regional-0.6.dev8.tar.gz --markdown 20230425/b/bw2regional/0.6.dev6-0.6.dev8/diff.md --exclude *.pyd
+[2023-04-25 07:34:32] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/56/e0/69242fab3a4795d44800be247f75d9922e40bb2f196f70ffd997852df101/hiddifypanel-5.0.0.dev9-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-25 07:34:32] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/56/e0/69242fab3a4795d44800be247f75d9922e40bb2f196f70ffd997852df101/hiddifypanel-5.0.0.dev9-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-25 07:34:32] INFO root fetch - main [MainThread]: End processing [tensorflow-dataset]: success
+[2023-04-25 07:34:32] INFO root fetch - main [MainThread]: End processing [bw2regional]: success
+[2023-04-25 07:34:33] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-25 07:34:33] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-5.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-5.0.0.dev9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230425/h/hiddifypanel/5.0.0.dev8-5.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-25 07:34:33] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-25 07:34:33] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-5.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-5.0.0.dev9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230425/h/hiddifypanel/5.0.0.dev8-5.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-25 07:34:33] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-04-25 07:34:50] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-25 07:34:52] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-25 07:34:52] INFO root fetch - main [MainThread]: Store serial: [17844673]

@@ -15218,3 +15218,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 13:47:10] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
 [2023-04-25 13:47:10] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
 [2023-04-25 13:47:10] INFO root fetch - main [MainThread]: Store serial: [17848379]
+[2023-04-25 13:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848379]
+[2023-04-25 13:52:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prowler
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discake
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mac-cleanup
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aircode
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ar-ex-sys-worker
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matrix-synapse
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langforge-ai
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pure-protobuf
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bilibili-api-python
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epytope
+[2023-04-25 13:52:19] INFO root fetch - processPackages [discake]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.6.1] Old Version: [1.5.71]
+[2023-04-25 13:52:19] INFO root fetch - processPackages [discake]: executing diffoscope
+[2023-04-25 13:52:19] INFO root fetch - processPackages [discake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discake-0.0.5.tar.gz tmp/discake-0.0.6.tar.gz --markdown 20230425/d/discake/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 13:52:19] INFO root fetch - processPackages [prowler]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2023-04-25 13:52:19] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.5.71-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.6.1-py3-none-any.whl.zip --markdown 20230425/a/ar-ex-sys-worker/1.5.71-1.6.1/diff.md --exclude *.pyd
+[2023-04-25 13:52:19] WARNING root fetch - processPackages [aircode]: Skipping, unable to determine old version
+[2023-04-25 13:52:19] INFO root fetch - processPackages [aircode]: Start processing: aliyun-python-sdk-alikafka
+[2023-04-25 13:52:19] INFO root fetch - main [MainThread]: End processing [aircode] error
+[2023-04-25 13:52:19] INFO root fetch - processPackages [mac-cleanup]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-25 13:52:19] INFO root fetch - processPackages [epytope]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-04-25 13:52:19] INFO root fetch - processPackages [pure-protobuf]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2023-04-25 13:52:19] WARNING root fetch - processPackages [langforge-ai]: Skipping, unable to determine old version
+[2023-04-25 13:52:19] INFO root fetch - processPackages [langforge-ai]: Start processing: prowler-cloud
+[2023-04-25 13:52:19] INFO root fetch - main [MainThread]: End processing [langforge-ai] error
+[2023-04-25 13:52:19] INFO root fetch - processPackages [bilibili-api-python]: New version: [9.3.1] Old Version: [9.3.0]
+[2023-04-25 13:52:19] INFO root fetch - processPackages [matrix-synapse]: New version: [1.9.1] Old Version: [1.9.0rc1]
+[2023-04-25 13:52:20] INFO root fetch - processPackages [aliyun-python-sdk-alikafka]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler-cloud]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/88/43/2fdad40fe533eed761bcb88d23bc2725a2d71d899873ac759cb6785b41c8/prowler-3.4.0.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [mac-cleanup]: Downloading https://files.pythonhosted.org/packages/c2/5a/13cf13c4ef1e50e7aad12fe8ba907994d0a1fc88f43ba77070d967713a77/mac_cleanup-3.0.0.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/38/92/fe537943f778c5448a77d841fc4b23f0aadfb189248bdaa757b3135d13ba/matrix-synapse-1.9.0rc1.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [pure-protobuf]: Downloading https://files.pythonhosted.org/packages/ef/91/4f1176f17eb3f9831f68d9aed27a78bf1806206f88e39b40b2db81a4c48e/pure_protobuf-3.0.0a1.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [epytope]: Downloading https://files.pythonhosted.org/packages/bf/51/65c40a459a6c44e199cafd58a756101c69ef07d672414a1acbd4dc8a53e5/epytope-3.3.0-1669976442.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/9b/6f/75134e680907dfeb54d18a424acea23668915105b48d0818cd2ea3a871c4/bilibili-api-python-9.3.0.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [aliyun-python-sdk-alikafka]: Downloading https://files.pythonhosted.org/packages/fe/b2/81123c4fa9c9e01b9ffbacd23ea73062b46f9835e787366f88bf4e63b793/aliyun-python-sdk-alikafka-1.0.4.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/75/dd/c63f8b507a76264ef73dd19871ddba29d090de2067396f7ff768e4caf445/prowler-3.4.1.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/66/c3/f6a79c2aa59c67a35b51f5ec341b8cef822b2bbd7f98c7e2a30a132c9838/prowler_cloud-3.4.0.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [mac-cleanup]: Downloading https://files.pythonhosted.org/packages/c0/6f/5f0704ca4c4aaba728dc82642ca7ff212d820e2799ff58ee2b7a29e7d15b/mac_cleanup-3.0.1.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [pure-protobuf]: Downloading https://files.pythonhosted.org/packages/e4/da/e4821f308ca235ca931079f50468a708f42522dd5d075d3ac308efe8db34/pure_protobuf-3.0.0a2.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [epytope]: Downloading https://files.pythonhosted.org/packages/25/59/51725b0edc7f31cbd662844f8f7e7e209da73077450bcae4d68ec1fe2b7b/epytope-3.3.1-1682423381.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-3.4.0.tar.gz tmp/prowler-3.4.1.tar.gz --markdown 20230425/p/prowler/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-04-25 13:52:20] INFO root fetch - processPackages [aliyun-python-sdk-alikafka]: Downloading https://files.pythonhosted.org/packages/ef/07/a18a1a41eaf5d8f08babb228a44e1321cd43fa1141e139fd166320449062/aliyun-python-sdk-alikafka-1.0.5.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/f7/75/9cefa953040943e97416ee886cdcf25f91aaf4cd46c2beb8648b84e60415/bilibili-api-python-9.3.1.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [mac-cleanup]: executing diffoscope
+[2023-04-25 13:52:20] INFO root fetch - processPackages [mac-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mac_cleanup-3.0.0.tar.gz tmp/mac_cleanup-3.0.1.tar.gz --markdown 20230425/m/mac-cleanup/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/42/0b/e19105665dbabfda507ab0500c7db8f77475607e6c5b4792770b91f4045e/prowler_cloud-3.4.1.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [pure-protobuf]: executing diffoscope
+[2023-04-25 13:52:20] INFO root fetch - processPackages [pure-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_protobuf-3.0.0a1.tar.gz tmp/pure_protobuf-3.0.0a2.tar.gz --markdown 20230425/p/pure-protobuf/3.0.0a1-3.0.0a2/diff.md --exclude *.pyd
+[2023-04-25 13:52:20] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/ca/c7/4673bb5cb9ec9a2b850f118077e24c3f5fda08b973bbed512caf26dd9604/matrix-synapse-1.9.1.tar.gz
+[2023-04-25 13:52:20] INFO root fetch - processPackages [aliyun-python-sdk-alikafka]: executing diffoscope
+[2023-04-25 13:52:20] INFO root fetch - processPackages [aliyun-python-sdk-alikafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-alikafka-1.0.4.tar.gz tmp/aliyun-python-sdk-alikafka-1.0.5.tar.gz --markdown 20230425/a/aliyun-python-sdk-alikafka/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2023-04-25 13:52:20] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-3.4.0.tar.gz tmp/prowler_cloud-3.4.1.tar.gz --markdown 20230425/p/prowler-cloud/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-04-25 13:52:20] INFO root fetch - processPackages [bilibili-api-python]: executing diffoscope
+[2023-04-25 13:52:20] INFO root fetch - processPackages [bilibili-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-api-python-9.3.0.tar.gz tmp/bilibili-api-python-9.3.1.tar.gz --markdown 20230425/b/bilibili-api-python/9.3.0-9.3.1/diff.md --exclude *.pyd
+[2023-04-25 13:52:20] INFO root fetch - processPackages [epytope]: executing diffoscope
+[2023-04-25 13:52:20] INFO root fetch - processPackages [epytope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epytope-3.3.0-1669976442.tar.gz tmp/epytope-3.3.1-1682423381.tar.gz --markdown 20230425/e/epytope/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-04-25 13:52:21] INFO root fetch - processPackages [matrix-synapse]: executing diffoscope
+[2023-04-25 13:52:21] INFO root fetch - processPackages [matrix-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-synapse-1.9.0rc1.tar.gz tmp/matrix-synapse-1.9.1.tar.gz --markdown 20230425/m/matrix-synapse/1.9.0rc1-1.9.1/diff.md --exclude *.pyd
+[2023-04-25 13:52:21] INFO root fetch - processPackages [ar-ex-sys-worker]: Start processing: ewoksdata
+[2023-04-25 13:52:21] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2023-04-25 13:52:21] INFO root fetch - processPackages [discake]: Start processing: miso2
+[2023-04-25 13:52:21] INFO root fetch - main [MainThread]: End processing [discake]: success
+[2023-04-25 13:52:21] INFO root fetch - processPackages [ewoksdata]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-25 13:52:21] INFO root fetch - processPackages [miso2]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-25 13:52:21] INFO root fetch - processPackages [miso2]: executing diffoscope
+[2023-04-25 13:52:21] INFO root fetch - processPackages [miso2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miso2-3.0.0.tar.gz tmp/miso2-3.0.1.tar.gz --markdown 20230425/m/miso2/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-25 13:52:21] INFO root fetch - processPackages [ewoksdata]: Downloading https://files.pythonhosted.org/packages/8c/fb/f43fcda75f680d75c5075e620a175f67a1422543516376ad90ca1fc13173/ewoksdata-0.2.4.tar.gz
+[2023-04-25 13:52:21] INFO root fetch - processPackages [ewoksdata]: Downloading https://files.pythonhosted.org/packages/05/f5/19dd2c16e8bc25269d632a3e65217b53ba18a22f3af9d9d2f8eac18a5374/ewoksdata-0.2.5.tar.gz
+[2023-04-25 13:52:22] INFO root fetch - processPackages [ewoksdata]: executing diffoscope
+[2023-04-25 13:52:22] INFO root fetch - processPackages [ewoksdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksdata-0.2.4.tar.gz tmp/ewoksdata-0.2.5.tar.gz --markdown 20230425/e/ewoksdata/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-25 13:52:22] INFO root fetch - processPackages [mac-cleanup]: Start processing: coursebox
+[2023-04-25 13:52:22] INFO root fetch - main [MainThread]: End processing [mac-cleanup]: success
+[2023-04-25 13:52:22] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 13:52:22] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-04-25 13:52:22] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230425/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 13:52:22] INFO root fetch - main [MainThread]: End processing [pure-protobuf]: success
+[2023-04-25 13:52:22] INFO root fetch - main [MainThread]: End processing [bilibili-api-python]: success
+[2023-04-25 13:52:22] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-alikafka]: success
+[2023-04-25 13:52:23] INFO root fetch - main [MainThread]: End processing [ewoksdata]: success
+[2023-04-25 13:52:23] INFO root fetch - main [MainThread]: End processing [miso2]: success
+[2023-04-25 13:52:23] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-04-25 13:52:38] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
+[2023-04-25 13:52:42] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2023-04-25 13:52:42] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2023-04-25 13:52:55] INFO root fetch - main [MainThread]: End processing [epytope]: success
+[2023-04-25 13:52:55] INFO root fetch - main [MainThread]: Store serial: [17848440]

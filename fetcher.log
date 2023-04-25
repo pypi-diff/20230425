@@ -8050,3 +8050,31 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:51:10] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
 [2023-04-25 05:51:11] INFO root fetch - main [MainThread]: End processing [sohuprompt]: success
 [2023-04-25 05:51:11] INFO root fetch - main [MainThread]: Store serial: [17844136]
+[2023-04-25 05:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844136]
+[2023-04-25 05:56:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-25 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sj-tool
+[2023-04-25 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor
+[2023-04-25 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor-dev
+[2023-04-25 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystorz
+[2023-04-25 05:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyopenbook
+[2023-04-25 05:56:19] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 05:56:19] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 05:56:19] INFO root fetch - processPackages [pystorz]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 05:56:19] WARNING root fetch - processPackages [pyopenbook]: Skipping, unable to determine old version
+[2023-04-25 05:56:19] INFO root fetch - main [MainThread]: End processing [pyopenbook] error
+[2023-04-25 05:56:19] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 05:56:19] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-25 05:56:19] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230425/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 05:56:19] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-04-25 05:56:19] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/61/5b/7fa5f0c44e7f14769d4ce435007e18e0fd446d517a974d3c10b2d01188ac/pystorz-0.0.8.tar.gz
+[2023-04-25 05:56:20] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-25 05:56:20] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230425/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 05:56:20] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-04-25 05:56:20] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.0.7.tar.gz tmp/pystorz-0.0.8.tar.gz --markdown 20230425/p/pystorz/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 05:56:20] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-04-25 05:56:20] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230425/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 05:56:21] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-25 05:56:21] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-25 05:56:21] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-04-25 05:56:21] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-04-25 05:56:21] INFO root fetch - main [MainThread]: Store serial: [17844155]

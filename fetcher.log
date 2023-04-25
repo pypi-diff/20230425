@@ -7866,3 +7866,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:25:02] INFO root fetch - main [MainThread]: End processing [straxen]: success
 [2023-04-25 05:25:04] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-04-25 05:25:04] INFO root fetch - main [MainThread]: Store serial: [17844013]
+[2023-04-25 05:30:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844013]
+[2023-04-25 05:30:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-25 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konfuzio-sdk
+[2023-04-25 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-04-25 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdsfactory
+[2023-04-25 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MAVProxy
+[2023-04-25 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystorz
+[2023-04-25 05:30:13] INFO root fetch - processPackages [pystorz]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-04-25 05:30:13] INFO root fetch - processPackages [MAVProxy]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-04-25 05:30:13] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-04-25 05:30:13] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-04-25 05:30:13] INFO root fetch - processPackages [gdsfactory]: New version: [6.90.0] Old Version: [6.9.0]
+[2023-04-25 05:30:13] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-04-25 05:30:13] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/51/e1/bea9be10e53a3f646a2bc569ab98aa0db7b687da72ac78a2d51eac5c8a5e/gdsfactory-6.9.0.tar.gz
+[2023-04-25 05:30:13] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-04-25 05:30:13] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230425/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-04-25 05:30:13] INFO root fetch - processPackages [MAVProxy]: Downloading https://files.pythonhosted.org/packages/c8/04/40e228190d4ad511948771b50fb9e1e542daafb31a8a0413cd204b780e0b/MAVProxy-1.8.8.tar.gz
+[2023-04-25 05:30:13] WARNING root fetch - processPackages [gdsfactory]: Skipping package: exceeds size limit 11141129>=10485760
+[2023-04-25 05:30:13] INFO root fetch - main [MainThread]: End processing [gdsfactory] error
+[2023-04-25 05:30:13] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-04-25 05:30:13] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.0.5.tar.gz tmp/pystorz-0.0.7.tar.gz --markdown 20230425/p/pystorz/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-04-25 05:30:13] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-04-25 05:30:13] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-04-25 05:30:13] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230425/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-04-25 05:30:14] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-04-25 05:30:14] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-04-25 05:30:14] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-04-25 05:30:15] INFO root fetch - processPackages [MAVProxy]: Downloading https://files.pythonhosted.org/packages/d9/02/658238cfc7e8dc443b3c29ab71f0f00e25738dac92d0ba73897e7f7cee63/MAVProxy-1.8.9.tar.gz
+[2023-04-25 05:30:16] INFO root fetch - processPackages [MAVProxy]: executing diffoscope
+[2023-04-25 05:30:16] INFO root fetch - processPackages [MAVProxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAVProxy-1.8.8.tar.gz tmp/MAVProxy-1.8.9.tar.gz --markdown 20230425/M/MAVProxy/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-04-25 05:30:23] INFO root fetch - main [MainThread]: End processing [MAVProxy]: success
+[2023-04-25 05:30:23] INFO root fetch - main [MainThread]: Store serial: [17844026]

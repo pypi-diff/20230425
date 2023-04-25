@@ -7938,3 +7938,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:35:34] INFO root fetch - main [MainThread]: End processing [pygptj]: success
 [2023-04-25 05:35:34] INFO root fetch - main [MainThread]: End processing [FLAML]: success
 [2023-04-25 05:35:34] INFO root fetch - main [MainThread]: Store serial: [17844074]
+[2023-04-25 05:40:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844074]
+[2023-04-25 05:40:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-25 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splitit-web-python-sdk
+[2023-04-25 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichu-serve
+[2023-04-25 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tum-esm-utils
+[2023-04-25 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-cooperator-website
+[2023-04-25 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zcbot-predict-sdk
+[2023-04-25 05:40:43] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: New version: [12.0.3.2.1.99.dev1] Old Version: [12.0.3.2.1]
+[2023-04-25 05:40:43] INFO root fetch - processPackages [splitit-web-python-sdk]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-25 05:40:43] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.21]
+[2023-04-25 05:40:43] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 05:40:43] INFO root fetch - processPackages [tum-esm-utils]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-25 05:40:43] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/ba/ed/5ff71b6db4382688ddf962b72488cb52b84f77d89af3a8b3211354567990/taichu-serve-2.0.21.tar.gz
+[2023-04-25 05:40:43] INFO root fetch - processPackages [splitit-web-python-sdk]: Downloading https://files.pythonhosted.org/packages/11/e4/7ae3c07fca2ba57cebdb352011f5929220e28fd539f14c12211f332990f0/splitit-web-python-sdk-2.0.0.tar.gz
+[2023-04-25 05:40:43] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: Downloading https://files.pythonhosted.org/packages/59/21/eb9f2ccdfefd566692eae1b951cc2a11406279d9de5cdc756c225cd1ed03/odoo12_addon_cooperator_website-12.0.3.2.1.99.dev1-py3-none-any.whl
+[2023-04-25 05:40:43] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/4f/92/bfeb5ec8ab7df97929ce88f175670be099748b882d7329ffa59ba8739e5b/zcbot-predict-sdk-0.0.7.tar.gz
+[2023-04-25 05:40:43] INFO root fetch - processPackages [tum-esm-utils]: Downloading https://files.pythonhosted.org/packages/66/22/70ab06cc547b34292cdafcbc6e82b58bc33362794f5e075aaa7ebf36b7ec/tum_esm_utils-1.4.0.tar.gz
+[2023-04-25 05:40:44] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: executing diffoscope
+[2023-04-25 05:40:44] INFO root fetch - processPackages [odoo12-addon-cooperator-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_cooperator_website-12.0.3.2.1-py3-none-any.whl.zip tmp/odoo12_addon_cooperator_website-12.0.3.2.1.99.dev1-py3-none-any.whl.zip --markdown 20230425/o/odoo12-addon-cooperator-website/12.0.3.2.1-12.0.3.2.1.99.dev1/diff.md --exclude *.pyd
+[2023-04-25 05:40:44] INFO root fetch - processPackages [splitit-web-python-sdk]: Downloading https://files.pythonhosted.org/packages/dd/a0/fddefe758e411bcff3eee136e19f9cef1d73f55b2aa0cf59582af908d6c7/splitit-web-python-sdk-2.1.0.tar.gz
+[2023-04-25 05:40:44] INFO root fetch - processPackages [tum-esm-utils]: Downloading https://files.pythonhosted.org/packages/b3/5a/d34e5c39b9be052b6933e3482432e00df03da3394f320a1f2fec67106f92/tum_esm_utils-1.4.1.tar.gz
+[2023-04-25 05:40:44] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/7d/6e/9e65ce9f340a92e3b3cb8aaeb4734cda61695713be50bb6b46770a3a587a/zcbot-predict-sdk-0.0.8.tar.gz
+[2023-04-25 05:40:44] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/87/5b/11b39ee031331a7156c71f80c42076cdf8bfd7790559669b2153af680f16/taichu-serve-2.0.9.tar.gz
+[2023-04-25 05:40:44] INFO root fetch - processPackages [splitit-web-python-sdk]: executing diffoscope
+[2023-04-25 05:40:44] INFO root fetch - processPackages [splitit-web-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splitit-web-python-sdk-2.0.0.tar.gz tmp/splitit-web-python-sdk-2.1.0.tar.gz --markdown 20230425/s/splitit-web-python-sdk/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-25 05:40:44] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-25 05:40:44] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.21.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230425/t/taichu-serve/2.0.21-2.0.9/diff.md --exclude *.pyd
+[2023-04-25 05:40:44] INFO root fetch - processPackages [tum-esm-utils]: executing diffoscope
+[2023-04-25 05:40:44] INFO root fetch - processPackages [tum-esm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_utils-1.4.0.tar.gz tmp/tum_esm_utils-1.4.1.tar.gz --markdown 20230425/t/tum-esm-utils/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-25 05:40:44] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-04-25 05:40:44] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.7.tar.gz tmp/zcbot-predict-sdk-0.0.8.tar.gz --markdown 20230425/z/zcbot-predict-sdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 05:40:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator-website]: success
+[2023-04-25 05:40:45] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-04-25 05:40:45] INFO root fetch - main [MainThread]: End processing [tum-esm-utils]: success
+[2023-04-25 05:40:46] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-25 05:40:49] INFO root fetch - main [MainThread]: End processing [splitit-web-python-sdk]: success
+[2023-04-25 05:40:49] INFO root fetch - main [MainThread]: Store serial: [17844099]

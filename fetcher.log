@@ -13251,3 +13251,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 12:02:38] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-04-25 12:02:38] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-04-25 12:02:38] INFO root fetch - main [MainThread]: Store serial: [17847181]
+[2023-04-25 12:07:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17847181]
+[2023-04-25 12:07:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HawaData
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-purchase-deposit
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uuid6
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-ai-monitoring
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-users-resources
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-selenium-ctrl-package
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assignment-manager
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openxlab
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: machkit-demo
+[2023-04-25 12:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: svg.py
+[2023-04-25 12:07:49] INFO root fetch - processPackages [HawaData]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-25 12:07:49] INFO root fetch - processPackages [odoo14-addon-purchase-deposit]: New version: [14.0.1.1.2.dev4] Old Version: [14.0.1.1.2.dev3]
+[2023-04-25 12:07:49] INFO root fetch - processPackages [uuid6]: New version: [2023.4.25] Old Version: [2022.6.25]
+[2023-04-25 12:07:49] WARNING root fetch - processPackages [azureml-ai-monitoring]: Skipping, unable to determine old version
+[2023-04-25 12:07:49] INFO root fetch - processPackages [invenio-users-resources]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-25 12:07:49] INFO root fetch - main [MainThread]: End processing [azureml-ai-monitoring] error
+[2023-04-25 12:07:49] INFO root fetch - processPackages [openxlab]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-04-25 12:07:49] INFO root fetch - processPackages [assignment-manager]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 12:07:49] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 12:07:49] WARNING root fetch - processPackages [machkit-demo]: Skipping, unable to determine old version
+[2023-04-25 12:07:49] INFO root fetch - main [MainThread]: End processing [machkit-demo] error
+[2023-04-25 12:07:49] INFO root fetch - processPackages [svg.py]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-25 12:07:49] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-04-25 12:07:49] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.98.tar.gz tmp/python_selenium_ctrl_package-0.0.99.tar.gz --markdown 20230425/p/python-selenium-ctrl-package/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 12:07:49] INFO root fetch - processPackages [odoo14-addon-purchase-deposit]: Downloading https://files.pythonhosted.org/packages/84/bc/2ec55364e0e8789e83ef6d9aae9e65f879c8d0b95844e343859992d10f60/odoo14_addon_purchase_deposit-14.0.1.1.2.dev3-py3-none-any.whl
+[2023-04-25 12:07:49] INFO root fetch - processPackages [uuid6]: Downloading https://files.pythonhosted.org/packages/b5/94/ed61edb920765521f32e0c63fece6588f037d9fee3d2c8d915a0be9ea586/uuid6-2022.6.25.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/c7/28/b2981e5f8968f82b4704e1f6a5ae0694b792e6c9e76a9ecd5a10d02e15bb/openxlab-0.0.4.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/1b/2e/36d93d7ecf4b27a08fd4f2c0dc56535cbce13f03f70d339d4f83347bf805/invenio-users-resources-1.5.0.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [assignment-manager]: Downloading https://files.pythonhosted.org/packages/8b/8c/ec841a2e44bd46444db16b7f6049a95a63c390fdea7c2807c3d452e99733/assignment-manager-0.1.0.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/0b/cb/30b28a2e89a19b2e1f833f1c6c330a4dcaadc32b278f1a0fd1172fe0f2b7/HawaData-0.3.0.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [svg.py]: Downloading https://files.pythonhosted.org/packages/7f/c6/9dbe9bf9e38adb2671598ea28c2057e9c2020359851bec87ffda6013757d/svg.py-1.4.1.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [invenio-users-resources]: executing diffoscope
+[2023-04-25 12:07:49] INFO root fetch - processPackages [invenio-users-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-users-resources-1.4.0.tar.gz tmp/invenio-users-resources-1.5.0.tar.gz --markdown 20230425/i/invenio-users-resources/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-25 12:07:49] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-04-25 12:07:49] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.2.tar.gz tmp/openxlab-0.0.4.tar.gz --markdown 20230425/o/openxlab/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 12:07:49] INFO root fetch - processPackages [uuid6]: Downloading https://files.pythonhosted.org/packages/77/9d/3b60bc68fa105d0757389afd1937b9c15dc0f35351f2eded1da33c78d39a/uuid6-2023.4.25.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [assignment-manager]: Downloading https://files.pythonhosted.org/packages/8e/f4/8d7a97464d4c24c093dfee28fdee75989277d9fa8d2a324018c1d8a70f29/assignment-manager-0.1.1.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/80/d7/4146c0b991067e6a96a983dda82609196d8116fd36eba471d42fbc83ad7b/HawaData-0.3.1.tar.gz
+[2023-04-25 12:07:49] INFO root fetch - processPackages [odoo14-addon-purchase-deposit]: Downloading https://files.pythonhosted.org/packages/66/91/5b9a6ae1231b7cc82248b519c95e8fd6299c552b53ba70394102a646a443/odoo14_addon_purchase_deposit-14.0.1.1.2.dev4-py3-none-any.whl
+[2023-04-25 12:07:49] INFO root fetch - processPackages [svg.py]: Downloading https://files.pythonhosted.org/packages/d9/5c/ed67c6d0042e2eef2a764dd2659377bce95a2644fccc432a171fd184a579/svg.py-1.4.2.tar.gz
+[2023-04-25 12:07:50] INFO root fetch - processPackages [uuid6]: executing diffoscope
+[2023-04-25 12:07:50] INFO root fetch - processPackages [uuid6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uuid6-2022.6.25.tar.gz tmp/uuid6-2023.4.25.tar.gz --markdown 20230425/u/uuid6/2022.6.25-2023.4.25/diff.md --exclude *.pyd
+[2023-04-25 12:07:50] INFO root fetch - processPackages [assignment-manager]: executing diffoscope
+[2023-04-25 12:07:50] INFO root fetch - processPackages [assignment-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assignment-manager-0.1.0.tar.gz tmp/assignment-manager-0.1.1.tar.gz --markdown 20230425/a/assignment-manager/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 12:07:50] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-04-25 12:07:50] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.3.0.tar.gz tmp/HawaData-0.3.1.tar.gz --markdown 20230425/H/HawaData/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-25 12:07:50] INFO root fetch - processPackages [odoo14-addon-purchase-deposit]: executing diffoscope
+[2023-04-25 12:07:50] INFO root fetch - processPackages [odoo14-addon-purchase-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_deposit-14.0.1.1.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_purchase_deposit-14.0.1.1.2.dev4-py3-none-any.whl.zip --markdown 20230425/o/odoo14-addon-purchase-deposit/14.0.1.1.2.dev3-14.0.1.1.2.dev4/diff.md --exclude *.pyd
+[2023-04-25 12:07:50] INFO root fetch - processPackages [svg.py]: executing diffoscope
+[2023-04-25 12:07:50] INFO root fetch - processPackages [svg.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svg.py-1.4.1.tar.gz tmp/svg.py-1.4.2.tar.gz --markdown 20230425/s/svg.py/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-25 12:07:50] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-04-25 12:07:51] INFO root fetch - main [MainThread]: End processing [assignment-manager]: success
+[2023-04-25 12:07:51] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-04-25 12:07:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-deposit]: success
+[2023-04-25 12:07:51] INFO root fetch - main [MainThread]: End processing [uuid6]: success
+[2023-04-25 12:07:51] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
+[2023-04-25 12:07:51] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-04-25 12:07:52] INFO root fetch - main [MainThread]: End processing [svg.py]: success
+[2023-04-25 12:07:52] INFO root fetch - main [MainThread]: Store serial: [17847217]

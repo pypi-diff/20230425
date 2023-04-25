@@ -1091,3 +1091,65 @@
 [2023-04-25 01:53:54] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-25 01:54:26] INFO root fetch - main [MainThread]: End processing [cengal]: success
 [2023-04-25 01:54:26] INFO root fetch - main [MainThread]: Store serial: [17840604]
+[2023-04-25 01:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840604]
+[2023-04-25 01:59:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blyss
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bmt
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crispr-library-prep
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlmesh
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmsistream
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netsuite-python
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyPAC
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddtrace
+[2023-04-25 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: griptape
+[2023-04-25 01:59:34] INFO root fetch - processPackages [bmt]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 01:59:34] INFO root fetch - processPackages [crispr-library-prep]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 01:59:34] INFO root fetch - processPackages [sqlmesh]: New version: [0.5.1.dev30] Old Version: [0.5.1.dev29]
+[2023-04-25 01:59:34] INFO root fetch - processPackages [netsuite-python]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-25 01:59:34] INFO root fetch - processPackages [PyPAC]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-25 01:59:34] INFO root fetch - processPackages [blyss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 01:59:34] INFO root fetch - processPackages [griptape]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-25 01:59:34] INFO root fetch - processPackages [openmsistream]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-04-25 01:59:35] INFO root fetch - processPackages [ddtrace]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-25 01:59:35] INFO root fetch - processPackages [crispr-library-prep]: executing diffoscope
+[2023-04-25 01:59:35] INFO root fetch - processPackages [crispr-library-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_library_prep-0.1.8.tar.gz tmp/crispr_library_prep-0.1.9.tar.gz --markdown 20230425/c/crispr-library-prep/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 01:59:35] INFO root fetch - processPackages [openmsistream]: Downloading https://files.pythonhosted.org/packages/4e/a5/8ef162e00dbf17996c51061f4941d8d8ec91450814fc950150f758503074/openmsistream-1.3.4.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/8e/a5/ae639105d6ce3e1fb5759d46df56fc19486d0d0fc2bb16cae9ae3fb60533/sqlmesh-0.5.1.dev30.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [netsuite-python]: Downloading https://files.pythonhosted.org/packages/6d/31/675d68f6ba48a763bf839dddbea8b03fe50cea92944fdb1630511fd20bce/netsuite_python-1.4.0.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [blyss]: Downloading https://files.pythonhosted.org/packages/3f/ec/84633563ae0d8b049a475bf502dde5a32a0b313ece894476bfd3c9b5ac95/blyss-0.1.8.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [PyPAC]: Downloading https://files.pythonhosted.org/packages/3a/38/53bde6972fc2c2c7ed65e881cde2e1030da7f03529157377136f20dffe4b/pypac-0.8.1-py2.py3-none-any.whl
+[2023-04-25 01:59:35] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/9e/4a/a25e8a936d19c8523eb1319f4646cd72708465fdd503477bdc7c8a11d06e/griptape-0.6.1.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/21/1a/5d9375e10951c5aeb4fe1d8c7ce546d69e4cd6536ac63226f4dd8a7ba36c/ddtrace-1.9.4.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-04-25 01:59:35] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.6.0.tar.gz tmp/griptape-0.6.1.tar.gz --markdown 20230425/g/griptape/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-25 01:59:35] INFO root fetch - processPackages [bmt]: Downloading https://files.pythonhosted.org/packages/f5/39/a3ace91da91477b767057eb4e8f4aa5df159d95d592afd684baa185286a9/bmt-1.0.8.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [openmsistream]: Downloading https://files.pythonhosted.org/packages/24/c1/a32e423e66c2af9b710bd05edee15057ee8565ca122c01769dde8fa21765/openmsistream-1.4.0.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [netsuite-python]: Downloading https://files.pythonhosted.org/packages/9f/9a/fbb3f3d5443ddb646af2983041f9abd1873a53a0d114081f93202c85d327/netsuite_python-1.4.1.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [blyss]: Downloading https://files.pythonhosted.org/packages/65/4c/55c7f5a1e991f04bc995f921d670a5b52e79158254eb5c1abbb7ceb85846/blyss-0.1.9.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [netsuite-python]: executing diffoscope
+[2023-04-25 01:59:35] INFO root fetch - processPackages [netsuite-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuite_python-1.4.0.tar.gz tmp/netsuite_python-1.4.1.tar.gz --markdown 20230425/n/netsuite-python/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-25 01:59:35] INFO root fetch - processPackages [openmsistream]: executing diffoscope
+[2023-04-25 01:59:35] INFO root fetch - processPackages [openmsistream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmsistream-1.3.4.tar.gz tmp/openmsistream-1.4.0.tar.gz --markdown 20230425/o/openmsistream/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-04-25 01:59:35] INFO root fetch - processPackages [blyss]: executing diffoscope
+[2023-04-25 01:59:35] INFO root fetch - processPackages [blyss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blyss-0.1.8.tar.gz tmp/blyss-0.1.9.tar.gz --markdown 20230425/b/blyss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 01:59:35] INFO root fetch - processPackages [PyPAC]: Downloading https://files.pythonhosted.org/packages/8a/0a/6dcdf2e8877b1cbddf2ddb23831e92715a30b4f1ad4debb1d877a74aff0e/pypac-0.9.0-py2.py3-none-any.whl
+[2023-04-25 01:59:35] INFO root fetch - processPackages [bmt]: Downloading https://files.pythonhosted.org/packages/5b/fc/7f3c93eccba238f8a2a650442102bf7501a02080b7b37b8264343c384cef/bmt-1.0.9.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [PyPAC]: executing diffoscope
+[2023-04-25 01:59:35] INFO root fetch - processPackages [PyPAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypac-0.8.1-py2.py3-none-any.whl.zip tmp/pypac-0.9.0-py2.py3-none-any.whl.zip --markdown 20230425/P/PyPAC/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 01:59:35] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/14/f5/795b94efa7e39d2ba0615ced082881ff874c2716015ae566b6238aa45e32/ddtrace-1.9.5.tar.gz
+[2023-04-25 01:59:35] INFO root fetch - processPackages [bmt]: executing diffoscope
+[2023-04-25 01:59:35] INFO root fetch - processPackages [bmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmt-1.0.8.tar.gz tmp/bmt-1.0.9.tar.gz --markdown 20230425/b/bmt/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 01:59:36] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-25 01:59:36] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.5.1.dev29.tar.gz tmp/sqlmesh-0.5.1.dev30.tar.gz --markdown 20230425/s/sqlmesh/0.5.1.dev29-0.5.1.dev30/diff.md --exclude *.pyd
+[2023-04-25 01:59:36] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-04-25 01:59:36] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.4.tar.gz tmp/ddtrace-1.9.5.tar.gz --markdown 20230425/d/ddtrace/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-25 01:59:36] INFO root fetch - main [MainThread]: End processing [crispr-library-prep]: success
+[2023-04-25 01:59:36] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-04-25 01:59:36] INFO root fetch - main [MainThread]: End processing [PyPAC]: success
+[2023-04-25 01:59:37] INFO root fetch - main [MainThread]: End processing [bmt]: success
+[2023-04-25 01:59:37] INFO root fetch - main [MainThread]: End processing [netsuite-python]: success
+[2023-04-25 01:59:37] INFO root fetch - main [MainThread]: End processing [blyss]: success
+[2023-04-25 01:59:39] INFO root fetch - main [MainThread]: End processing [openmsistream]: success
+[2023-04-25 01:59:41] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-04-25 02:00:20] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-04-25 02:00:20] INFO root fetch - main [MainThread]: Store serial: [17840716]

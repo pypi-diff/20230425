@@ -9527,3 +9527,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:32:57] INFO root fetch - main [MainThread]: End processing [jittor]: success
 [2023-04-25 08:33:05] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-25 08:33:05] INFO root fetch - main [MainThread]: Store serial: [17845062]
+[2023-04-25 08:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845062]
+[2023-04-25 08:38:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nope-py
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-webui-api
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arlogger
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-macos
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: river-core
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: findmyorder
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymysql-pool
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amlopschat
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quorum-data-py
+[2023-04-25 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naruno
+[2023-04-25 08:38:14] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230424] Old Version: [2.13.0.dev20230423]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [quorum-data-py]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [amlopschat]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [findmyorder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [pymysql-pool]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [nope-py]: New version: [1.7.1] Old Version: [1.6.7]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [arlogger]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [naruno]: New version: [0.57.2] Old Version: [0.57.1]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [river-core]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [amlopschat]: executing diffoscope
+[2023-04-25 08:38:14] INFO root fetch - processPackages [amlopschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopschat-1.1.1.tar.gz tmp/amlopschat-1.1.2.tar.gz --markdown 20230425/a/amlopschat/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-25 08:38:14] INFO root fetch - processPackages [easy-webui-api]: New version: [0.1.2] Old Version: [0.1.1.0]
+[2023-04-25 08:38:14] INFO root fetch - processPackages [quorum-data-py]: executing diffoscope
+[2023-04-25 08:38:14] INFO root fetch - processPackages [quorum-data-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_data_py-1.2.0.tar.gz tmp/quorum_data_py-1.2.1.tar.gz --markdown 20230425/q/quorum-data-py/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-25 08:38:14] INFO root fetch - processPackages [pymysql-pool]: executing diffoscope
+[2023-04-25 08:38:14] INFO root fetch - processPackages [pymysql-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysql-pool-0.3.9.tar.gz tmp/pymysql-pool-0.4.0.tar.gz --markdown 20230425/p/pymysql-pool/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-04-25 08:38:14] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-25 08:38:14] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-0.0.8.tar.gz tmp/findmyorder-0.0.9.tar.gz --markdown 20230425/f/findmyorder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 08:38:14] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/23/81/7386e5db98c6ab198b1a0f9a3b120c135f50109d9b9daf96d646fef83b7f/tf_nightly_macos-2.13.0.dev20230423-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-25 08:38:15] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/7b/58/95ff37e7424870a5c09d839f39ce21ef133158e9dbab8ebdbf3a98b5571b/nope_py-1.6.7.tar.gz
+[2023-04-25 08:38:15] INFO root fetch - processPackages [arlogger]: Downloading https://files.pythonhosted.org/packages/af/91/bc76091543fcf67244e939ffd46b2c73c9261f4340c087bbadef9fa79979/arlogger-1.0.0-py3-none-any.whl
+[2023-04-25 08:38:15] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/16/89/351958d495c0f13efee8b243347d0a9e9b2d850247838ab71ee07c76b1d6/naruno-0.57.1.tar.gz
+[2023-04-25 08:38:15] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 188170079>=10485760
+[2023-04-25 08:38:15] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: naruno-api
+[2023-04-25 08:38:15] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-25 08:38:15] INFO root fetch - processPackages [easy-webui-api]: Downloading https://files.pythonhosted.org/packages/14/fb/6c904a73899c63e80a1dc49fac378390609fe0aafffb27273b31429aa19d/easy-webui-api-0.1.2.tar.gz
+[2023-04-25 08:38:15] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/f4/38/cf792fd6324dcdc547d05e6a86185fea721c35f7d165e51064934429a2a0/river_core-1.4.0.tar.gz
+[2023-04-25 08:38:15] INFO root fetch - processPackages [naruno-api]: New version: [0.57.2] Old Version: [0.57.1]
+[2023-04-25 08:38:15] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/75/37/15aa8d453c205cfc4293f7125c032e3a6f6a31e6c8759f077362118f085a/nope_py-1.7.1.tar.gz
+[2023-04-25 08:38:15] INFO root fetch - processPackages [arlogger]: Downloading https://files.pythonhosted.org/packages/95/69/098b317a59d9d8f654ba6e97fee1ce4fdcfc1e588815b4bbf10732f0a7f2/arlogger-1.0.1-py3-none-any.whl
+[2023-04-25 08:38:15] INFO root fetch - processPackages [river-core]: executing diffoscope
+[2023-04-25 08:38:15] INFO root fetch - processPackages [river-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/river_core-1.3.0.tar.gz tmp/river_core-1.4.0.tar.gz --markdown 20230425/r/river-core/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-25 08:38:15] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/da/7d/6367314360f5c8e19e57290c592b69289c2148bfc0160f1f336cfc3dcf6c/naruno_api-0.57.1.tar.gz
+[2023-04-25 08:38:15] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/7f/76/bce4365864c509827a2628b0f61dd54551ea702075b0eaf7d12637d91cdd/naruno-0.57.2.tar.gz
+[2023-04-25 08:38:15] INFO root fetch - processPackages [easy-webui-api]: executing diffoscope
+[2023-04-25 08:38:15] INFO root fetch - processPackages [easy-webui-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-webui-api-0.1.1.0.tar.gz tmp/easy-webui-api-0.1.2.tar.gz --markdown 20230425/e/easy-webui-api/0.1.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 08:38:15] INFO root fetch - processPackages [arlogger]: executing diffoscope
+[2023-04-25 08:38:15] INFO root fetch - processPackages [arlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlogger-1.0.0-py3-none-any.whl.zip tmp/arlogger-1.0.1-py3-none-any.whl.zip --markdown 20230425/a/arlogger/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-25 08:38:15] INFO root fetch - processPackages [nope-py]: executing diffoscope
+[2023-04-25 08:38:15] INFO root fetch - processPackages [nope-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nope_py-1.6.7.tar.gz tmp/nope_py-1.7.1.tar.gz --markdown 20230425/n/nope-py/1.6.7-1.7.1/diff.md --exclude *.pyd
+[2023-04-25 08:38:15] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/ba/77/8114844176a78f892c0da712b25a9e2fdccdcc95d4bef9a0759c2807dab7/naruno_api-0.57.2.tar.gz
+[2023-04-25 08:38:15] INFO root fetch - processPackages [naruno-api]: executing diffoscope
+[2023-04-25 08:38:15] INFO root fetch - processPackages [naruno-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_api-0.57.1.tar.gz tmp/naruno_api-0.57.2.tar.gz --markdown 20230425/n/naruno-api/0.57.1-0.57.2/diff.md --exclude *.pyd
+[2023-04-25 08:38:16] INFO root fetch - processPackages [naruno]: executing diffoscope
+[2023-04-25 08:38:16] INFO root fetch - processPackages [naruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno-0.57.1.tar.gz tmp/naruno-0.57.2.tar.gz --markdown 20230425/n/naruno/0.57.1-0.57.2/diff.md --exclude *.pyd
+[2023-04-25 08:38:16] INFO root fetch - processPackages [findmyorder]: Start processing: naruno-gui
+[2023-04-25 08:38:16] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-25 08:38:16] INFO root fetch - processPackages [naruno-gui]: New version: [0.57.2] Old Version: [0.57.1]
+[2023-04-25 08:38:16] INFO root fetch - processPackages [pymysql-pool]: Start processing: naruno-remote-app
+[2023-04-25 08:38:16] INFO root fetch - main [MainThread]: End processing [pymysql-pool]: success
+[2023-04-25 08:38:16] INFO root fetch - processPackages [quorum-data-py]: Start processing: naruno-tests
+[2023-04-25 08:38:16] INFO root fetch - main [MainThread]: End processing [quorum-data-py]: success
+[2023-04-25 08:38:16] INFO root fetch - processPackages [naruno-remote-app]: New version: [0.57.2] Old Version: [0.57.1]
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/e4/01/021939c127832be61c1317fdac8ff6ad2c4f3133ccdd865f5e2343befe0a/naruno_gui-0.57.1.tar.gz
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-tests]: New version: [0.57.2] Old Version: [0.57.1]
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/20/9d/029180452e917752238d03ab240ceaa0e0536641133d65e52c726640c93e/naruno_remote_app-0.57.1.tar.gz
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/09/da/05d799610a8c4dba843b2bbf270d92867d811e561d3eab0df8cb986c1b02/naruno_gui-0.57.2.tar.gz
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/6f/17/438fd74c8caaa272803c0033ccb4e926dc50d7593746300db175ffbd8d63/naruno_tests-0.57.1.tar.gz
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/cf/19/81afa089076af9e75a148a73d1ddfc52a6ecef5e7e46a8b7c6b1273d0279/naruno_remote_app-0.57.2.tar.gz
+[2023-04-25 08:38:17] INFO root fetch - main [MainThread]: End processing [arlogger]: success
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-gui]: executing diffoscope
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_gui-0.57.1.tar.gz tmp/naruno_gui-0.57.2.tar.gz --markdown 20230425/n/naruno-gui/0.57.1-0.57.2/diff.md --exclude *.pyd
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/b4/c8/7d0009d364a5170ea7e11ae73b8dad944901758d89f73cd1cb03311644db/naruno_tests-0.57.2.tar.gz
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-remote-app]: executing diffoscope
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-remote-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_remote_app-0.57.1.tar.gz tmp/naruno_remote_app-0.57.2.tar.gz --markdown 20230425/n/naruno-remote-app/0.57.1-0.57.2/diff.md --exclude *.pyd
+[2023-04-25 08:38:17] INFO root fetch - main [MainThread]: End processing [naruno-api]: success
+[2023-04-25 08:38:17] INFO root fetch - main [MainThread]: End processing [river-core]: success
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-04-25 08:38:17] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.57.1.tar.gz tmp/naruno_tests-0.57.2.tar.gz --markdown 20230425/n/naruno-tests/0.57.1-0.57.2/diff.md --exclude *.pyd
+[2023-04-25 08:38:17] INFO root fetch - main [MainThread]: End processing [easy-webui-api]: success
+[2023-04-25 08:38:18] INFO root fetch - main [MainThread]: End processing [naruno-remote-app]: success
+[2023-04-25 08:38:18] INFO root fetch - main [MainThread]: End processing [naruno-gui]: success
+[2023-04-25 08:38:19] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-04-25 08:38:19] INFO root fetch - main [MainThread]: End processing [nope-py]: success
+[2023-04-25 08:38:19] INFO root fetch - main [MainThread]: End processing [naruno]: success
+[2023-04-25 08:38:20] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
+[2023-04-25 08:38:20] INFO root fetch - main [MainThread]: Store serial: [17845114]

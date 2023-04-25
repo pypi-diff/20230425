@@ -6934,3 +6934,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 03:57:20] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
 [2023-04-25 03:57:20] INFO root fetch - main [MainThread]: End processing [DGLD]: success
 [2023-04-25 03:57:20] INFO root fetch - main [MainThread]: Store serial: [17843496]
+[2023-04-25 04:02:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843496]
+[2023-04-25 04:02:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-25 04:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdoimageparameterapi
+[2023-04-25 04:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-25 04:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NbRisk
+[2023-04-25 04:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aequilibrae
+[2023-04-25 04:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DBRetina
+[2023-04-25 04:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mynotiontools
+[2023-04-25 04:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Lukz
+[2023-04-25 04:02:29] WARNING root fetch - processPackages [sdoimageparameterapi]: Skipping, unable to determine old version
+[2023-04-25 04:02:29] INFO root fetch - main [MainThread]: End processing [sdoimageparameterapi] error
+[2023-04-25 04:02:29] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-04-25 04:02:29] INFO root fetch - processPackages [aequilibrae]: New version: [0.8.4.dev0] Old Version: [0.8.3.dev0]
+[2023-04-25 04:02:29] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-04-25 04:02:29] WARNING root fetch - processPackages [Lukz]: Skipping, unable to determine old version
+[2023-04-25 04:02:29] INFO root fetch - main [MainThread]: End processing [Lukz] error
+[2023-04-25 04:02:29] INFO root fetch - processPackages [DBRetina]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-25 04:02:29] INFO root fetch - processPackages [NbRisk]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-25 04:02:29] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-04-25 04:02:29] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230425/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 04:02:29] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-25 04:02:29] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev8.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev9.tar.gz --markdown 20230425/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-25 04:02:29] INFO root fetch - processPackages [NbRisk]: Downloading https://files.pythonhosted.org/packages/f0/b0/b7c4c7423fccc01fa74c7dbcf988f5296eaaf6decdfcce370d3095d05819/NbRisk-0.4.0.tar.gz
+[2023-04-25 04:02:29] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/e5/b2/2912aee3023cf4d3d464987216a1ba421dd8e90d5c2a0a38e210def7c748/DBRetina-2.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 04:02:29] INFO root fetch - processPackages [aequilibrae]: Downloading https://files.pythonhosted.org/packages/ff/22/2cdf3ab60590bc663517753c6b8a07a891a89fd99ab3d82f8176eef61afa/aequilibrae-0.8.4.dev0-cp39-cp39-win_amd64.whl
+[2023-04-25 04:02:29] INFO root fetch - processPackages [NbRisk]: Downloading https://files.pythonhosted.org/packages/ee/2f/c5c5ef243f8ca8056a34f72bf8d0cd9e252c4a9fa696f2ba8c2fe59c1126/NbRisk-0.4.1.tar.gz
+[2023-04-25 04:02:30] WARNING root fetch - processPackages [aequilibrae]: Skipping package: exceeds size limit 10586504>=10485760
+[2023-04-25 04:02:30] INFO root fetch - main [MainThread]: End processing [aequilibrae] error
+[2023-04-25 04:02:30] INFO root fetch - processPackages [NbRisk]: executing diffoscope
+[2023-04-25 04:02:30] INFO root fetch - processPackages [NbRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NbRisk-0.4.0.tar.gz tmp/NbRisk-0.4.1.tar.gz --markdown 20230425/N/NbRisk/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-25 04:02:30] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/d8/d1/13cc94dbfa6a9f196f10fe2710bb6378ec878041590d7af61b9f1e0df304/DBRetina-2.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 04:02:30] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-04-25 04:02:30] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230425/D/DBRetina/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-25 04:02:30] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-04-25 04:02:30] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-25 04:02:31] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-04-25 04:02:31] INFO root fetch - main [MainThread]: End processing [NbRisk]: success
+[2023-04-25 04:02:31] INFO root fetch - main [MainThread]: Store serial: [17843526]

@@ -8711,3 +8711,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 07:05:44] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
 [2023-04-25 07:05:45] INFO root fetch - main [MainThread]: End processing [humanloop-python-sdk]: success
 [2023-04-25 07:05:45] INFO root fetch - main [MainThread]: Store serial: [17844568]
+[2023-04-25 07:10:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844568]
+[2023-04-25 07:10:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-25 07:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multi-model-server
+[2023-04-25 07:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-enroll
+[2023-04-25 07:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlops-core
+[2023-04-25 07:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlops-core
+[2023-04-25 07:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prunerr
+[2023-04-25 07:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: echolocator
+[2023-04-25 07:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-enroll
+[2023-04-25 07:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deso
+[2023-04-25 07:10:54] INFO root fetch - processPackages [mlops-core]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-25 07:10:54] INFO root fetch - processPackages [mlops-core]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-25 07:10:54] INFO root fetch - processPackages [prunerr]: New version: [1.1.4b0] Old Version: [1.1.3b0]
+[2023-04-25 07:10:54] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-25 07:10:54] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230425] Old Version: [1.1.8b20230424]
+[2023-04-25 07:10:54] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-25 07:10:54] INFO root fetch - processPackages [echolocator]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-04-25 07:10:54] INFO root fetch - processPackages [deso]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-04-25 07:10:54] INFO root fetch - processPackages [mlops-core]: Downloading https://files.pythonhosted.org/packages/74/33/db6d5a82fdfd01e4ee9fe2afe24407279734f71f7275b96a830c1a2616dc/mlops_core-0.2.4.tar.gz
+[2023-04-25 07:10:54] INFO root fetch - processPackages [mlops-core]: Downloading https://files.pythonhosted.org/packages/74/33/db6d5a82fdfd01e4ee9fe2afe24407279734f71f7275b96a830c1a2616dc/mlops_core-0.2.4.tar.gz
+[2023-04-25 07:10:54] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-04-25 07:10:54] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230425/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-25 07:10:54] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-04-25 07:10:54] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230425/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-25 07:10:54] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/f5/63/e6e8e8ba739d25edeb29132d859ae7e3f500bceeacf1d68a03621c5f369e/multi_model_server-1.1.8b20230424-py2.py3-none-any.whl
+[2023-04-25 07:10:54] INFO root fetch - processPackages [prunerr]: Downloading https://files.pythonhosted.org/packages/cd/cd/9188d2f61bcff6b8dc7de1bf7e2193acce7fc86d4d38dce561c7aee448ab/prunerr-1.1.4b0.tar.gz
+[2023-04-25 07:10:55] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/8c/75/dfbb76ce2d837ab6403c086b64b35fc67ef5dad657dda197e70ef5263fb6/echolocator-0.0.1.tar.gz
+[2023-04-25 07:10:55] INFO root fetch - processPackages [deso]: Downloading https://files.pythonhosted.org/packages/fb/04/e84da2c0c8a3b28de68e0a2e8ca16b4e7b7dc9056273f5eb2aea37330534/deso-2.2.9.tar.gz
+[2023-04-25 07:10:55] INFO root fetch - processPackages [prunerr]: executing diffoscope
+[2023-04-25 07:10:55] INFO root fetch - processPackages [prunerr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prunerr-1.1.3b0.tar.gz tmp/prunerr-1.1.4b0.tar.gz --markdown 20230425/p/prunerr/1.1.3b0-1.1.4b0/diff.md --exclude *.pyd
+[2023-04-25 07:10:55] INFO root fetch - processPackages [mlops-core]: Downloading https://files.pythonhosted.org/packages/eb/b1/effc7e57ccd2a58c472ac6d28712c2c7da2db07b816db17394af5b9d459c/mlops_core-0.2.5.tar.gz
+[2023-04-25 07:10:55] INFO root fetch - processPackages [mlops-core]: Downloading https://files.pythonhosted.org/packages/eb/b1/effc7e57ccd2a58c472ac6d28712c2c7da2db07b816db17394af5b9d459c/mlops_core-0.2.5.tar.gz
+[2023-04-25 07:10:55] INFO root fetch - processPackages [deso]: Downloading https://files.pythonhosted.org/packages/d3/39/eedbecf90fc988727abc3b1ba964606de89c7daa36b036ec1a13e471a231/deso-2.3.0.tar.gz
+[2023-04-25 07:10:55] INFO root fetch - processPackages [mlops-core]: executing diffoscope
+[2023-04-25 07:10:55] INFO root fetch - processPackages [mlops-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_core-0.2.4.tar.gz tmp/mlops_core-0.2.5.tar.gz --markdown 20230425/m/mlops-core/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-25 07:10:55] INFO root fetch - processPackages [mlops-core]: executing diffoscope
+[2023-04-25 07:10:55] INFO root fetch - processPackages [mlops-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_core-0.2.4.tar.gz tmp/mlops_core-0.2.5.tar.gz --markdown 20230425/m/mlops-core/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-25 07:10:55] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/f4/2e/df35d8a0f9495c024e8ba15f7126164707c029d6d590775af58cb7ca6a17/echolocator-1.0.1.tar.gz
+[2023-04-25 07:10:55] INFO root fetch - processPackages [deso]: executing diffoscope
+[2023-04-25 07:10:55] INFO root fetch - processPackages [deso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deso-2.2.9.tar.gz tmp/deso-2.3.0.tar.gz --markdown 20230425/d/deso/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-04-25 07:10:55] INFO root fetch - processPackages [echolocator]: executing diffoscope
+[2023-04-25 07:10:55] INFO root fetch - processPackages [echolocator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echolocator-0.0.1.tar.gz tmp/echolocator-1.0.1.tar.gz --markdown 20230425/e/echolocator/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-04-25 07:10:55] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/b7/b6/4fcb13a74322c7fc1af230cf11924abdff91f4df109add1af6520cae71b0/multi_model_server-1.1.8b20230425-py2.py3-none-any.whl
+[2023-04-25 07:10:56] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-04-25 07:10:56] INFO root fetch - main [MainThread]: End processing [mlops-core]: success
+[2023-04-25 07:10:56] INFO root fetch - main [MainThread]: End processing [mlops-core]: success
+[2023-04-25 07:10:56] INFO root fetch - main [MainThread]: End processing [deso]: success
+[2023-04-25 07:10:57] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-04-25 07:10:57] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230424-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230425-py2.py3-none-any.whl.zip --markdown 20230425/m/multi-model-server/1.1.8b20230424-1.1.8b20230425/diff.md --exclude *.pyd
+[2023-04-25 07:10:57] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-04-25 07:10:59] INFO root fetch - main [MainThread]: End processing [prunerr]: success
+[2023-04-25 07:11:00] INFO root fetch - main [MainThread]: End processing [echolocator]: success
+[2023-04-25 07:13:44] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-04-25 07:13:44] INFO root fetch - main [MainThread]: Store serial: [17844591]

@@ -11185,3 +11185,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:14:17] INFO root fetch - main [MainThread]: End processing [invenio-vocabularies]: success
 [2023-04-25 10:14:50] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-04-25 10:14:50] INFO root fetch - main [MainThread]: Store serial: [17846002]
+[2023-04-25 10:19:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17846002]
+[2023-04-25 10:19:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bdi.example-package-soranito
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyecotrend-ista
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dinamis-sdk
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pip-licenses
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyxplora-api
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: obsutil
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrecdp
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rum-with-telegram
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astrojs-aws.construct
+[2023-04-25 10:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discake
+[2023-04-25 10:19:59] INFO root fetch - processPackages [pyrecdp]: New version: [1.0.1b20230425] Old Version: [1.0.1b202304142]
+[2023-04-25 10:19:59] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-25 10:20:00] INFO root fetch - processPackages [bdi.example-package-soranito]: New version: [1.1.0] Old Version: [1.0.99]
+[2023-04-25 10:20:00] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-04-25 10:20:00] WARNING root fetch - processPackages [discake]: Skipping, unable to determine old version
+[2023-04-25 10:20:00] INFO root fetch - processPackages [discake]: Start processing: encomp
+[2023-04-25 10:20:00] INFO root fetch - processPackages [astrojs-aws.construct]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 10:20:00] INFO root fetch - main [MainThread]: End processing [discake] error
+[2023-04-25 10:20:00] INFO root fetch - processPackages [obsutil]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyrecdp]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyrecdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrecdp-1.0.1b202304142.tar.gz tmp/pyrecdp-1.0.1b20230425.tar.gz --markdown 20230425/p/pyrecdp/1.0.1b202304142-1.0.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyxplora-api]: New version: [2.7.0] Old Version: [2.6.4]
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pip-licenses]: New version: [4.3.0] Old Version: [4.2.0rc3]
+[2023-04-25 10:20:00] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/d6/6c/1ed0f7f80384536c7d4446ce55d96ef00807a7ed71dd4d5bb47bbf243c61/rum_with_telegram-0.7.3.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/ec/16/0bed2cdaad0e000623a272839de429586ec5bf9a8e855dda833eca99261e/pyecotrend-ista-2.0.7.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [encomp]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-25 10:20:00] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.7.2.tar.gz tmp/rum_with_telegram-0.7.3.tar.gz --markdown 20230425/r/rum-with-telegram/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-25 10:20:00] INFO root fetch - processPackages [astrojs-aws.construct]: Downloading https://files.pythonhosted.org/packages/8e/f4/c1d44dc1287369855ef79176e08711d05638d897eae6fb0509aec8278b29/astrojs-aws.construct-0.0.8.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/86/d4/78ab99bebeb5d8339361e1b2bf24349fd4015e5cbb556260540392b7fdbd/dinamis-sdk-0.0.5.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyxplora-api]: Downloading https://files.pythonhosted.org/packages/83/a0/93fca73eb3f3aa3d3d447d3abb0f17d1159d84665be9ffb59463d06e70f1/pyxplora_api-2.6.4.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [obsutil]: Downloading https://files.pythonhosted.org/packages/14/a0/4d5c4584eddb8a3eb9d4c020b63e7edb69a1a45aa95fb441b1babac37f08/obsutil-1.0.4.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pip-licenses]: Downloading https://files.pythonhosted.org/packages/d6/c3/dd60c64d3e5b3db25839a89476bc76e4bb73204060db9b838d95233f898b/pip-licenses-4.2.0rc3.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [bdi.example-package-soranito]: Downloading https://files.pythonhosted.org/packages/4d/40/a52d48f6d96ca08a7f6462e95995a8485d1a2702b16b2a68797652c69ef9/bdi.example_package_soranito-1.1.0.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [encomp]: Downloading https://files.pythonhosted.org/packages/12/47/45c45a28c3fe2e41b90219387c9a76e4f75c6fff5a00d70feff605a7894a/encomp-0.8.2-py3-none-any.whl
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/35/32/a5feb8496f42ff98cf5e6a1647ea39fa57a8247bd05ab0e595c5f393d73b/pyecotrend-ista-2.0.8.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [bdi.example-package-soranito]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [bdi.example-package-soranito]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdi.example_package_soranito-1.0.99.tar.gz tmp/bdi.example_package_soranito-1.1.0.tar.gz --markdown 20230425/b/bdi.example-package-soranito/1.0.99-1.1.0/diff.md --exclude *.pyd
+[2023-04-25 10:20:00] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/a7/4e/6a792182375da698afaf92d1b90bdd9b2951b86d0eb51c05b56597ede16e/dinamis-sdk-0.0.6.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [obsutil]: Downloading https://files.pythonhosted.org/packages/ac/b0/3597b6cc86a7562aa1678efe86e1cd2a17131c8c1ac489f0208fcd2b3523/obsutil-1.0.5.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyxplora-api]: Downloading https://files.pythonhosted.org/packages/8c/ff/0ecbccceeacbc9cab6e9e0c5047f4c1dc920ac87f9f0fec4a940e76faea8/pyxplora_api-2.7.0.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pip-licenses]: Downloading https://files.pythonhosted.org/packages/99/1d/ada5ee12bfdf3be16937f0a162763ddc8985b1d6f0c5e1969dabceaacf0d/pip-licenses-4.3.0.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.7.tar.gz tmp/pyecotrend-ista-2.0.8.tar.gz --markdown 20230425/p/pyecotrend-ista/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-04-25 10:20:00] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis-sdk-0.0.5.tar.gz tmp/dinamis-sdk-0.0.6.tar.gz --markdown 20230425/d/dinamis-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 10:20:00] INFO root fetch - processPackages [encomp]: Downloading https://files.pythonhosted.org/packages/17/36/d4c738c2e4c566fb6ee2167642515c52e8ff7738103a5ad9a2acd0a9a797/encomp-0.9.0.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [obsutil]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [astrojs-aws.construct]: Downloading https://files.pythonhosted.org/packages/04/f5/c570b6fa2b76b0356ed15981f4a4be7530485c1d3ec475026ad7d65c6693/astrojs-aws.construct-0.0.9.tar.gz
+[2023-04-25 10:20:00] INFO root fetch - processPackages [obsutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsutil-1.0.4.tar.gz tmp/obsutil-1.0.5.tar.gz --markdown 20230425/o/obsutil/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyxplora-api]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pyxplora-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxplora_api-2.6.4.tar.gz tmp/pyxplora_api-2.7.0.tar.gz --markdown 20230425/p/pyxplora-api/2.6.4-2.7.0/diff.md --exclude *.pyd
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pip-licenses]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [pip-licenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-licenses-4.2.0rc3.tar.gz tmp/pip-licenses-4.3.0.tar.gz --markdown 20230425/p/pip-licenses/4.2.0rc3-4.3.0/diff.md --exclude *.pyd
+[2023-04-25 10:20:00] INFO root fetch - processPackages [encomp]: executing diffoscope
+[2023-04-25 10:20:00] INFO root fetch - processPackages [encomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encomp-0.8.2-py3-none-any.whl.zip tmp/encomp-0.9.0.tar.gz --markdown 20230425/e/encomp/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 10:20:01] INFO root fetch - processPackages [astrojs-aws.construct]: executing diffoscope
+[2023-04-25 10:20:01] INFO root fetch - processPackages [astrojs-aws.construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrojs-aws.construct-0.0.8.tar.gz tmp/astrojs-aws.construct-0.0.9.tar.gz --markdown 20230425/a/astrojs-aws.construct/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:20:01] INFO root fetch - processPackages [rum-with-telegram]: Start processing: ssb-altinn3-util
+[2023-04-25 10:20:01] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-04-25 10:20:01] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [bdi.example-package-soranito]: success
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-04-25 10:20:02] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/ef/cb/003df3d92e53e6833a38e7c0e143bc4d6f12027d22363d6eaddd6cdfd246/ssb_altinn3_util-0.0.8.tar.gz
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [obsutil]: success
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2023-04-25 10:20:02] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/94/61/ca19b663821a79f349fe04383c5a68f9cf3f6c75cf20b9b9f2c7a92aa898/ssb_altinn3_util-0.0.9.tar.gz
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [pyxplora-api]: success
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [encomp]: success
+[2023-04-25 10:20:02] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-04-25 10:20:02] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230425/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [astrojs-aws.construct]: success
+[2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [pip-licenses]: success
+[2023-04-25 10:20:03] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-04-25 10:20:03] INFO root fetch - main [MainThread]: Store serial: [17846039]

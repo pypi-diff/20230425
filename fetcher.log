@@ -17059,3 +17059,121 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 15:23:40] INFO root fetch - main [MainThread]: End processing [python-gvm]: success
 [2023-04-25 15:23:42] INFO root fetch - main [MainThread]: End processing [evadb]: success
 [2023-04-25 15:23:42] INFO root fetch - main [MainThread]: Store serial: [17849437]
+[2023-04-25 15:28:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17849437]
+[2023-04-25 15:28:52] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toolium
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aimmo
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight-core
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: control-lab-ly
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rich-format
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bitget-python-connector
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foursight-cgap
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cutepy
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-lang-tts
+[2023-04-25 15:28:52] INFO root fetch - processPackages [rich-format]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [cutepy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [control-lab-ly]: New version: [1.0.1a1] Old Version: [1.0.1a0]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.5b34] Old Version: [4.1.0.5b32]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [streamlit-lang-tts]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.0.5b34] Old Version: [3.4.0.5b33]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [toolium]: New version: [3.0.0b1] Old Version: [3.0.0a4]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [bitget-python-connector]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [control-lab-ly]: executing diffoscope
+[2023-04-25 15:28:52] INFO root fetch - processPackages [control-lab-ly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control-lab-ly-1.0.1a0.tar.gz tmp/control-lab-ly-1.0.1a1.tar.gz --markdown 20230425/c/control-lab-ly/1.0.1a0-1.0.1a1/diff.md --exclude *.pyd
+[2023-04-25 15:28:52] INFO root fetch - processPackages [rich-format]: executing diffoscope
+[2023-04-25 15:28:52] INFO root fetch - processPackages [rich-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_format-0.0.2.tar.gz tmp/rich_format-0.0.3.tar.gz --markdown 20230425/r/rich-format/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 15:28:52] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-04-25 15:28:52] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-04-25 15:28:52] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.0.5b33.tar.gz tmp/foursight_cgap-3.4.0.5b34.tar.gz --markdown 20230425/f/foursight-cgap/3.4.0.5b33-3.4.0.5b34/diff.md --exclude *.pyd
+[2023-04-25 15:28:52] INFO root fetch - processPackages [streamlit-lang-tts]: executing diffoscope
+[2023-04-25 15:28:52] INFO root fetch - processPackages [streamlit-lang-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_lang_tts-0.0.3.tar.gz tmp/streamlit_lang_tts-0.0.4.tar.gz --markdown 20230425/s/streamlit-lang-tts/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 15:28:52] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-25 15:28:52] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.5b32.tar.gz tmp/foursight_core-4.1.0.5b34.tar.gz --markdown 20230425/f/foursight-core/4.1.0.5b32-4.1.0.5b34/diff.md --exclude *.pyd
+[2023-04-25 15:28:52] INFO root fetch - processPackages [cutepy]: Downloading https://files.pythonhosted.org/packages/bb/56/0d3cca429d861dd2c502790d9989aae32401c692249c0b07d773cdf46b4e/cutepy-0.0.3.tar.gz
+[2023-04-25 15:28:52] INFO root fetch - processPackages [toolium]: Downloading https://files.pythonhosted.org/packages/ac/74/16d8d67b39bb4e999d3805bb70fbe94791f1015168e12abb5ee629d28cf1/toolium-3.0.0a4.tar.gz
+[2023-04-25 15:28:52] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/ae/20/64f46e6e224facaa0a512efc2d1dddb4eb0b7c62c45d7cd7ad7c33874d10/aimmo-v0.1.1-alpha.post.dev8.tar.gz
+[2023-04-25 15:28:52] INFO root fetch - processPackages [cutepy]: executing diffoscope
+[2023-04-25 15:28:52] INFO root fetch - processPackages [cutepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutepy-0.0.2.tar.gz tmp/cutepy-0.0.3.tar.gz --markdown 20230425/c/cutepy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 15:28:52] INFO root fetch - processPackages [bitget-python-connector]: Downloading https://files.pythonhosted.org/packages/bc/08/6788db365945a2947c7d65c624264ba76f247e49f61a1f5942bdb216a926/bitget-python-connector-0.0.4.tar.gz
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-25 15:28:52] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230425/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-25 15:28:52] INFO root fetch - processPackages [toolium]: Downloading https://files.pythonhosted.org/packages/55/1c/410bd44125245df5c4252e6b59c59c26969539211de0c3d19cdc60748217/toolium-3.0.0b1.tar.gz
+[2023-04-25 15:28:52] INFO root fetch - processPackages [bitget-python-connector]: executing diffoscope
+[2023-04-25 15:28:52] INFO root fetch - processPackages [bitget-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitget-python-connector-0.0.1.tar.gz tmp/bitget-python-connector-0.0.4.tar.gz --markdown 20230425/b/bitget-python-connector/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 15:28:53] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/80/23/14dc12f78e542484cb6d32a416afedf1ee4ea53b87476f141cf6231e7355/aimmo-v0.1.1-alpha.post.dev9.tar.gz
+[2023-04-25 15:28:53] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-04-25 15:28:53] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230425/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-04-25 15:28:53] INFO root fetch - processPackages [toolium]: executing diffoscope
+[2023-04-25 15:28:53] INFO root fetch - processPackages [toolium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolium-3.0.0a4.tar.gz tmp/toolium-3.0.0b1.tar.gz --markdown 20230425/t/toolium/3.0.0a4-3.0.0b1/diff.md --exclude *.pyd
+[2023-04-25 15:28:54] INFO root fetch - processPackages [rich-format]: Start processing: SpectroscopicBinarySystem
+[2023-04-25 15:28:54] INFO root fetch - main [MainThread]: End processing [rich-format]: success
+[2023-04-25 15:28:54] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-25 15:28:54] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-04-25 15:28:54] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.0.7.tar.gz tmp/SpectroscopicBinarySystem-1.0.8.tar.gz --markdown 20230425/S/SpectroscopicBinarySystem/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-25 15:28:54] INFO root fetch - processPackages [cutepy]: Start processing: fbgemm-gpu-nightly
+[2023-04-25 15:28:54] INFO root fetch - main [MainThread]: End processing [cutepy]: success
+[2023-04-25 15:28:54] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.4.24] Old Version: [2023.4.23]
+[2023-04-25 15:28:54] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/ce/98/c564da4ba919e765024ef137ffc7f754d67f4133353fc89a5089accb64e4/fbgemm_gpu_nightly-2023.4.23-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-25 15:28:54] INFO root fetch - processPackages [bitget-python-connector]: Start processing: foursight
+[2023-04-25 15:28:54] INFO root fetch - main [MainThread]: End processing [bitget-python-connector]: success
+[2023-04-25 15:28:54] INFO root fetch - processPackages [foursight]: New version: [3.4.0.5b34] Old Version: [3.4.0.5b33]
+[2023-04-25 15:28:54] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 245816046>=10485760
+[2023-04-25 15:28:54] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: FoccoERPy
+[2023-04-25 15:28:54] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-04-25 15:28:54] INFO root fetch - processPackages [ramodels]: Start processing: appthreat-vulnerability-db
+[2023-04-25 15:28:54] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-25 15:28:54] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-04-25 15:28:54] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.0.5b33.tar.gz tmp/foursight-3.4.0.5b34.tar.gz --markdown 20230425/f/foursight/3.4.0.5b33-3.4.0.5b34/diff.md --exclude *.pyd
+[2023-04-25 15:28:55] WARNING root fetch - processPackages [FoccoERPy]: Skipping, unable to determine old version
+[2023-04-25 15:28:55] INFO root fetch - processPackages [FoccoERPy]: Start processing: hagis
+[2023-04-25 15:28:55] INFO root fetch - main [MainThread]: End processing [FoccoERPy] error
+[2023-04-25 15:28:55] INFO root fetch - processPackages [appthreat-vulnerability-db]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-04-25 15:28:55] INFO root fetch - processPackages [aimmo]: Start processing: httpx-auth
+[2023-04-25 15:28:55] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-04-25 15:28:55] INFO root fetch - processPackages [foursight-cgap]: Start processing: chanfig
+[2023-04-25 15:28:55] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-04-25 15:28:55] INFO root fetch - processPackages [chanfig]: New version: [0.0.9.post7] Old Version: [0.0.9.post5]
+[2023-04-25 15:28:55] INFO root fetch - processPackages [hagis]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-04-25 15:28:55] INFO root fetch - processPackages [httpx-auth]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 15:28:55] INFO root fetch - processPackages [chanfig]: executing diffoscope
+[2023-04-25 15:28:55] INFO root fetch - processPackages [chanfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanfig-0.0.9.post5.tar.gz tmp/chanfig-0.0.9.post7.tar.gz --markdown 20230425/c/chanfig/0.0.9.post5-0.0.9.post7/diff.md --exclude *.pyd
+[2023-04-25 15:28:55] INFO root fetch - processPackages [appthreat-vulnerability-db]: Downloading https://files.pythonhosted.org/packages/c8/33/b700f856220996249510adbaffb072b5a12f039accf3464d01168acdedc8/appthreat-vulnerability-db-5.0.3.tar.gz
+[2023-04-25 15:28:55] INFO root fetch - processPackages [httpx-auth]: Downloading https://files.pythonhosted.org/packages/f8/dc/ea30b4438b25356b98e5d8296197d711a9adf58524353c6024a852780474/httpx_auth-0.8.0.tar.gz
+[2023-04-25 15:28:55] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/31/76/6ee8bfb02b9bcfe448c47b399fbf648087694ff6ab6bca1fd3a100081080/hagis-0.4.0.tar.gz
+[2023-04-25 15:28:55] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Start processing: questdb-connect
+[2023-04-25 15:28:55] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-04-25 15:28:55] WARNING root fetch - processPackages [questdb-connect]: Skipping, unable to determine old version
+[2023-04-25 15:28:55] INFO root fetch - processPackages [questdb-connect]: Start processing: linktest
+[2023-04-25 15:28:55] INFO root fetch - main [MainThread]: End processing [questdb-connect] error
+[2023-04-25 15:28:55] INFO root fetch - processPackages [appthreat-vulnerability-db]: Downloading https://files.pythonhosted.org/packages/b3/53/76a74d6ca00704331573aade292cc70f02eb0d8b70ff75c8dd2c89b934a6/appthreat-vulnerability-db-5.0.4.tar.gz
+[2023-04-25 15:28:55] WARNING root fetch - processPackages [linktest]: Skipping, unable to determine old version
+[2023-04-25 15:28:55] INFO root fetch - processPackages [linktest]: Start processing: nembem
+[2023-04-25 15:28:55] INFO root fetch - main [MainThread]: End processing [linktest] error
+[2023-04-25 15:28:55] WARNING root fetch - processPackages [nembem]: Skipping, unable to determine old version
+[2023-04-25 15:28:55] INFO root fetch - processPackages [nembem]: Start processing: fal
+[2023-04-25 15:28:55] INFO root fetch - main [MainThread]: End processing [nembem] error
+[2023-04-25 15:28:55] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-25 15:28:55] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.3.4.tar.gz tmp/hagis-0.4.0.tar.gz --markdown 20230425/h/hagis/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-04-25 15:28:55] INFO root fetch - processPackages [appthreat-vulnerability-db]: executing diffoscope
+[2023-04-25 15:28:55] INFO root fetch - processPackages [appthreat-vulnerability-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appthreat-vulnerability-db-5.0.3.tar.gz tmp/appthreat-vulnerability-db-5.0.4.tar.gz --markdown 20230425/a/appthreat-vulnerability-db/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-04-25 15:28:55] INFO root fetch - processPackages [fal]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-25 15:28:55] INFO root fetch - processPackages [httpx-auth]: Downloading https://files.pythonhosted.org/packages/ac/58/a2a2cd4c6e818b8ac620e0fcc05809aaca9616dad6d58f1d83db07c74ba7/httpx_auth-0.9.0.tar.gz
+[2023-04-25 15:28:55] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/9f/e8/3fdf3e339eda000ba54d430152318dd77333a81187c72a71000b1568a09c/fal-0.8.5.tar.gz
+[2023-04-25 15:28:56] INFO root fetch - processPackages [httpx-auth]: executing diffoscope
+[2023-04-25 15:28:56] INFO root fetch - processPackages [httpx-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpx_auth-0.8.0.tar.gz tmp/httpx_auth-0.9.0.tar.gz --markdown 20230425/h/httpx-auth/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 15:28:56] INFO root fetch - main [MainThread]: End processing [toolium]: success
+[2023-04-25 15:28:56] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/83/8e/2f607db8ab8bca3d9ce762d1359ea32350f6f69b52cbb676ba16b0644bb0/fal-0.8.6.tar.gz
+[2023-04-25 15:28:56] INFO root fetch - processPackages [fal]: executing diffoscope
+[2023-04-25 15:28:56] INFO root fetch - processPackages [fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal-0.8.5.tar.gz tmp/fal-0.8.6.tar.gz --markdown 20230425/f/fal/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-25 15:28:56] INFO root fetch - main [MainThread]: End processing [chanfig]: success
+[2023-04-25 15:28:56] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-25 15:28:57] INFO root fetch - main [MainThread]: End processing [appthreat-vulnerability-db]: success
+[2023-04-25 15:28:57] INFO root fetch - main [MainThread]: End processing [httpx-auth]: success
+[2023-04-25 15:28:57] INFO root fetch - main [MainThread]: End processing [control-lab-ly]: success
+[2023-04-25 15:28:57] INFO root fetch - main [MainThread]: End processing [fal]: success
+[2023-04-25 15:28:58] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-04-25 15:29:13] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-25 15:29:14] INFO root fetch - main [MainThread]: End processing [streamlit-lang-tts]: success
+[2023-04-25 15:29:14] INFO root fetch - main [MainThread]: Store serial: [17849512]

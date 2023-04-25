@@ -13381,3 +13381,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 12:13:06] INFO root fetch - main [MainThread]: End processing [pontos]: success
 [2023-04-25 12:13:10] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
 [2023-04-25 12:13:10] INFO root fetch - main [MainThread]: Store serial: [17847248]
+[2023-04-25 12:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17847248]
+[2023-04-25 12:18:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcpdiff
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-selenium-ctrl-package
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assistant-project
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ev-fleet-sim
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphere-base
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: schoolware-api
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellmap
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: origen-ai-ecl
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: halo-reader
+[2023-04-25 12:18:21] INFO root fetch - processPackages [hcpdiff]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [assistant-project]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ev-fleet-sim]: New version: [1.9.post3] Old Version: [1.9.post2]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-25 12:18:21] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.2.4.tar.gz tmp/origen_ai_ecl-0.2.5.tar.gz --markdown 20230425/o/origen-ai-ecl/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-25 12:18:21] INFO root fetch - processPackages [halo-reader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-04-25 12:18:21] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.98.tar.gz tmp/python_selenium_ctrl_package-0.0.99.tar.gz --markdown 20230425/p/python-selenium-ctrl-package/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 12:18:21] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304251016] Old Version: [1.0.1.dev202304240050]
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ev-fleet-sim]: executing diffoscope
+[2023-04-25 12:18:21] INFO root fetch - processPackages [ev-fleet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ev-fleet-sim-1.9.post2.tar.gz tmp/ev-fleet-sim-1.9.post3.tar.gz --markdown 20230425/e/ev-fleet-sim/1.9.post2-1.9.post3/diff.md --exclude *.pyd
+[2023-04-25 12:18:21] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-04-25 12:18:21] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230425/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 12:18:21] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-04-25 12:18:21] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230425/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-25 12:18:21] INFO root fetch - processPackages [hcpdiff]: Downloading https://files.pythonhosted.org/packages/d7/ff/d52a6acf5af0d418d81999aa06d253495e0b271e59a2a06d7c531cb8edb4/hcpdiff-0.1.6.tar.gz
+[2023-04-25 12:18:21] INFO root fetch - processPackages [assistant-project]: Downloading https://files.pythonhosted.org/packages/be/7c/d59a7ed88c4220dbdb227fe9a602faa3ead5c553ce2e8638e6cbdd0e83d2/assistant_project-0.3.2.tar.gz
+[2023-04-25 12:18:21] INFO root fetch - processPackages [assistant-project]: executing diffoscope
+[2023-04-25 12:18:21] INFO root fetch - processPackages [assistant-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistant_project-0.3.1.tar.gz tmp/assistant_project-0.3.2.tar.gz --markdown 20230425/a/assistant-project/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-25 12:18:21] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/1d/66/f586f4066d0904de94d748af7ccfbcfb9f75352856e243e704be527a572e/schoolware_api-0.2.0.tar.gz
+[2023-04-25 12:18:21] INFO root fetch - processPackages [halo-reader]: Downloading https://files.pythonhosted.org/packages/d8/c8/256015dc44e86f4279f1b7bf856d2baae0bbaa3ae2da9b06b6d57e72bf2b/halo-reader-0.1.0.tar.gz
+[2023-04-25 12:18:21] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/0f/84/8c4912e97c9abaf4d66e970e97cd0d6456852b67c448bd6f7b3fbc87e9df/cellmap-1.0.1.dev202304251016-py3-none-any.whl
+[2023-04-25 12:18:21] INFO root fetch - processPackages [hcpdiff]: Downloading https://files.pythonhosted.org/packages/47/41/4140edae05b8dfe02730ea6c8e6c182cb5d9a2761ae145f7b52d941c6606/hcpdiff-0.2.0.tar.gz
+[2023-04-25 12:18:22] INFO root fetch - processPackages [hcpdiff]: executing diffoscope
+[2023-04-25 12:18:22] INFO root fetch - processPackages [hcpdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcpdiff-0.1.6.tar.gz tmp/hcpdiff-0.2.0.tar.gz --markdown 20230425/h/hcpdiff/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-04-25 12:18:22] INFO root fetch - processPackages [schoolware-api]: Downloading https://files.pythonhosted.org/packages/7c/a5/e325d06c96929d9108a0dedd097a77ceb552bd56f745fadd3f0fa05fbf66/schoolware_api-1.0.0.tar.gz
+[2023-04-25 12:18:22] INFO root fetch - processPackages [halo-reader]: Downloading https://files.pythonhosted.org/packages/1c/72/e3f7dd253866a74a7a2322aa17ef4321d9e5a478afdc6d56a30c2661f604/halo-reader-0.1.1.tar.gz
+[2023-04-25 12:18:22] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-04-25 12:18:22] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-0.2.0.tar.gz tmp/schoolware_api-1.0.0.tar.gz --markdown 20230425/s/schoolware-api/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-25 12:18:22] INFO root fetch - processPackages [halo-reader]: executing diffoscope
+[2023-04-25 12:18:22] INFO root fetch - processPackages [halo-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halo-reader-0.1.0.tar.gz tmp/halo-reader-0.1.1.tar.gz --markdown 20230425/h/halo-reader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 12:18:22] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-25 12:18:22] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304240050-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304251016-py3-none-any.whl.zip --markdown 20230425/c/cellmap/1.0.1.dev202304240050-1.0.1.dev202304251016/diff.md --exclude *.pyd
+[2023-04-25 12:18:23] INFO root fetch - processPackages [schoolware-api]: Start processing: hyfi-template
+[2023-04-25 12:18:23] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-04-25 12:18:23] INFO root fetch - processPackages [hyfi-template]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 12:18:23] INFO root fetch - processPackages [assistant-project]: Start processing: hera
+[2023-04-25 12:18:23] INFO root fetch - main [MainThread]: End processing [assistant-project]: success
+[2023-04-25 12:18:23] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-04-25 12:18:23] INFO root fetch - main [MainThread]: End processing [halo-reader]: success
+[2023-04-25 12:18:23] INFO root fetch - processPackages [hera]: New version: [5.1.6] Old Version: [5.1.5]
+[2023-04-25 12:18:23] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/99/36/8821a054a092e1670598f6eba6a99c5bbaba5c89ff04e4f6104e3cf47c5a/hyfi_template-0.1.8.tar.gz
+[2023-04-25 12:18:23] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-04-25 12:18:24] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/1d/42/4474e227a9669746cf1396ddd5d61efe96ae85a13177e14cc89c0c71e30f/hyfi_template-0.1.9.tar.gz
+[2023-04-25 12:18:24] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-04-25 12:18:24] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.1.8.tar.gz tmp/hyfi_template-0.1.9.tar.gz --markdown 20230425/h/hyfi-template/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 12:18:24] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/c6/5a/5ece80961d38413373668f6a513a519d712e71fa2d7a87cfb87992d4f934/hera-5.1.6.tar.gz
+[2023-04-25 12:18:24] INFO root fetch - processPackages [hera]: executing diffoscope
+[2023-04-25 12:18:24] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.1.5.tar.gz tmp/hera-5.1.6.tar.gz --markdown 20230425/h/hera/5.1.5-5.1.6/diff.md --exclude *.pyd
+[2023-04-25 12:18:24] INFO root fetch - main [MainThread]: End processing [ev-fleet-sim]: success
+[2023-04-25 12:18:25] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-04-25 12:18:25] INFO root fetch - main [MainThread]: End processing [hcpdiff]: success
+[2023-04-25 12:18:25] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2023-04-25 12:18:26] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-04-25 12:18:26] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-25 12:18:28] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-25 12:18:28] INFO root fetch - main [MainThread]: Store serial: [17847283]

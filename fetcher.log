@@ -16236,3 +16236,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 14:40:56] INFO root fetch - main [MainThread]: End processing [oc-delivery-apps]: success
 [2023-04-25 14:41:02] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
 [2023-04-25 14:41:02] INFO root fetch - main [MainThread]: Store serial: [17848941]
+[2023-04-25 14:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848941]
+[2023-04-25 14:46:11] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psytricks
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coolmongo
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coolmysql
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selenium-kit
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-nlp
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: texta-bert-tagger
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SpectroscopicBinarySystem
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marshmallow-recipe
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trubrics
+[2023-04-25 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: msspeech
+[2023-04-25 14:46:11] INFO root fetch - processPackages [marshmallow-recipe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 14:46:11] INFO root fetch - processPackages [selenium-kit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 14:46:11] INFO root fetch - processPackages [trubrics]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-25 14:46:11] WARNING root fetch - processPackages [SpectroscopicBinarySystem]: Skipping, unable to determine old version
+[2023-04-25 14:46:11] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Start processing: simplekml2
+[2023-04-25 14:46:11] INFO root fetch - processPackages [texta-bert-tagger]: New version: [3.0.0] Old Version: [2.3.9]
+[2023-04-25 14:46:11] INFO root fetch - processPackages [coolmongo]: New version: [1.3.1] Old Version: [1.3]
+[2023-04-25 14:46:11] INFO root fetch - processPackages [coolmysql]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-25 14:46:11] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem] error
+[2023-04-25 14:46:11] INFO root fetch - processPackages [psytricks]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-04-25 14:46:11] INFO root fetch - processPackages [msspeech]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-04-25 14:46:11] WARNING root fetch - processPackages [simplekml2]: Skipping, unable to determine old version
+[2023-04-25 14:46:11] INFO root fetch - processPackages [simplekml2]: Start processing: rwthcolors
+[2023-04-25 14:46:11] INFO root fetch - main [MainThread]: End processing [simplekml2] error
+[2023-04-25 14:46:11] INFO root fetch - processPackages [spark-nlp]: New version: [4.4.1] Old Version: [4.4.0]
+[2023-04-25 14:46:11] INFO root fetch - processPackages [rwthcolors]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-25 14:46:11] INFO root fetch - processPackages [marshmallow-recipe]: executing diffoscope
+[2023-04-25 14:46:11] INFO root fetch - processPackages [marshmallow-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marshmallow-recipe-0.0.8.tar.gz tmp/marshmallow-recipe-0.0.9.tar.gz --markdown 20230425/m/marshmallow-recipe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [coolmongo]: Downloading https://files.pythonhosted.org/packages/61/49/8818371ecf0d4456975cd085d2b1428536c12248a74d47546db34de2ca80/coolmongo-1.3.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/91/d5/9936a90cd78f434795e3a8fe50c2bd3e2bcf4aaad0272993a3b71cea4325/psytricks-0.1.0.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [msspeech]: Downloading https://files.pythonhosted.org/packages/68/81/3077547c54082ddc65b383a5a39fd383bf83f7eb51f76993288c0ccd60cf/msspeech-3.7.8.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [texta-bert-tagger]: Downloading https://files.pythonhosted.org/packages/ca/d3/17bbc28053423be768016ad1be1b7ea699ae19ccbb3df512433782e3c229/texta-bert-tagger-2.3.9.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [spark-nlp]: Downloading https://files.pythonhosted.org/packages/2e/aa/19e34297e3cc22a0f361c22cc366418158612bca8f5b9e3959c1f066f747/spark-nlp-4.4.0.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [selenium-kit]: Downloading https://files.pythonhosted.org/packages/2b/13/0df4f836b430a1099e19fe301d8b3ada5b602adc9887b93e59768e013fe9/selenium-kit-0.0.3.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/32/59/5bfb195efd5ee822dcca165c5eb4c61ac5996d79571b5dbf447b59af0681/trubrics-1.3.4.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [selenium-kit]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [selenium-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-kit-0.0.2.tar.gz tmp/selenium-kit-0.0.3.tar.gz --markdown 20230425/s/selenium-kit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [coolmysql]: Downloading https://files.pythonhosted.org/packages/5f/30/33e4014c1e869f78696ac9885ecdd1b97dcb81c044a0edc9161656e6e4b8/coolmysql-1.4.4.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [rwthcolors]: Downloading https://files.pythonhosted.org/packages/31/37/cda0654ab335dfe5dac7bf46f9837afe245eebb601108e92695246a039be/rwthcolors-0.2.3.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [coolmysql]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [coolmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolmysql-1.4.3.tar.gz tmp/coolmysql-1.4.4.tar.gz --markdown 20230425/c/coolmysql/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/66/d2/114c5bb8daacbec23cb5d813aa782e3840aba1c8cc66d2b90c21c3a8281e/trubrics-1.3.5.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [rwthcolors]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [rwthcolors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwthcolors-0.2.2.tar.gz tmp/rwthcolors-0.2.3.tar.gz --markdown 20230425/r/rwthcolors/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [coolmongo]: Downloading https://files.pythonhosted.org/packages/3e/9d/f73d83101f2f087badfba427e23a29ca6b287157e4423a2284f2b8d76470/coolmongo-1.3.1.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [trubrics]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [trubrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trubrics-1.3.4.tar.gz tmp/trubrics-1.3.5.tar.gz --markdown 20230425/t/trubrics/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/9a/83/06263862cf10b607274ab71fc30c983a07ca668c2f64ed072cc08450f941/psytricks-1.0.0.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [coolmongo]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [coolmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolmongo-1.3.tar.gz tmp/coolmongo-1.3.1.tar.gz --markdown 20230425/c/coolmongo/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [psytricks]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [psytricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psytricks-0.1.0.tar.gz tmp/psytricks-1.0.0.tar.gz --markdown 20230425/p/psytricks/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [msspeech]: Downloading https://files.pythonhosted.org/packages/64/f1/8b182732b5b457549e01900b9fad6da96b8c5348cf100935d6c167dea6f0/msspeech-3.7.9.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [spark-nlp]: Downloading https://files.pythonhosted.org/packages/62/86/6b6c79f923db6ece28dd1c96d088fd2cc01ef7c748021ecb5fe73355635a/spark-nlp-4.4.1.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [msspeech]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [msspeech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msspeech-3.7.8.tar.gz tmp/msspeech-3.7.9.tar.gz --markdown 20230425/m/msspeech/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [spark-nlp]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [spark-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-nlp-4.4.0.tar.gz tmp/spark-nlp-4.4.1.tar.gz --markdown 20230425/s/spark-nlp/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2023-04-25 14:46:12] INFO root fetch - processPackages [texta-bert-tagger]: Downloading https://files.pythonhosted.org/packages/e3/0c/f36f299f8c0c32ad9e23f09bbd610b0f670566d2375d5bf68ca9142ce91b/texta-bert-tagger-3.0.0.tar.gz
+[2023-04-25 14:46:12] INFO root fetch - processPackages [texta-bert-tagger]: executing diffoscope
+[2023-04-25 14:46:12] INFO root fetch - processPackages [texta-bert-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texta-bert-tagger-2.3.9.tar.gz tmp/texta-bert-tagger-3.0.0.tar.gz --markdown 20230425/t/texta-bert-tagger/2.3.9-3.0.0/diff.md --exclude *.pyd
+[2023-04-25 14:46:13] INFO root fetch - processPackages [coolmysql]: Start processing: pynamer
+[2023-04-25 14:46:13] INFO root fetch - main [MainThread]: End processing [coolmysql]: success
+[2023-04-25 14:46:13] INFO root fetch - processPackages [pynamer]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-25 14:46:13] INFO root fetch - processPackages [marshmallow-recipe]: Start processing: morph-kgc
+[2023-04-25 14:46:13] INFO root fetch - main [MainThread]: End processing [marshmallow-recipe]: success
+[2023-04-25 14:46:13] INFO root fetch - processPackages [morph-kgc]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-04-25 14:46:13] INFO root fetch - processPackages [selenium-kit]: Start processing: here-search-demo
+[2023-04-25 14:46:13] INFO root fetch - main [MainThread]: End processing [selenium-kit]: success
+[2023-04-25 14:46:13] INFO root fetch - processPackages [here-search-demo]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-25 14:46:13] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/68/02/19292e19c0f1f63fd9e362449e70499b7d56f9acead540e19f9a215feeed/pynamer-0.2.0.tar.gz
+[2023-04-25 14:46:13] INFO root fetch - processPackages [rwthcolors]: Start processing: via-hub-logistc
+[2023-04-25 14:46:13] INFO root fetch - main [MainThread]: End processing [rwthcolors]: success
+[2023-04-25 14:46:13] INFO root fetch - processPackages [via-hub-logistc]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-25 14:46:14] INFO root fetch - processPackages [morph-kgc]: Downloading https://files.pythonhosted.org/packages/7d/1e/c590d9e071985a6e4990689ca6ca28ffb1997b9786e11df0d8f2e98ee860/morph_kgc-2.5.0.tar.gz
+[2023-04-25 14:46:14] INFO root fetch - processPackages [here-search-demo]: Downloading https://files.pythonhosted.org/packages/b1/08/4e85450d9897735a7530bfab425772d1acb1b99fe0976401d08c90ef43dc/here-search-demo-0.8.0.tar.gz
+[2023-04-25 14:46:14] INFO root fetch - processPackages [coolmongo]: Start processing: SpectroscopicBinarySystem
+[2023-04-25 14:46:14] INFO root fetch - main [MainThread]: End processing [coolmongo]: success
+[2023-04-25 14:46:14] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-25 14:46:14] INFO root fetch - processPackages [via-hub-logistc]: Downloading https://files.pythonhosted.org/packages/c5/bd/85a64aa606953f29b4ad8e7a30f2e7c1b42ea6840b4a9f2b4d3eaf195e08/via-hub-logistc-1.0.6.tar.gz
+[2023-04-25 14:46:14] INFO root fetch - main [MainThread]: End processing [msspeech]: success
+[2023-04-25 14:46:14] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/3d/7e/eb1ed15eab680977fc12be855d98d7c34909984f5120b409d93ed7086e78/pynamer-0.3.0.tar.gz
+[2023-04-25 14:46:14] INFO root fetch - processPackages [here-search-demo]: Downloading https://files.pythonhosted.org/packages/19/17/9db9b46f9493551aee154a476bb4f983b267c274b6045cda566f1dfc1ca8/here-search-demo-0.8.1.tar.gz
+[2023-04-25 14:46:14] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/0b/33/724585534f2bda793169ffb3a97761e2c9f4e128d142183d39ca63f91bdd/SpectroscopicBinarySystem-1.0.4.tar.gz
+[2023-04-25 14:46:14] INFO root fetch - processPackages [via-hub-logistc]: executing diffoscope
+[2023-04-25 14:46:14] INFO root fetch - processPackages [via-hub-logistc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-hub-logistc-1.0.5.tar.gz tmp/via-hub-logistc-1.0.6.tar.gz --markdown 20230425/v/via-hub-logistc/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-25 14:46:14] INFO root fetch - processPackages [morph-kgc]: Downloading https://files.pythonhosted.org/packages/8d/36/03e47351251c13087019d2567b1a1f675bedf41f8f057960450978a18aa7/morph_kgc-2.5.1.tar.gz
+[2023-04-25 14:46:14] INFO root fetch - main [MainThread]: End processing [texta-bert-tagger]: success
+[2023-04-25 14:46:14] INFO root fetch - processPackages [here-search-demo]: executing diffoscope
+[2023-04-25 14:46:14] INFO root fetch - processPackages [here-search-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/here-search-demo-0.8.0.tar.gz tmp/here-search-demo-0.8.1.tar.gz --markdown 20230425/h/here-search-demo/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-25 14:46:14] INFO root fetch - processPackages [pynamer]: executing diffoscope
+[2023-04-25 14:46:14] INFO root fetch - processPackages [pynamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamer-0.2.0.tar.gz tmp/pynamer-0.3.0.tar.gz --markdown 20230425/p/pynamer/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-25 14:46:14] INFO root fetch - processPackages [morph-kgc]: executing diffoscope
+[2023-04-25 14:46:14] INFO root fetch - processPackages [morph-kgc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morph_kgc-2.5.0.tar.gz tmp/morph_kgc-2.5.1.tar.gz --markdown 20230425/m/morph-kgc/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-04-25 14:46:14] INFO root fetch - main [MainThread]: End processing [psytricks]: success
+[2023-04-25 14:46:14] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/36/19/8f7ae02ba5a870244dae69f6353fe4b467e5640af4a261a9e41b3d6227e3/SpectroscopicBinarySystem-1.0.5.tar.gz
+[2023-04-25 14:46:14] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-04-25 14:46:14] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.0.4.tar.gz tmp/SpectroscopicBinarySystem-1.0.5.tar.gz --markdown 20230425/S/SpectroscopicBinarySystem/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-25 14:46:14] INFO root fetch - main [MainThread]: End processing [spark-nlp]: success
+[2023-04-25 14:46:14] INFO root fetch - main [MainThread]: End processing [trubrics]: success
+[2023-04-25 14:46:15] INFO root fetch - main [MainThread]: End processing [pynamer]: success
+[2023-04-25 14:46:15] INFO root fetch - main [MainThread]: End processing [via-hub-logistc]: success
+[2023-04-25 14:46:15] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-04-25 14:46:16] INFO root fetch - main [MainThread]: End processing [here-search-demo]: success
+[2023-04-25 14:46:31] INFO root fetch - main [MainThread]: End processing [morph-kgc]: success
+[2023-04-25 14:46:31] INFO root fetch - main [MainThread]: Store serial: [17848992]

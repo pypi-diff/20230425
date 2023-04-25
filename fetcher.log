@@ -8855,3 +8855,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 07:24:09] INFO root fetch - main [MainThread]: End processing [DXR]: success
 [2023-04-25 07:24:10] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
 [2023-04-25 07:24:10] INFO root fetch - main [MainThread]: Store serial: [17844626]
+[2023-04-25 07:29:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844626]
+[2023-04-25 07:29:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stableml-interface
+[2023-04-25 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcbot-celery-sdk
+[2023-04-25 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numpypandas
+[2023-04-25 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strictly-typed-pandas
+[2023-04-25 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-webui-api
+[2023-04-25 07:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2023-04-25 07:29:19] WARNING root fetch - processPackages [stableml-interface]: Skipping, unable to determine old version
+[2023-04-25 07:29:19] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 07:29:19] INFO root fetch - main [MainThread]: End processing [stableml-interface] error
+[2023-04-25 07:29:19] WARNING root fetch - processPackages [numpypandas]: Skipping, unable to determine old version
+[2023-04-25 07:29:19] INFO root fetch - main [MainThread]: End processing [numpypandas] error
+[2023-04-25 07:29:19] INFO root fetch - processPackages [strictly-typed-pandas]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-25 07:29:19] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-25 07:29:20] WARNING root fetch - processPackages [easy-webui-api]: Skipping, unable to determine old version
+[2023-04-25 07:29:20] INFO root fetch - main [MainThread]: End processing [easy-webui-api] error
+[2023-04-25 07:29:20] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-04-25 07:29:20] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230425/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 07:29:20] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-25 07:29:20] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230425/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-25 07:29:20] INFO root fetch - processPackages [strictly-typed-pandas]: Downloading https://files.pythonhosted.org/packages/5a/fe/612c7ae5360e5d8bd7cd639ce633afc68b6d094a508c75cc800cc5d3f4ef/strictly_typed_pandas-0.1.5.tar.gz
+[2023-04-25 07:29:20] INFO root fetch - processPackages [strictly-typed-pandas]: Downloading https://files.pythonhosted.org/packages/08/ae/5bbd9f81d4faca66a867cfa8eb386f43a76468b5c57ab9e63156451e7c8e/strictly_typed_pandas-0.1.6.tar.gz
+[2023-04-25 07:29:20] INFO root fetch - processPackages [strictly-typed-pandas]: executing diffoscope
+[2023-04-25 07:29:20] INFO root fetch - processPackages [strictly-typed-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictly_typed_pandas-0.1.5.tar.gz tmp/strictly_typed_pandas-0.1.6.tar.gz --markdown 20230425/s/strictly-typed-pandas/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-25 07:29:21] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-04-25 07:29:21] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-25 07:29:21] INFO root fetch - main [MainThread]: End processing [strictly-typed-pandas]: success
+[2023-04-25 07:29:21] INFO root fetch - main [MainThread]: Store serial: [17844648]

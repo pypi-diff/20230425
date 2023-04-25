@@ -7898,3 +7898,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:30:16] INFO root fetch - processPackages [MAVProxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAVProxy-1.8.8.tar.gz tmp/MAVProxy-1.8.9.tar.gz --markdown 20230425/M/MAVProxy/1.8.8-1.8.9/diff.md --exclude *.pyd
 [2023-04-25 05:30:23] INFO root fetch - main [MainThread]: End processing [MAVProxy]: success
 [2023-04-25 05:30:23] INFO root fetch - main [MainThread]: Store serial: [17844026]
+[2023-04-25 05:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844026]
+[2023-04-25 05:35:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 05:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adsb-tools
+[2023-04-25 05:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: askedith
+[2023-04-25 05:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygptj
+[2023-04-25 05:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FLAML
+[2023-04-25 05:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-mypackage
+[2023-04-25 05:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hmku
+[2023-04-25 05:35:32] INFO root fetch - processPackages [adsb-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 05:35:32] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-25 05:35:32] INFO root fetch - processPackages [FLAML]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-25 05:35:32] WARNING root fetch - processPackages [test-mypackage]: Skipping, unable to determine old version
+[2023-04-25 05:35:32] INFO root fetch - processPackages [hmku]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-25 05:35:32] INFO root fetch - main [MainThread]: End processing [test-mypackage] error
+[2023-04-25 05:35:32] INFO root fetch - processPackages [pygptj]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-25 05:35:32] INFO root fetch - processPackages [adsb-tools]: Downloading https://files.pythonhosted.org/packages/94/df/ee6975a94030afe703aba0357584d23170ceeaf37c370f8cf9f3d64b0e99/adsb_tools-0.1.8.tar.gz
+[2023-04-25 05:35:32] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/8b/9c/d857e04273c372f4bc184a0812fe15424d0c269deca5617a8486d4fd8e97/askedith-0.9.6-py3-none-any.whl
+[2023-04-25 05:35:32] INFO root fetch - processPackages [hmku]: Downloading https://files.pythonhosted.org/packages/5a/0e/ef3b1715c29b3fd855641aed6b07d50c02b67db81c866cf1d461d0ddec68/hmku-1.0.1.tar.gz
+[2023-04-25 05:35:32] INFO root fetch - processPackages [FLAML]: Downloading https://files.pythonhosted.org/packages/ae/59/221c9bd121d329fb471f93d99f2417deedbe6e704923b5961192f1d2243d/FLAML-1.2.1.tar.gz
+[2023-04-25 05:35:32] INFO root fetch - processPackages [adsb-tools]: Downloading https://files.pythonhosted.org/packages/bc/b7/7f1110da5c231ecb277aa444b7a0f2e64e20e14610d4502072dceeed2745/adsb_tools-0.1.9.tar.gz
+[2023-04-25 05:35:32] INFO root fetch - processPackages [adsb-tools]: executing diffoscope
+[2023-04-25 05:35:32] INFO root fetch - processPackages [adsb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsb_tools-0.1.8.tar.gz tmp/adsb_tools-0.1.9.tar.gz --markdown 20230425/a/adsb-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 05:35:33] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/9d/d2/9aeaa1f77d708557f6c7f3ff74bb1a67c1af643e9d33130da843c696cc3c/pygptj-1.0.6.tar.gz
+[2023-04-25 05:35:33] INFO root fetch - processPackages [FLAML]: Downloading https://files.pythonhosted.org/packages/0f/36/f3d9eb79762f93f168b0d552c7b9ddca5d551df52e937c79b8bfd752b48b/FLAML-1.2.2.tar.gz
+[2023-04-25 05:35:33] INFO root fetch - processPackages [hmku]: Downloading https://files.pythonhosted.org/packages/e7/c6/27f99118c87f5b4f96b35dd81999178a793f9ffc87f0c993f9e4f2fd78d6/hmku-1.0.2.tar.gz
+[2023-04-25 05:35:33] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/56/82/c1a6938e9e7452568ffff201a420669db73f22068f98a93e809a76c1381e/askedith-0.9.7-py3-none-any.whl
+[2023-04-25 05:35:33] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-04-25 05:35:33] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-1.0.5.tar.gz tmp/pygptj-1.0.6.tar.gz --markdown 20230425/p/pygptj/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-25 05:35:33] INFO root fetch - processPackages [FLAML]: executing diffoscope
+[2023-04-25 05:35:33] INFO root fetch - processPackages [FLAML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FLAML-1.2.1.tar.gz tmp/FLAML-1.2.2.tar.gz --markdown 20230425/F/FLAML/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-25 05:35:33] INFO root fetch - processPackages [hmku]: executing diffoscope
+[2023-04-25 05:35:33] INFO root fetch - processPackages [hmku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmku-1.0.1.tar.gz tmp/hmku-1.0.2.tar.gz --markdown 20230425/h/hmku/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-25 05:35:33] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-04-25 05:35:33] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230425/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-25 05:35:34] INFO root fetch - main [MainThread]: End processing [adsb-tools]: success
+[2023-04-25 05:35:34] INFO root fetch - main [MainThread]: End processing [hmku]: success
+[2023-04-25 05:35:34] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-04-25 05:35:34] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-04-25 05:35:34] INFO root fetch - main [MainThread]: End processing [FLAML]: success
+[2023-04-25 05:35:34] INFO root fetch - main [MainThread]: Store serial: [17844074]

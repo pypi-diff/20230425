@@ -8765,3 +8765,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 07:11:00] INFO root fetch - main [MainThread]: End processing [echolocator]: success
 [2023-04-25 07:13:44] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-04-25 07:13:44] INFO root fetch - main [MainThread]: Store serial: [17844591]
+[2023-04-25 07:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844591]
+[2023-04-25 07:18:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-25 07:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DXR
+[2023-04-25 07:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deso
+[2023-04-25 07:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tritondse
+[2023-04-25 07:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moftransformer
+[2023-04-25 07:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DXR
+[2023-04-25 07:18:53] INFO root fetch - processPackages [tritondse]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 07:18:53] INFO root fetch - processPackages [DXR]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-04-25 07:18:53] INFO root fetch - processPackages [moftransformer]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-25 07:18:53] INFO root fetch - processPackages [DXR]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-04-25 07:18:53] INFO root fetch - processPackages [deso]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-25 07:18:53] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/86/bc/9159610a024bfe7b79f56064aadebbe7acd8fb4551be593af99aca4eb852/tritondse-0.1.1.tar.gz
+[2023-04-25 07:18:53] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/54/75/c4a08d32c3e07b357db72f961cfcfde0c5ea9b90e5fa67be491ce79e502f/DXR-1.7.4.tar.gz
+[2023-04-25 07:18:53] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/54/75/c4a08d32c3e07b357db72f961cfcfde0c5ea9b90e5fa67be491ce79e502f/DXR-1.7.4.tar.gz
+[2023-04-25 07:18:53] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/ee/2a/4ef3625d01aa2fc58c89deb83f4e5c1d6e3802c3d2a846ca5b33ca6433e3/moftransformer-1.1.2.tar.gz
+[2023-04-25 07:18:53] INFO root fetch - processPackages [deso]: Downloading https://files.pythonhosted.org/packages/b3/f7/3a0eb74136c8920f50988e85bf3a6906067e4ce4efc89129331e46891c69/deso-2.3.1.tar.gz
+[2023-04-25 07:18:53] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/d6/ed/a4f5ea0cd9ebb6a4a6f0d42301ecbed2e9b48d7e3314292fab62360cfb74/tritondse-0.1.2.tar.gz
+[2023-04-25 07:18:53] INFO root fetch - processPackages [deso]: executing diffoscope
+[2023-04-25 07:18:53] INFO root fetch - processPackages [deso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deso-2.3.0.tar.gz tmp/deso-2.3.1.tar.gz --markdown 20230425/d/deso/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-25 07:18:54] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/86/83/33c64ba318695d174b15d1415b6df63c67a5329c5a889d53555cc1dda38b/DXR-1.7.5.tar.gz
+[2023-04-25 07:18:54] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/86/83/33c64ba318695d174b15d1415b6df63c67a5329c5a889d53555cc1dda38b/DXR-1.7.5.tar.gz
+[2023-04-25 07:18:54] INFO root fetch - processPackages [tritondse]: executing diffoscope
+[2023-04-25 07:18:54] INFO root fetch - processPackages [tritondse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritondse-0.1.1.tar.gz tmp/tritondse-0.1.2.tar.gz --markdown 20230425/t/tritondse/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 07:18:54] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-04-25 07:18:54] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/35/96/8784dc8635ff3fe23ff2860950bd09f1452de8587d4c0eeecd4f7b9ede8b/moftransformer-1.1.3.tar.gz
+[2023-04-25 07:18:54] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.7.4.tar.gz tmp/DXR-1.7.5.tar.gz --markdown 20230425/D/DXR/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-04-25 07:18:54] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-04-25 07:18:54] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.7.4.tar.gz tmp/DXR-1.7.5.tar.gz --markdown 20230425/D/DXR/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-04-25 07:18:54] INFO root fetch - processPackages [moftransformer]: executing diffoscope
+[2023-04-25 07:18:54] INFO root fetch - processPackages [moftransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moftransformer-1.1.2.tar.gz tmp/moftransformer-1.1.3.tar.gz --markdown 20230425/m/moftransformer/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-25 07:18:55] INFO root fetch - main [MainThread]: End processing [deso]: success
+[2023-04-25 07:18:55] INFO root fetch - main [MainThread]: End processing [tritondse]: success
+[2023-04-25 07:18:55] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-04-25 07:18:55] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-04-25 07:18:57] INFO root fetch - main [MainThread]: End processing [moftransformer]: success
+[2023-04-25 07:18:57] INFO root fetch - main [MainThread]: Store serial: [17844603]

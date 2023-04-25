@@ -6716,3 +6716,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 03:46:51] INFO root fetch - main [MainThread]: End processing [chunkdot]: success
 [2023-04-25 03:46:51] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2023-04-25 03:46:51] INFO root fetch - main [MainThread]: Store serial: [17843383]
+[2023-04-25 03:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843383]
+[2023-04-25 03:52:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydrogibs
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpc-orb
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flextoolslib
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydrogibs
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ChatOCR
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NewCode-Utils
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ChatDocument
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hello2
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chunkdot
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: augraphy
+[2023-04-25 03:52:00] INFO root fetch - processPackages [flextoolslib]: New version: [2023.4.25] Old Version: [2023.4.21]
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hydrogibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hydrogibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 03:52:00] INFO root fetch - processPackages [mpc-orb]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-04-25 03:52:00] INFO root fetch - processPackages [augraphy]: New version: [8.2.2] Old Version: [8.2.1]
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ChatDocument]: New version: [2023.4.25.9.50.0] Old Version: [2023.4.25.9.49.22]
+[2023-04-25 03:52:00] INFO root fetch - processPackages [chunkdot]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-25 03:52:00] INFO root fetch - processPackages [NewCode-Utils]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-25 03:52:00] WARNING root fetch - processPackages [ChatOCR]: Skipping, unable to determine old version
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ChatOCR]: Start processing: ChatMind
+[2023-04-25 03:52:00] INFO root fetch - main [MainThread]: End processing [ChatOCR] error
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hello2]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-25 03:52:00] WARNING root fetch - processPackages [ChatMind]: Skipping, unable to determine old version
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ChatMind]: Start processing: ChatDocument
+[2023-04-25 03:52:00] INFO root fetch - main [MainThread]: End processing [ChatMind] error
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ChatDocument]: New version: [2023.4.25.9.50.0] Old Version: [2023.4.25.9.49.22]
+[2023-04-25 03:52:00] INFO root fetch - processPackages [flextoolslib]: Downloading https://files.pythonhosted.org/packages/91/1d/5a62aeceb22bed61a7a60a98086a62bf780af92c5ee23cdc4ab1f32d3dcd/flextoolslib-2023.4.21-py36.py37.py38-none-any.whl
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/18/94/4c644b3d4528426d3045c1785dc4c328c1b174f2fe1d46cda46b2ae34e65/hydrogibs-0.0.7.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/18/94/4c644b3d4528426d3045c1785dc4c328c1b174f2fe1d46cda46b2ae34e65/hydrogibs-0.0.7.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [mpc-orb]: Downloading https://files.pythonhosted.org/packages/3e/fb/5d7514015b6f354cf9028d7a26979fa5c772403b1f400031395405531c22/mpc_orb-0.1.4.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ChatDocument]: Downloading https://files.pythonhosted.org/packages/2f/3f/adef2223e3e95b53727188383795840ff811736eb220fff19f49699a8c16/ChatDocument-2023.4.25.9.49.22.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [augraphy]: Downloading https://files.pythonhosted.org/packages/df/6c/3fcb0b2eb8733e9d9252328a94102ea14809d882a2dd3608aa1719dd6cfa/augraphy-8.2.1.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [ChatDocument]: Downloading https://files.pythonhosted.org/packages/2f/3f/adef2223e3e95b53727188383795840ff811736eb220fff19f49699a8c16/ChatDocument-2023.4.25.9.49.22.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [chunkdot]: Downloading https://files.pythonhosted.org/packages/8a/53/c71afa9e8c8382637bc172d3d04f4debd9f1cc537cc85ec8c4326de9c465/chunkdot-0.2.4.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/e2/4f/484731ac47ccc39b8ace52d8549fb27d2f3c5d8c8a44b2833ef31c190110/NewCode-Utils-1.0.5.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/6d/d7/128ed13a31aa32ed539a97040eb05cd258dbe152ab5c1eb40c34b155523e/hello2-1.6.3.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [NewCode-Utils]: executing diffoscope
+[2023-04-25 03:52:00] INFO root fetch - processPackages [NewCode-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewCode-Utils-1.0.4.tar.gz tmp/NewCode-Utils-1.0.5.tar.gz --markdown 20230425/N/NewCode-Utils/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-25 03:52:00] INFO root fetch - processPackages [chunkdot]: executing diffoscope
+[2023-04-25 03:52:00] INFO root fetch - processPackages [chunkdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chunkdot-0.2.3.tar.gz tmp/chunkdot-0.2.4.tar.gz --markdown 20230425/c/chunkdot/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.6.2.tar.gz tmp/hello2-1.6.3.tar.gz --markdown 20230425/h/hello2/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/76/a0/df9c3c37b261bf14f8c4d0e0e3a401e21740004bb19f55bb8e2e93d62d28/hydrogibs-0.0.8.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/76/a0/df9c3c37b261bf14f8c4d0e0e3a401e21740004bb19f55bb8e2e93d62d28/hydrogibs-0.0.8.tar.gz
+[2023-04-25 03:52:00] INFO root fetch - processPackages [mpc-orb]: Downloading https://files.pythonhosted.org/packages/9c/53/8bf19d1815e125c4ff5734990ede00029af67d0a5473fe6213a916e6424b/mpc_orb-0.1.6.tar.gz
+[2023-04-25 03:52:01] INFO root fetch - processPackages [augraphy]: Downloading https://files.pythonhosted.org/packages/51/44/9aecc16a655b62124a58cf92e235151eff52c22f7c4059aebe265ecfc8b9/augraphy-8.2.2.tar.gz
+[2023-04-25 03:52:01] INFO root fetch - processPackages [flextoolslib]: Downloading https://files.pythonhosted.org/packages/ff/5e/edb5233470bf7e03cd7ef5f32a6ef9f8a34769ba83b0a5f9a3bdc6408c5f/flextoolslib-2023.4.25-py36.py37.py38-none-any.whl
+[2023-04-25 03:52:01] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-04-25 03:52:01] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.7.tar.gz tmp/hydrogibs-0.0.8.tar.gz --markdown 20230425/h/hydrogibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 03:52:01] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-04-25 03:52:01] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.7.tar.gz tmp/hydrogibs-0.0.8.tar.gz --markdown 20230425/h/hydrogibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 03:52:01] INFO root fetch - processPackages [mpc-orb]: executing diffoscope
+[2023-04-25 03:52:01] INFO root fetch - processPackages [mpc-orb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_orb-0.1.4.tar.gz tmp/mpc_orb-0.1.6.tar.gz --markdown 20230425/m/mpc-orb/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-04-25 03:52:01] INFO root fetch - processPackages [flextoolslib]: executing diffoscope
+[2023-04-25 03:52:01] INFO root fetch - processPackages [flextoolslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flextoolslib-2023.4.21-py36.py37.py38-none-any.whl.zip tmp/flextoolslib-2023.4.25-py36.py37.py38-none-any.whl.zip --markdown 20230425/f/flextoolslib/2023.4.21-2023.4.25/diff.md --exclude *.pyd
+[2023-04-25 03:52:01] INFO root fetch - processPackages [augraphy]: executing diffoscope
+[2023-04-25 03:52:01] INFO root fetch - processPackages [augraphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augraphy-8.2.1.tar.gz tmp/augraphy-8.2.2.tar.gz --markdown 20230425/a/augraphy/8.2.1-8.2.2/diff.md --exclude *.pyd
+[2023-04-25 03:52:01] INFO root fetch - processPackages [ChatDocument]: Downloading https://files.pythonhosted.org/packages/3a/43/98867a57a33ac897b68aa7b449fe0ff46a61f262bf35a8d9e5ca419bf008/ChatDocument-2023.4.25.9.50.0.tar.gz
+[2023-04-25 03:52:01] INFO root fetch - processPackages [ChatDocument]: Downloading https://files.pythonhosted.org/packages/3a/43/98867a57a33ac897b68aa7b449fe0ff46a61f262bf35a8d9e5ca419bf008/ChatDocument-2023.4.25.9.50.0.tar.gz
+[2023-04-25 03:52:01] INFO root fetch - processPackages [ChatDocument]: executing diffoscope
+[2023-04-25 03:52:01] INFO root fetch - processPackages [ChatDocument]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatDocument-2023.4.25.9.49.22.tar.gz tmp/ChatDocument-2023.4.25.9.50.0.tar.gz --markdown 20230425/C/ChatDocument/2023.4.25.9.49.22-2023.4.25.9.50.0/diff.md --exclude *.pyd
+[2023-04-25 03:52:01] INFO root fetch - processPackages [ChatDocument]: executing diffoscope
+[2023-04-25 03:52:01] INFO root fetch - processPackages [ChatDocument]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatDocument-2023.4.25.9.49.22.tar.gz tmp/ChatDocument-2023.4.25.9.50.0.tar.gz --markdown 20230425/C/ChatDocument/2023.4.25.9.49.22-2023.4.25.9.50.0/diff.md --exclude *.pyd
+[2023-04-25 03:52:02] INFO root fetch - processPackages [NewCode-Utils]: Start processing: testudo
+[2023-04-25 03:52:02] INFO root fetch - main [MainThread]: End processing [NewCode-Utils]: success
+[2023-04-25 03:52:02] INFO root fetch - processPackages [testudo]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-25 03:52:02] INFO root fetch - processPackages [testudo]: Downloading https://files.pythonhosted.org/packages/39/51/30d097f556917ba30ea4960c330a4883b44f4856bb970b977d0da8ca0b40/testudo-0.2.0.tar.gz
+[2023-04-25 03:52:02] INFO root fetch - processPackages [chunkdot]: Start processing: ChatAudio
+[2023-04-25 03:52:02] INFO root fetch - main [MainThread]: End processing [chunkdot]: success
+[2023-04-25 03:52:02] WARNING root fetch - processPackages [ChatAudio]: Skipping, unable to determine old version
+[2023-04-25 03:52:02] INFO root fetch - processPackages [ChatAudio]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-25 03:52:02] INFO root fetch - main [MainThread]: End processing [ChatAudio] error
+[2023-04-25 03:52:02] INFO root fetch - processPackages [hydrogibs]: Start processing: ChatSearch
+[2023-04-25 03:52:02] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-04-25 03:52:02] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-04-25 03:52:02] INFO root fetch - processPackages [hydrogibs]: Start processing: mplot
+[2023-04-25 03:52:02] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-04-25 03:52:02] INFO root fetch - processPackages [testudo]: Downloading https://files.pythonhosted.org/packages/80/45/9c6930036a7cd14509ab1d06b37baf485ec912d7fe7527a5642b221eee0c/testudo-0.3.0.tar.gz
+[2023-04-25 03:52:02] INFO root fetch - main [MainThread]: End processing [mpc-orb]: success
+[2023-04-25 03:52:02] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-25 03:52:02] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev8.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev9.tar.gz --markdown 20230425/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-25 03:52:02] WARNING root fetch - processPackages [ChatSearch]: Skipping, unable to determine old version
+[2023-04-25 03:52:02] INFO root fetch - main [MainThread]: End processing [ChatSearch] error
+[2023-04-25 03:52:02] INFO root fetch - processPackages [mplot]: New version: [0.220005] Old Version: [0.220004]
+[2023-04-25 03:52:02] INFO root fetch - processPackages [testudo]: executing diffoscope
+[2023-04-25 03:52:02] INFO root fetch - processPackages [testudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testudo-0.2.0.tar.gz tmp/testudo-0.3.0.tar.gz --markdown 20230425/t/testudo/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-25 03:52:02] INFO root fetch - processPackages [mplot]: Downloading https://files.pythonhosted.org/packages/6f/4e/7ddf0aa0d6101ce63516e4df6751430f6c92184b8af5903851f1528ebaf2/mplot-0.220004.tar.gz
+[2023-04-25 03:52:03] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-04-25 03:52:03] INFO root fetch - main [MainThread]: End processing [flextoolslib]: success
+[2023-04-25 03:52:03] INFO root fetch - main [MainThread]: End processing [augraphy]: success
+[2023-04-25 03:52:03] INFO root fetch - processPackages [mplot]: Downloading https://files.pythonhosted.org/packages/66/07/c91966654c9dbf33dd43c7c6c81fd09752723a7f6c8fe84805f97d227a0c/mplot-0.220005.tar.gz
+[2023-04-25 03:52:03] INFO root fetch - processPackages [mplot]: executing diffoscope
+[2023-04-25 03:52:03] INFO root fetch - processPackages [mplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mplot-0.220004.tar.gz tmp/mplot-0.220005.tar.gz --markdown 20230425/m/mplot/0.220004-0.220005/diff.md --exclude *.pyd
+[2023-04-25 03:52:03] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-25 03:52:03] INFO root fetch - main [MainThread]: End processing [ChatDocument]: success
+[2023-04-25 03:52:04] INFO root fetch - main [MainThread]: End processing [testudo]: success
+[2023-04-25 03:52:04] INFO root fetch - main [MainThread]: End processing [mplot]: success
+[2023-04-25 03:52:05] INFO root fetch - main [MainThread]: End processing [ChatDocument]: success
+[2023-04-25 03:52:05] INFO root fetch - main [MainThread]: Store serial: [17843444]

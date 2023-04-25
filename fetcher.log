@@ -1307,3 +1307,44 @@
 [2023-04-25 02:10:56] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-04-25 02:10:58] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2023-04-25 02:10:58] INFO root fetch - main [MainThread]: Store serial: [17840790]
+[2023-04-25 02:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840790]
+[2023-04-25 02:16:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.codepipeline-extensions
+[2023-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-skylight
+[2023-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-gitlab-runner
+[2023-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: armada-airflow
+[2023-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-ignite
+[2023-04-25 02:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-stacksets
+[2023-04-25 02:16:07] INFO root fetch - processPackages [armada-airflow]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-04-25 02:16:07] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 02:16:07] INFO root fetch - processPackages [cdk-stacksets]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-04-25 02:16:07] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-25 02:16:07] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230425] Old Version: [0.5.0.dev20230424]
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-04-25 02:16:08] INFO root fetch - processPackages [armada-airflow]: Downloading https://files.pythonhosted.org/packages/1d/49/8df3be9a26ccce13a6a580a6192b585e012841711301203ff80709fdc5cb/armada_airflow-0.2.7-py3-none-any.whl
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdk-stacksets]: Downloading https://files.pythonhosted.org/packages/65/90/b0c3e1cf1bce31066473f15f59980fd611dcb724eedbe5f3e3f99da00ae7/cdk-stacksets-0.0.9.tar.gz
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/ea/6a/31dec9ea90eb05420ca00a8cc9f7487988af061e792da50916c395acf5d3/pytorch-ignite-0.5.0.dev20230425.tar.gz
+[2023-04-25 02:16:08] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-04-25 02:16:08] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-04-25 02:16:08] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230424.tar.gz tmp/pytorch-ignite-0.5.0.dev20230425.tar.gz --markdown 20230425/p/pytorch-ignite/0.5.0.dev20230424-0.5.0.dev20230425/diff.md --exclude *.pyd
+[2023-04-25 02:16:08] INFO root fetch - processPackages [armada-airflow]: Downloading https://files.pythonhosted.org/packages/43/c8/df975a0a811b9097be56648e8d7c5082c368da8318781d354917e27bf108/armada_airflow-0.3.0-py3-none-any.whl
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdk-stacksets]: executing diffoscope
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdk-stacksets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-stacksets-0.0.84.tar.gz tmp/cdk-stacksets-0.0.9.tar.gz --markdown 20230425/c/cdk-stacksets/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 02:16:08] INFO root fetch - processPackages [armada-airflow]: executing diffoscope
+[2023-04-25 02:16:08] INFO root fetch - processPackages [armada-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armada_airflow-0.2.7-py3-none-any.whl.zip tmp/armada_airflow-0.3.0-py3-none-any.whl.zip --markdown 20230425/a/armada-airflow/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230425/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-04-25 02:16:08] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230425/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-25 02:16:09] INFO root fetch - main [MainThread]: End processing [cdk-stacksets]: success
+[2023-04-25 02:16:09] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-04-25 02:16:09] INFO root fetch - main [MainThread]: End processing [armada-airflow]: success
+[2023-04-25 02:16:10] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-04-25 02:16:10] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-04-25 02:16:10] INFO root fetch - main [MainThread]: Store serial: [17840810]

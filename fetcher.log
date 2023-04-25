@@ -7768,3 +7768,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:14:36] INFO root fetch - main [MainThread]: End processing [analphipy]: success
 [2023-04-25 05:14:37] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-04-25 05:14:37] INFO root fetch - main [MainThread]: Store serial: [17843970]
+[2023-04-25 05:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843970]
+[2023-04-25 05:19:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyVIA
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-dns
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jmcomic
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marllib
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-roborock
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-queuey
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ggvlib
+[2023-04-25 05:19:46] INFO root fetch - processPackages [marllib]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-25 05:19:46] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-04-25 05:19:46] INFO root fetch - processPackages [np-queuey]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 05:19:46] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-25 05:19:46] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 05:19:46] INFO root fetch - processPackages [python-roborock]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-25 05:19:46] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-25 05:19:47] INFO root fetch - processPackages [jmcomic]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-04-25 05:19:47] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-04-25 05:19:47] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.1.8.tar.gz tmp/np_queuey-0.1.9.tar.gz --markdown 20230425/n/np-queuey/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 05:19:47] INFO root fetch - processPackages [marllib]: Downloading https://files.pythonhosted.org/packages/95/8d/23a93b643d2945b66eb7fcde3a6ddb376bc65df5a8341a86b7d2797c2386/marllib-1.0.2.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-04-25 05:19:47] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230425/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-25 05:19:47] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Downloading https://files.pythonhosted.org/packages/aa/11/20acb9fc7234a2a6efb9e9650064488b3e46bcf7acb3be2448c20d527225/cdktf-cdktf-provider-dns-4.0.1.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-04-25 05:19:47] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230425/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-25 05:19:47] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/dc/10/40e16de960cd5b2aa5180eab462eabee721422b02a1e0ffbbae199545e21/pyVIA-0.1.8.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/2c/df/ec17be479e58b8a759331f3191cffb26ef44d53019a5bc946e9fe21b4b9a/python_roborock-0.7.0.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/13/46/a5a90b423b62d63c20fc7514d2a5edd4afb01a5025c784816e3f8f7de67f/jmcomic-1.6.0.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [marllib]: Downloading https://files.pythonhosted.org/packages/36/4d/29346a82e74e9c032b0051ced4cdcf0a5b75a3ccc538d24c94f89340bfb8/marllib-1.0.3.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: Downloading https://files.pythonhosted.org/packages/8e/43/b9ad3bcafc00d332c64bb382d2fe64053f53bc8b88cffbe39dda06ec7b3e/cdktf-cdktf-provider-dns-4.0.2.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/74/a2/915cbe1bfd315d4016e5decabd56427e12455251772264b14e3e6d54eed6/python_roborock-0.7.1.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/9f/78/39e69998af4637c723ec6b44bb5ae20affcd9b288b7f2ab52935e51d7b61/jmcomic-1.7.0.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [marllib]: executing diffoscope
+[2023-04-25 05:19:47] INFO root fetch - processPackages [marllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marllib-1.0.2.tar.gz tmp/marllib-1.0.3.tar.gz --markdown 20230425/m/marllib/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-25 05:19:47] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/bd/5d/14b0cba02cfede3b95cd9d5da09d97df025ef9b2e4a6efd991707631f113/pyVIA-0.1.9.tar.gz
+[2023-04-25 05:19:47] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: executing diffoscope
+[2023-04-25 05:19:47] INFO root fetch - processPackages [cdktf-cdktf-provider-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-dns-4.0.1.tar.gz tmp/cdktf-cdktf-provider-dns-4.0.2.tar.gz --markdown 20230425/c/cdktf-cdktf-provider-dns/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-04-25 05:19:47] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-25 05:19:47] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.7.0.tar.gz tmp/python_roborock-0.7.1.tar.gz --markdown 20230425/p/python-roborock/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-25 05:19:47] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-04-25 05:19:47] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-1.6.0.tar.gz tmp/jmcomic-1.7.0.tar.gz --markdown 20230425/j/jmcomic/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-04-25 05:19:47] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-04-25 05:19:47] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.8.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230425/p/pyVIA/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 05:19:48] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-04-25 05:19:48] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-04-25 05:19:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-04-25 05:19:49] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-25 05:19:49] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-04-25 05:19:49] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-04-25 05:19:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dns]: success
+[2023-04-25 05:19:51] INFO root fetch - main [MainThread]: End processing [marllib]: success
+[2023-04-25 05:19:51] INFO root fetch - main [MainThread]: Store serial: [17843993]

@@ -14774,3 +14774,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 13:25:49] INFO root fetch - main [MainThread]: End processing [qontract-development-cli]: success
 [2023-04-25 13:25:50] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-25 13:25:50] INFO root fetch - main [MainThread]: Store serial: [17848105]
+[2023-04-25 13:30:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848105]
+[2023-04-25 13:30:59] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valida
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blockpipe-client
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strangeworks-qaoa
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrew
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQEA
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sohuprompt
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ja3requests
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abilian-devtools
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchserve-nightly
+[2023-04-25 13:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Video-Audio-Image-Downloader
+[2023-04-25 13:30:59] INFO root fetch - processPackages [blockpipe-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 13:30:59] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-25 13:30:59] INFO root fetch - processPackages [abilian-devtools]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-25 13:31:00] INFO root fetch - processPackages [sohuprompt]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-25 13:31:00] INFO root fetch - processPackages [valida]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-25 13:31:00] INFO root fetch - processPackages [strangeworks-qaoa]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 13:31:00] INFO root fetch - processPackages [abilian-devtools]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [abilian-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abilian_devtools-0.4.8.tar.gz tmp/abilian_devtools-0.4.9.tar.gz --markdown 20230425/a/abilian-devtools/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] WARNING root fetch - processPackages [PyQEA]: Skipping, unable to determine old version
+[2023-04-25 13:31:00] INFO root fetch - processPackages [PyQEA]: Start processing: torch-model-archiver-nightly
+[2023-04-25 13:31:00] INFO root fetch - main [MainThread]: End processing [PyQEA] error
+[2023-04-25 13:31:00] WARNING root fetch - processPackages [ja3requests]: Skipping, unable to determine old version
+[2023-04-25 13:31:00] INFO root fetch - processPackages [ja3requests]: Start processing: torch-workflow-archiver-nightly
+[2023-04-25 13:31:00] INFO root fetch - main [MainThread]: End processing [ja3requests] error
+[2023-04-25 13:31:00] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-25 13:31:00] INFO root fetch - processPackages [blockpipe-client]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [blockpipe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockpipe-client-0.1.1.tar.gz tmp/blockpipe-client-0.1.2.tar.gz --markdown 20230425/b/blockpipe-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-25 13:31:00] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230425/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-25 13:31:00] INFO root fetch - processPackages [sohuprompt]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [sohuprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sohuprompt-1.0.3.tar.gz tmp/sohuprompt-1.0.4.tar.gz --markdown 20230425/s/sohuprompt/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/82/319f3c998c1b886c648e7560fce0ad6d68fa06b6b8807405ce7adbe77519/torchserve_nightly-2023.4.8-py3-none-any.whl
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230425/t/torch-model-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] INFO root fetch - processPackages [valida]: Downloading https://files.pythonhosted.org/packages/f4/3f/5c6849086f1bafdc65517a11a4662056dbe29acd955ff4f49b0d0eef24d1/valida-0.5.1.tar.gz
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230425/t/torch-workflow-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] INFO root fetch - processPackages [strangeworks-qaoa]: Downloading https://files.pythonhosted.org/packages/e0/57/6763929da0f81b61aaeedefcbdc90ca7e7ef86e47a31dcc6f440f2536ede/strangeworks_qaoa-0.1.1.tar.gz
+[2023-04-25 13:31:00] INFO root fetch - processPackages [valida]: Downloading https://files.pythonhosted.org/packages/80/50/5e9579d6de00a6e967f52db744e4c80ce86024e485cefdcf9e78c2608f9f/valida-0.5.2.tar.gz
+[2023-04-25 13:31:00] INFO root fetch - processPackages [strangeworks-qaoa]: Downloading https://files.pythonhosted.org/packages/0e/80/87dad4122efe1bd4733f95de3906848d894c396f24cdeffba5c09536bbe4/strangeworks_qaoa-0.1.2.tar.gz
+[2023-04-25 13:31:00] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: Downloading https://files.pythonhosted.org/packages/ef/93/7c16cb3ce0a8cc9e353bc35af5b4507a80ceb74cd509369cb962cef43f00/Video_Audio_Image_Downloader-0.1.0.tar.gz
+[2023-04-25 13:31:00] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23695640>=10485760
+[2023-04-25 13:31:00] INFO root fetch - processPackages [torchserve-nightly]: Start processing: bluetooth-mesh
+[2023-04-25 13:31:00] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-04-25 13:31:00] INFO root fetch - processPackages [valida]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [valida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valida-0.5.1.tar.gz tmp/valida-0.5.2.tar.gz --markdown 20230425/v/valida/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] INFO root fetch - processPackages [strangeworks-qaoa]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [strangeworks-qaoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_qaoa-0.1.1.tar.gz tmp/strangeworks_qaoa-0.1.2.tar.gz --markdown 20230425/s/strangeworks-qaoa/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: executing diffoscope
+[2023-04-25 13:31:00] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Video_Audio_Image_Downloader-0.0.9.tar.gz tmp/Video_Audio_Image_Downloader-0.1.0.tar.gz --markdown 20230425/V/Video-Audio-Image-Downloader/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-25 13:31:00] INFO root fetch - processPackages [bluetooth-mesh]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-25 13:31:01] INFO root fetch - processPackages [bluetooth-mesh]: Downloading https://files.pythonhosted.org/packages/22/81/ff971b663a0090078ef4ae4cf162c876dbe03c483a8030a327b42a5a626a/bluetooth-mesh-0.8.1.tar.gz
+[2023-04-25 13:31:01] INFO root fetch - processPackages [bluetooth-mesh]: Downloading https://files.pythonhosted.org/packages/42/fa/7a742954f07abf908b7b9e25cff7589ea2099ee39b4419009c06c5cec7ec/bluetooth-mesh-0.8.2.tar.gz
+[2023-04-25 13:31:01] INFO root fetch - processPackages [bluetooth-mesh]: executing diffoscope
+[2023-04-25 13:31:01] INFO root fetch - processPackages [bluetooth-mesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth-mesh-0.8.1.tar.gz tmp/bluetooth-mesh-0.8.2.tar.gz --markdown 20230425/b/bluetooth-mesh/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-25 13:31:01] INFO root fetch - processPackages [pyrew]: Start processing: torchrec-nightly
+[2023-04-25 13:31:01] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-25 13:31:01] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.4.9] Old Version: [2023.4.7]
+[2023-04-25 13:31:01] INFO root fetch - processPackages [blockpipe-client]: Start processing: ler
+[2023-04-25 13:31:01] INFO root fetch - main [MainThread]: End processing [blockpipe-client]: success
+[2023-04-25 13:31:01] INFO root fetch - processPackages [ler]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 13:31:01] INFO root fetch - processPackages [abilian-devtools]: Start processing: bitget-python-connector
+[2023-04-25 13:31:01] INFO root fetch - main [MainThread]: End processing [abilian-devtools]: success
+[2023-04-25 13:31:01] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-04-25 13:31:01] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.4.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.4.9-py39-none-any.whl.zip --markdown 20230425/t/torchrec-nightly/2023.4.7-2023.4.9/diff.md --exclude *.pyd
+[2023-04-25 13:31:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: tortik
+[2023-04-25 13:31:01] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-04-25 13:31:01] INFO root fetch - processPackages [ler]: executing diffoscope
+[2023-04-25 13:31:01] INFO root fetch - processPackages [ler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ler-0.1.1.tar.gz tmp/ler-0.1.2.tar.gz --markdown 20230425/l/ler/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 13:31:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: abulafia
+[2023-04-25 13:31:01] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-04-25 13:31:01] WARNING root fetch - processPackages [bitget-python-connector]: Skipping, unable to determine old version
+[2023-04-25 13:31:01] INFO root fetch - processPackages [bitget-python-connector]: Start processing: corbett
+[2023-04-25 13:31:01] INFO root fetch - main [MainThread]: End processing [bitget-python-connector] error
+[2023-04-25 13:31:01] INFO root fetch - processPackages [tortik]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-25 13:31:02] INFO root fetch - processPackages [abulafia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 13:31:02] WARNING root fetch - processPackages [corbett]: Skipping, unable to determine old version
+[2023-04-25 13:31:02] INFO root fetch - processPackages [corbett]: Start processing: pgx
+[2023-04-25 13:31:02] INFO root fetch - main [MainThread]: End processing [corbett] error
+[2023-04-25 13:31:02] INFO root fetch - processPackages [tortik]: Downloading https://files.pythonhosted.org/packages/a1/1c/2464cf305050bfe38be4d8b6076dcf5733d499eb357d81779d14757743e8/tortik-0.2.8.tar.gz
+[2023-04-25 13:31:02] INFO root fetch - processPackages [pgx]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-25 13:31:02] INFO root fetch - processPackages [strangeworks-qaoa]: Start processing: bigdl-dllib
+[2023-04-25 13:31:02] INFO root fetch - main [MainThread]: End processing [strangeworks-qaoa]: success
+[2023-04-25 13:31:02] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-25 13:31:02] INFO root fetch - processPackages [abulafia]: Downloading https://files.pythonhosted.org/packages/e7/fb/d3a70090d4247ea6e1de36e55ddac870c82e809c3d3ff6306db5dbe2edea/abulafia-0.1.8.tar.gz
+[2023-04-25 13:31:02] INFO root fetch - main [MainThread]: End processing [Video-Audio-Image-Downloader]: success
+[2023-04-25 13:31:02] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/bc/3f/c85f6d576d71b98d56969068678ac0ecc4552bddacf12d1fe1aa70944f36/bigdl-dllib-2.4.0b20230423.tar.gz
+[2023-04-25 13:31:02] INFO root fetch - processPackages [tortik]: Downloading https://files.pythonhosted.org/packages/7d/9d/ebad4c4b73d9c5090186106e5573a4bda96cae047d023a21df8b0c84a033/tortik-0.2.9.tar.gz
+[2023-04-25 13:31:02] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/44/71/0adc5658512225ac85d6e6c590934b6b43bb1ffa6b3dc151e6c1f87bc86e/pgx-0.5.2.tar.gz
+[2023-04-25 13:31:02] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560815>=10485760
+[2023-04-25 13:31:02] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-04-25 13:31:02] INFO root fetch - processPackages [abulafia]: Downloading https://files.pythonhosted.org/packages/08/2c/1242bc29905244a803fe906387982ab625c6db7cce5ec81f4f56c476e3a2/abulafia-0.1.9.tar.gz
+[2023-04-25 13:31:02] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-04-25 13:31:02] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.5.1.tar.gz tmp/pgx-0.5.2.tar.gz --markdown 20230425/p/pgx/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-25 13:31:02] INFO root fetch - main [MainThread]: End processing [valida]: success
+[2023-04-25 13:31:02] INFO root fetch - processPackages [abulafia]: executing diffoscope
+[2023-04-25 13:31:02] INFO root fetch - processPackages [abulafia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abulafia-0.1.8.tar.gz tmp/abulafia-0.1.9.tar.gz --markdown 20230425/a/abulafia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 13:31:03] INFO root fetch - main [MainThread]: End processing [ler]: success
+[2023-04-25 13:31:03] INFO root fetch - processPackages [tortik]: executing diffoscope
+[2023-04-25 13:31:03] INFO root fetch - processPackages [tortik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortik-0.2.8.tar.gz tmp/tortik-0.2.9.tar.gz --markdown 20230425/t/tortik/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-25 13:31:03] INFO root fetch - main [MainThread]: End processing [bluetooth-mesh]: success
+[2023-04-25 13:31:03] INFO root fetch - main [MainThread]: End processing [sohuprompt]: success
+[2023-04-25 13:31:03] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-04-25 13:31:04] INFO root fetch - main [MainThread]: End processing [tortik]: success
+[2023-04-25 13:31:04] INFO root fetch - main [MainThread]: End processing [abulafia]: success
+[2023-04-25 13:31:05] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-04-25 13:31:05] INFO root fetch - main [MainThread]: Store serial: [17848195]

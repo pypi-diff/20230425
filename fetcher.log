@@ -9803,3 +9803,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:54:03] INFO root fetch - main [MainThread]: End processing [panda-server]: success
 [2023-04-25 08:54:05] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-04-25 08:54:05] INFO root fetch - main [MainThread]: Store serial: [17845218]
+[2023-04-25 08:59:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845218]
+[2023-04-25 08:59:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyNOT-redux
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nope-py
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Aestate
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: table-fifth
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: excel-sql-engine
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peppermining
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chanfig
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quorum-data-py
+[2023-04-25 08:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: api-Rocket
+[2023-04-25 08:59:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solr2rabbitmq
+[2023-04-25 08:59:15] INFO root fetch - processPackages [quorum-data-py]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [nope-py]: New version: [1.7.1a2] Old Version: [1.7.1a1]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [chanfig]: New version: [0.0.9.post7] Old Version: [0.0.9.post5]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [api-Rocket]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [excel-sql-engine]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [PyNOT-redux]: New version: [1.2] Old Version: [1.1]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [chanfig]: executing diffoscope
+[2023-04-25 08:59:15] INFO root fetch - processPackages [api-Rocket]: executing diffoscope
+[2023-04-25 08:59:15] INFO root fetch - processPackages [chanfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanfig-0.0.9.post5.tar.gz tmp/chanfig-0.0.9.post7.tar.gz --markdown 20230425/c/chanfig/0.0.9.post5-0.0.9.post7/diff.md --exclude *.pyd
+[2023-04-25 08:59:15] INFO root fetch - processPackages [api-Rocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-Rocket-1.3.4.tar.gz tmp/api-Rocket-1.3.5.tar.gz --markdown 20230425/a/api-Rocket/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-25 08:59:15] INFO root fetch - processPackages [nope-py]: executing diffoscope
+[2023-04-25 08:59:15] WARNING root fetch - processPackages [table-fifth]: Skipping, unable to determine old version
+[2023-04-25 08:59:15] INFO root fetch - processPackages [nope-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nope_py-1.7.1a1.tar.gz tmp/nope_py-1.7.1a2.tar.gz --markdown 20230425/n/nope-py/1.7.1a1-1.7.1a2/diff.md --exclude *.pyd
+[2023-04-25 08:59:15] INFO root fetch - processPackages [table-fifth]: Start processing: dank-mids
+[2023-04-25 08:59:15] INFO root fetch - main [MainThread]: End processing [table-fifth] error
+[2023-04-25 08:59:15] INFO root fetch - processPackages [peppermining]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [solr2rabbitmq]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [Aestate]: New version: [1.0.9] Old Version: [1.0.8a1]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-04-25 08:59:15] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-04-25 08:59:15] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230425/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-04-25 08:59:15] INFO root fetch - processPackages [quorum-data-py]: Downloading https://files.pythonhosted.org/packages/1d/6a/bc181eec90ea7a2cec3e7f4ac581fb204ae535e2ed08db7667ba78e7028b/quorum_data_py-1.2.4.tar.gz
+[2023-04-25 08:59:15] INFO root fetch - processPackages [PyNOT-redux]: Downloading https://files.pythonhosted.org/packages/26/13/95ba4421c4930f232e79e55d3318e8432c7679a5d3282cd71042f09130ff/PyNOT-redux-1.1.tar.gz
+[2023-04-25 08:59:15] INFO root fetch - processPackages [peppermining]: Downloading https://files.pythonhosted.org/packages/4f/47/8d7638bc1af7c26b1330305b1e1bfe51e61c8fa6c60ad85f659d2a5ecb99/peppermining-0.1.0.tar.gz
+[2023-04-25 08:59:15] INFO root fetch - processPackages [Aestate]: Downloading https://files.pythonhosted.org/packages/e4/16/2ffd46ed33f476a36c88a22d258e76828f02776781c6e40524cad4ac95c7/Aestate-1.0.8a1.tar.gz
+[2023-04-25 08:59:15] INFO root fetch - processPackages [excel-sql-engine]: Downloading https://files.pythonhosted.org/packages/ca/87/4b229141c37b26a961fd746081f8aad9f264140191e47758c288ab36ed3b/excel-sql-engine-1.6.2.tar.gz
+[2023-04-25 08:59:15] INFO root fetch - processPackages [quorum-data-py]: executing diffoscope
+[2023-04-25 08:59:15] INFO root fetch - processPackages [quorum-data-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_data_py-1.2.3.tar.gz tmp/quorum_data_py-1.2.4.tar.gz --markdown 20230425/q/quorum-data-py/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-25 08:59:15] INFO root fetch - processPackages [solr2rabbitmq]: Downloading https://files.pythonhosted.org/packages/bd/a6/523854c38576eba64d1eaaa4cadbbb36f627c28e9fd6d908976732c10893/solr2rabbitmq-1.1.5-py3-none-any.whl
+[2023-04-25 08:59:15] INFO root fetch - processPackages [peppermining]: Downloading https://files.pythonhosted.org/packages/62/87/6f87604f446b61a158803c37847aa96e989c1a1595303c582a4522e0df8c/peppermining-0.1.1.tar.gz
+[2023-04-25 08:59:15] INFO root fetch - processPackages [PyNOT-redux]: Downloading https://files.pythonhosted.org/packages/75/a5/3aacdda386ed3580ed76344e800cf4b489c096daa1810e634494d03d1c4d/PyNOT-redux-1.2.tar.gz
+[2023-04-25 08:59:15] INFO root fetch - processPackages [Aestate]: Downloading https://files.pythonhosted.org/packages/97/87/2bb320a12af7b9dc71b5de0e94a27810ad5b85d9932d179f4180b17489cf/Aestate-1.0.9.tar.gz
+[2023-04-25 08:59:15] INFO root fetch - processPackages [excel-sql-engine]: executing diffoscope
+[2023-04-25 08:59:15] INFO root fetch - processPackages [excel-sql-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel-sql-engine-1.6.1.tar.gz tmp/excel-sql-engine-1.6.2.tar.gz --markdown 20230425/e/excel-sql-engine/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-04-25 08:59:15] INFO root fetch - processPackages [peppermining]: executing diffoscope
+[2023-04-25 08:59:15] INFO root fetch - processPackages [peppermining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peppermining-0.1.0.tar.gz tmp/peppermining-0.1.1.tar.gz --markdown 20230425/p/peppermining/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 08:59:15] INFO root fetch - processPackages [Aestate]: executing diffoscope
+[2023-04-25 08:59:15] INFO root fetch - processPackages [Aestate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aestate-1.0.8a1.tar.gz tmp/Aestate-1.0.9.tar.gz --markdown 20230425/A/Aestate/1.0.8a1-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 08:59:15] INFO root fetch - processPackages [PyNOT-redux]: executing diffoscope
+[2023-04-25 08:59:15] INFO root fetch - processPackages [PyNOT-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNOT-redux-1.1.tar.gz tmp/PyNOT-redux-1.2.tar.gz --markdown 20230425/P/PyNOT-redux/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-25 08:59:16] INFO root fetch - processPackages [solr2rabbitmq]: Downloading https://files.pythonhosted.org/packages/37/56/4347d18fc49119fb8f9e3ce60842be9df3032b69c0d5d70c13bf5f48d26e/solr2rabbitmq-1.1.6-py3-none-any.whl
+[2023-04-25 08:59:16] INFO root fetch - processPackages [solr2rabbitmq]: executing diffoscope
+[2023-04-25 08:59:16] INFO root fetch - processPackages [solr2rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solr2rabbitmq-1.1.5-py3-none-any.whl.zip tmp/solr2rabbitmq-1.1.6-py3-none-any.whl.zip --markdown 20230425/s/solr2rabbitmq/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-25 08:59:16] INFO root fetch - main [MainThread]: End processing [chanfig]: success
+[2023-04-25 08:59:16] INFO root fetch - main [MainThread]: End processing [api-Rocket]: success
+[2023-04-25 08:59:16] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-04-25 08:59:16] INFO root fetch - main [MainThread]: End processing [quorum-data-py]: success
+[2023-04-25 08:59:17] INFO root fetch - main [MainThread]: End processing [peppermining]: success
+[2023-04-25 08:59:17] INFO root fetch - main [MainThread]: End processing [Aestate]: success
+[2023-04-25 08:59:17] INFO root fetch - main [MainThread]: End processing [solr2rabbitmq]: success
+[2023-04-25 08:59:17] INFO root fetch - main [MainThread]: End processing [excel-sql-engine]: success
+[2023-04-25 08:59:18] INFO root fetch - main [MainThread]: End processing [nope-py]: success
+[2023-04-25 08:59:19] INFO root fetch - main [MainThread]: End processing [PyNOT-redux]: success
+[2023-04-25 08:59:19] INFO root fetch - main [MainThread]: Store serial: [17845267]

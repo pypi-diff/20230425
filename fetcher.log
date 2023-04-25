@@ -11609,3 +11609,157 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:41:27] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-04-25 10:42:46] INFO root fetch - main [MainThread]: End processing [basx-bread]: success
 [2023-04-25 10:42:46] INFO root fetch - main [MainThread]: Store serial: [17846227]
+[2023-04-25 10:47:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17846227]
+[2023-04-25 10:47:56] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-analysis-bilibili
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-grasshopper-radiance
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mipac
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edman-web
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sitesweeper
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scikit-rt
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: woe-scoring
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: here-polyline-converter
+[2023-04-25 10:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maus
+[2023-04-25 10:47:56] INFO root fetch - processPackages [mipac]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [edman-web]: New version: [2023.4.5] Old Version: [2023.4.4.1]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-04-25 10:47:56] WARNING root fetch - processPackages [here-polyline-converter]: Skipping, unable to determine old version
+[2023-04-25 10:47:56] INFO root fetch - processPackages [here-polyline-converter]: Start processing: terka
+[2023-04-25 10:47:56] INFO root fetch - main [MainThread]: End processing [here-polyline-converter] error
+[2023-04-25 10:47:56] INFO root fetch - processPackages [sitesweeper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [woe-scoring]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [scikit-rt]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [terka]: New version: [1.6.4.9] Old Version: [1.6.4.8]
+[2023-04-25 10:47:56] INFO root fetch - processPackages [terka]: executing diffoscope
+[2023-04-25 10:47:56] INFO root fetch - processPackages [terka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terka-1.6.4.8.tar.gz tmp/terka-1.6.4.9.tar.gz --markdown 20230425/t/terka/1.6.4.8-1.6.4.9/diff.md --exclude *.pyd
+[2023-04-25 10:47:56] INFO root fetch - processPackages [woe-scoring]: executing diffoscope
+[2023-04-25 10:47:56] INFO root fetch - processPackages [woe-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_scoring-0.8.0.tar.gz tmp/woe_scoring-0.9.0.tar.gz --markdown 20230425/w/woe-scoring/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 10:47:56] INFO root fetch - processPackages [mipac]: Downloading https://files.pythonhosted.org/packages/b2/dd/a68fc0fe09260b17fe9bd7b31927ff5feace47ef261aa5287e8a19b05c59/mipac-0.4.2.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/c3/57/ac591be324cb132d38f36eaea7ae2aae9fc4bcf4cd7f8428fc256489f38e/nonebot_plugin_analysis_bilibili-2.4.8.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Downloading https://files.pythonhosted.org/packages/c5/57/e62f02310363fe5e170d0080379047075c89078b9a0f26010d29334fc7a7/honeybee-grasshopper-radiance-1.9.4.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [sitesweeper]: Downloading https://files.pythonhosted.org/packages/7c/2e/498ed23059ac1dce9f5f4957ec5b2195069c079e0f0dfb82e51897e0cc27/sitesweeper-1.0.0.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/42/6e/98f1fe5d128f6e2dcfbb70a971bd60fe6c202241e1d77b389cfd96a77db8/edman_web-2023.4.4.1.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/36/44/d98c8829d71fed324169706bf0a5bafee62f190d9180e1ea8e90d00f6d46/scikit-rt-0.4.3.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [maus]: Downloading https://files.pythonhosted.org/packages/a4/23/5ac39406dc701aee5fdafeb6350a30fef179218b19107073277eb52e9478/maus-0.3.8.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [mipac]: Downloading https://files.pythonhosted.org/packages/4b/e7/2722d076634015920fbbe2526bbae1c269b357a075bbce4e1990f7d14f46/mipac-0.4.3.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-04-25 10:47:56] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230425/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-25 10:47:56] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Downloading https://files.pythonhosted.org/packages/89/22/b4cc43aff670e532652ae8a42b6895588f08b25c4aa4ffe9e664eaa3070d/nonebot_plugin_analysis_bilibili-2.4.9.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [sitesweeper]: Downloading https://files.pythonhosted.org/packages/89/08/99301190e51f27782b2091b4f5ea1a6cb9759547d5ad3c8f2f9df2ba4665/sitesweeper-1.0.1.tar.gz
+[2023-04-25 10:47:56] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Downloading https://files.pythonhosted.org/packages/98/2b/58d14159864fadd0311230f7a15bbc845650cf115c191c0830bfe73c4035/honeybee-grasshopper-radiance-1.9.5.tar.gz
+[2023-04-25 10:47:57] INFO root fetch - processPackages [maus]: Downloading https://files.pythonhosted.org/packages/11/45/026d34b52f83a6417b7fafbe9c0acbf0025b3260ec976596144262094a61/maus-0.3.9.tar.gz
+[2023-04-25 10:47:57] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/ad/32/00d6b75d3a830e6f299543c7d08e9babd09fdeb0f58a954436313793eb2e/scikit-rt-0.4.4.tar.gz
+[2023-04-25 10:47:57] INFO root fetch - processPackages [mipac]: executing diffoscope
+[2023-04-25 10:47:57] INFO root fetch - processPackages [mipac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mipac-0.4.2.tar.gz tmp/mipac-0.4.3.tar.gz --markdown 20230425/m/mipac/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-25 10:47:57] INFO root fetch - processPackages [sitesweeper]: executing diffoscope
+[2023-04-25 10:47:57] INFO root fetch - processPackages [sitesweeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitesweeper-1.0.0.tar.gz tmp/sitesweeper-1.0.1.tar.gz --markdown 20230425/s/sitesweeper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-25 10:47:57] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/7e/5d/e977d290418a5ee3813ab4c3c67d1d8799d541c1e0380e74a615319f197e/edman_web-2023.4.5.tar.gz
+[2023-04-25 10:47:57] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-04-25 10:47:57] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230425/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 10:47:57] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: executing diffoscope
+[2023-04-25 10:47:57] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_analysis_bilibili-2.4.8.tar.gz tmp/nonebot_plugin_analysis_bilibili-2.4.9.tar.gz --markdown 20230425/n/nonebot-plugin-analysis-bilibili/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-04-25 10:47:57] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-04-25 10:47:57] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.4.3.tar.gz tmp/scikit-rt-0.4.4.tar.gz --markdown 20230425/s/scikit-rt/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-25 10:47:57] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2023-04-25 10:47:57] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2023.4.4.1.tar.gz tmp/edman_web-2023.4.5.tar.gz --markdown 20230425/e/edman-web/2023.4.4.1-2023.4.5/diff.md --exclude *.pyd
+[2023-04-25 10:47:57] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: executing diffoscope
+[2023-04-25 10:47:57] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-radiance-1.9.4.tar.gz tmp/honeybee-grasshopper-radiance-1.9.5.tar.gz --markdown 20230425/h/honeybee-grasshopper-radiance/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-25 10:47:58] INFO root fetch - processPackages [woe-scoring]: Start processing: dwh-oppfolging
+[2023-04-25 10:47:58] INFO root fetch - main [MainThread]: End processing [woe-scoring]: success
+[2023-04-25 10:47:58] INFO root fetch - processPackages [bagbag]: Start processing: webviz-subsurface
+[2023-04-25 10:47:58] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-04-25 10:47:58] INFO root fetch - processPackages [dwh-oppfolging]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 10:47:58] INFO root fetch - processPackages [webviz-subsurface]: New version: [0.2.9rc0] Old Version: [0.2.9]
+[2023-04-25 10:47:58] INFO root fetch - processPackages [terka]: Start processing: waffle-hub
+[2023-04-25 10:47:58] INFO root fetch - main [MainThread]: End processing [terka]: success
+[2023-04-25 10:47:58] INFO root fetch - processPackages [waffle-hub]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:47:58] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/bd/7e/5b047e6145691fd94030b91144fa2afefbfdc63cb48e64510f7889eb3d1e/dwh_oppfolging-0.0.8.tar.gz
+[2023-04-25 10:47:58] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/cb/b6/496b97d6e24433e8425adfc3e4ab3c08214fa937f58c70ff38f8097fe91a/webviz-subsurface-0.2.9.tar.gz
+[2023-04-25 10:47:58] INFO root fetch - processPackages [sitesweeper]: Start processing: swh.dataset
+[2023-04-25 10:47:58] INFO root fetch - main [MainThread]: End processing [sitesweeper]: success
+[2023-04-25 10:47:58] INFO root fetch - processPackages [swh.dataset]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-25 10:47:58] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/9d/8c/2c95ba70ef0600ceeaf57cdd50b70b306820d670fbba7f24bf8883dfd536/waffle_hub-0.1.8.tar.gz
+[2023-04-25 10:47:58] INFO root fetch - processPackages [swh.dataset]: Downloading https://files.pythonhosted.org/packages/a4/a1/bfb44dd3844056c10a3837d63087ca318a136ef1e6054e9c902848bb13b5/swh.dataset-1.3.2.tar.gz
+[2023-04-25 10:47:58] INFO root fetch - processPackages [nonebot-plugin-analysis-bilibili]: Start processing: CertfrTracker
+[2023-04-25 10:47:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-analysis-bilibili]: success
+[2023-04-25 10:47:58] INFO root fetch - processPackages [CertfrTracker]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-25 10:47:58] INFO root fetch - processPackages [edman-web]: Start processing: py-Ayra
+[2023-04-25 10:47:58] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2023-04-25 10:47:58] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/c4/4c/09f887372799ea7da993ba18f2595ecc1ab65b5b21a24e39383f41b193f7/webviz-subsurface-0.2.9rc0.tar.gz
+[2023-04-25 10:47:58] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/d7/53/d6168fd1cf2cce707cc3d8f9c54f278c6cb5a0b20d7af3d70b4516681c1b/dwh_oppfolging-0.0.9.tar.gz
+[2023-04-25 10:47:58] INFO root fetch - processPackages [py-Ayra]: New version: [8.6.5] Old Version: [8.6.4]
+[2023-04-25 10:47:58] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/36/fa/f8703bfaa09fc010e26965d4292d1d916beeb0517afa6000a0eea8ac11c9/waffle_hub-0.1.9.tar.gz
+[2023-04-25 10:47:58] INFO root fetch - processPackages [CertfrTracker]: Downloading https://files.pythonhosted.org/packages/de/06/f34a90d0eb708dadcd060ec1bd59599d73a8f1a253a846db3c4244d68e3a/certfrtracker-1.6.3.tar.gz
+[2023-04-25 10:47:58] INFO root fetch - processPackages [swh.dataset]: executing diffoscope
+[2023-04-25 10:47:58] INFO root fetch - processPackages [swh.dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.dataset-1.3.1.tar.gz tmp/swh.dataset-1.3.2.tar.gz --markdown 20230425/s/swh.dataset/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-25 10:47:58] INFO root fetch - processPackages [webviz-subsurface]: executing diffoscope
+[2023-04-25 10:47:58] INFO root fetch - processPackages [webviz-subsurface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-subsurface-0.2.9.tar.gz tmp/webviz-subsurface-0.2.9rc0.tar.gz --markdown 20230425/w/webviz-subsurface/0.2.9-0.2.9rc0/diff.md --exclude *.pyd
+[2023-04-25 10:47:59] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/1c/af/c094b38a9458756fbb4e13305cf360bc83aad62b849890e11f3cc2872fa8/py-Ayra-8.6.5.tar.gz
+[2023-04-25 10:47:59] INFO root fetch - processPackages [waffle-hub]: executing diffoscope
+[2023-04-25 10:47:59] INFO root fetch - processPackages [waffle-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_hub-0.1.8.tar.gz tmp/waffle_hub-0.1.9.tar.gz --markdown 20230425/w/waffle-hub/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:47:59] INFO root fetch - processPackages [CertfrTracker]: executing diffoscope
+[2023-04-25 10:47:59] INFO root fetch - processPackages [CertfrTracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certfrtracker-1.6.2.tar.gz tmp/certfrtracker-1.6.3.tar.gz --markdown 20230425/C/CertfrTracker/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-25 10:47:59] INFO root fetch - processPackages [dwh-oppfolging]: executing diffoscope
+[2023-04-25 10:47:59] INFO root fetch - processPackages [dwh-oppfolging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwh_oppfolging-0.0.8.tar.gz tmp/dwh_oppfolging-0.0.9.tar.gz --markdown 20230425/d/dwh-oppfolging/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:47:59] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-04-25 10:47:59] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-8.6.4.tar.gz tmp/py-Ayra-8.6.5.tar.gz --markdown 20230425/p/py-Ayra/8.6.4-8.6.5/diff.md --exclude *.pyd
+[2023-04-25 10:47:59] INFO root fetch - processPackages [maus]: Start processing: hsso
+[2023-04-25 10:47:59] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-04-25 10:47:59] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Start processing: xrprimer
+[2023-04-25 10:47:59] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-radiance]: success
+[2023-04-25 10:47:59] INFO root fetch - processPackages [hsso]: New version: [0.6] Old Version: [0.5]
+[2023-04-25 10:47:59] INFO root fetch - processPackages [xrprimer]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-25 10:47:59] INFO root fetch - processPackages [hsso]: Downloading https://files.pythonhosted.org/packages/85/b4/d3a9e6a7b28f5f487a80361b2f671583724cc5b3d133240eba0944e43647/hsso-0.5.tar.gz
+[2023-04-25 10:47:59] INFO root fetch - processPackages [scikit-rt]: Start processing: tfp-nightly
+[2023-04-25 10:47:59] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-04-25 10:48:00] INFO root fetch - processPackages [xrprimer]: Downloading https://files.pythonhosted.org/packages/fb/71/6c322a85c33a8c2c0ba750eb9a985c9cdba1fc1770653021d152b90e5954/xrprimer-0.6.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 10:48:00] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-04-25 10:48:00] WARNING root fetch - processPackages [xrprimer]: Skipping package: exceeds size limit 11134627>=10485760
+[2023-04-25 10:48:00] INFO root fetch - processPackages [xrprimer]: Start processing: zepben.evolve
+[2023-04-25 10:48:00] INFO root fetch - main [MainThread]: End processing [xrprimer] error
+[2023-04-25 10:48:00] INFO root fetch - processPackages [hsso]: Downloading https://files.pythonhosted.org/packages/eb/be/1f7c6232f86612651ac575e1e7200ab0b892e39ae64ff1a084a6c854aebf/hsso-0.6.tar.gz
+[2023-04-25 10:48:00] INFO root fetch - processPackages [zepben.evolve]: New version: [0.35.0b9] Old Version: [0.35.0b8]
+[2023-04-25 10:48:00] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-04-25 10:48:00] INFO root fetch - processPackages [CertfrTracker]: Start processing: feffery-antd-components
+[2023-04-25 10:48:00] INFO root fetch - main [MainThread]: End processing [CertfrTracker]: success
+[2023-04-25 10:48:00] INFO root fetch - processPackages [hsso]: executing diffoscope
+[2023-04-25 10:48:00] INFO root fetch - processPackages [hsso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsso-0.5.tar.gz tmp/hsso-0.6.tar.gz --markdown 20230425/h/hsso/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-25 10:48:00] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-04-25 10:48:00] INFO root fetch - processPackages [zepben.evolve]: Downloading https://files.pythonhosted.org/packages/3c/52/68c39e64538c250415cd6d029e45608e6961056e4ce7039b8404433ac826/zepben.evolve-0.35.0b8-py3-none-any.whl
+[2023-04-25 10:48:00] INFO root fetch - processPackages [waffle-hub]: Start processing: honeybee-ph
+[2023-04-25 10:48:00] INFO root fetch - main [MainThread]: End processing [waffle-hub]: success
+[2023-04-25 10:48:00] INFO root fetch - processPackages [honeybee-ph]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-25 10:48:00] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/37/de/e5329e98a8230e700feada20de8cae3358a0b58a4913ea71f3d1e13f3c21/feffery_antd_components-0.2.5.tar.gz
+[2023-04-25 10:48:00] INFO root fetch - processPackages [dwh-oppfolging]: Start processing: tff-nightly
+[2023-04-25 10:48:00] INFO root fetch - main [MainThread]: End processing [dwh-oppfolging]: success
+[2023-04-25 10:48:00] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230424] Old Version: [0.0.1.dev20230423]
+[2023-04-25 10:48:00] INFO root fetch - main [MainThread]: End processing [mipac]: success
+[2023-04-25 10:48:00] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/df/b8/fda4cf01d94f48d6d3083d5708571ff82cc12c33ab31021c75eae52fddf7/honeybee-ph-1.9.0.tar.gz
+[2023-04-25 10:48:00] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-04-25 10:48:00] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-04-25 10:48:00] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.3.tar.gz tmp/feffery_antd_components-0.2.5.tar.gz --markdown 20230425/f/feffery-antd-components/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-04-25 10:48:00] INFO root fetch - processPackages [zepben.evolve]: Downloading https://files.pythonhosted.org/packages/66/1b/a52596e200440f9a72d7d09097b404a931ff67b44418a525f5ec2c47603a/zepben.evolve-0.35.0b9-py3-none-any.whl
+[2023-04-25 10:48:00] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-04-25 10:48:01] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/ac/3b/94670944c4a0e9844a88bedad8d71fd687fa1d4179f07d807acb90be0100/honeybee-ph-1.9.1.tar.gz
+[2023-04-25 10:48:01] INFO root fetch - processPackages [zepben.evolve]: executing diffoscope
+[2023-04-25 10:48:01] INFO root fetch - processPackages [zepben.evolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.evolve-0.35.0b8-py3-none-any.whl.zip tmp/zepben.evolve-0.35.0b9-py3-none-any.whl.zip --markdown 20230425/z/zepben.evolve/0.35.0b8-0.35.0b9/diff.md --exclude *.pyd
+[2023-04-25 10:48:01] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/90/65/1f713a630357a472cf6455df80792ce45898b9b2004f0c1bf3083af04c76/tff_nightly-0.0.1.dev20230424-py2.py3-none-any.whl
+[2023-04-25 10:48:01] INFO root fetch - main [MainThread]: End processing [swh.dataset]: success
+[2023-04-25 10:48:01] INFO root fetch - processPackages [honeybee-ph]: executing diffoscope
+[2023-04-25 10:48:01] INFO root fetch - processPackages [honeybee-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-ph-1.9.0.tar.gz tmp/honeybee-ph-1.9.1.tar.gz --markdown 20230425/h/honeybee-ph/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-25 10:48:01] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-04-25 10:48:01] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230423-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230424-py2.py3-none-any.whl.zip --markdown 20230425/t/tff-nightly/0.0.1.dev20230423-0.0.1.dev20230424/diff.md --exclude *.pyd
+[2023-04-25 10:48:01] INFO root fetch - main [MainThread]: End processing [hsso]: success
+[2023-04-25 10:48:01] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-04-25 10:48:01] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230425/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-04-25 10:48:02] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
+[2023-04-25 10:48:04] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-04-25 10:48:04] INFO root fetch - main [MainThread]: End processing [zepben.evolve]: success
+[2023-04-25 10:48:04] INFO root fetch - main [MainThread]: End processing [webviz-subsurface]: success
+[2023-04-25 10:48:13] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-04-25 10:48:27] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-04-25 10:48:27] INFO root fetch - main [MainThread]: Store serial: [17846301]

@@ -16428,3 +16428,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 14:51:46] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-25 14:52:00] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-mathematics]: success
 [2023-04-25 14:52:00] INFO root fetch - main [MainThread]: Store serial: [17849048]
+[2023-04-25 14:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17849048]
+[2023-04-25 14:57:15] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weni-rp-apps
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-communities
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wcmp
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepsearch-toolkit
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis-property
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: itkwasm-compress-stringify-wasi
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: via-hub-logistc
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: itkwasm-compress-stringify-emscripten
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sampo
+[2023-04-25 14:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: retentioneering
+[2023-04-25 14:57:15] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a9] Old Version: [2.4.0a8]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [invenio-communities]: New version: [6.4.0] Old Version: [6.3.0]
+[2023-04-25 14:57:15] WARNING root fetch - processPackages [wcmp]: Skipping, unable to determine old version
+[2023-04-25 14:57:15] INFO root fetch - processPackages [itkwasm-compress-stringify-wasi]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [wcmp]: Start processing: certora-cli-alpha-master
+[2023-04-25 14:57:15] INFO root fetch - main [MainThread]: End processing [wcmp] error
+[2023-04-25 14:57:15] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [redis-property]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [via-hub-logistc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [deepsearch-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [retentioneering]: New version: [3.0.0rc1] Old Version: [3.0.0b2]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230425.2.27.754191] Old Version: [20230425.12.54.486356]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-25 14:57:15] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a8.tar.gz tmp/weni_rp_apps-2.4.0a9.tar.gz --markdown 20230425/w/weni-rp-apps/2.4.0a8-2.4.0a9/diff.md --exclude *.pyd
+[2023-04-25 14:57:15] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-25 14:57:15] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230425/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-25 14:57:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/dc/14/1bc96153baf573c045dadfcc749ccb7d27a59cefef3d9eb5c37a6c47fff9/certora-cli-alpha-master-20230425.12.54.486356.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/0d/52/bfbfa3497d88b51e65bf8c9b3596a2c8c498f97b1e2a31f1b50c8ce7df01/invenio-communities-6.3.0.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [via-hub-logistc]: Downloading https://files.pythonhosted.org/packages/5a/cd/eeba8402f667a8044ffac676a8b45f54bfbf82e62dded64f6358ec66814a/via-hub-logistc-1.0.9.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [retentioneering]: Downloading https://files.pythonhosted.org/packages/e9/06/313abe1fc34ac20522bdc44fcc12b2b9400fdfbe11a88a1d4eb12155a897/retentioneering-3.0.0b2.tar.gz
+[2023-04-25 14:57:15] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38062599>=10485760
+[2023-04-25 14:57:15] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: xia-engine
+[2023-04-25 14:57:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-25 14:57:15] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/53/66/33bde55a240a8b297e68f7746e32e0c49c3be34a0bef777b582ce892e75a/deepsearch_toolkit-0.8.0.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [redis-property]: Downloading https://files.pythonhosted.org/packages/11/ea/47060b7276a442d2ef3ca05582497f0194fbb06a0b863f15c88085e14082/redis-property-1.8.1.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: Downloading https://files.pythonhosted.org/packages/1a/dd/89edf411735e7cab39e979a181e7a68065516859c4f5a1b4fade59e3194f/itkwasm_compress_stringify_emscripten-0.4.4.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [via-hub-logistc]: executing diffoscope
+[2023-04-25 14:57:15] INFO root fetch - processPackages [via-hub-logistc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-hub-logistc-1.0.8.tar.gz tmp/via-hub-logistc-1.0.9.tar.gz --markdown 20230425/v/via-hub-logistc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 14:57:15] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: executing diffoscope
+[2023-04-25 14:57:15] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_compress_stringify_emscripten-0.4.3.tar.gz tmp/itkwasm_compress_stringify_emscripten-0.4.4.tar.gz --markdown 20230425/i/itkwasm-compress-stringify-emscripten/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-25 14:57:15] INFO root fetch - processPackages [xia-engine]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-25 14:57:15] INFO root fetch - processPackages [itkwasm-compress-stringify-wasi]: Downloading https://files.pythonhosted.org/packages/a5/26/1b8a70df48bafc5bf35ac0391594b08be82df8d91feec9de5db1b45ddc6e/itkwasm_compress_stringify_wasi-0.4.4.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/ee/34/3858fe00b45e9259f994098392b574ea138a43a25e9f327e4068df80d320/invenio-communities-6.4.0.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [itkwasm-compress-stringify-wasi]: executing diffoscope
+[2023-04-25 14:57:15] INFO root fetch - processPackages [itkwasm-compress-stringify-wasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_compress_stringify_wasi-0.4.3.tar.gz tmp/itkwasm_compress_stringify_wasi-0.4.4.tar.gz --markdown 20230425/i/itkwasm-compress-stringify-wasi/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-25 14:57:15] INFO root fetch - processPackages [invenio-communities]: executing diffoscope
+[2023-04-25 14:57:15] INFO root fetch - processPackages [invenio-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-communities-6.3.0.tar.gz tmp/invenio-communities-6.4.0.tar.gz --markdown 20230425/i/invenio-communities/6.3.0-6.4.0/diff.md --exclude *.pyd
+[2023-04-25 14:57:15] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/c1/c9/3d5221ff7a11ec059c03898b782804421694ba2e3117c67f34c7ea911251/xia_engine-0.7.4-cp39-none-win_amd64.whl
+[2023-04-25 14:57:15] INFO root fetch - processPackages [redis-property]: Downloading https://files.pythonhosted.org/packages/7d/bb/1151707e43ea60edf76e681a8ebe6326bfaf2503db95747621d878f7748b/redis-property-1.8.2.tar.gz
+[2023-04-25 14:57:15] INFO root fetch - processPackages [retentioneering]: Downloading https://files.pythonhosted.org/packages/83/a3/6cbe6b527fcfbdd531cef571c896474e444c4c13c5f703d7343fe3c37b31/retentioneering-3.0.0rc1.tar.gz
+[2023-04-25 14:57:16] INFO root fetch - processPackages [redis-property]: executing diffoscope
+[2023-04-25 14:57:16] INFO root fetch - processPackages [redis-property]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-property-1.8.1.tar.gz tmp/redis-property-1.8.2.tar.gz --markdown 20230425/r/redis-property/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-04-25 14:57:16] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/af/4f/81421d1676fe839d31289bc27a262bdbb1dfd7c868324c8a18fca437e37e/deepsearch_toolkit-0.9.0.tar.gz
+[2023-04-25 14:57:16] INFO root fetch - processPackages [deepsearch-toolkit]: executing diffoscope
+[2023-04-25 14:57:16] INFO root fetch - processPackages [deepsearch-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_toolkit-0.8.0.tar.gz tmp/deepsearch_toolkit-0.9.0.tar.gz --markdown 20230425/d/deepsearch-toolkit/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 14:57:16] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/36/81/e3de1d4257057f778e6835c6cfc6f68fe84599b9dde584674b75130c190e/xia_engine-0.7.5-cp39-none-macosx_11_0_x86_64.whl
+[2023-04-25 14:57:16] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-04-25 14:57:16] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.7.4-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.7.5-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230425/x/xia-engine/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-25 14:57:20] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: Start processing: cutepy
+[2023-04-25 14:57:20] INFO root fetch - main [MainThread]: End processing [itkwasm-compress-stringify-emscripten]: success
+[2023-04-25 14:57:20] WARNING root fetch - processPackages [cutepy]: Skipping, unable to determine old version
+[2023-04-25 14:57:20] INFO root fetch - processPackages [cutepy]: Start processing: itkwasm-compress-stringify
+[2023-04-25 14:57:20] INFO root fetch - main [MainThread]: End processing [cutepy] error
+[2023-04-25 14:57:20] INFO root fetch - processPackages [redis-property]: Start processing: McStasScript
+[2023-04-25 14:57:20] INFO root fetch - main [MainThread]: End processing [redis-property]: success
+[2023-04-25 14:57:20] INFO root fetch - processPackages [itkwasm-compress-stringify]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-25 14:57:20] INFO root fetch - processPackages [itkwasm-compress-stringify]: executing diffoscope
+[2023-04-25 14:57:20] INFO root fetch - processPackages [itkwasm-compress-stringify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_compress_stringify-0.4.2.tar.gz tmp/itkwasm_compress_stringify-0.4.3.tar.gz --markdown 20230425/i/itkwasm-compress-stringify/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-25 14:57:20] INFO root fetch - processPackages [McStasScript]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 14:57:20] INFO root fetch - processPackages [via-hub-logistc]: Start processing: ops
+[2023-04-25 14:57:20] INFO root fetch - main [MainThread]: End processing [via-hub-logistc]: success
+[2023-04-25 14:57:20] INFO root fetch - processPackages [ops]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-04-25 14:57:20] INFO root fetch - processPackages [McStasScript]: Downloading https://files.pythonhosted.org/packages/56/0a/c24af13421dd6c3e121bb2cfdd52ac0b3d5c702b8580a34167c4053d832b/McStasScript-0.0.8.tar.gz
+[2023-04-25 14:57:20] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/ff/56/c4c2561872b48a25084d2fe80efbec89d9c37058606dab65c37dc2436a5e/ops-2.1.1.tar.gz
+[2023-04-25 14:57:21] INFO root fetch - processPackages [xia-engine]: Start processing: scancode-toolkit
+[2023-04-25 14:57:21] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-04-25 14:57:21] INFO root fetch - processPackages [weni-rp-apps]: Start processing: origen-ai-ecl
+[2023-04-25 14:57:21] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-25 14:57:21] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-25 14:57:21] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-25 14:57:21] INFO root fetch - processPackages [retentioneering]: executing diffoscope
+[2023-04-25 14:57:21] INFO root fetch - processPackages [retentioneering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retentioneering-3.0.0b2.tar.gz tmp/retentioneering-3.0.0rc1.tar.gz --markdown 20230425/r/retentioneering/3.0.0b2-3.0.0rc1/diff.md --exclude *.pyd
+[2023-04-25 14:57:21] INFO root fetch - processPackages [scancode-toolkit]: New version: [32.0.0rc4] Old Version: [32.0.0rc3]
+[2023-04-25 14:57:21] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/dc/89/e2ac9755d867982d59fb74c24a6de819da1872d3669a2ec80043d1056c62/origen_ai_ecl-0.2.9.tar.gz
+[2023-04-25 14:57:21] INFO root fetch - processPackages [McStasScript]: Downloading https://files.pythonhosted.org/packages/98/b6/1a25793f77b2d91c1e78b0626694765539da27789bed1c385949e76786f1/McStasScript-0.0.9.tar.gz
+[2023-04-25 14:57:21] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/37/c1/b91ed34defbaf81c8574e9f1475d5f1c13d2768bf001b96476f1019d206b/ops-2.2.0.tar.gz
+[2023-04-25 14:57:21] INFO root fetch - processPackages [scancode-toolkit]: Downloading https://files.pythonhosted.org/packages/33/97/20de566266648f4ee42ac597094987233e6cd2b3e356e29427acae0db9cf/scancode-toolkit-32.0.0rc3.tar.gz
+[2023-04-25 14:57:21] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-25 14:57:21] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.2.8.tar.gz tmp/origen_ai_ecl-0.2.9.tar.gz --markdown 20230425/o/origen-ai-ecl/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-25 14:57:21] INFO root fetch - processPackages [ops]: executing diffoscope
+[2023-04-25 14:57:21] INFO root fetch - processPackages [ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-2.1.1.tar.gz tmp/ops-2.2.0.tar.gz --markdown 20230425/o/ops/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-04-25 14:57:21] INFO root fetch - processPackages [McStasScript]: executing diffoscope
+[2023-04-25 14:57:21] INFO root fetch - processPackages [McStasScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/McStasScript-0.0.8.tar.gz tmp/McStasScript-0.0.9.tar.gz --markdown 20230425/M/McStasScript/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 14:57:21] WARNING root fetch - processPackages [scancode-toolkit]: Skipping package: exceeds size limit 14412516>=10485760
+[2023-04-25 14:57:21] INFO root fetch - main [MainThread]: End processing [scancode-toolkit] error
+[2023-04-25 14:57:21] INFO root fetch - main [MainThread]: End processing [itkwasm-compress-stringify]: success
+[2023-04-25 14:57:24] INFO root fetch - main [MainThread]: End processing [itkwasm-compress-stringify-wasi]: success
+[2023-04-25 14:57:24] INFO root fetch - main [MainThread]: End processing [invenio-communities]: success
+[2023-04-25 14:57:24] INFO root fetch - main [MainThread]: End processing [ops]: success
+[2023-04-25 14:57:24] INFO root fetch - main [MainThread]: End processing [retentioneering]: success
+[2023-04-25 14:57:25] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
+[2023-04-25 14:57:26] INFO root fetch - main [MainThread]: End processing [McStasScript]: success
+[2023-04-25 14:57:29] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-25 14:57:29] INFO root fetch - main [MainThread]: Store serial: [17849110]

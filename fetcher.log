@@ -10384,3 +10384,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 09:26:48] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2023-04-25 09:26:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-reserve]: success
 [2023-04-25 09:26:49] INFO root fetch - main [MainThread]: Store serial: [17845559]
+[2023-04-25 09:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845559]
+[2023-04-25 09:31:58] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-stock-logistics-warehouse
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speechtotext-python
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discordlevelingcard
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nope-py
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hkhkhkhk
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: satdigitalinvoice
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdl-registers
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iCEED
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rum-with-telegram
+[2023-04-25 09:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cleez
+[2023-04-25 09:31:58] INFO root fetch - processPackages [discordlevelingcard]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-25 09:31:58] INFO root fetch - processPackages [nope-py]: New version: [1.7.1a4] Old Version: [1.7.1a3]
+[2023-04-25 09:31:58] INFO root fetch - processPackages [satdigitalinvoice]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-04-25 09:31:58] INFO root fetch - processPackages [cleez]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-25 09:31:58] INFO root fetch - processPackages [discordlevelingcard]: executing diffoscope
+[2023-04-25 09:31:58] INFO root fetch - processPackages [discordlevelingcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordlevelingcard-0.4.8.tar.gz tmp/discordlevelingcard-0.4.9.tar.gz --markdown 20230425/d/discordlevelingcard/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-25 09:31:58] INFO root fetch - processPackages [hkhkhkhk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-25 09:31:58] WARNING root fetch - processPackages [iCEED]: Skipping, unable to determine old version
+[2023-04-25 09:31:58] INFO root fetch - processPackages [nope-py]: executing diffoscope
+[2023-04-25 09:31:58] INFO root fetch - processPackages [iCEED]: Start processing: discake
+[2023-04-25 09:31:58] INFO root fetch - main [MainThread]: End processing [iCEED] error
+[2023-04-25 09:31:58] INFO root fetch - processPackages [nope-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nope_py-1.7.1a3.tar.gz tmp/nope_py-1.7.1a4.tar.gz --markdown 20230425/n/nope-py/1.7.1a3-1.7.1a4/diff.md --exclude *.pyd
+[2023-04-25 09:31:58] INFO root fetch - processPackages [hdl-registers]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-04-25 09:31:58] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: New version: [16.0.20230424.0] Old Version: [16.0.20230420.0]
+[2023-04-25 09:31:58] INFO root fetch - processPackages [cleez]: executing diffoscope
+[2023-04-25 09:31:58] INFO root fetch - processPackages [cleez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleez-0.1.4.tar.gz tmp/cleez-0.1.5.tar.gz --markdown 20230425/c/cleez/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-25 09:31:58] INFO root fetch - processPackages [speechtotext-python]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-25 09:31:58] WARNING root fetch - processPackages [discake]: Skipping, unable to determine old version
+[2023-04-25 09:31:58] INFO root fetch - processPackages [discake]: Start processing: teleexception
+[2023-04-25 09:31:58] INFO root fetch - main [MainThread]: End processing [discake] error
+[2023-04-25 09:31:58] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/7f/71/93eb3ed23a251693b12a7818e1a7070db20215efe5e265675700ac5f3bae/satdigitalinvoice-4.0.3.tar.gz
+[2023-04-25 09:31:58] INFO root fetch - processPackages [teleexception]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-25 09:31:58] INFO root fetch - processPackages [hkhkhkhk]: Downloading https://files.pythonhosted.org/packages/bc/ea/6841201aaf896c5acb62dbc0c5617318106d11f8013f724f0f7628d2d66b/hkhkhkhk-0.0.1.tar.gz
+[2023-04-25 09:31:58] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/f9/ec/6b0ed76999562fd0219c4533546a66042583a46c54a3ff93c42524741e06/odoo_addons_oca_stock_logistics_warehouse-16.0.20230420.0-py3-none-any.whl
+[2023-04-25 09:31:58] INFO root fetch - processPackages [hdl-registers]: Downloading https://files.pythonhosted.org/packages/d4/9d/1366766e5a4ac89946522563fc50f481b822b2c648978819c293d479559f/hdl_registers-3.0.2.tar.gz
+[2023-04-25 09:31:58] WARNING root fetch - processPackages [rum-with-telegram]: Skipping, unable to determine old version
+[2023-04-25 09:31:58] INFO root fetch - processPackages [rum-with-telegram]: Start processing: vocode
+[2023-04-25 09:31:58] INFO root fetch - main [MainThread]: End processing [rum-with-telegram] error
+[2023-04-25 09:31:58] INFO root fetch - processPackages [teleexception]: executing diffoscope
+[2023-04-25 09:31:58] INFO root fetch - processPackages [teleexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teleexception-0.3.8-py3-none-any.whl.zip tmp/teleexception-0.3.9-py3-none-any.whl.zip --markdown 20230425/t/teleexception/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 09:31:58] INFO root fetch - processPackages [vocode]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-25 09:31:58] INFO root fetch - processPackages [satdigitalinvoice]: executing diffoscope
+[2023-04-25 09:31:58] INFO root fetch - processPackages [satdigitalinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satdigitalinvoice-4.0.2.tar.gz tmp/satdigitalinvoice-4.0.3.tar.gz --markdown 20230425/s/satdigitalinvoice/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-04-25 09:31:58] INFO root fetch - processPackages [speechtotext-python]: Downloading https://files.pythonhosted.org/packages/f7/59/e6c13ae2999e3af29de073f404f8636d9a1f292ab4aea3877c1c8b98497e/speechtotext-python-0.3.7.tar.gz
+[2023-04-25 09:31:59] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/55/20/9263d22252e7d4f0e93c7abd622a61faec11982fa6d520232d0f7e071abd/odoo_addons_oca_stock_logistics_warehouse-16.0.20230424.0-py3-none-any.whl
+[2023-04-25 09:31:59] INFO root fetch - processPackages [hkhkhkhk]: Downloading https://files.pythonhosted.org/packages/29/d2/cff896f6da089a0a9970d9ea00ec9530d03e8502eac5ffe65bcb3b32bc75/hkhkhkhk-0.0.2.tar.gz
+[2023-04-25 09:31:59] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/9b/68/4e26c8902b37e36c68a46d8b570691b84e7d37f260fb090e9ca714c682b2/vocode-0.1.98.tar.gz
+[2023-04-25 09:31:59] INFO root fetch - processPackages [hdl-registers]: Downloading https://files.pythonhosted.org/packages/93/b9/c34a472f0c1d6022302e4c137f010de3192a2aa88a126ef54d01e84c08ad/hdl_registers-3.1.0.tar.gz
+[2023-04-25 09:31:59] INFO root fetch - processPackages [speechtotext-python]: executing diffoscope
+[2023-04-25 09:31:59] INFO root fetch - processPackages [speechtotext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechtotext-python-0.3.6.tar.gz tmp/speechtotext-python-0.3.7.tar.gz --markdown 20230425/s/speechtotext-python/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-25 09:31:59] INFO root fetch - processPackages [hkhkhkhk]: executing diffoscope
+[2023-04-25 09:31:59] INFO root fetch - processPackages [hkhkhkhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkhkhkhk-0.0.1.tar.gz tmp/hkhkhkhk-0.0.2.tar.gz --markdown 20230425/h/hkhkhkhk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-25 09:31:59] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2023-04-25 09:31:59] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230420.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230424.0-py3-none-any.whl.zip --markdown 20230425/o/odoo-addons-oca-stock-logistics-warehouse/16.0.20230420.0-16.0.20230424.0/diff.md --exclude *.pyd
+[2023-04-25 09:31:59] INFO root fetch - processPackages [hdl-registers]: executing diffoscope
+[2023-04-25 09:31:59] INFO root fetch - processPackages [hdl-registers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdl_registers-3.0.2.tar.gz tmp/hdl_registers-3.1.0.tar.gz --markdown 20230425/h/hdl-registers/3.0.2-3.1.0/diff.md --exclude *.pyd
+[2023-04-25 09:32:00] INFO root fetch - processPackages [cleez]: Start processing: kyoslib-py
+[2023-04-25 09:32:00] INFO root fetch - main [MainThread]: End processing [cleez]: success
+[2023-04-25 09:32:00] INFO root fetch - processPackages [discordlevelingcard]: Start processing: satdigitalinvoice
+[2023-04-25 09:32:00] INFO root fetch - main [MainThread]: End processing [discordlevelingcard]: success
+[2023-04-25 09:32:00] INFO root fetch - processPackages [kyoslib-py]: New version: [4.1.0] Old Version: [4.0.2]
+[2023-04-25 09:32:00] INFO root fetch - processPackages [satdigitalinvoice]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-04-25 09:32:00] INFO root fetch - main [MainThread]: End processing [teleexception]: success
+[2023-04-25 09:32:00] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/b3/3b/4a7f6292f477ed25a6ede0f0cf2c85227a67d5562112f3227c9726bacd91/satdigitalinvoice-4.0.4.tar.gz
+[2023-04-25 09:32:00] INFO root fetch - processPackages [kyoslib-py]: Downloading https://files.pythonhosted.org/packages/de/c7/f8786f64a05db1f598023e41cc2da6628de95c1468edf91c5d428a6f4085/kyoslib_py-4.0.2.tar.gz
+[2023-04-25 09:32:00] INFO root fetch - main [MainThread]: End processing [satdigitalinvoice]: success
+[2023-04-25 09:32:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-warehouse]: success
+[2023-04-25 09:32:00] INFO root fetch - main [MainThread]: End processing [hkhkhkhk]: success
+[2023-04-25 09:32:00] INFO root fetch - processPackages [kyoslib-py]: Downloading https://files.pythonhosted.org/packages/bf/c7/3df03ad8c8f5e620e1ff8fe5109f18e43ec1f30f64cf815672b99b290e01/kyoslib_py-4.1.0.tar.gz
+[2023-04-25 09:32:00] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/f5/98/c920153933e6237f779ea69c17c8b2d0bd8dba90e883de0a7c1da1a7bf1e/satdigitalinvoice-4.0.5.tar.gz
+[2023-04-25 09:32:00] INFO root fetch - main [MainThread]: End processing [speechtotext-python]: success
+[2023-04-25 09:32:00] INFO root fetch - processPackages [vocode]: Downloading https://files.pythonhosted.org/packages/79/9a/76431e75273e7f7acedd1ec3030dcca2abb2ca6b950c3032e6e481efd30f/vocode-0.1.99.tar.gz
+[2023-04-25 09:32:00] INFO root fetch - processPackages [kyoslib-py]: executing diffoscope
+[2023-04-25 09:32:00] INFO root fetch - processPackages [kyoslib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyoslib_py-4.0.2.tar.gz tmp/kyoslib_py-4.1.0.tar.gz --markdown 20230425/k/kyoslib-py/4.0.2-4.1.0/diff.md --exclude *.pyd
+[2023-04-25 09:32:00] INFO root fetch - main [MainThread]: End processing [hdl-registers]: success
+[2023-04-25 09:32:00] INFO root fetch - processPackages [satdigitalinvoice]: executing diffoscope
+[2023-04-25 09:32:00] INFO root fetch - processPackages [satdigitalinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satdigitalinvoice-4.0.4.tar.gz tmp/satdigitalinvoice-4.0.5.tar.gz --markdown 20230425/s/satdigitalinvoice/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-04-25 09:32:01] INFO root fetch - main [MainThread]: End processing [nope-py]: success
+[2023-04-25 09:32:01] INFO root fetch - main [MainThread]: End processing [kyoslib-py]: success
+[2023-04-25 09:32:01] INFO root fetch - main [MainThread]: End processing [satdigitalinvoice]: success
+[2023-04-25 09:32:02] INFO root fetch - processPackages [vocode]: executing diffoscope
+[2023-04-25 09:32:02] INFO root fetch - processPackages [vocode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocode-0.1.98.tar.gz tmp/vocode-0.1.99.tar.gz --markdown 20230425/v/vocode/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-25 09:32:04] INFO root fetch - main [MainThread]: End processing [vocode]: success
+[2023-04-25 09:32:04] INFO root fetch - main [MainThread]: Store serial: [17845613]

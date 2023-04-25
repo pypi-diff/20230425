@@ -10971,3 +10971,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:03:47] INFO root fetch - main [MainThread]: End processing [invenio-drafts-resources]: success
 [2023-04-25 10:03:48] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2023-04-25 10:03:48] INFO root fetch - main [MainThread]: Store serial: [17845889]
+[2023-04-25 10:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845889]
+[2023-04-25 10:08:56] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethereal
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ayeaye
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-rma
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sj-tool
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dop-integration-libs
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: doc2tei-CERTIC
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyecotrend-ista
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: statplotastro
+[2023-04-25 10:08:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hsso
+[2023-04-25 10:08:56] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 10:08:56] INFO root fetch - processPackages [doc2tei-CERTIC]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 10:08:56] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:08:56] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-04-25 10:08:56] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-04-25 10:08:56] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230425/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ethereal]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-25 10:08:57] WARNING root fetch - processPackages [hsso]: Skipping, unable to determine old version
+[2023-04-25 10:08:57] WARNING root fetch - processPackages [statplotastro]: Skipping, unable to determine old version
+[2023-04-25 10:08:57] INFO root fetch - processPackages [hsso]: Start processing: proactive-jupyter-kernel
+[2023-04-25 10:08:57] INFO root fetch - processPackages [odoo13-addon-rma]: New version: [13.0.2.7.4] Old Version: [13.0.2.7.3]
+[2023-04-25 10:08:57] INFO root fetch - processPackages [statplotastro]: Start processing: saic-ismart-client
+[2023-04-25 10:08:57] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 10:08:57] INFO root fetch - main [MainThread]: End processing [hsso] error
+[2023-04-25 10:08:57] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] INFO root fetch - main [MainThread]: End processing [statplotastro] error
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ayeaye]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 10:08:57] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-25 10:08:57] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-04-25 10:08:57] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.5.tar.gz tmp/pyecotrend-ista-2.0.6.tar.gz --markdown 20230425/p/pyecotrend-ista/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-25 10:08:57] INFO root fetch - processPackages [saic-ismart-client]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-25 10:08:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-25 10:08:57] INFO root fetch - processPackages [doc2tei-CERTIC]: executing diffoscope
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/84/2d/449929143790e49de85fe5a4bf882fbaca987e31f04a696a28f56eebe7bb/ethereal-0.1.6.tar.gz
+[2023-04-25 10:08:57] INFO root fetch - processPackages [doc2tei-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc2tei-CERTIC-0.0.8.tar.gz tmp/doc2tei-CERTIC-0.0.9.tar.gz --markdown 20230425/d/doc2tei-CERTIC/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ayeaye]: Downloading https://files.pythonhosted.org/packages/f2/6b/8b5d41607a25ef4c9c1721c6ec7ad0d8e2e642b7917e5af7f2abab43f22e/ayeaye-0.0.8.tar.gz
+[2023-04-25 10:08:57] INFO root fetch - processPackages [odoo13-addon-rma]: Downloading https://files.pythonhosted.org/packages/0b/84/5afba93d0a7b98bf181fce83f20cf3ad0f7537a885404d2f972c97b909b1/odoo13_addon_rma-13.0.2.7.3-py3-none-any.whl
+[2023-04-25 10:08:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-25 10:08:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230425/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/ff/0f/2cbbb8f307fde529fc70ccc3552d6ccc9c7c29fccd451587cac059c36ce5/saic_ismart_client-1.1.5.tar.gz
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ethereal]: Downloading https://files.pythonhosted.org/packages/67/fe/8fdac480c253349b01e0aa363e51b1e750e488164d07fabb325ba62fc768/ethereal-0.1.7.tar.gz
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ayeaye]: Downloading https://files.pythonhosted.org/packages/d3/40/38f102a96f92b589174e6e48225ca8d3a50cacf0b958d0b7085b5bedbf28/ayeaye-0.0.9.tar.gz
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ethereal]: executing diffoscope
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ethereal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethereal-0.1.6.tar.gz tmp/ethereal-0.1.7.tar.gz --markdown 20230425/e/ethereal/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/e7/87/17769cd9e9e873546f6585a9bdac81e140da5dc5790fa22c4e2987a2baa8/saic_ismart_client-1.1.6.tar.gz
+[2023-04-25 10:08:57] INFO root fetch - processPackages [odoo13-addon-rma]: Downloading https://files.pythonhosted.org/packages/0e/61/ea4c7c4ea124913f977dde8a877478997cfeec554c36abc3b4939ad3cc71/odoo13_addon_rma-13.0.2.7.4-py3-none-any.whl
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ayeaye]: executing diffoscope
+[2023-04-25 10:08:57] INFO root fetch - processPackages [ayeaye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-0.0.8.tar.gz tmp/ayeaye-0.0.9.tar.gz --markdown 20230425/a/ayeaye/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] INFO root fetch - processPackages [saic-ismart-client]: executing diffoscope
+[2023-04-25 10:08:57] INFO root fetch - processPackages [saic-ismart-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saic_ismart_client-1.1.5.tar.gz tmp/saic_ismart_client-1.1.6.tar.gz --markdown 20230425/s/saic-ismart-client/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] INFO root fetch - processPackages [odoo13-addon-rma]: executing diffoscope
+[2023-04-25 10:08:57] INFO root fetch - processPackages [odoo13-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_rma-13.0.2.7.3-py3-none-any.whl.zip tmp/odoo13_addon_rma-13.0.2.7.4-py3-none-any.whl.zip --markdown 20230425/o/odoo13-addon-rma/13.0.2.7.3-13.0.2.7.4/diff.md --exclude *.pyd
+[2023-04-25 10:08:57] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-25 10:08:57] INFO root fetch - processPackages [proactive]: Start processing: oarepo-oai-pmh-harvester
+[2023-04-25 10:08:57] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-25 10:08:57] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-25 10:08:58] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: executing diffoscope
+[2023-04-25 10:08:58] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-oai-pmh-harvester-4.0.8.tar.gz tmp/oarepo-oai-pmh-harvester-4.0.9.tar.gz --markdown 20230425/o/oarepo-oai-pmh-harvester/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:08:58] INFO root fetch - processPackages [dop-integration-libs]: Start processing: cpppackage-25.1
+[2023-04-25 10:08:58] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 10:08:58] WARNING root fetch - processPackages [cpppackage-25.1]: Skipping, unable to determine old version
+[2023-04-25 10:08:58] INFO root fetch - processPackages [cpppackage-25.1]: Start processing: pyglove
+[2023-04-25 10:08:58] INFO root fetch - main [MainThread]: End processing [cpppackage-25.1] error
+[2023-04-25 10:08:58] INFO root fetch - processPackages [sj-tool]: Start processing: dop-integration-libs
+[2023-04-25 10:08:58] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-04-25 10:08:58] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:08:58] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 10:08:58] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:08:58] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230425] Old Version: [0.3.1.dev20230424]
+[2023-04-25 10:08:58] INFO root fetch - processPackages [pyecotrend-ista]: Start processing: numerous.sdk
+[2023-04-25 10:08:58] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-04-25 10:08:58] INFO root fetch - processPackages [numerous.sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 10:08:58] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/b6/cd/e81e392a64ba5c911b1440208a6f8c7f6bd7391c8f58c39e3e259e6957c0/pyglove-0.3.1.dev20230425.tar.gz
+[2023-04-25 10:08:58] INFO root fetch - processPackages [numerous.sdk]: executing diffoscope
+[2023-04-25 10:08:58] INFO root fetch - processPackages [numerous.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous.sdk-0.8.0.tar.gz tmp/numerous.sdk-0.9.0.tar.gz --markdown 20230425/n/numerous.sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 10:08:58] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-04-25 10:08:58] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230424.tar.gz tmp/pyglove-0.3.1.dev20230425.tar.gz --markdown 20230425/p/pyglove/0.3.1.dev20230424-0.3.1.dev20230425/diff.md --exclude *.pyd
+[2023-04-25 10:08:58] INFO root fetch - processPackages [doc2tei-CERTIC]: Start processing: aireplication
+[2023-04-25 10:08:58] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
+[2023-04-25 10:08:59] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-25 10:08:59] INFO root fetch - processPackages [aireplication]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 10:08:59] INFO root fetch - main [MainThread]: End processing [ayeaye]: success
+[2023-04-25 10:08:59] INFO root fetch - main [MainThread]: End processing [ethereal]: success
+[2023-04-25 10:08:59] INFO root fetch - processPackages [aireplication]: Downloading https://files.pythonhosted.org/packages/28/71/a80582f0c8be1d09f96afa3077f693dd66f16be15712f9938c0be54d12b1/aireplication-0.0.2.tar.gz
+[2023-04-25 10:08:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-rma]: success
+[2023-04-25 10:08:59] INFO root fetch - processPackages [aireplication]: Downloading https://files.pythonhosted.org/packages/ee/95/9b07925575e6d18487e4c90abb73769f4edabd2388fc91d600213412f887/aireplication-0.0.3.tar.gz
+[2023-04-25 10:08:59] INFO root fetch - processPackages [aireplication]: executing diffoscope
+[2023-04-25 10:08:59] INFO root fetch - processPackages [aireplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aireplication-0.0.2.tar.gz tmp/aireplication-0.0.3.tar.gz --markdown 20230425/a/aireplication/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 10:08:59] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
+[2023-04-25 10:08:59] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 10:09:00] INFO root fetch - main [MainThread]: End processing [aireplication]: success
+[2023-04-25 10:09:01] INFO root fetch - main [MainThread]: End processing [numerous.sdk]: success
+[2023-04-25 10:09:01] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-04-25 10:09:02] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
+[2023-04-25 10:09:02] INFO root fetch - main [MainThread]: Store serial: [17845944]

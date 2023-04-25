@@ -7038,3 +7038,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 04:07:43] INFO root fetch - main [MainThread]: End processing [Lukz]: success
 [2023-04-25 04:07:45] INFO root fetch - main [MainThread]: End processing [clode]: success
 [2023-04-25 04:07:45] INFO root fetch - main [MainThread]: Store serial: [17843565]
+[2023-04-25 04:12:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843565]
+[2023-04-25 04:12:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-25 04:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: videoprocessor
+[2023-04-25 04:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyctm
+[2023-04-25 04:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matematicassimple
+[2023-04-25 04:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-glucose
+[2023-04-25 04:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Lukz
+[2023-04-25 04:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-dx-review
+[2023-04-25 04:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wrds2pg
+[2023-04-25 04:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NewCode-Utils
+[2023-04-25 04:12:54] INFO root fetch - processPackages [videoprocessor]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 04:12:54] INFO root fetch - processPackages [wrds2pg]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 04:12:54] INFO root fetch - processPackages [edc-dx-review]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 04:12:54] INFO root fetch - processPackages [pyctm]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 04:12:54] INFO root fetch - processPackages [edc-glucose]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 04:12:54] WARNING root fetch - processPackages [matematicassimple]: Skipping, unable to determine old version
+[2023-04-25 04:12:54] INFO root fetch - processPackages [NewCode-Utils]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-25 04:12:54] INFO root fetch - processPackages [Lukz]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-04-25 04:12:54] INFO root fetch - main [MainThread]: End processing [matematicassimple] error
+[2023-04-25 04:12:54] INFO root fetch - processPackages [videoprocessor]: Downloading https://files.pythonhosted.org/packages/31/6c/7ee46ffdc644946c46244fa8fea4ab7a4534a689f1d98cb33f15124d1d14/videoprocessor-0.0.2.tar.gz
+[2023-04-25 04:12:54] INFO root fetch - processPackages [pyctm]: Downloading https://files.pythonhosted.org/packages/2a/fc/af4eae69f7579504f9b24f11c609c6f8d8d19a52ecc66c58fb887c8f0e55/pyctm-0.0.7.tar.gz
+[2023-04-25 04:12:54] INFO root fetch - processPackages [wrds2pg]: Downloading https://files.pythonhosted.org/packages/eb/9f/a506b309ee9299d4d9cd3f5c1407e05da30c09cbbe8acf67e60de11a1b4e/wrds2pg-1.0.8.tar.gz
+[2023-04-25 04:12:54] INFO root fetch - processPackages [edc-glucose]: Downloading https://files.pythonhosted.org/packages/5c/c4/7c8c7a40ebfe9a901238b2489fcb461c3c439bd10382d8c50533aee9cf3e/edc_glucose-0.1.8-py3-none-any.whl
+[2023-04-25 04:12:54] INFO root fetch - processPackages [edc-dx-review]: Downloading https://files.pythonhosted.org/packages/69/01/0c6c3cc37e99c1cd81390e34f896cf8c16535535a3741c0bf0e6d4612f6f/edc_dx_review-0.1.8-py3-none-any.whl
+[2023-04-25 04:12:54] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/59/ea/889412a883fa6e039c8f6297e984e5a33eb4ecf4a91558e9c387fa5140a1/NewCode-Utils-1.0.6.tar.gz
+[2023-04-25 04:12:54] INFO root fetch - processPackages [Lukz]: Downloading https://files.pythonhosted.org/packages/f6/82/e871bcc1b17169287292bc0c9b471797385fe4dc6be3d24d2dea30c3010c/Lukz-3.0.0.tar.gz
+[2023-04-25 04:12:55] INFO root fetch - processPackages [pyctm]: Downloading https://files.pythonhosted.org/packages/60/c1/6e5f7c4cd37edb87f99df264ec365b8eb4f6e1cfe1f23da25a1f5a7eb153/pyctm-0.0.8.tar.gz
+[2023-04-25 04:12:55] INFO root fetch - processPackages [videoprocessor]: Downloading https://files.pythonhosted.org/packages/84/86/f574506fc54fe9419accfd3449e45241c97121edce51104c464c1113dd33/videoprocessor-0.0.3.tar.gz
+[2023-04-25 04:12:55] INFO root fetch - processPackages [NewCode-Utils]: executing diffoscope
+[2023-04-25 04:12:55] INFO root fetch - processPackages [NewCode-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewCode-Utils-1.0.5.tar.gz tmp/NewCode-Utils-1.0.6.tar.gz --markdown 20230425/N/NewCode-Utils/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-25 04:12:55] INFO root fetch - processPackages [Lukz]: executing diffoscope
+[2023-04-25 04:12:55] INFO root fetch - processPackages [Lukz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lukz-2.0.1.tar.gz tmp/Lukz-3.0.0.tar.gz --markdown 20230425/L/Lukz/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-04-25 04:12:55] INFO root fetch - processPackages [edc-glucose]: Downloading https://files.pythonhosted.org/packages/e7/01/7d35231023cd75dcd885278afa69e716fc5c7993f8c77eab3963f0319481/edc_glucose-0.1.9-py3-none-any.whl
+[2023-04-25 04:12:55] INFO root fetch - processPackages [edc-dx-review]: Downloading https://files.pythonhosted.org/packages/34/b6/a1fd2c0bce4a670e7d0f1d45e76bb15a5d7eeef8f1bf25e0b2c3b6258107/edc-dx-review-0.1.9.tar.gz
+[2023-04-25 04:12:55] INFO root fetch - processPackages [edc-glucose]: executing diffoscope
+[2023-04-25 04:12:55] INFO root fetch - processPackages [edc-glucose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_glucose-0.1.8-py3-none-any.whl.zip tmp/edc_glucose-0.1.9-py3-none-any.whl.zip --markdown 20230425/e/edc-glucose/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 04:12:55] INFO root fetch - processPackages [pyctm]: executing diffoscope
+[2023-04-25 04:12:55] INFO root fetch - processPackages [pyctm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyctm-0.0.7.tar.gz tmp/pyctm-0.0.8.tar.gz --markdown 20230425/p/pyctm/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 04:12:55] INFO root fetch - processPackages [videoprocessor]: executing diffoscope
+[2023-04-25 04:12:55] INFO root fetch - processPackages [videoprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoprocessor-0.0.2.tar.gz tmp/videoprocessor-0.0.3.tar.gz --markdown 20230425/v/videoprocessor/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 04:12:55] INFO root fetch - processPackages [wrds2pg]: Downloading https://files.pythonhosted.org/packages/27/20/2b9788aef9e54ea3d590a456caa294d1c177fd05029e8f70b99022369f68/wrds2pg-1.0.9.tar.gz
+[2023-04-25 04:12:55] INFO root fetch - processPackages [edc-dx-review]: executing diffoscope
+[2023-04-25 04:12:55] INFO root fetch - processPackages [edc-dx-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_dx_review-0.1.8-py3-none-any.whl.zip tmp/edc-dx-review-0.1.9.tar.gz --markdown 20230425/e/edc-dx-review/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 04:12:55] INFO root fetch - processPackages [wrds2pg]: executing diffoscope
+[2023-04-25 04:12:55] INFO root fetch - processPackages [wrds2pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrds2pg-1.0.8.tar.gz tmp/wrds2pg-1.0.9.tar.gz --markdown 20230425/w/wrds2pg/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 04:12:56] INFO root fetch - main [MainThread]: End processing [NewCode-Utils]: success
+[2023-04-25 04:12:56] INFO root fetch - main [MainThread]: End processing [videoprocessor]: success
+[2023-04-25 04:12:56] INFO root fetch - main [MainThread]: End processing [edc-glucose]: success
+[2023-04-25 04:12:56] INFO root fetch - main [MainThread]: End processing [edc-dx-review]: success
+[2023-04-25 04:12:56] INFO root fetch - main [MainThread]: End processing [wrds2pg]: success
+[2023-04-25 04:12:56] INFO root fetch - main [MainThread]: End processing [pyctm]: success
+[2023-04-25 04:12:56] INFO root fetch - main [MainThread]: End processing [Lukz]: success
+[2023-04-25 04:12:56] INFO root fetch - main [MainThread]: Store serial: [17843593]

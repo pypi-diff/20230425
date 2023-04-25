@@ -8531,3 +8531,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 06:48:57] INFO root fetch - main [MainThread]: End processing [polly-python]: success
 [2023-04-25 06:50:06] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-25 06:50:06] INFO root fetch - main [MainThread]: Store serial: [17844478]
+[2023-04-25 06:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844478]
+[2023-04-25 06:55:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-25 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-l10n-germany
+[2023-04-25 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DecisionTreeClassifier
+[2023-04-25 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airthings-exporter
+[2023-04-25 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diengine-connect
+[2023-04-25 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mango-explorer-v4
+[2023-04-25 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idgenerators
+[2023-04-25 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: czsc
+[2023-04-25 06:55:15] INFO root fetch - processPackages [mango-explorer-v4]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-25 06:55:15] WARNING root fetch - processPackages [odoo-addons-oca-l10n-germany]: Skipping, unable to determine old version
+[2023-04-25 06:55:15] INFO root fetch - processPackages [diengine-connect]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-25 06:55:15] WARNING root fetch - processPackages [idgenerators]: Skipping, unable to determine old version
+[2023-04-25 06:55:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-germany] error
+[2023-04-25 06:55:15] INFO root fetch - main [MainThread]: End processing [idgenerators] error
+[2023-04-25 06:55:15] INFO root fetch - processPackages [airthings-exporter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 06:55:15] INFO root fetch - processPackages [czsc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-25 06:55:15] INFO root fetch - processPackages [DecisionTreeClassifier]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 06:55:16] INFO root fetch - processPackages [mango-explorer-v4]: Downloading https://files.pythonhosted.org/packages/c8/79/ea1de6ae683d6fcd3af375fb829f38510ebdc7134d0b5e4866dcb608d6a5/mango_explorer_v4-0.7.9.tar.gz
+[2023-04-25 06:55:16] INFO root fetch - processPackages [airthings-exporter]: Downloading https://files.pythonhosted.org/packages/39/45/a95685894402605e615ae578adcbf7c96b2c7b4cce275ad0cd9eef333742/airthings-exporter-0.0.2.tar.gz
+[2023-04-25 06:55:16] INFO root fetch - processPackages [diengine-connect]: Downloading https://files.pythonhosted.org/packages/99/14/dbdfa4c7a4a1e5aa7143ca4e42daa81f58654e61e65330c3e0f351f29c05/diengine-connect-0.1.7.tar.gz
+[2023-04-25 06:55:16] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/ff/64/49e6809b474049632717e96f3a51bcdab728d63517d8ec0eb228e09ad52d/czsc-0.9.8.tar.gz
+[2023-04-25 06:55:16] INFO root fetch - processPackages [DecisionTreeClassifier]: Downloading https://files.pythonhosted.org/packages/7c/b7/76f6659458c5e8e10765541f0eb5adf392d8d0b0949e8cc991f3cbb25bb1/DecisionTreeClassifier-0.0.6.tar.gz
+[2023-04-25 06:55:16] INFO root fetch - processPackages [mango-explorer-v4]: executing diffoscope
+[2023-04-25 06:55:16] INFO root fetch - processPackages [mango-explorer-v4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_explorer_v4-0.7.8.tar.gz tmp/mango_explorer_v4-0.7.9.tar.gz --markdown 20230425/m/mango-explorer-v4/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-25 06:55:16] INFO root fetch - processPackages [DecisionTreeClassifier]: executing diffoscope
+[2023-04-25 06:55:16] INFO root fetch - processPackages [DecisionTreeClassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DecisionTreeClassifier-0.0.5.tar.gz tmp/DecisionTreeClassifier-0.0.6.tar.gz --markdown 20230425/D/DecisionTreeClassifier/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 06:55:16] INFO root fetch - processPackages [diengine-connect]: Downloading https://files.pythonhosted.org/packages/10/d4/32662e9bd4c2f1536001939c25b4230cde22e33e930da23ac5dd05ade375/diengine-connect-0.1.8.tar.gz
+[2023-04-25 06:55:16] INFO root fetch - processPackages [airthings-exporter]: Downloading https://files.pythonhosted.org/packages/dc/4d/3dd5f31bbd96452d9894b5f4ffdcf2b075996a1a018dc3b921f417457b86/airthings-exporter-0.0.3.tar.gz
+[2023-04-25 06:55:16] INFO root fetch - processPackages [diengine-connect]: executing diffoscope
+[2023-04-25 06:55:16] INFO root fetch - processPackages [diengine-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diengine-connect-0.1.7.tar.gz tmp/diengine-connect-0.1.8.tar.gz --markdown 20230425/d/diengine-connect/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-25 06:55:16] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/65/2a/c6b0017939d88546e65732fc499326433b075adecda347c5aca412e4fe77/czsc-0.9.9.tar.gz
+[2023-04-25 06:55:16] INFO root fetch - processPackages [airthings-exporter]: executing diffoscope
+[2023-04-25 06:55:16] INFO root fetch - processPackages [airthings-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airthings-exporter-0.0.2.tar.gz tmp/airthings-exporter-0.0.3.tar.gz --markdown 20230425/a/airthings-exporter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 06:55:16] INFO root fetch - processPackages [czsc]: executing diffoscope
+[2023-04-25 06:55:16] INFO root fetch - processPackages [czsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czsc-0.9.8.tar.gz tmp/czsc-0.9.9.tar.gz --markdown 20230425/c/czsc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-25 06:55:17] INFO root fetch - main [MainThread]: End processing [DecisionTreeClassifier]: success
+[2023-04-25 06:55:17] INFO root fetch - main [MainThread]: End processing [airthings-exporter]: success
+[2023-04-25 06:55:18] INFO root fetch - main [MainThread]: End processing [diengine-connect]: success
+[2023-04-25 06:55:18] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
+[2023-04-25 06:55:18] INFO root fetch - main [MainThread]: End processing [czsc]: success
+[2023-04-25 06:55:18] INFO root fetch - main [MainThread]: Store serial: [17844503]

@@ -1,0 +1,111 @@
+# Comparing `tmp/DecisionTreeClassifier-0.0.5.tar.gz` & `tmp/DecisionTreeClassifier-0.0.6.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "DecisionTreeClassifier-0.0.5.tar", last modified: Tue Apr 25 01:13:53 2023, max compression
++gzip compressed data, was "DecisionTreeClassifier-0.0.6.tar", last modified: Tue Apr 25 04:50:02 2023, max compression
+```
+
+## Comparing `DecisionTreeClassifier-0.0.5.tar` & `DecisionTreeClassifier-0.0.6.tar`
+
+### file list
+
+```diff
+@@ -1,15 +1,12 @@
+-drwxrwxrwx   0        0        0        0 2023-04-25 01:13:53.866252 DecisionTreeClassifier-0.0.5/
+-drwxrwxrwx   0        0        0        0 2023-04-25 01:13:53.856250 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/
+-drwxrwxrwx   0        0        0        0 2023-04-25 01:13:53.863251 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/
+--rw-rw-rw-   0        0        0      676 2023-04-25 01:13:53.000000 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      449 2023-04-25 01:13:53.000000 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-04-25 01:13:53.000000 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0       13 2023-04-25 01:13:53.000000 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/requires.txt
+--rw-rw-rw-   0        0        0        8 2023-04-25 01:13:53.000000 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/top_level.txt
+-drwxrwxrwx   0        0        0        0 2023-04-25 01:13:53.865251 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/Testing/
+--rw-rw-rw-   0        0        0     7652 2023-04-21 05:19:20.000000 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/Testing/Testing.py
+--rw-rw-rw-   0        0        0        0 2023-04-25 00:27:22.000000 DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/Testing/__init__.py
+--rw-rw-rw-   0        0        0     1075 2023-04-21 04:53:44.000000 DecisionTreeClassifier-0.0.5/LICENCE.txt
+--rw-rw-rw-   0        0        0      676 2023-04-25 01:13:53.866252 DecisionTreeClassifier-0.0.5/PKG-INFO
+--rw-rw-rw-   0        0        0       42 2023-04-25 01:13:53.866252 DecisionTreeClassifier-0.0.5/setup.cfg
+--rw-rw-rw-   0        0        0      928 2023-04-25 01:13:43.000000 DecisionTreeClassifier-0.0.5/setup.py
++drwxrwxrwx   0        0        0        0 2023-04-25 04:50:02.248850 DecisionTreeClassifier-0.0.6/
++drwxrwxrwx   0        0        0        0 2023-04-25 04:50:02.239848 DecisionTreeClassifier-0.0.6/DecisionTreeClassifier/
++drwxrwxrwx   0        0        0        0 2023-04-25 04:50:02.246850 DecisionTreeClassifier-0.0.6/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/
++-rw-rw-rw-   0        0        0      676 2023-04-25 04:50:02.000000 DecisionTreeClassifier-0.0.6/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      364 2023-04-25 04:50:02.000000 DecisionTreeClassifier-0.0.6/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-04-25 04:50:02.000000 DecisionTreeClassifier-0.0.6/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0       13 2023-04-25 04:50:02.000000 DecisionTreeClassifier-0.0.6/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/requires.txt
++-rw-rw-rw-   0        0        0        1 2023-04-25 04:50:02.000000 DecisionTreeClassifier-0.0.6/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/top_level.txt
++-rw-rw-rw-   0        0        0     1075 2023-04-21 04:53:44.000000 DecisionTreeClassifier-0.0.6/LICENCE.txt
++-rw-rw-rw-   0        0        0      676 2023-04-25 04:50:02.247850 DecisionTreeClassifier-0.0.6/PKG-INFO
++-rw-rw-rw-   0        0        0       42 2023-04-25 04:50:02.248850 DecisionTreeClassifier-0.0.6/setup.cfg
++-rw-rw-rw-   0        0        0      928 2023-04-25 04:49:34.000000 DecisionTreeClassifier-0.0.6/setup.py
+```
+
+### Comparing `DecisionTreeClassifier-0.0.5/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/PKG-INFO` & `DecisionTreeClassifier-0.0.6/DecisionTreeClassifier/DecisionTreeClassifier.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: DecisionTreeClassifier
+-Version: 0.0.5
++Version: 0.0.6
+ Summary: A Decision Tree Classifier.
+ Home-page: https://github.com/mlouii/Decision-Tree-Practicum
+ Author: Mark Lou, Jobin Joyson
+ Author-email: mlou@hawk.iit.edu, jjoyson1@hawk.iit.edu
+ License: MIT
+ Keywords: decision tree
+ Classifier: Development Status :: 5 - Production/Stable
+```
+
+### Comparing `DecisionTreeClassifier-0.0.5/LICENCE.txt` & `DecisionTreeClassifier-0.0.6/LICENCE.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `DecisionTreeClassifier-0.0.5/PKG-INFO` & `DecisionTreeClassifier-0.0.6/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: DecisionTreeClassifier
+-Version: 0.0.5
++Version: 0.0.6
+ Summary: A Decision Tree Classifier.
+ Home-page: https://github.com/mlouii/Decision-Tree-Practicum
+ Author: Mark Lou, Jobin Joyson
+ Author-email: mlou@hawk.iit.edu, jjoyson1@hawk.iit.edu
+ License: MIT
+ Keywords: decision tree
+ Classifier: Development Status :: 5 - Production/Stable
+```
+
+### Comparing `DecisionTreeClassifier-0.0.5/setup.py` & `DecisionTreeClassifier-0.0.6/setup.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -9,15 +9,15 @@
+ ]
+ 
+ with open("DecisionTreeClassifier/README.txt", "r") as f:
+     long_description = f.read()
+  
+ setup(
+   name='DecisionTreeClassifier',
+-  version='0.0.5',
++  version='0.0.6',
+   description='A Decision Tree Classifier.',
+   long_description=long_description,
+   package_dir={"": "DecisionTreeClassifier"},
+   packages=find_packages(where="DecisionTreeClassifier"),
+   url='https://github.com/mlouii/Decision-Tree-Practicum',  
+   author='Mark Lou, Jobin Joyson',
+   author_email='mlou@hawk.iit.edu, jjoyson1@hawk.iit.edu',
+```
+

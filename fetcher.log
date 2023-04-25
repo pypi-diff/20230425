@@ -9732,3 +9732,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:48:46] INFO root fetch - main [MainThread]: End processing [pice-core]: success
 [2023-04-25 08:48:46] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
 [2023-04-25 08:48:46] INFO root fetch - main [MainThread]: Store serial: [17845175]
+[2023-04-25 08:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845175]
+[2023-04-25 08:53:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nope-py
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quorum-data-py
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-data-services-lwdp
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stablelm-interface
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibmsecurity
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartchart
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panda-server
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mongomotor
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-serve
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xklb
+[2023-04-25 08:53:55] INFO root fetch - processPackages [quorum-data-py]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.2.0.dev4794429115] Old Version: [2.0.2.0.dev4766015884]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-25 08:53:55] WARNING root fetch - processPackages [stablelm-interface]: Skipping, unable to determine old version
+[2023-04-25 08:53:55] INFO root fetch - processPackages [stablelm-interface]: Start processing: easyai-sdwebui-api
+[2023-04-25 08:53:55] INFO root fetch - main [MainThread]: End processing [stablelm-interface] error
+[2023-04-25 08:53:55] INFO root fetch - processPackages [nope-py]: New version: [1.7.1a2] Old Version: [1.7.1a1]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [smartchart]: New version: [6.5.3] Old Version: [6.5.2]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [mongomotor]: New version: [0.9b6] Old Version: [0.9b5]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [panda-server]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-25 08:53:55] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230425/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-25 08:53:55] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-04-25 08:53:55] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.2.0.dev4766015884.tar.gz tmp/th2_data_services_lwdp-2.0.2.0.dev4794429115.tar.gz --markdown 20230425/t/th2-data-services-lwdp/2.0.2.0.dev4766015884-2.0.2.0.dev4794429115/diff.md --exclude *.pyd
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ibmsecurity]: New version: [2023.4.25.0] Old Version: [2023.4.21.0]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [xklb]: New version: [1.26.11] Old Version: [1.25.3]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [quorum-data-py]: Downloading https://files.pythonhosted.org/packages/a1/75/9172fc118d29db5ebe48bb9374aeaf4f85969a8faf30dc2c2aba2f85ed50/quorum_data_py-1.2.3.tar.gz
+[2023-04-25 08:53:55] WARNING root fetch - processPackages [easyai-sdwebui-api]: Skipping, unable to determine old version
+[2023-04-25 08:53:55] INFO root fetch - processPackages [easyai-sdwebui-api]: Start processing: pymysql-pool
+[2023-04-25 08:53:55] INFO root fetch - main [MainThread]: End processing [easyai-sdwebui-api] error
+[2023-04-25 08:53:55] INFO root fetch - processPackages [pymysql-pool]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-25 08:53:55] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/83/91/de4db749d3cdeeee2c756aba8fd6dd47bb3fdf9ff66628819a89aedbac9f/nope_py-1.7.1a1.tar.gz
+[2023-04-25 08:53:55] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/68/3b/42a7163a01fe81db1710391ae88a280e22fa71edf35c30fabf7aa69f3bef/panda-server-0.0.53.tar.gz
+[2023-04-25 08:53:55] INFO root fetch - processPackages [mongomotor]: Downloading https://files.pythonhosted.org/packages/c5/c3/8358113f7240815f13d7424e6b05a96d837d8015fde82807159cc2caf4a3/mongomotor-0.9b5.tar.gz
+[2023-04-25 08:53:55] INFO root fetch - processPackages [ibmsecurity]: Downloading https://files.pythonhosted.org/packages/f9/ef/310f8e8c04580e15b88aef98af5fcec4862281f7a81b3dcd8dcf2c876758/ibmsecurity-2023.4.21.0.tar.gz
+[2023-04-25 08:53:56] INFO root fetch - processPackages [quorum-data-py]: executing diffoscope
+[2023-04-25 08:53:56] INFO root fetch - processPackages [quorum-data-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_data_py-1.2.2.tar.gz tmp/quorum_data_py-1.2.3.tar.gz --markdown 20230425/q/quorum-data-py/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-25 08:53:56] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/79/92/437516d34184205b11d0f067d4aa3a8385c81283d14be3c6cec82a1c2dca/xklb-1.25.3.tar.gz
+[2023-04-25 08:53:56] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/6a/6d/13e3d39594632871eb660e2af8c0972765f06025b59e623fe6dcd184fc17/smartchart-6.5.3.tar.gz
+[2023-04-25 08:53:56] INFO root fetch - processPackages [pymysql-pool]: Downloading https://files.pythonhosted.org/packages/c5/f3/b3ee387179d2e064c6ad45d5388c2dae8732a896cadf72cb1db9c45c0c4f/pymysql-pool-0.4.1.tar.gz
+[2023-04-25 08:53:56] INFO root fetch - processPackages [panda-server]: executing diffoscope
+[2023-04-25 08:53:56] INFO root fetch - processPackages [panda-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-server-0.0.52.tar.gz tmp/panda-server-0.0.53.tar.gz --markdown 20230425/p/panda-server/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-04-25 08:53:56] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/67/1e/4c2f4101309795d44815c2ecf9d7f7fe53d4121f240edb23ebd6ee03a25f/nope_py-1.7.1a2.tar.gz
+[2023-04-25 08:53:56] INFO root fetch - processPackages [pymysql-pool]: executing diffoscope
+[2023-04-25 08:53:56] INFO root fetch - processPackages [pymysql-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysql-pool-0.4.0.tar.gz tmp/pymysql-pool-0.4.1.tar.gz --markdown 20230425/p/pymysql-pool/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-25 08:53:56] INFO root fetch - processPackages [mongomotor]: Downloading https://files.pythonhosted.org/packages/3d/9a/3fc8b33109c5ef9e92764116e00b415baa3ed3d7870388ae60179dc63fc2/mongomotor-0.9b6.tar.gz
+[2023-04-25 08:53:56] INFO root fetch - processPackages [ibmsecurity]: Downloading https://files.pythonhosted.org/packages/2c/ea/554e0d7b1a5e8ddea08c2df5f40a3df656dae4c173a65c2b78b9960266a5/ibmsecurity-2023.4.25.0.tar.gz
+[2023-04-25 08:53:56] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/e0/67/34568ef6769cedc1e9b615f77ae48891f08c66f169968990d16602731e75/xklb-1.26.11.tar.gz
+[2023-04-25 08:53:56] INFO root fetch - processPackages [nope-py]: executing diffoscope
+[2023-04-25 08:53:56] INFO root fetch - processPackages [nope-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nope_py-1.7.1a1.tar.gz tmp/nope_py-1.7.1a2.tar.gz --markdown 20230425/n/nope-py/1.7.1a1-1.7.1a2/diff.md --exclude *.pyd
+[2023-04-25 08:53:56] INFO root fetch - processPackages [mongomotor]: executing diffoscope
+[2023-04-25 08:53:56] INFO root fetch - processPackages [mongomotor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomotor-0.9b5.tar.gz tmp/mongomotor-0.9b6.tar.gz --markdown 20230425/m/mongomotor/0.9b5-0.9b6/diff.md --exclude *.pyd
+[2023-04-25 08:53:56] INFO root fetch - processPackages [ibmsecurity]: executing diffoscope
+[2023-04-25 08:53:56] INFO root fetch - processPackages [ibmsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibmsecurity-2023.4.21.0.tar.gz tmp/ibmsecurity-2023.4.25.0.tar.gz --markdown 20230425/i/ibmsecurity/2023.4.21.0-2023.4.25.0/diff.md --exclude *.pyd
+[2023-04-25 08:53:56] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-04-25 08:53:56] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.25.3.tar.gz tmp/xklb-1.26.11.tar.gz --markdown 20230425/x/xklb/1.25.3-1.26.11/diff.md --exclude *.pyd
+[2023-04-25 08:53:56] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-04-25 08:53:56] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.5.2.tar.gz tmp/smartchart-6.5.3.tar.gz --markdown 20230425/s/smartchart/6.5.2-6.5.3/diff.md --exclude *.pyd
+[2023-04-25 08:53:58] INFO root fetch - main [MainThread]: End processing [quorum-data-py]: success
+[2023-04-25 08:53:58] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-04-25 08:53:58] INFO root fetch - main [MainThread]: End processing [pymysql-pool]: success
+[2023-04-25 08:53:58] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-04-25 08:53:58] INFO root fetch - main [MainThread]: End processing [mongomotor]: success
+[2023-04-25 08:53:58] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-25 08:53:59] INFO root fetch - main [MainThread]: End processing [nope-py]: success
+[2023-04-25 08:54:01] INFO root fetch - main [MainThread]: End processing [ibmsecurity]: success
+[2023-04-25 08:54:03] INFO root fetch - main [MainThread]: End processing [panda-server]: success
+[2023-04-25 08:54:05] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-04-25 08:54:05] INFO root fetch - main [MainThread]: Store serial: [17845218]

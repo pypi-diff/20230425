@@ -7203,3 +7203,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 04:24:48] INFO root fetch - main [MainThread]: End processing [flgo]: success
 [2023-04-25 04:25:27] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-25 04:25:27] INFO root fetch - main [MainThread]: Store serial: [17843649]
+[2023-04-25 04:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843649]
+[2023-04-25 04:30:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hotbox
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-metriport
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thirdai
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-26
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iam-actions
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CommonlyTools
+[2023-04-25 04:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: videoprocessor
+[2023-04-25 04:30:39] WARNING root fetch - processPackages [fern-metriport]: Skipping, unable to determine old version
+[2023-04-25 04:30:39] INFO root fetch - main [MainThread]: End processing [fern-metriport] error
+[2023-04-25 04:30:39] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230424] Old Version: [1.2.20230423]
+[2023-04-25 04:30:39] INFO root fetch - processPackages [hotbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 04:30:39] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230425.2.27.754191] Old Version: [20230425.1.16.436186]
+[2023-04-25 04:30:39] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-04-25 04:30:39] INFO root fetch - processPackages [thirdai]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-25 04:30:39] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.8] Old Version: [2.7.7]
+[2023-04-25 04:30:39] INFO root fetch - processPackages [CommonlyTools]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-25 04:30:39] INFO root fetch - processPackages [videoprocessor]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 04:30:39] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-04-25 04:30:39] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230423.tar.gz tmp/iam_actions-1.2.20230424.tar.gz --markdown 20230425/i/iam-actions/1.2.20230423-1.2.20230424/diff.md --exclude *.pyd
+[2023-04-25 04:30:39] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/5e/c0/1240bb7921801787ce580543c5ff9f8e4908a4ebdc0f993e944e6dc859c9/certora-cli-alpha-master-20230425.1.16.436186.tar.gz
+[2023-04-25 04:30:39] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/90/1a/e1a333251d10fe57be71b25622c08ba24ce04112a4d979950b27a03cf167/cdk8s-plus-26-2.3.8.tar.gz
+[2023-04-25 04:30:39] INFO root fetch - processPackages [CommonlyTools]: Downloading https://files.pythonhosted.org/packages/36/c5/a5816fa601e914b1ca7747081258d09f6e07968a4abd79f9ca83b8f572a6/CommonlyTools-2.0.5.tar.gz
+[2023-04-25 04:30:39] INFO root fetch - processPackages [hotbox]: Downloading https://files.pythonhosted.org/packages/bc/bd/ba2f8994446a8e86458c66c5b618b6096951a13228371314de100a0d9a63/hotbox-0.0.8.tar.gz
+[2023-04-25 04:30:39] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/2b/eb/aacf87b6503777775e68c0a5040beadc98da98222b7b7f93a81f279adb60/thirdai-0.6.8-cp39-cp39-win_amd64.whl
+[2023-04-25 04:30:39] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/61/fd/341ee13486880c693e40dcfa1c392676afb73632bc824de1f5a33591736a/cdk8s-plus-24-2.7.8.tar.gz
+[2023-04-25 04:30:39] INFO root fetch - processPackages [videoprocessor]: Downloading https://files.pythonhosted.org/packages/9e/ce/f1c75041157e0935525594d11b2c5bca9544b51e89b6364382f9c8e1e39e/videoprocessor-0.0.4.tar.gz
+[2023-04-25 04:30:39] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38076953>=10485760
+[2023-04-25 04:30:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-25 04:30:39] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-25 04:30:39] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.0.4.tar.gz tmp/CommonlyTools-2.0.5.tar.gz --markdown 20230425/C/CommonlyTools/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-25 04:30:39] INFO root fetch - processPackages [videoprocessor]: executing diffoscope
+[2023-04-25 04:30:39] INFO root fetch - processPackages [videoprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videoprocessor-0.0.3.tar.gz tmp/videoprocessor-0.0.4.tar.gz --markdown 20230425/v/videoprocessor/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 04:30:39] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-04-25 04:30:39] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.7.tar.gz tmp/cdk8s-plus-26-2.3.8.tar.gz --markdown 20230425/c/cdk8s-plus-26/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-04-25 04:30:39] INFO root fetch - processPackages [hotbox]: Downloading https://files.pythonhosted.org/packages/59/15/3b73e9614ba377c60f5a7e76fc196687ac82ac09ca8c3909a099ea4a0bf8/hotbox-0.0.9.tar.gz
+[2023-04-25 04:30:39] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-04-25 04:30:39] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.7.tar.gz tmp/cdk8s-plus-24-2.7.8.tar.gz --markdown 20230425/c/cdk8s-plus-24/2.7.7-2.7.8/diff.md --exclude *.pyd
+[2023-04-25 04:30:39] INFO root fetch - processPackages [hotbox]: executing diffoscope
+[2023-04-25 04:30:39] INFO root fetch - processPackages [hotbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotbox-0.0.8.tar.gz tmp/hotbox-0.0.9.tar.gz --markdown 20230425/h/hotbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 04:30:40] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/18/b2/ed3a9f52323f64309c55785403a22bc9413a8c0e21f1324c07bd794f63b0/thirdai-0.6.9-cp39-cp39-win_amd64.whl
+[2023-04-25 04:30:40] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-25 04:30:40] INFO root fetch - main [MainThread]: End processing [videoprocessor]: success
+[2023-04-25 04:30:40] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-04-25 04:30:40] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.6.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.6.9-cp39-cp39-win_amd64.whl.zip --markdown 20230425/t/thirdai/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-25 04:30:41] INFO root fetch - main [MainThread]: End processing [hotbox]: success
+[2023-04-25 04:30:41] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-04-25 04:30:41] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-04-25 04:30:42] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-04-25 04:30:44] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-04-25 04:30:44] INFO root fetch - main [MainThread]: Store serial: [17843698]

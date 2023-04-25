@@ -6972,3 +6972,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 04:02:31] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
 [2023-04-25 04:02:31] INFO root fetch - main [MainThread]: End processing [NbRisk]: success
 [2023-04-25 04:02:31] INFO root fetch - main [MainThread]: Store serial: [17843526]
+[2023-04-25 04:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843526]
+[2023-04-25 04:07:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stooqer
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Lukz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kkpyutil
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-predict-sdk
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stdlibby-py
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crossmark-jotform-api
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-stubs
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clode
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perpetuo
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-25 04:07:40] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-25 04:07:40] WARNING root fetch - processPackages [stooqer]: Skipping, unable to determine old version
+[2023-04-25 04:07:40] INFO root fetch - processPackages [stooqer]: Start processing: ayaka-games
+[2023-04-25 04:07:40] INFO root fetch - main [MainThread]: End processing [stooqer] error
+[2023-04-25 04:07:40] INFO root fetch - processPackages [clode]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-25 04:07:40] WARNING root fetch - processPackages [crossmark-jotform-api]: Skipping, unable to determine old version
+[2023-04-25 04:07:40] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-04-25 04:07:40] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api] error
+[2023-04-25 04:07:40] INFO root fetch - processPackages [stdlibby-py]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-25 04:07:40] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-04-25 04:07:40] INFO root fetch - processPackages [perpetuo]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-25 04:07:40] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-04-25 04:07:40] INFO root fetch - processPackages [Lukz]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ayaka-games]: New version: [0.4.1] Old Version: [0.4.0b0]
+[2023-04-25 04:07:40] INFO root fetch - processPackages [clode]: Downloading https://files.pythonhosted.org/packages/27/7e/cfe8825de66e1a569c184eff1b99ff58265567243bc9de4272573068f95e/clode-0.3.1.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-25 04:07:40] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev8.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev9.tar.gz --markdown 20230425/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-25 04:07:40] INFO root fetch - processPackages [perpetuo]: Downloading https://files.pythonhosted.org/packages/39/80/be4b2e0142def55f19dbba7a10449394ed01c1cd7fd807c97d131c250856/perpetuo-0.2.0.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/2c/70/34a430b34e5830f1a8a9b0b1290e61b76c6c4ff624404827cf6e6b6104bc/zcbot-predict-sdk-0.0.5.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [Lukz]: Downloading https://files.pythonhosted.org/packages/fc/80/6a73d807c7d5a97a497ff49c7e5c916982843b846b541fc823b030629d98/Lukz-2.0.0.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/96/54/40b30a6094b51328e233ea7bcc80f355c48a2fafaf1ce3cec391a1d72598/botocore_stubs-1.29.98.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [stdlibby-py]: executing diffoscope
+[2023-04-25 04:07:40] INFO root fetch - processPackages [stdlibby-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdlibby_py-0.5.8.tar.gz tmp/stdlibby_py-0.5.9.tar.gz --markdown 20230425/s/stdlibby-py/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-25 04:07:40] INFO root fetch - processPackages [ayaka-games]: Downloading https://files.pythonhosted.org/packages/d5/46/fe11e6d0a66129f4dfba659a8f5cb7e7340d98dda8112814ae391a849a1c/ayaka_games-0.4.0b0.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [perpetuo]: executing diffoscope
+[2023-04-25 04:07:40] INFO root fetch - processPackages [perpetuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perpetuo-0.1.0.tar.gz tmp/perpetuo-0.2.0.tar.gz --markdown 20230425/p/perpetuo/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-25 04:07:40] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-04-25 04:07:40] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.4.tar.gz tmp/zcbot-predict-sdk-0.0.5.tar.gz --markdown 20230425/z/zcbot-predict-sdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-25 04:07:40] INFO root fetch - processPackages [Lukz]: Downloading https://files.pythonhosted.org/packages/60/e7/e9fb843fbdee9bf89b11b14b9c34459c6ce75d2adf1699e8242b06852727/Lukz-2.0.1.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [clode]: Downloading https://files.pythonhosted.org/packages/b2/d8/6fd5f2f3cac38f0ef9c1000c7cdfc3c830ff7e46f806aca946e0857f2fe4/clode-0.3.2.tar.gz
+[2023-04-25 04:07:40] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-04-25 04:07:41] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/38/ab/72974332ff9e3d31c7c86072032f8f2cd0daa9a0af4a7e93ea71e8305b2a/botocore_stubs-1.29.99.tar.gz
+[2023-04-25 04:07:41] INFO root fetch - processPackages [Lukz]: executing diffoscope
+[2023-04-25 04:07:41] INFO root fetch - processPackages [Lukz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lukz-2.0.0.tar.gz tmp/Lukz-2.0.1.tar.gz --markdown 20230425/L/Lukz/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-25 04:07:41] INFO root fetch - processPackages [ayaka-games]: Downloading https://files.pythonhosted.org/packages/59/96/0a93ccc83b7c5b3c38aa73b8ac4debe32a0c618080bb7e54a3c173145d76/ayaka_games-0.4.1.tar.gz
+[2023-04-25 04:07:41] INFO root fetch - processPackages [clode]: executing diffoscope
+[2023-04-25 04:07:41] INFO root fetch - processPackages [clode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clode-0.3.1.tar.gz tmp/clode-0.3.2.tar.gz --markdown 20230425/c/clode/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-25 04:07:41] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-04-25 04:07:41] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230425/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-04-25 04:07:41] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-04-25 04:07:41] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230425/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-04-25 04:07:41] INFO root fetch - processPackages [ayaka-games]: executing diffoscope
+[2023-04-25 04:07:41] INFO root fetch - processPackages [ayaka-games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayaka_games-0.4.0b0.tar.gz tmp/ayaka_games-0.4.1.tar.gz --markdown 20230425/a/ayaka-games/0.4.0b0-0.4.1/diff.md --exclude *.pyd
+[2023-04-25 04:07:41] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-25 04:07:41] INFO root fetch - main [MainThread]: End processing [stdlibby-py]: success
+[2023-04-25 04:07:42] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-04-25 04:07:42] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-04-25 04:07:42] INFO root fetch - main [MainThread]: End processing [perpetuo]: success
+[2023-04-25 04:07:42] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-04-25 04:07:42] INFO root fetch - main [MainThread]: End processing [ayaka-games]: success
+[2023-04-25 04:07:43] INFO root fetch - main [MainThread]: End processing [Lukz]: success
+[2023-04-25 04:07:45] INFO root fetch - main [MainThread]: End processing [clode]: success
+[2023-04-25 04:07:45] INFO root fetch - main [MainThread]: Store serial: [17843565]

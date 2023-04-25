@@ -7132,3 +7132,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 04:18:11] INFO root fetch - main [MainThread]: End processing [pyapproxmc]: success
 [2023-04-25 04:19:24] INFO root fetch - main [MainThread]: End processing [bdkpython]: success
 [2023-04-25 04:19:24] INFO root fetch - main [MainThread]: Store serial: [17843620]
+[2023-04-25 04:24:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843620]
+[2023-04-25 04:24:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flgo
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: led-calibration-plugin
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dorothy-sdk
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NewCode-Utils
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smithed
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NewCode-Utils
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alacorder
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyshortext
+[2023-04-25 04:24:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NewCode-Utils
+[2023-04-25 04:24:44] INFO root fetch - processPackages [flgo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 04:24:44] INFO root fetch - processPackages [led-calibration-plugin]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-25 04:24:44] INFO root fetch - processPackages [dorothy-sdk]: New version: [1.4.2] Old Version: [1.4.0]
+[2023-04-25 04:24:44] INFO root fetch - processPackages [NewCode-Utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 04:24:44] INFO root fetch - processPackages [NewCode-Utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 04:24:44] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-04-25 04:24:44] INFO root fetch - processPackages [NewCode-Utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 04:24:44] WARNING root fetch - processPackages [pyshortext]: Skipping, unable to determine old version
+[2023-04-25 04:24:44] INFO root fetch - processPackages [pyshortext]: Start processing: cppiniter
+[2023-04-25 04:24:44] INFO root fetch - main [MainThread]: End processing [pyshortext] error
+[2023-04-25 04:24:44] INFO root fetch - processPackages [smithed]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-25 04:24:45] INFO root fetch - processPackages [alacorder]: New version: [79.7.6] Old Version: [79.7.5]
+[2023-04-25 04:24:45] INFO root fetch - processPackages [smithed]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [smithed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed-0.9.2.tar.gz tmp/smithed-0.9.3.tar.gz --markdown 20230425/s/smithed/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [led-calibration-plugin]: Downloading https://files.pythonhosted.org/packages/09/08/3b1b462e509b461f46bdfcaf1fe4296788f085536d319700bbc0839a9652/led_calibration_plugin-1.2.0-py3-none-any.whl
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/00/1f/5ca7547c66e5298e22168602d7cd52e14816280c22e1192797d6173708f2/NewCode-Utils-1.0.8.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [dorothy-sdk]: Downloading https://files.pythonhosted.org/packages/5c/e7/24097e0c94ffe86381b08eed35a50be2b3d28322f8fe996fa6318caea4b1/dorothy-sdk-1.4.0.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/d6/a1/2b6e7d316887a6a23703adbf92614de421a5d66bb58c35ad86d731be0bc5/flgo-0.0.3.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/00/1f/5ca7547c66e5298e22168602d7cd52e14816280c22e1192797d6173708f2/NewCode-Utils-1.0.8.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/00/1f/5ca7547c66e5298e22168602d7cd52e14816280c22e1192797d6173708f2/NewCode-Utils-1.0.8.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [cppiniter]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-25 04:24:45] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev8.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev9.tar.gz --markdown 20230425/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [cppiniter]: Downloading https://files.pythonhosted.org/packages/5d/ab/ba7406e962533068238f13dcb699793ed4aa266c0e6a6c4ab1cac7fb98b5/cppiniter-1.0.4.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/fc/5e/0492c8d7b35794ca03fc37837bae77a6451f6c78c1f65cea5286116dd889/alacorder-79.7.6.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [led-calibration-plugin]: Downloading https://files.pythonhosted.org/packages/cd/15/21c4ca226bd0c4f67ca8ed595a2fd10b2332e844221a949bcdc74d572b0e/led_calibration_plugin-1.2.1-py3-none-any.whl
+[2023-04-25 04:24:45] INFO root fetch - processPackages [led-calibration-plugin]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/01/45/3290352984f234c338554c3f8b17dfd073419f6f6f55ad68cdff6440a408/NewCode-Utils-1.0.9.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [led-calibration-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/led_calibration_plugin-1.2.0-py3-none-any.whl.zip tmp/led_calibration_plugin-1.2.1-py3-none-any.whl.zip --markdown 20230425/l/led-calibration-plugin/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/01/45/3290352984f234c338554c3f8b17dfd073419f6f6f55ad68cdff6440a408/NewCode-Utils-1.0.9.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [dorothy-sdk]: Downloading https://files.pythonhosted.org/packages/89/fc/081051fc77999949a13631be5c69fbcdeb3c9566e3f4ca3a57450b5d7e66/dorothy-sdk-1.4.2.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: Downloading https://files.pythonhosted.org/packages/01/45/3290352984f234c338554c3f8b17dfd073419f6f6f55ad68cdff6440a408/NewCode-Utils-1.0.9.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewCode-Utils-1.0.8.tar.gz tmp/NewCode-Utils-1.0.9.tar.gz --markdown 20230425/N/NewCode-Utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewCode-Utils-1.0.8.tar.gz tmp/NewCode-Utils-1.0.9.tar.gz --markdown 20230425/N/NewCode-Utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [dorothy-sdk]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [dorothy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorothy-sdk-1.4.0.tar.gz tmp/dorothy-sdk-1.4.2.tar.gz --markdown 20230425/d/dorothy-sdk/1.4.0-1.4.2/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [NewCode-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewCode-Utils-1.0.8.tar.gz tmp/NewCode-Utils-1.0.9.tar.gz --markdown 20230425/N/NewCode-Utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/e6/ee/3bf09e02d963e1fe9cbbec878c615000f37e0b0cd663682a067ce316f4bb/flgo-0.0.4.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [cppiniter]: Downloading https://files.pythonhosted.org/packages/65/2c/0825306b67c7d11e19f4419e02c00b995d875178ac7ce8945646018bef94/cppiniter-1.0.5.tar.gz
+[2023-04-25 04:24:45] INFO root fetch - processPackages [flgo]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [flgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flgo-0.0.3.tar.gz tmp/flgo-0.0.4.tar.gz --markdown 20230425/f/flgo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [cppiniter]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [cppiniter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppiniter-1.0.4.tar.gz tmp/cppiniter-1.0.5.tar.gz --markdown 20230425/c/cppiniter/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-25 04:24:45] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-25 04:24:45] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.7.5.tar.gz tmp/alacorder-79.7.6.tar.gz --markdown 20230425/a/alacorder/79.7.5-79.7.6/diff.md --exclude *.pyd
+[2023-04-25 04:24:46] INFO root fetch - main [MainThread]: End processing [smithed]: success
+[2023-04-25 04:24:46] INFO root fetch - main [MainThread]: End processing [NewCode-Utils]: success
+[2023-04-25 04:24:46] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-25 04:24:47] INFO root fetch - main [MainThread]: End processing [NewCode-Utils]: success
+[2023-04-25 04:24:47] INFO root fetch - main [MainThread]: End processing [led-calibration-plugin]: success
+[2023-04-25 04:24:47] INFO root fetch - main [MainThread]: End processing [NewCode-Utils]: success
+[2023-04-25 04:24:47] INFO root fetch - main [MainThread]: End processing [cppiniter]: success
+[2023-04-25 04:24:47] INFO root fetch - main [MainThread]: End processing [dorothy-sdk]: success
+[2023-04-25 04:24:48] INFO root fetch - main [MainThread]: End processing [flgo]: success
+[2023-04-25 04:25:27] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-25 04:25:27] INFO root fetch - main [MainThread]: Store serial: [17843649]

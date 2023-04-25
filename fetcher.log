@@ -1153,3 +1153,56 @@
 [2023-04-25 01:59:41] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-04-25 02:00:20] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-04-25 02:00:20] INFO root fetch - main [MainThread]: Store serial: [17840716]
+[2023-04-25 02:05:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17840716]
+[2023-04-25 02:05:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FotoKilof
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imposs-shvm-boss
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algorand-vanity
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-nightly
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-newrelic
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxkern-nightly
+[2023-04-25 02:05:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-opsgenie
+[2023-04-25 02:05:29] WARNING root fetch - processPackages [algorand-vanity]: Skipping, unable to determine old version
+[2023-04-25 02:05:29] INFO root fetch - main [MainThread]: End processing [algorand-vanity] error
+[2023-04-25 02:05:29] INFO root fetch - processPackages [FotoKilof]: New version: [4.3.0] Old Version: [4.2.6]
+[2023-04-25 02:05:29] WARNING root fetch - processPackages [imposs-shvm-boss]: Skipping, unable to determine old version
+[2023-04-25 02:05:29] INFO root fetch - main [MainThread]: End processing [imposs-shvm-boss] error
+[2023-04-25 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-04-25 02:05:29] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230424.9.2.727631] Old Version: [20230424.20.50.881118]
+[2023-04-25 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1682294609] Old Version: [1682208212]
+[2023-04-25 02:05:29] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.0a1680282898] Old Version: [5.9.0]
+[2023-04-25 02:05:29] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-04-25 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-04-25 02:05:29] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/9c/b1/146a5ecb0fe5f0d09fcc65f45b90f88799d56a718883a53f0e1456030130/mct-nightly-1.8.0.9032023.post431.tar.gz
+[2023-04-25 02:05:29] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-04-25 02:05:29] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0.tar.gz tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz --markdown 20230425/p/pulumi-newrelic/5.9.0-5.9.0a1680282898/diff.md --exclude *.pyd
+[2023-04-25 02:05:29] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1682379701] Old Version: [1.3.0a1681935473]
+[2023-04-25 02:05:29] INFO root fetch - processPackages [FotoKilof]: Downloading https://files.pythonhosted.org/packages/b4/89/97a10d1fe6b95ff328ff65e89243c8bf349ebff2dd3732d0333696e9cf6c/FotoKilof-4.2.6.tar.gz
+[2023-04-25 02:05:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c7/a2/5dae9df2a1f95fca56f855967030783be3d2e5a51b7e76a1502569a7a134/certora-cli-alpha-master-20230424.20.50.881118.tar.gz
+[2023-04-25 02:05:29] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/15/16/97490c39f95f97f1b8de896b5ed7cb784948f9a52a6891755c41f74302a8/mct-nightly-1.8.0.9042023.post411.tar.gz
+[2023-04-25 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-04-25 02:05:29] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/f8/a5/b9a8cd39d908c2de094673d2119c514f670a069b0b0e35f429f3932c0794/pulumi_opsgenie-1.3.0a1681935473.tar.gz
+[2023-04-25 02:05:30] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-04-25 02:05:30] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230425/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-04-25 02:05:30] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/69/c1/fde7a72ffdf52ed5f2883eeddf8d8f4f7c13b1526c8c1f9f1f673396d8b1/torchdatasets-nightly-1682294609.tar.gz
+[2023-04-25 02:05:30] INFO root fetch - processPackages [FotoKilof]: Downloading https://files.pythonhosted.org/packages/c1/9e/aebbeabe066f16d8c42df9bbaf9be76564ae76a18af9c748d1daee240933/FotoKilof-4.3.0.tar.gz
+[2023-04-25 02:05:30] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-04-25 02:05:30] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230425/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-04-25 02:05:30] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-04-25 02:05:30] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1682208212.tar.gz tmp/torchdatasets-nightly-1682294609.tar.gz --markdown 20230425/t/torchdatasets-nightly/1682208212-1682294609/diff.md --exclude *.pyd
+[2023-04-25 02:05:30] INFO root fetch - processPackages [FotoKilof]: executing diffoscope
+[2023-04-25 02:05:30] INFO root fetch - processPackages [FotoKilof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FotoKilof-4.2.6.tar.gz tmp/FotoKilof-4.3.0.tar.gz --markdown 20230425/F/FotoKilof/4.2.6-4.3.0/diff.md --exclude *.pyd
+[2023-04-25 02:05:30] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38072924>=10485760
+[2023-04-25 02:05:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-25 02:05:30] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/29/53/0a83582c94dbb90ebffa0147bed9cb8e8500b5afb4a6d1c6e3ecf90ff5cc/pulumi_opsgenie-1.3.0a1682379701.tar.gz
+[2023-04-25 02:05:30] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-04-25 02:05:30] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1681935473.tar.gz tmp/pulumi_opsgenie-1.3.0a1682379701.tar.gz --markdown 20230425/p/pulumi-opsgenie/1.3.0a1681935473-1.3.0a1682379701/diff.md --exclude *.pyd
+[2023-04-25 02:05:31] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-04-25 02:05:31] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-04-25 02:05:31] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-04-25 02:05:31] INFO root fetch - main [MainThread]: End processing [FotoKilof]: success
+[2023-04-25 02:05:33] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-04-25 02:05:35] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-04-25 02:05:35] INFO root fetch - main [MainThread]: Store serial: [17840747]

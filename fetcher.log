@@ -11400,3 +11400,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:30:29] INFO root fetch - main [MainThread]: End processing [wiliot-core]: success
 [2023-04-25 10:30:32] INFO root fetch - main [MainThread]: End processing [airbase]: success
 [2023-04-25 10:30:32] INFO root fetch - main [MainThread]: Store serial: [17846129]
+[2023-04-25 10:35:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17846129]
+[2023-04-25 10:35:41] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aireplication
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.smartweb.core
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: woe-scoring
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaseg
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sitesweeper
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mfrc522-python
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ChatLLM
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ptwt
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sciqlopplots
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MMEdu
+[2023-04-25 10:35:41] WARNING root fetch - processPackages [sitesweeper]: Skipping, unable to determine old version
+[2023-04-25 10:35:41] INFO root fetch - processPackages [aireplication]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [sitesweeper]: Start processing: PyQtGuiLib
+[2023-04-25 10:35:41] INFO root fetch - processPackages [woe-scoring]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 10:35:41] INFO root fetch - main [MainThread]: End processing [sitesweeper] error
+[2023-04-25 10:35:41] INFO root fetch - processPackages [mfrc522-python]: New version: [0.0.5.dev4] Old Version: [0.0.5.dev3]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.25.9.19.45] Old Version: [2023.4.25.16.33.8]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [metaseg]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [PyQtGuiLib]: New version: [2.8.20.0] Old Version: [2.7.20.11]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [MMEdu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ptwt]: New version: [0.1.5] Old Version: [0.1.4.post2]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [sciqlopplots]: New version: [0.3.3] Old Version: [0.2.6]
+[2023-04-25 10:35:41] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.1.8.tar.gz tmp/imio.smartweb.core-1.1.9.tar.gz --markdown 20230425/i/imio.smartweb.core/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/c8/3c/290bedd5a3bd3ae40f275dfb540a02c8f196db19204779f74ac0d511a72b/ChatLLM-2023.4.25.16.33.8.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [woe-scoring]: Downloading https://files.pythonhosted.org/packages/67/25/58876a56184523e57ade700c83810d516cfbe738bfbe52e7f7f76f9ee0d8/woe_scoring-0.8.0.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [PyQtGuiLib]: Downloading https://files.pythonhosted.org/packages/ac/c8/7ab7bee284a12bb43938079ea76e1ada9d3d89cfe904091b336bfc1d99e1/PyQtGuiLib-2.7.20.11.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [sciqlopplots]: Downloading https://files.pythonhosted.org/packages/c5/24/7b226ba99defa2f9b9e6f4274e6545a59b73f687323a5b29047723492a11/sciqlopplots-0.2.6.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ptwt]: Downloading https://files.pythonhosted.org/packages/ad/9f/5bc79313afed2bfaf983eca74d9324ff93e137d5f6e8787065a1fe1c2634/ptwt-0.1.4.post2.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [MMEdu]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [MMEdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMEdu-0.1.8.tar.gz tmp/MMEdu-0.1.9.tar.gz --markdown 20230425/M/MMEdu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:35:41] INFO root fetch - processPackages [aireplication]: Downloading https://files.pythonhosted.org/packages/e4/aa/65ea223b2a434adb72f4f564eefb865012aee196ee9725e24009a125cf5a/aireplication-0.0.4.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [mfrc522-python]: Downloading https://files.pythonhosted.org/packages/0c/de/0239ed94b5bad0b26d4aca84bbb1e6c31fd367f8cb385df7fc78511e7dc8/mfrc522-python-0.0.5.dev4.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [metaseg]: Downloading https://files.pythonhosted.org/packages/9c/35/1f61462b6539664abb6aa6486a389f7c75cfbd36f272253908c8dab8efc7/metaseg-0.7.1.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [PyQtGuiLib]: Downloading https://files.pythonhosted.org/packages/73/3a/afbe809087aaa0e5e09441743353453b700fd37ef996bb6db5707d4d2d7e/PyQtGuiLib-2.8.20.0.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [aireplication]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [aireplication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aireplication-0.0.3.tar.gz tmp/aireplication-0.0.4.tar.gz --markdown 20230425/a/aireplication/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 10:35:41] INFO root fetch - processPackages [mfrc522-python]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [mfrc522-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfrc522-python-0.0.5.dev3.tar.gz tmp/mfrc522-python-0.0.5.dev4.tar.gz --markdown 20230425/m/mfrc522-python/0.0.5.dev3-0.0.5.dev4/diff.md --exclude *.pyd
+[2023-04-25 10:35:41] INFO root fetch - processPackages [woe-scoring]: Downloading https://files.pythonhosted.org/packages/5c/33/00fd7f2d8f8d603aa62affd65598ff1b3c60f6b9dae2245f164e3575fa71/woe_scoring-0.9.0.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [metaseg]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [metaseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaseg-0.7.0.tar.gz tmp/metaseg-0.7.1.tar.gz --markdown 20230425/m/metaseg/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ptwt]: Downloading https://files.pythonhosted.org/packages/24/d6/bfe000cf7ae3b8ae25b7a21d783bc86517674e943134d67b8a4f493d7489/ptwt-0.1.5.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [sciqlopplots]: Downloading https://files.pythonhosted.org/packages/fe/9b/725a750ce1588cf3d02bf7f1f68fb035c4f6343e480cbfeef0c6336569e5/sciqlopplots-0.3.3.tar.gz
+[2023-04-25 10:35:41] INFO root fetch - processPackages [woe-scoring]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [woe-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_scoring-0.8.0.tar.gz tmp/woe_scoring-0.9.0.tar.gz --markdown 20230425/w/woe-scoring/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 10:35:41] INFO root fetch - processPackages [PyQtGuiLib]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [PyQtGuiLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtGuiLib-2.7.20.11.tar.gz tmp/PyQtGuiLib-2.8.20.0.tar.gz --markdown 20230425/P/PyQtGuiLib/2.7.20.11-2.8.20.0/diff.md --exclude *.pyd
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ptwt]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [ptwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptwt-0.1.4.post2.tar.gz tmp/ptwt-0.1.5.tar.gz --markdown 20230425/p/ptwt/0.1.4.post2-0.1.5/diff.md --exclude *.pyd
+[2023-04-25 10:35:41] INFO root fetch - processPackages [sciqlopplots]: executing diffoscope
+[2023-04-25 10:35:41] INFO root fetch - processPackages [sciqlopplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciqlopplots-0.2.6.tar.gz tmp/sciqlopplots-0.3.3.tar.gz --markdown 20230425/s/sciqlopplots/0.2.6-0.3.3/diff.md --exclude *.pyd
+[2023-04-25 10:35:43] INFO root fetch - processPackages [MMEdu]: Start processing: Pandora-Cloud
+[2023-04-25 10:35:43] INFO root fetch - main [MainThread]: End processing [MMEdu]: success
+[2023-04-25 10:35:43] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-25 10:35:43] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/e6/20/1540b5de0c6a082b4af955a06a648efe9f47caea458e5188e9b3fdbf35de/ChatLLM-2023.4.25.9.19.45.tar.gz
+[2023-04-25 10:35:43] INFO root fetch - processPackages [aireplication]: Start processing: discake
+[2023-04-25 10:35:43] INFO root fetch - main [MainThread]: End processing [aireplication]: success
+[2023-04-25 10:35:43] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/4c/bc/0587a97fff135a55666e33cc9885889473ed4a5f787e390be7b64efc7f02/Pandora-Cloud-0.0.6.tar.gz
+[2023-04-25 10:35:43] INFO root fetch - processPackages [discake]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-25 10:35:43] INFO root fetch - processPackages [mfrc522-python]: Start processing: invenio-users-resources
+[2023-04-25 10:35:43] INFO root fetch - main [MainThread]: End processing [mfrc522-python]: success
+[2023-04-25 10:35:43] INFO root fetch - processPackages [woe-scoring]: Start processing: langchain-serve
+[2023-04-25 10:35:43] INFO root fetch - main [MainThread]: End processing [woe-scoring]: success
+[2023-04-25 10:35:43] INFO root fetch - processPackages [discake]: Downloading https://files.pythonhosted.org/packages/7e/79/05eecdc141a11d2e82d695e6f47959d3cb679ed6655b7b8c1a65fb4fb811/discake-0.0.5.tar.gz
+[2023-04-25 10:35:43] INFO root fetch - processPackages [invenio-users-resources]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-25 10:35:43] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-25 10:35:43] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-25 10:35:43] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230425/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-25 10:35:43] INFO root fetch - main [MainThread]: End processing [metaseg]: success
+[2023-04-25 10:35:43] INFO root fetch - main [MainThread]: End processing [ptwt]: success
+[2023-04-25 10:35:43] INFO root fetch - processPackages [discake]: executing diffoscope
+[2023-04-25 10:35:43] INFO root fetch - processPackages [discake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discake-0.0.4.tar.gz tmp/discake-0.0.5.tar.gz --markdown 20230425/d/discake/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-25 10:35:43] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/0b/91/504566afb7ec4e6cfacf93211405ae1511f754907c0581620ed114c4093f/invenio-users-resources-1.3.0.tar.gz
+[2023-04-25 10:35:43] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-25 10:35:43] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.25.16.33.8.tar.gz tmp/ChatLLM-2023.4.25.9.19.45.tar.gz --markdown 20230425/C/ChatLLM/2023.4.25.16.33.8-2023.4.25.9.19.45/diff.md --exclude *.pyd
+[2023-04-25 10:35:43] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/dd/d7/4a4e345f49cd6807330de0470d8d082108760f2ad223828bc8ea817c3973/invenio-users-resources-1.4.0.tar.gz
+[2023-04-25 10:35:43] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/5b/75/4dd679acde5d077ee6c8f29bd25dfd3058a655ccef89e2df1c3531487853/Pandora-Cloud-0.0.7.tar.gz
+[2023-04-25 10:35:44] INFO root fetch - processPackages [invenio-users-resources]: executing diffoscope
+[2023-04-25 10:35:44] INFO root fetch - processPackages [invenio-users-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-users-resources-1.3.0.tar.gz tmp/invenio-users-resources-1.4.0.tar.gz --markdown 20230425/i/invenio-users-resources/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-25 10:35:44] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-04-25 10:35:44] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.0.6.tar.gz tmp/Pandora-Cloud-0.0.7.tar.gz --markdown 20230425/P/Pandora-Cloud/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-25 10:35:44] INFO root fetch - main [MainThread]: End processing [PyQtGuiLib]: success
+[2023-04-25 10:35:44] INFO root fetch - main [MainThread]: End processing [discake]: success
+[2023-04-25 10:35:44] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-25 10:35:45] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
+[2023-04-25 10:35:45] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-04-25 10:35:46] INFO root fetch - main [MainThread]: End processing [sciqlopplots]: success
+[2023-04-25 10:35:46] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-25 10:35:47] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2023-04-25 10:35:47] INFO root fetch - main [MainThread]: Store serial: [17846175]

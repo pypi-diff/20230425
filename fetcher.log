@@ -7592,3 +7592,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 04:57:22] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2023-04-25 04:57:27] INFO root fetch - main [MainThread]: End processing [itkwasm-compress-stringify-wasi]: success
 [2023-04-25 04:57:27] INFO root fetch - main [MainThread]: Store serial: [17843858]
+[2023-04-25 05:02:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843858]
+[2023-04-25 05:02:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcbot-predict-sdk
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: envd
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj-beatcloud
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piperider
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-beatcloud
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dartpy
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quorum-data-py
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smdb-api
+[2023-04-25 05:02:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: machkit
+[2023-04-25 05:02:36] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [quorum-data-py]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.4.1b9] Old Version: [2.4.1b8]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [machkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [smdb-api]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.4.1b9] Old Version: [2.4.1b8]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post85] Old Version: [0.1.0.post84]
+[2023-04-25 05:02:36] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-04-25 05:02:36] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.5.tar.gz tmp/zcbot-predict-sdk-0.0.6.tar.gz --markdown 20230425/z/zcbot-predict-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 05:02:37] INFO root fetch - processPackages [smdb-api]: executing diffoscope
+[2023-04-25 05:02:37] INFO root fetch - processPackages [smdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smdb_api-0.9.1.tar.gz tmp/smdb_api-0.9.12.tar.gz --markdown 20230425/s/smdb-api/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/c7/ab/d815729990abed8e2213955c467eef9e7338e3edb8fe3f70b4f274c00c50/dj_beatcloud-2.4.1b8.tar.gz
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/c7/ab/d815729990abed8e2213955c467eef9e7338e3edb8fe3f70b4f274c00c50/dj_beatcloud-2.4.1b8.tar.gz
+[2023-04-25 05:02:37] INFO root fetch - processPackages [quorum-data-py]: Downloading https://files.pythonhosted.org/packages/73/97/2dc6167be6940b036f6a60e4ae28923a43e8330b3b0d8db1d2f2039e4f44/quorum_data_py-1.2.1.tar.gz
+[2023-04-25 05:02:37] INFO root fetch - processPackages [machkit]: Downloading https://files.pythonhosted.org/packages/13/33/75a3f16501c50dcf6155dabcaa5754d46657b6bb528f77f0d83bce03a007/machkit-0.1.0.tar.gz
+[2023-04-25 05:02:37] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-04-25 05:02:37] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/0f/e9/ce32566540265fafdaef559d2e1390b20926f3293b8f1938eafd45198bab/dartpy-0.1.0.post84-cp39-cp39-win_amd64.whl
+[2023-04-25 05:02:37] INFO root fetch - processPackages [quorum-data-py]: executing diffoscope
+[2023-04-25 05:02:37] INFO root fetch - processPackages [quorum-data-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_data_py-1.2.0.tar.gz tmp/quorum_data_py-1.2.1.tar.gz --markdown 20230425/q/quorum-data-py/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/7f/d5/af494707596613b38b2be1e593f9a8c2351820552a2ff8b11bb120338132/dj_beatcloud-2.4.1b9.tar.gz
+[2023-04-25 05:02:37] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20010414>=10485760
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/7f/d5/af494707596613b38b2be1e593f9a8c2351820552a2ff8b11bb120338132/dj_beatcloud-2.4.1b9.tar.gz
+[2023-04-25 05:02:37] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-04-25 05:02:37] INFO root fetch - processPackages [machkit]: Downloading https://files.pythonhosted.org/packages/6e/dd/9f72b434487924781fe334b5f7fa1d025b944e80dee5a12e85564c5a06de/machkit-0.1.1.tar.gz
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.4.1b8.tar.gz tmp/dj_beatcloud-2.4.1b9.tar.gz --markdown 20230425/d/dj-beatcloud/2.4.1b8-2.4.1b9/diff.md --exclude *.pyd
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-04-25 05:02:37] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.4.1b8.tar.gz tmp/dj_beatcloud-2.4.1b9.tar.gz --markdown 20230425/d/dj-beatcloud/2.4.1b8-2.4.1b9/diff.md --exclude *.pyd
+[2023-04-25 05:02:37] INFO root fetch - processPackages [machkit]: executing diffoscope
+[2023-04-25 05:02:37] INFO root fetch - processPackages [machkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machkit-0.1.0.tar.gz tmp/machkit-0.1.1.tar.gz --markdown 20230425/m/machkit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 05:02:37] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-04-25 05:02:38] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-04-25 05:02:38] INFO root fetch - main [MainThread]: End processing [smdb-api]: success
+[2023-04-25 05:02:38] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-04-25 05:02:38] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230425/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-04-25 05:02:38] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-04-25 05:02:38] INFO root fetch - main [MainThread]: End processing [quorum-data-py]: success
+[2023-04-25 05:02:38] INFO root fetch - main [MainThread]: End processing [machkit]: success
+[2023-04-25 05:02:38] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-04-25 05:02:39] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-04-25 05:02:39] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230425/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 05:02:40] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-04-25 05:02:41] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-04-25 05:03:57] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-04-25 05:03:57] INFO root fetch - main [MainThread]: Store serial: [17843905]

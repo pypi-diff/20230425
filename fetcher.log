@@ -8228,3 +8228,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 06:12:21] INFO root fetch - main [MainThread]: End processing [cythereal-magic]: success
 [2023-04-25 06:12:22] INFO root fetch - main [MainThread]: End processing [refurb]: success
 [2023-04-25 06:12:22] INFO root fetch - main [MainThread]: Store serial: [17844273]
+[2023-04-25 06:17:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844273]
+[2023-04-25 06:17:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyopenbook
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geomapdemo
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pystorz
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auraboros
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auraboros
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auraboros
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auraboros
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auraboros
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auraboros
+[2023-04-25 06:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auraboros
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pyopenbook]: New version: [0.7.2a0] Old Version: [0.7.1a0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [geomapdemo]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pystorz]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/2f/52/7ee5b992b135569bae231432bdeac5d70832eeed7b74dc0514befae8ed52/pystorz-0.0.9.tar.gz
+[2023-04-25 06:17:31] INFO root fetch - processPackages [geomapdemo]: Downloading https://files.pythonhosted.org/packages/b2/5d/58e34ed842829d20a5743252211bfcc5a2837f310ebbab72a62982db24be/geomapdemo-0.2.0.tar.gz
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pyopenbook]: Downloading https://files.pythonhosted.org/packages/42/ae/87ce3db2e75843a12bafe24d8f1b90866d2ce42c08142f04957cbe8fd8ff/pyopenbook-0.7.2a0.tar.gz
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230425/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230425/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230425/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230425/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230425/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230425/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230425/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pyopenbook]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pyopenbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenbook-0.7.1a0.tar.gz tmp/pyopenbook-0.7.2a0.tar.gz --markdown 20230425/p/pyopenbook/0.7.1a0-0.7.2a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [geomapdemo]: Downloading https://files.pythonhosted.org/packages/40/5d/6040776ad8b56dd8e5477ff332b1b4a9cebe4d8c7ae9a6b191af8b99c1e3/geomapdemo-0.2.1.tar.gz
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/3b/46/0a811d3310698e65d7f762d7673f0cf4b3917ffd2da1ca2d667f622474d6/pystorz-0.1.0.tar.gz
+[2023-04-25 06:17:31] INFO root fetch - processPackages [geomapdemo]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [geomapdemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomapdemo-0.2.0.tar.gz tmp/geomapdemo-0.2.1.tar.gz --markdown 20230425/g/geomapdemo/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-04-25 06:17:31] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.0.9.tar.gz tmp/pystorz-0.1.0.tar.gz --markdown 20230425/p/pystorz/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-25 06:17:33] INFO root fetch - processPackages [geomapdemo]: Start processing: auraboros
+[2023-04-25 06:17:33] INFO root fetch - main [MainThread]: End processing [geomapdemo]: success
+[2023-04-25 06:17:33] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-25 06:17:33] INFO root fetch - processPackages [pyopenbook]: Start processing: nonebot-plugin-xiuxian-2
+[2023-04-25 06:17:33] INFO root fetch - main [MainThread]: End processing [pyopenbook]: success
+[2023-04-25 06:17:33] INFO root fetch - processPackages [pystorz]: Start processing: hypothesis
+[2023-04-25 06:17:33] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-04-25 06:17:33] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: New version: [2.9.0.0] Old Version: [2.8.6.6]
+[2023-04-25 06:17:33] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-25 06:17:33] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230425/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-25 06:17:33] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-04-25 06:17:33] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-04-25 06:17:33] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230425/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-04-25 06:17:33] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: Downloading https://files.pythonhosted.org/packages/37/1f/30ef723399b6a9bd6303b041795e19dfcd57d3881b0866cfc1e51c6284a0/nonebot_plugin_xiuxian_2-2.8.6.6.tar.gz
+[2023-04-25 06:17:33] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-25 06:17:33] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-25 06:17:33] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: Downloading https://files.pythonhosted.org/packages/38/cf/cb0aacf931232c0fbd4a811661ae57d7cb45cd345d46097199ba873e5606/nonebot_plugin_xiuxian_2-2.9.0.0.tar.gz
+[2023-04-25 06:17:33] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: executing diffoscope
+[2023-04-25 06:17:33] INFO root fetch - processPackages [nonebot-plugin-xiuxian-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_xiuxian_2-2.8.6.6.tar.gz tmp/nonebot_plugin_xiuxian_2-2.9.0.0.tar.gz --markdown 20230425/n/nonebot-plugin-xiuxian-2/2.8.6.6-2.9.0.0/diff.md --exclude *.pyd
+[2023-04-25 06:17:34] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-25 06:17:34] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-25 06:17:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-xiuxian-2]: success
+[2023-04-25 06:17:35] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-04-25 06:17:36] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-25 06:17:36] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-25 06:17:36] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-25 06:17:36] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-25 06:17:36] INFO root fetch - main [MainThread]: Store serial: [17844334]

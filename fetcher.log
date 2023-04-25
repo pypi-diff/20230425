@@ -10018,3 +10018,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 09:09:57] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230425/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
 [2023-04-25 09:10:08] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-04-25 09:10:08] INFO root fetch - main [MainThread]: Store serial: [17845355]
+[2023-04-25 09:15:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845355]
+[2023-04-25 09:15:17] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-dcdn
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-viewflow
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prunerr
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numerous-html-report-generator
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo11-addon-mail-activity-team
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rayvision-sync
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hkhklab
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lucupy
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: caf.toolkit
+[2023-04-25 09:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyoxynet
+[2023-04-25 09:15:17] WARNING root fetch - processPackages [hkhklab]: Skipping, unable to determine old version
+[2023-04-25 09:15:17] INFO root fetch - processPackages [hkhklab]: Start processing: upgini
+[2023-04-25 09:15:17] INFO root fetch - main [MainThread]: End processing [hkhklab] error
+[2023-04-25 09:15:17] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [django-viewflow]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [odoo11-addon-mail-activity-team]: New version: [11.0.2.3.0.99.dev8] Old Version: [11.0.2.3.0.99.dev6]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [caf.toolkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [rayvision-sync]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [numerous-html-report-generator]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [prunerr]: New version: [1.1.4b0] Old Version: [1.1.4]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-04-25 09:15:17] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-25 09:15:18] INFO root fetch - processPackages [prunerr]: Downloading https://files.pythonhosted.org/packages/0e/9b/4795b384768144e879b34dd6479b39ad63b761828bdbc5249bf6e87e2811/prunerr-1.1.4.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/f6/9c/41810a32b5ccf765a320a8574be69d35e2f3614a7d24670cfcd9ef90a1b1/django-viewflow-2.0.0b2.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: Downloading https://files.pythonhosted.org/packages/1e/eb/47fd5c666857f843b5c06091db5a60c1ba222b130f7b07c4ac22e3faa16b/aliyun-python-sdk-dcdn-2.2.8.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [rayvision-sync]: Downloading https://files.pythonhosted.org/packages/69/7f/6861b8bcd298f963b23f870e2febae3208188855d88c23c7b72d4b1fa22b/rayvision_sync-2.8.7.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [caf.toolkit]: Downloading https://files.pythonhosted.org/packages/23/6a/dec156ccf6d041f90d68acb41b742f61380c9d51b48891c9685a480ae113/caf.toolkit-0.1.0.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [odoo11-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/23/78/99cb036f8135ccbae0eb7af0ccc1ee0b34f3217c6867df86bcde74cbe31e/odoo11_addon_mail_activity_team-11.0.2.3.0.99.dev6-py2.py3-none-any.whl
+[2023-04-25 09:15:18] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [numerous-html-report-generator]: Downloading https://files.pythonhosted.org/packages/b3/2f/5a9afd05f3aac5a4eb334d548683a7cf4e69f161710d5b1962a0513af629/numerous%20html-report-generator-1.2.0.tar.gz
+[2023-04-25 09:15:18] WARNING root fetch - processPackages [rayvision-sync]: Skipping package: exceeds size limit 43681040>=10485760
+[2023-04-25 09:15:18] INFO root fetch - processPackages [rayvision-sync]: Start processing: image-augs
+[2023-04-25 09:15:18] INFO root fetch - main [MainThread]: End processing [rayvision-sync] error
+[2023-04-25 09:15:18] INFO root fetch - processPackages [image-augs]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-04-25 09:15:18] INFO root fetch - processPackages [prunerr]: executing diffoscope
+[2023-04-25 09:15:18] INFO root fetch - processPackages [prunerr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prunerr-1.1.4.tar.gz tmp/prunerr-1.1.4b0.tar.gz --markdown 20230425/p/prunerr/1.1.4-1.1.4b0/diff.md --exclude *.pyd
+[2023-04-25 09:15:18] INFO root fetch - processPackages [caf.toolkit]: Downloading https://files.pythonhosted.org/packages/a7/20/01bf0472fc88cb4d6a90bbf2d66226abd65207eb1a3f67114fd63772659e/caf.toolkit-0.1.1.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: Downloading https://files.pythonhosted.org/packages/08/51/46939f5f8ee69a1412536c44967efb482ce3c80b096c94a291fdfb642bb0/aliyun-python-sdk-dcdn-2.2.9.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [numerous-html-report-generator]: executing diffoscope
+[2023-04-25 09:15:18] INFO root fetch - processPackages [numerous-html-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous html-report-generator-1.1.0.tar.gz tmp/numerous html-report-generator-1.2.0.tar.gz --markdown 20230425/n/numerous-html-report-generator/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-25 09:15:18] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: executing diffoscope
+[2023-04-25 09:15:18] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dcdn-2.2.8.tar.gz tmp/aliyun-python-sdk-dcdn-2.2.9.tar.gz --markdown 20230425/a/aliyun-python-sdk-dcdn/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-25 09:15:18] INFO root fetch - processPackages [image-augs]: executing diffoscope
+[2023-04-25 09:15:18] INFO root fetch - processPackages [image-augs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_augs-2.1.7.tar.gz tmp/image_augs-2.1.8.tar.gz --markdown 20230425/i/image-augs/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-04-25 09:15:18] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-04-25 09:15:18] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230425/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 09:15:18] INFO root fetch - processPackages [odoo11-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/41/a4/acfca800d43f416597bc3a0440ad1d51e752d3bdb22ccbb6ecc765d6a54e/odoo11_addon_mail_activity_team-11.0.2.3.0.99.dev8-py2.py3-none-any.whl
+[2023-04-25 09:15:18] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-04-25 09:15:18] INFO root fetch - processPackages [caf.toolkit]: executing diffoscope
+[2023-04-25 09:15:18] INFO root fetch - processPackages [caf.toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caf.toolkit-0.1.0.tar.gz tmp/caf.toolkit-0.1.1.tar.gz --markdown 20230425/c/caf.toolkit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 09:15:18] INFO root fetch - processPackages [odoo11-addon-mail-activity-team]: executing diffoscope
+[2023-04-25 09:15:18] INFO root fetch - processPackages [odoo11-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_mail_activity_team-11.0.2.3.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_mail_activity_team-11.0.2.3.0.99.dev8-py2.py3-none-any.whl.zip --markdown 20230425/o/odoo11-addon-mail-activity-team/11.0.2.3.0.99.dev6-11.0.2.3.0.99.dev8/diff.md --exclude *.pyd
+[2023-04-25 09:15:18] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-04-25 09:15:18] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230425/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-25 09:15:19] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-04-25 09:15:19] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/a0/bd/292cae44e684ae3dcf207391576c1222de15c46f220a582c1868ae8626b2/django-viewflow-2.0.0b3.tar.gz
+[2023-04-25 09:15:20] INFO root fetch - processPackages [odoo11-addon-mail-activity-team]: Start processing: odoo-addons-oca-stock-logistics-availability
+[2023-04-25 09:15:20] INFO root fetch - main [MainThread]: End processing [odoo11-addon-mail-activity-team]: success
+[2023-04-25 09:15:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: New version: [16.0.20230424.0] Old Version: [16.0.20230125.0]
+[2023-04-25 09:15:20] INFO root fetch - processPackages [image-augs]: Start processing: kameleoon-client-python
+[2023-04-25 09:15:20] INFO root fetch - main [MainThread]: End processing [image-augs]: success
+[2023-04-25 09:15:20] INFO root fetch - processPackages [numerous-html-report-generator]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-25 09:15:20] INFO root fetch - main [MainThread]: End processing [numerous-html-report-generator]: success
+[2023-04-25 09:15:20] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-04-25 09:15:20] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230425/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-04-25 09:15:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-25 09:15:20] INFO root fetch - processPackages [kameleoon-client-python]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-25 09:15:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Downloading https://files.pythonhosted.org/packages/00/1b/3fdd0005577192cf46277bef6e35477d1dd8355c9f9aa58c8b9c66f74053/odoo_addons_oca_stock_logistics_availability-16.0.20230125.0-py3-none-any.whl
+[2023-04-25 09:15:20] INFO root fetch - processPackages [lucupy]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-25 09:15:20] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-04-25 09:15:20] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-25 09:15:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-04-25 09:15:20] INFO root fetch - processPackages [kameleoon-client-python]: Downloading https://files.pythonhosted.org/packages/23/a5/092caf75aca1d3e80ccb78a9a0c021f1248e7ec555ded0e73b575d1402f1/kameleoon-client-python-2.1.0.tar.gz
+[2023-04-25 09:15:20] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-25 09:15:20] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230425/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-25 09:15:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Downloading https://files.pythonhosted.org/packages/a8/2c/c6b3d1a897868bbda1ee8e74b54859f05476871b14e0366987b8cde81f2c/odoo_addons_oca_stock_logistics_availability-16.0.20230424.0-py3-none-any.whl
+[2023-04-25 09:15:20] INFO root fetch - processPackages [kameleoon-client-python]: Downloading https://files.pythonhosted.org/packages/65/30/e056fb51992ca88eb7b42644be4e620458aaee7b8a5ea4bd6aa75865b811/kameleoon-client-python-2.2.0.tar.gz
+[2023-04-25 09:15:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: executing diffoscope
+[2023-04-25 09:15:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_availability-16.0.20230125.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_availability-16.0.20230424.0-py3-none-any.whl.zip --markdown 20230425/o/odoo-addons-oca-stock-logistics-availability/16.0.20230125.0-16.0.20230424.0/diff.md --exclude *.pyd
+[2023-04-25 09:15:20] INFO root fetch - processPackages [caf.toolkit]: Start processing: alibabacloud-gateway-dingtalk
+[2023-04-25 09:15:20] INFO root fetch - main [MainThread]: End processing [caf.toolkit]: success
+[2023-04-25 09:15:20] INFO root fetch - processPackages [django-viewflow]: executing diffoscope
+[2023-04-25 09:15:20] INFO root fetch - processPackages [django-viewflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-viewflow-2.0.0b2.tar.gz tmp/django-viewflow-2.0.0b3.tar.gz --markdown 20230425/d/django-viewflow/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-04-25 09:15:20] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-25 09:15:20] INFO root fetch - processPackages [kameleoon-client-python]: executing diffoscope
+[2023-04-25 09:15:20] INFO root fetch - processPackages [kameleoon-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kameleoon-client-python-2.1.0.tar.gz tmp/kameleoon-client-python-2.2.0.tar.gz --markdown 20230425/k/kameleoon-client-python/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-25 09:15:21] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: Downloading https://files.pythonhosted.org/packages/95/1a/e840e89bc4e9fa4e3cafda1f398489cb82828d76b4afa9cbc4333e184e4a/alibabacloud_gateway_dingtalk-1.0.0.tar.gz
+[2023-04-25 09:15:21] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: Downloading https://files.pythonhosted.org/packages/b9/88/0f9399aac4a7240674db747a6589ddfda33f0a7dcc2d8b7dbd52cbed53cc/alibabacloud_gateway_dingtalk-1.0.1.tar.gz
+[2023-04-25 09:15:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-04-25 09:15:21] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: executing diffoscope
+[2023-04-25 09:15:21] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gateway_dingtalk-1.0.0.tar.gz tmp/alibabacloud_gateway_dingtalk-1.0.1.tar.gz --markdown 20230425/a/alibabacloud-gateway-dingtalk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-25 09:15:22] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-availability]: Start processing: alibabacloud-gateway-dingtalk-py2
+[2023-04-25 09:15:22] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-availability]: success
+[2023-04-25 09:15:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-25 09:15:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230425/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 09:15:22] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-25 09:15:22] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: crossmark-jotform-api
+[2023-04-25 09:15:22] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-25 09:15:22] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 09:15:22] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: Downloading https://files.pythonhosted.org/packages/89/f9/a1daf8e6c6d0ff55a0253104dd4305f204dd457645839c819bbe24d41f93/alibabacloud_gateway_dingtalk_py2-1.0.0.tar.gz
+[2023-04-25 09:15:22] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/05/be/0f8f9735374cebb8a1104e76389a724a4d82945fe9355d354f44670b3285/crossmark-jotform-api-0.0.8.tar.gz
+[2023-04-25 09:15:22] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: Downloading https://files.pythonhosted.org/packages/7d/91/b231391f5919c8b4bc7c7345e97be50ec994a73e36dc1084acf63070725c/alibabacloud_gateway_dingtalk_py2-1.0.1.tar.gz
+[2023-04-25 09:15:22] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-04-25 09:15:22] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.0.7.tar.gz tmp/crossmark-jotform-api-0.0.8.tar.gz --markdown 20230425/c/crossmark-jotform-api/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 09:15:22] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: executing diffoscope
+[2023-04-25 09:15:22] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gateway_dingtalk_py2-1.0.0.tar.gz tmp/alibabacloud_gateway_dingtalk_py2-1.0.1.tar.gz --markdown 20230425/a/alibabacloud-gateway-dingtalk-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-25 09:15:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-gateway-dingtalk]: success
+[2023-04-25 09:15:23] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dcdn]: success
+[2023-04-25 09:15:23] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-04-25 09:15:23] INFO root fetch - main [MainThread]: End processing [kameleoon-client-python]: success
+[2023-04-25 09:15:23] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-04-25 09:15:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-gateway-dingtalk-py2]: success
+[2023-04-25 09:15:24] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-04-25 09:15:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-25 09:15:25] INFO root fetch - main [MainThread]: End processing [prunerr]: success
+[2023-04-25 09:15:48] INFO root fetch - main [MainThread]: End processing [django-viewflow]: success
+[2023-04-25 09:15:48] INFO root fetch - main [MainThread]: Store serial: [17845412]

@@ -8303,3 +8303,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 06:17:36] INFO root fetch - main [MainThread]: End processing [auraboros]: success
 [2023-04-25 06:17:36] INFO root fetch - main [MainThread]: End processing [auraboros]: success
 [2023-04-25 06:17:36] INFO root fetch - main [MainThread]: Store serial: [17844334]
+[2023-04-25 06:22:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844334]
+[2023-04-25 06:22:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-25 06:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickmacapp
+[2023-04-25 06:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unfolded.map-sdk
+[2023-04-25 06:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sesg
+[2023-04-25 06:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymysql-pool
+[2023-04-25 06:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotoff
+[2023-04-25 06:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-cpp-python
+[2023-04-25 06:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proxieshexler
+[2023-04-25 06:22:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prettyqt
+[2023-04-25 06:22:45] INFO root fetch - processPackages [quickmacapp]: New version: [2023.4.24] Old Version: [2023.3.3]
+[2023-04-25 06:22:45] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 06:22:45] INFO root fetch - processPackages [pymysql-pool]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-04-25 06:22:45] INFO root fetch - processPackages [unfolded.map-sdk]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-04-25 06:22:45] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 06:22:45] INFO root fetch - processPackages [robotoff]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-25 06:22:45] WARNING root fetch - processPackages [proxieshexler]: Skipping, unable to determine old version
+[2023-04-25 06:22:45] INFO root fetch - main [MainThread]: End processing [proxieshexler] error
+[2023-04-25 06:22:45] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-25 06:22:45] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-25 06:22:45] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230425/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 06:22:45] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-25 06:22:45] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230425/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-25 06:22:45] INFO root fetch - processPackages [quickmacapp]: Downloading https://files.pythonhosted.org/packages/71/44/e536197ddc35adf057f4a777097ed3898e746d2899a69a89e416ed3ea8eb/quickmacapp-2023.3.3.tar.gz
+[2023-04-25 06:22:45] INFO root fetch - processPackages [unfolded.map-sdk]: Downloading https://files.pythonhosted.org/packages/c9/e0/b78c94db7efdb34749be5f1016a1193e28a3509f47207d1dfb0e840fa591/unfolded.map-sdk-1.6.0.tar.gz
+[2023-04-25 06:22:45] INFO root fetch - processPackages [robotoff]: Downloading https://files.pythonhosted.org/packages/97/2d/802b25e2a99b4e32817db6209a101aaeb4d0eeab04f3b86a286cbd7ac847/robotoff-1.8.0.tar.gz
+[2023-04-25 06:22:45] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-04-25 06:22:46] INFO root fetch - processPackages [pymysql-pool]: Downloading https://files.pythonhosted.org/packages/99/ce/cd5ff115764b0a221949983ca61546771622308d99ed757fd489e2f6e9b9/pymysql-pool-0.3.9.tar.gz
+[2023-04-25 06:22:46] INFO root fetch - processPackages [quickmacapp]: Downloading https://files.pythonhosted.org/packages/9f/56/2eafbd9e0da3aea2f1dfe9966eed84c8e08e6537de61171aa0b2477f6422/quickmacapp-2023.4.24.tar.gz
+[2023-04-25 06:22:46] INFO root fetch - processPackages [unfolded.map-sdk]: Downloading https://files.pythonhosted.org/packages/ac/35/1d472954242241cfa20ae754ab6a91f75f639b55034a86dd3633c1b13334/unfolded.map-sdk-1.7.0.tar.gz
+[2023-04-25 06:22:46] INFO root fetch - processPackages [pymysql-pool]: executing diffoscope
+[2023-04-25 06:22:46] INFO root fetch - processPackages [pymysql-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysql-pool-0.3.7.tar.gz tmp/pymysql-pool-0.3.9.tar.gz --markdown 20230425/p/pymysql-pool/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 06:22:46] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-04-25 06:22:46] INFO root fetch - processPackages [quickmacapp]: executing diffoscope
+[2023-04-25 06:22:46] INFO root fetch - processPackages [quickmacapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmacapp-2023.3.3.tar.gz tmp/quickmacapp-2023.4.24.tar.gz --markdown 20230425/q/quickmacapp/2023.3.3-2023.4.24/diff.md --exclude *.pyd
+[2023-04-25 06:22:46] INFO root fetch - processPackages [robotoff]: Downloading https://files.pythonhosted.org/packages/bb/09/e5af42025b94f90a533b2fac4c071f8c173ae662ff39587b46e8342c60b1/robotoff-1.9.0.tar.gz
+[2023-04-25 06:22:46] INFO root fetch - processPackages [unfolded.map-sdk]: executing diffoscope
+[2023-04-25 06:22:46] INFO root fetch - processPackages [unfolded.map-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unfolded.map-sdk-1.6.0.tar.gz tmp/unfolded.map-sdk-1.7.0.tar.gz --markdown 20230425/u/unfolded.map-sdk/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-04-25 06:22:46] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-04-25 06:22:46] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230425/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 06:22:46] INFO root fetch - processPackages [robotoff]: executing diffoscope
+[2023-04-25 06:22:46] INFO root fetch - processPackages [robotoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotoff-1.8.0.tar.gz tmp/robotoff-1.9.0.tar.gz --markdown 20230425/r/robotoff/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-25 06:22:46] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-25 06:22:47] INFO root fetch - main [MainThread]: End processing [quickmacapp]: success
+[2023-04-25 06:22:47] INFO root fetch - main [MainThread]: End processing [pymysql-pool]: success
+[2023-04-25 06:22:47] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-04-25 06:22:48] INFO root fetch - main [MainThread]: End processing [robotoff]: success
+[2023-04-25 06:22:53] INFO root fetch - main [MainThread]: End processing [unfolded.map-sdk]: success
+[2023-04-25 06:22:54] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-25 06:22:54] INFO root fetch - main [MainThread]: Store serial: [17844359]

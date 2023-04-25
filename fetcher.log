@@ -7257,3 +7257,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 04:30:42] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2023-04-25 04:30:44] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-04-25 04:30:44] INFO root fetch - main [MainThread]: Store serial: [17843698]
+[2023-04-25 04:35:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843698]
+[2023-04-25 04:35:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: space-tracer
+[2023-04-25 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cowch
+[2023-04-25 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-25
+[2023-04-25 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fern-metriport
+[2023-04-25 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: statick
+[2023-04-25 04:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fern-metriport
+[2023-04-25 04:35:52] INFO root fetch - processPackages [cowch]: New version: [0.3] Old Version: [0.2]
+[2023-04-25 04:35:52] INFO root fetch - processPackages [fern-metriport]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 04:35:52] INFO root fetch - processPackages [space-tracer]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-04-25 04:35:52] INFO root fetch - processPackages [fern-metriport]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 04:35:52] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.8] Old Version: [2.7.7]
+[2023-04-25 04:35:52] INFO root fetch - processPackages [statick]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-25 04:35:52] INFO root fetch - processPackages [fern-metriport]: Downloading https://files.pythonhosted.org/packages/9a/28/aa2606e8e4c7a34e4dcf5e0bb7d6569b292e9201ba459d095f945821d229/fern_metriport-0.0.2.tar.gz
+[2023-04-25 04:35:52] INFO root fetch - processPackages [fern-metriport]: Downloading https://files.pythonhosted.org/packages/9a/28/aa2606e8e4c7a34e4dcf5e0bb7d6569b292e9201ba459d095f945821d229/fern_metriport-0.0.2.tar.gz
+[2023-04-25 04:35:52] INFO root fetch - processPackages [cowch]: Downloading https://files.pythonhosted.org/packages/21/74/b6c439fe2de3df969b3850219c78c8d92b8ed0520f31d309184c7908bfe3/cowch-0.3-py3-none-any.whl
+[2023-04-25 04:35:52] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/25/f7/946aa5b1880e28af43a1a3eccc9fe915bd348cf77f61dfe50e65b1eb2d3b/cdk8s-plus-25-2.7.8.tar.gz
+[2023-04-25 04:35:52] INFO root fetch - processPackages [space-tracer]: Downloading https://files.pythonhosted.org/packages/8d/c8/3f09ca765aac08b277b5cbe48aa938b8c14d2959ec83cc33d84c4f6f7ae1/space_tracer-4.8.0.tar.gz
+[2023-04-25 04:35:52] INFO root fetch - processPackages [statick]: Downloading https://files.pythonhosted.org/packages/48/69/52a1996f0ff6c02e08f2b0126e8c6e4d2b71579a24bf37dd64540987e008/statick-0.9.3.tar.gz
+[2023-04-25 04:35:53] INFO root fetch - processPackages [cowch]: executing diffoscope
+[2023-04-25 04:35:53] INFO root fetch - processPackages [cowch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cowch-0.2-py3-none-any.whl.zip tmp/cowch-0.3-py3-none-any.whl.zip --markdown 20230425/c/cowch/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-25 04:35:53] INFO root fetch - processPackages [statick]: Downloading https://files.pythonhosted.org/packages/29/d2/2ef74283f54bd3c8547d14640fa670e6c94439b5055f6c4fbb9eda0d87bc/statick-0.9.4.tar.gz
+[2023-04-25 04:35:53] INFO root fetch - processPackages [fern-metriport]: Downloading https://files.pythonhosted.org/packages/91/3e/a4d33b4b9fe66260c71b5040bb5967d7198a34f23553f98a7afd23946618/fern_metriport-0.0.3.tar.gz
+[2023-04-25 04:35:53] INFO root fetch - processPackages [fern-metriport]: Downloading https://files.pythonhosted.org/packages/91/3e/a4d33b4b9fe66260c71b5040bb5967d7198a34f23553f98a7afd23946618/fern_metriport-0.0.3.tar.gz
+[2023-04-25 04:35:53] INFO root fetch - processPackages [space-tracer]: Downloading https://files.pythonhosted.org/packages/ec/a8/ee3604b46a8a3fcb2e4202f3d293912766624cc7ad121849d976353c37ab/space_tracer-4.9.0.tar.gz
+[2023-04-25 04:35:53] INFO root fetch - processPackages [space-tracer]: executing diffoscope
+[2023-04-25 04:35:53] INFO root fetch - processPackages [space-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_tracer-4.8.0.tar.gz tmp/space_tracer-4.9.0.tar.gz --markdown 20230425/s/space-tracer/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-04-25 04:35:53] INFO root fetch - processPackages [fern-metriport]: executing diffoscope
+[2023-04-25 04:35:53] INFO root fetch - processPackages [fern-metriport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_metriport-0.0.2.tar.gz tmp/fern_metriport-0.0.3.tar.gz --markdown 20230425/f/fern-metriport/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 04:35:53] INFO root fetch - processPackages [statick]: executing diffoscope
+[2023-04-25 04:35:53] INFO root fetch - processPackages [statick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statick-0.9.3.tar.gz tmp/statick-0.9.4.tar.gz --markdown 20230425/s/statick/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-25 04:35:53] INFO root fetch - processPackages [fern-metriport]: executing diffoscope
+[2023-04-25 04:35:53] INFO root fetch - processPackages [fern-metriport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_metriport-0.0.2.tar.gz tmp/fern_metriport-0.0.3.tar.gz --markdown 20230425/f/fern-metriport/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 04:35:53] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-04-25 04:35:53] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.7.tar.gz tmp/cdk8s-plus-25-2.7.8.tar.gz --markdown 20230425/c/cdk8s-plus-25/2.7.7-2.7.8/diff.md --exclude *.pyd
+[2023-04-25 04:35:54] INFO root fetch - main [MainThread]: End processing [cowch]: success
+[2023-04-25 04:35:54] INFO root fetch - main [MainThread]: End processing [fern-metriport]: success
+[2023-04-25 04:35:54] INFO root fetch - main [MainThread]: End processing [fern-metriport]: success
+[2023-04-25 04:35:54] INFO root fetch - main [MainThread]: End processing [space-tracer]: success
+[2023-04-25 04:35:55] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-04-25 04:35:55] INFO root fetch - main [MainThread]: End processing [statick]: success
+[2023-04-25 04:35:55] INFO root fetch - main [MainThread]: Store serial: [17843717]

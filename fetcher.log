@@ -8495,3 +8495,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 06:43:43] INFO root fetch - main [MainThread]: End processing [coca-tools]: success
 [2023-04-25 06:43:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-04-25 06:43:47] INFO root fetch - main [MainThread]: Store serial: [17844461]
+[2023-04-25 06:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844461]
+[2023-04-25 06:48:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polly-python
+[2023-04-25 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remyxai
+[2023-04-25 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openscm-calibration
+[2023-04-25 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2023-04-25 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyopenbook
+[2023-04-25 06:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-de-holidays
+[2023-04-25 06:48:55] INFO root fetch - processPackages [polly-python]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-04-25 06:48:55] INFO root fetch - processPackages [pyopenbook]: New version: [0.7.3a0] Old Version: [0.7.2a0]
+[2023-04-25 06:48:55] WARNING root fetch - processPackages [odoo-addon-l10n-de-holidays]: Skipping, unable to determine old version
+[2023-04-25 06:48:55] INFO root fetch - processPackages [openscm-calibration]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-04-25 06:48:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-de-holidays] error
+[2023-04-25 06:48:55] INFO root fetch - processPackages [policyengine-us]: New version: [0.301.1] Old Version: [0.301.0]
+[2023-04-25 06:48:56] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/b5/22/9467da1d4adfa54160dfc61d819925b5a93dd8b0025b7e90521e745132b2/polly-python-0.2.9.tar.gz
+[2023-04-25 06:48:56] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/66/9f/ef7be7a1b5c79c6d9b24b71d883e32db36bcd6634ccc7d6f3d96afd95ba6/policyengine-us-0.301.0.tar.gz
+[2023-04-25 06:48:56] INFO root fetch - processPackages [pyopenbook]: Downloading https://files.pythonhosted.org/packages/85/28/122772c5eff3cd418fb9aa4c41690072db9d1923c5aab931a0e7a5bbcd7d/pyopenbook-0.7.3a0.tar.gz
+[2023-04-25 06:48:56] INFO root fetch - processPackages [openscm-calibration]: Downloading https://files.pythonhosted.org/packages/3e/2f/35e75f9f4fcb5f4d7a7710e5cc12a6218d41fb9207a585046a85cbff1294/openscm_calibration-0.3.0.tar.gz
+[2023-04-25 06:48:56] WARNING root fetch - processPackages [remyxai]: Skipping, unable to determine old version
+[2023-04-25 06:48:56] INFO root fetch - main [MainThread]: End processing [remyxai] error
+[2023-04-25 06:48:56] INFO root fetch - processPackages [pyopenbook]: executing diffoscope
+[2023-04-25 06:48:56] INFO root fetch - processPackages [pyopenbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenbook-0.7.2a0.tar.gz tmp/pyopenbook-0.7.3a0.tar.gz --markdown 20230425/p/pyopenbook/0.7.2a0-0.7.3a0/diff.md --exclude *.pyd
+[2023-04-25 06:48:56] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/84/4e/a2fce782bbda84457a40bd938e905d609b8532452bd49e1cbf6aaadef228/polly-python-0.3.0.tar.gz
+[2023-04-25 06:48:56] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/9e/8d/19c45bd36a56bbac68895a4c83ebf495824430bf196e806322517d6e9c25/policyengine-us-0.301.1.tar.gz
+[2023-04-25 06:48:56] INFO root fetch - processPackages [openscm-calibration]: Downloading https://files.pythonhosted.org/packages/77/45/5103e65f3be6f6d7556c1924b09c29af558fce8756e39bc97544dea2433a/openscm_calibration-0.5.0.tar.gz
+[2023-04-25 06:48:56] INFO root fetch - processPackages [polly-python]: executing diffoscope
+[2023-04-25 06:48:56] INFO root fetch - processPackages [polly-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polly-python-0.2.9.tar.gz tmp/polly-python-0.3.0.tar.gz --markdown 20230425/p/polly-python/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-04-25 06:48:56] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-25 06:48:56] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.301.0.tar.gz tmp/policyengine-us-0.301.1.tar.gz --markdown 20230425/p/policyengine-us/0.301.0-0.301.1/diff.md --exclude *.pyd
+[2023-04-25 06:48:56] INFO root fetch - processPackages [openscm-calibration]: executing diffoscope
+[2023-04-25 06:48:56] INFO root fetch - processPackages [openscm-calibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openscm_calibration-0.3.0.tar.gz tmp/openscm_calibration-0.5.0.tar.gz --markdown 20230425/o/openscm-calibration/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-25 06:48:57] INFO root fetch - main [MainThread]: End processing [pyopenbook]: success
+[2023-04-25 06:48:57] INFO root fetch - main [MainThread]: End processing [openscm-calibration]: success
+[2023-04-25 06:48:57] INFO root fetch - main [MainThread]: End processing [polly-python]: success
+[2023-04-25 06:50:06] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-25 06:50:06] INFO root fetch - main [MainThread]: Store serial: [17844478]

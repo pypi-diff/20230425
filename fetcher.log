@@ -8404,3 +8404,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 06:33:17] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
 [2023-04-25 06:33:18] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-04-25 06:33:18] INFO root fetch - main [MainThread]: Store serial: [17844392]
+[2023-04-25 06:38:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844392]
+[2023-04-25 06:38:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-25 06:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newcode-utils
+[2023-04-25 06:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DeltaTopic
+[2023-04-25 06:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resdk
+[2023-04-25 06:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satdigitalinvoice
+[2023-04-25 06:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remyxai
+[2023-04-25 06:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtcolor
+[2023-04-25 06:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymysql-pool
+[2023-04-25 06:38:27] INFO root fetch - processPackages [newcode-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 06:38:27] INFO root fetch - processPackages [DeltaTopic]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-25 06:38:27] INFO root fetch - processPackages [resdk]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-04-25 06:38:27] INFO root fetch - processPackages [pymysql-pool]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-04-25 06:38:27] INFO root fetch - processPackages [satdigitalinvoice]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-04-25 06:38:27] WARNING root fetch - processPackages [remyxai]: Skipping, unable to determine old version
+[2023-04-25 06:38:27] INFO root fetch - main [MainThread]: End processing [remyxai] error
+[2023-04-25 06:38:27] WARNING root fetch - processPackages [qtcolor]: Skipping, unable to determine old version
+[2023-04-25 06:38:27] INFO root fetch - main [MainThread]: End processing [qtcolor] error
+[2023-04-25 06:38:27] INFO root fetch - processPackages [pymysql-pool]: executing diffoscope
+[2023-04-25 06:38:27] INFO root fetch - processPackages [pymysql-pool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysql-pool-0.3.7.tar.gz tmp/pymysql-pool-0.3.9.tar.gz --markdown 20230425/p/pymysql-pool/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 06:38:27] INFO root fetch - processPackages [DeltaTopic]: Downloading https://files.pythonhosted.org/packages/bf/61/d8034d98fe4fe3b68572e8c08ceb1668cfa13a7c5a9ec6d7a4d5b982720b/DeltaTopic-0.0.1.tar.gz
+[2023-04-25 06:38:27] INFO root fetch - processPackages [newcode-utils]: Downloading https://files.pythonhosted.org/packages/a9/6d/a010ff241a193eeec09b958a04495a781a395b9ca438aad405df180725fd/newcode-utils-0.0.3.tar.gz
+[2023-04-25 06:38:27] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/f8/25/4fd339a23f751adb9272d6f2bf02225b76bdf3a46a43799ae32dbedff849/satdigitalinvoice-4.0.1.tar.gz
+[2023-04-25 06:38:27] INFO root fetch - processPackages [resdk]: Downloading https://files.pythonhosted.org/packages/4c/99/bfd9b90a8f08bd443adc4c8b4c568e2e9bf00fdfc2bc2cb1f784f2883ca1/resdk-8.0.0.tar.gz
+[2023-04-25 06:38:27] INFO root fetch - processPackages [newcode-utils]: executing diffoscope
+[2023-04-25 06:38:27] INFO root fetch - processPackages [newcode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newcode-utils-0.0.2.tar.gz tmp/newcode-utils-0.0.3.tar.gz --markdown 20230425/n/newcode-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 06:38:27] INFO root fetch - processPackages [satdigitalinvoice]: executing diffoscope
+[2023-04-25 06:38:27] INFO root fetch - processPackages [satdigitalinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satdigitalinvoice-4.0.0.tar.gz tmp/satdigitalinvoice-4.0.1.tar.gz --markdown 20230425/s/satdigitalinvoice/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-04-25 06:38:27] INFO root fetch - processPackages [DeltaTopic]: Downloading https://files.pythonhosted.org/packages/65/6e/f56157c09c17d3a7870c369b2efeba193a036bbfc06fb918e5d2acef63da/DeltaTopic-0.0.2.tar.gz
+[2023-04-25 06:38:27] INFO root fetch - processPackages [DeltaTopic]: executing diffoscope
+[2023-04-25 06:38:27] INFO root fetch - processPackages [DeltaTopic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeltaTopic-0.0.1.tar.gz tmp/DeltaTopic-0.0.2.tar.gz --markdown 20230425/D/DeltaTopic/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-25 06:38:28] INFO root fetch - processPackages [resdk]: Downloading https://files.pythonhosted.org/packages/d6/e0/3a2c0a04dc456f40f0a1d6ed07943e94e67311f343bc5bfcf4bb2f5cdb44/resdk-9.0.0.tar.gz
+[2023-04-25 06:38:28] INFO root fetch - main [MainThread]: End processing [pymysql-pool]: success
+[2023-04-25 06:38:28] INFO root fetch - main [MainThread]: End processing [satdigitalinvoice]: success
+[2023-04-25 06:38:28] INFO root fetch - processPackages [resdk]: executing diffoscope
+[2023-04-25 06:38:28] INFO root fetch - processPackages [resdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resdk-8.0.0.tar.gz tmp/resdk-9.0.0.tar.gz --markdown 20230425/r/resdk/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-25 06:38:28] INFO root fetch - main [MainThread]: End processing [newcode-utils]: success
+[2023-04-25 06:38:28] INFO root fetch - main [MainThread]: End processing [DeltaTopic]: success
+[2023-04-25 06:38:30] INFO root fetch - main [MainThread]: End processing [resdk]: success
+[2023-04-25 06:38:30] INFO root fetch - main [MainThread]: Store serial: [17844431]

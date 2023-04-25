@@ -10834,3 +10834,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 09:53:10] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2023-04-25 09:53:16] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2023-04-25 09:53:16] INFO root fetch - main [MainThread]: Store serial: [17845809]
+[2023-04-25 09:58:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845809]
+[2023-04-25 09:58:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfl-common
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiftnav-gnss
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: saliency-maps-metrics
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiogram-ext
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numpysane
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swh.dataset
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ramodels
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rum-with-telegram
+[2023-04-25 09:58:29] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [saliency-maps-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-25 09:58:29] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.8.tar.gz tmp/aiogram-ext-0.1.9.tar.gz --markdown 20230425/a/aiogram-ext/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 09:58:29] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [swiftnav-gnss]: New version: [0.5.1] Old Version: [0.4.1]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [swh.dataset]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-25 09:58:29] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230425/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-25 09:58:29] INFO root fetch - processPackages [numpysane]: New version: [0.9] Old Version: [0.8]
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-25 09:58:29] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230425/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-25 09:58:29] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/54/01/debf103b93693cceac77936c1fc2a50c9a132f826d2cc64412c073bd888d/rum_with_telegram-0.7.1.tar.gz
+[2023-04-25 09:58:29] INFO root fetch - processPackages [saliency-maps-metrics]: Downloading https://files.pythonhosted.org/packages/1d/d8/3b7d88ad331cf4f50a42b700441e3eedc5068f8e23534fe7098e708626cd/saliency_maps_metrics-0.0.8.tar.gz
+[2023-04-25 09:58:29] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2023-04-25 09:58:29] INFO root fetch - processPackages [numpysane]: Downloading https://files.pythonhosted.org/packages/5a/2d/bc22d31b37add2b6330c0259338fd0a1f6dfd6dc0277a9f6ee685d8295aa/numpysane-0.8.tar.gz
+[2023-04-25 09:58:29] INFO root fetch - processPackages [swiftnav-gnss]: Downloading https://files.pythonhosted.org/packages/82/2e/01f6de707d1f857599a4f621212009b823713163d4b9bdb1dbf890880d23/swiftnav-gnss-0.4.1.tar.gz
+[2023-04-25 09:58:29] INFO root fetch - processPackages [swh.dataset]: Downloading https://files.pythonhosted.org/packages/45/dc/60e79ea34c7e2c19a0f8665cd20253362072a8eed240de00c6c024069285/swh.dataset-1.3.0.tar.gz
+[2023-04-25 09:58:29] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-04-25 09:58:29] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230425/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-04-25 09:58:29] INFO root fetch - processPackages [saliency-maps-metrics]: Downloading https://files.pythonhosted.org/packages/53/51/87ae7e63e695350cccb9b80fa98219bd6d24cb03d023929cf731406c6dd6/saliency_maps_metrics-0.0.9.tar.gz
+[2023-04-25 09:58:29] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/85/bf/9d133a7bf3bf43885e1903f4154a44469549e68556e9dc53c25a7e9d74cb/rum_with_telegram-0.7.2.tar.gz
+[2023-04-25 09:58:30] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2023-04-25 09:58:30] INFO root fetch - processPackages [swiftnav-gnss]: Downloading https://files.pythonhosted.org/packages/bd/da/59413208d3ada4f2a72c31afb68cc6d3a9e502f505f7d44a0bcdd08ac0f1/swiftnav-gnss-0.5.1.tar.gz
+[2023-04-25 09:58:30] INFO root fetch - processPackages [swh.dataset]: Downloading https://files.pythonhosted.org/packages/e2/17/add5263bb12a3a3c530e3ed4662482ac27251edc339bd07a8a389f6f1f06/swh.dataset-1.3.1.tar.gz
+[2023-04-25 09:58:30] INFO root fetch - processPackages [numpysane]: Downloading https://files.pythonhosted.org/packages/1a/1f/4ecd33bf851d1625a747502da9bf011ec8cac9fa4f73e939c085dc294497/numpysane-0.9.tar.gz
+[2023-04-25 09:58:30] INFO root fetch - processPackages [saliency-maps-metrics]: executing diffoscope
+[2023-04-25 09:58:30] INFO root fetch - processPackages [saliency-maps-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saliency_maps_metrics-0.0.8.tar.gz tmp/saliency_maps_metrics-0.0.9.tar.gz --markdown 20230425/s/saliency-maps-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 09:58:30] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-04-25 09:58:30] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.7.1.tar.gz tmp/rum_with_telegram-0.7.2.tar.gz --markdown 20230425/r/rum-with-telegram/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-25 09:58:30] INFO root fetch - processPackages [swiftnav-gnss]: executing diffoscope
+[2023-04-25 09:58:30] INFO root fetch - processPackages [swiftnav-gnss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftnav-gnss-0.4.1.tar.gz tmp/swiftnav-gnss-0.5.1.tar.gz --markdown 20230425/s/swiftnav-gnss/0.4.1-0.5.1/diff.md --exclude *.pyd
+[2023-04-25 09:58:30] INFO root fetch - processPackages [swh.dataset]: executing diffoscope
+[2023-04-25 09:58:30] INFO root fetch - processPackages [swh.dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.dataset-1.3.0.tar.gz tmp/swh.dataset-1.3.1.tar.gz --markdown 20230425/s/swh.dataset/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-25 09:58:30] INFO root fetch - processPackages [numpysane]: executing diffoscope
+[2023-04-25 09:58:30] INFO root fetch - processPackages [numpysane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpysane-0.8.tar.gz tmp/numpysane-0.9.tar.gz --markdown 20230425/n/numpysane/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-25 09:58:30] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-04-25 09:58:30] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230425/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-04-25 09:58:31] INFO root fetch - processPackages [aiogram-ext]: Start processing: PlexTraktSync
+[2023-04-25 09:58:31] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-25 09:58:31] INFO root fetch - processPackages [ramodels]: Start processing: IQM-Vis
+[2023-04-25 09:58:31] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-25 09:58:31] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.4] Old Version: [0.26.3]
+[2023-04-25 09:58:31] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.9] Old Version: [0.2.5.8]
+[2023-04-25 09:58:31] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-04-25 09:58:31] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/76/70/576823e4179674120b5ea806544381272a3004ce5967d60a2a04627b3db3/PlexTraktSync-0.26.4.tar.gz
+[2023-04-25 09:58:31] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/31/b4/f9fc0b15279d245ff70c28ecb681f37e9d08ab788b6af513ca0f912eb1b5/IQM-VIS-0.2.5.8.tar.gz
+[2023-04-25 09:58:31] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-04-25 09:58:31] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.3.tar.gz tmp/PlexTraktSync-0.26.4.tar.gz --markdown 20230425/P/PlexTraktSync/0.26.3-0.26.4/diff.md --exclude *.pyd
+[2023-04-25 09:58:31] INFO root fetch - main [MainThread]: End processing [swiftnav-gnss]: success
+[2023-04-25 09:58:31] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/91/87/64e621dc5ae6cd9fbd8cfdc4f79ed536f3e2022604fea7c475ca3eeeb124/IQM-VIS-0.2.5.9.tar.gz
+[2023-04-25 09:58:31] INFO root fetch - main [MainThread]: End processing [numpysane]: success
+[2023-04-25 09:58:31] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-04-25 09:58:31] INFO root fetch - processPackages [IQM-Vis]: executing diffoscope
+[2023-04-25 09:58:31] INFO root fetch - processPackages [IQM-Vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IQM-VIS-0.2.5.8.tar.gz tmp/IQM-VIS-0.2.5.9.tar.gz --markdown 20230425/I/IQM-Vis/0.2.5.8-0.2.5.9/diff.md --exclude *.pyd
+[2023-04-25 09:58:31] INFO root fetch - main [MainThread]: End processing [saliency-maps-metrics]: success
+[2023-04-25 09:58:32] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-04-25 09:58:32] INFO root fetch - main [MainThread]: End processing [swh.dataset]: success
+[2023-04-25 09:58:32] INFO root fetch - main [MainThread]: End processing [IQM-Vis]: success
+[2023-04-25 09:58:33] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-04-25 09:58:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-25 09:58:35] INFO root fetch - main [MainThread]: Store serial: [17845858]

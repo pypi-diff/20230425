@@ -7651,3 +7651,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:02:41] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-04-25 05:03:57] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-04-25 05:03:57] INFO root fetch - main [MainThread]: Store serial: [17843905]
+[2023-04-25 05:09:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843905]
+[2023-04-25 05:09:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-partner
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdo-image-parameter-api
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jamstats
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-beatcloud
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hmku
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sara-compis1-tools
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amdgpu-stats
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domolibrary
+[2023-04-25 05:09:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-thread
+[2023-04-25 05:09:20] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.4.1b9] Old Version: [2.4.1b8]
+[2023-04-25 05:09:20] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-04-25 05:09:20] INFO root fetch - processPackages [sara-compis1-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 05:09:20] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-25 05:09:20] INFO root fetch - processPackages [antchain-partner]: New version: [1.0.21] Old Version: [1.0.20]
+[2023-04-25 05:09:20] WARNING root fetch - processPackages [sdo-image-parameter-api]: Skipping, unable to determine old version
+[2023-04-25 05:09:20] WARNING root fetch - processPackages [hmku]: Skipping, unable to determine old version
+[2023-04-25 05:09:20] INFO root fetch - processPackages [sdo-image-parameter-api]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-04-25 05:09:20] INFO root fetch - main [MainThread]: End processing [sdo-image-parameter-api] error
+[2023-04-25 05:09:20] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-25 05:09:20] INFO root fetch - main [MainThread]: End processing [hmku] error
+[2023-04-25 05:09:20] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-04-25 05:09:20] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.4.1b8.tar.gz tmp/dj_beatcloud-2.4.1b9.tar.gz --markdown 20230425/d/dj-beatcloud/2.4.1b8-2.4.1b9/diff.md --exclude *.pyd
+[2023-04-25 05:09:20] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-04-25 05:09:20] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230425/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-25 05:09:20] INFO root fetch - processPackages [jamstats]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-25 05:09:20] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.83]
+[2023-04-25 05:09:20] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-25 05:09:20] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.85.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230425/d/domolibrary/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 05:09:20] INFO root fetch - processPackages [jamstats]: Downloading https://files.pythonhosted.org/packages/4c/9e/6d6f2dfd4dd0d60dead1a9dd1f782df2832efb922a337daba425f7c7665d/jamstats-1.2.0.tar.gz
+[2023-04-25 05:09:20] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-25 05:09:20] INFO root fetch - processPackages [sara-compis1-tools]: executing diffoscope
+[2023-04-25 05:09:20] INFO root fetch - processPackages [sara-compis1-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sara_compis1_tools-0.0.8.tar.gz tmp/sara_compis1_tools-0.0.9.tar.gz --markdown 20230425/s/sara-compis1-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 05:09:20] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/72/03/d085ef474bea7246813608b2e86dd80023f6590eb888d22e2b2ae711db6c/edc-0.4.83.tar.gz
+[2023-04-25 05:09:20] INFO root fetch - processPackages [antchain-partner]: Downloading https://files.pythonhosted.org/packages/9f/2e/8313c7009ba28b11e0e13f55688c15262e2c78126085ec31540f2f7f31d6/antchain_partner-1.0.21.tar.gz
+[2023-04-25 05:09:20] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/5e/cd/a4142e3ea1454d914f321b24d73a08a88c9597a2835646a8c92498b33d44/amdgpu_stats-0.1.3.tar.gz
+[2023-04-25 05:09:20] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-04-25 05:09:20] INFO root fetch - processPackages [antchain-partner]: executing diffoscope
+[2023-04-25 05:09:20] INFO root fetch - processPackages [antchain-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_partner-1.0.20.tar.gz tmp/antchain_partner-1.0.21.tar.gz --markdown 20230425/a/antchain-partner/1.0.20-1.0.21/diff.md --exclude *.pyd
+[2023-04-25 05:09:20] INFO root fetch - processPackages [jamstats]: Downloading https://files.pythonhosted.org/packages/d5/74/cfbb7f8bbe98c77a8104e92efb603e87012cecbade423ebc0e87a770eaac/jamstats-1.2.1.tar.gz
+[2023-04-25 05:09:20] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/b1/10/9f8837f509c1f0fa854c0bcebba66374b226fbc581fca57bff8c44285994/edc-0.4.9.tar.gz
+[2023-04-25 05:09:21] INFO root fetch - processPackages [jamstats]: executing diffoscope
+[2023-04-25 05:09:21] INFO root fetch - processPackages [jamstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamstats-1.2.0.tar.gz tmp/jamstats-1.2.1.tar.gz --markdown 20230425/j/jamstats/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-25 05:09:21] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-04-25 05:09:21] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.2.tar.gz tmp/amdgpu_stats-0.1.3.tar.gz --markdown 20230425/a/amdgpu-stats/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-25 05:09:21] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-04-25 05:09:21] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.83.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230425/e/edc/0.4.83-0.4.9/diff.md --exclude *.pyd
+[2023-04-25 05:09:21] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-04-25 05:09:21] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-04-25 05:09:21] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230425/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-25 05:09:21] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-04-25 05:09:22] INFO root fetch - main [MainThread]: End processing [antchain-partner]: success
+[2023-04-25 05:09:22] INFO root fetch - main [MainThread]: End processing [sara-compis1-tools]: success
+[2023-04-25 05:09:22] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-04-25 05:09:22] INFO root fetch - main [MainThread]: End processing [jamstats]: success
+[2023-04-25 05:09:22] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-25 05:09:22] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-04-25 05:09:23] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-04-25 05:09:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-04-25 05:09:23] INFO root fetch - main [MainThread]: Store serial: [17843944]

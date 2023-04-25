@@ -10743,3 +10743,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 09:47:49] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-04-25 09:47:55] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-04-25 09:47:55] INFO root fetch - main [MainThread]: Store serial: [17845762]
+[2023-04-25 09:52:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845762]
+[2023-04-25 09:53:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accountingkits
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ccc20200701-py2
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ccc20200701
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rum-with-telegram
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flare-utilities
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ant1Interface
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apkupload
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: app02
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pocketrockit
+[2023-04-25 09:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-cpu
+[2023-04-25 09:53:03] WARNING root fetch - processPackages [rum-with-telegram]: Skipping, unable to determine old version
+[2023-04-25 09:53:03] INFO root fetch - processPackages [rum-with-telegram]: Start processing: upathlib
+[2023-04-25 09:53:03] INFO root fetch - main [MainThread]: End processing [rum-with-telegram] error
+[2023-04-25 09:53:04] INFO root fetch - processPackages [flare-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [accountingkits]: New version: [0.1.1.230425a0] Old Version: [0.1.1.230331a0]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [flare-utilities]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [flare-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flare_Utilities-0.0.8.tar.gz tmp/Flare_Utilities-0.0.9.tar.gz --markdown 20230425/f/flare-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701]: New version: [2.7.0] Old Version: [2.4.1]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.6] Old Version: [0.0.2]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [apkupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 09:53:04] WARNING root fetch - processPackages [app02]: Skipping, unable to determine old version
+[2023-04-25 09:53:04] INFO root fetch - processPackages [app02]: Start processing: xklb
+[2023-04-25 09:53:04] INFO root fetch - main [MainThread]: End processing [app02] error
+[2023-04-25 09:53:04] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230425] Old Version: [2.13.0.dev20230424]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [upathlib]: New version: [0.8.0b1] Old Version: [0.7.9]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [xklb]: New version: [1.26.11] Old Version: [1.25.3]
+[2023-04-25 09:53:04] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.25.3.tar.gz tmp/xklb-1.26.11.tar.gz --markdown 20230425/x/xklb/1.25.3-1.26.11/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/f7/0e/57a1e3d462ef3196954520c039db29d0633327ecf4baa50da4ec32c4dbeb/pocketrockit-0.0.5.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [accountingkits]: Downloading https://files.pythonhosted.org/packages/86/c9/a83235249c32fe249a5e40426c9b02cad2cbfe34ae3d9a2b337741988aa5/accountingkits-0.1.1.230331a0.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/74/f3/4a27ffb49ff6106c1e90417aba0122ab5b2e7cbd09d5792aad2455cda0db/alibabacloud_ccc20200701-2.4.1.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [apkupload]: Downloading https://files.pythonhosted.org/packages/f3/3e/984e4e4534d0c27e20d45f4779859178c3cf8aa20e9c0490146a574e4b36/apkupload-0.0.8.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Downloading https://files.pythonhosted.org/packages/c1/d6/3e0e0be36b25ed5c201357338b83145969796364de6049f39a96a1b25688/alibabacloud_ccc20200701_py2-2.4.0.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/79/62/4feefdd7a9202b50cdcce090fde7fac7d5d23c6792e879760074945f64ef/ant1Interface-0.0.2-py3-none-any.whl
+[2023-04-25 09:53:04] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/84/59/f0d6a967467b46dc8c3e1d5913107a30bb54c3fbee934f4f44d1b42a23ac/upathlib-0.8.0b1.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.4.tar.gz tmp/pocketrockit-0.0.5.tar.gz --markdown 20230425/p/pocketrockit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [upathlib]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [upathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upathlib-0.7.9.tar.gz tmp/upathlib-0.8.0b1.tar.gz --markdown 20230425/u/upathlib/0.7.9-0.8.0b1/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [accountingkits]: Downloading https://files.pythonhosted.org/packages/55/37/cdc4b3edf9ad40d9d93c87b711addf6ed42a4a81ae585b93c893cb5d3829/accountingkits-0.1.1.230425a0.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/99/b2/e44962462c188891296dfa11808a225eecb6fb13e9169e6eaf0857a10af2/tf_nightly_cpu-2.13.0.dev20230425-cp39-cp39-win_amd64.whl
+[2023-04-25 09:53:04] INFO root fetch - processPackages [apkupload]: Downloading https://files.pythonhosted.org/packages/87/9b/a974a2525820122b9cf7b10393807c1d229710eeab1a1df41253bfd88008/apkupload-0.0.9.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Downloading https://files.pythonhosted.org/packages/4a/0d/8aa773cb797a5dc5ffbfac2c1f1d706ff5da84782e2e0766baaa310d2f80/alibabacloud_ccc20200701_py2-2.4.1.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/d0/25/a7584571fb4acbdaac5a90572964a34eb31d1acc949e36c93c2bcc253d3c/alibabacloud_ccc20200701-2.7.0.tar.gz
+[2023-04-25 09:53:04] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/9a/a9/699e23fd6eda651a1a5098d6700f11e5e5b703a016d02da917fbfaf6fd48/ant1Interface-0.0.6-py3-none-any.whl
+[2023-04-25 09:53:04] INFO root fetch - processPackages [accountingkits]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [accountingkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accountingkits-0.1.1.230331a0.tar.gz tmp/accountingkits-0.1.1.230425a0.tar.gz --markdown 20230425/a/accountingkits/0.1.1.230331a0-0.1.1.230425a0/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701-2.4.1.tar.gz tmp/alibabacloud_ccc20200701-2.7.0.tar.gz --markdown 20230425/a/alibabacloud-ccc20200701/2.4.1-2.7.0/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701_py2-2.4.0.tar.gz tmp/alibabacloud_ccc20200701_py2-2.4.1.tar.gz --markdown 20230425/a/alibabacloud-ccc20200701-py2/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230424-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230425-cp39-cp39-win_amd64.whl.zip --markdown 20230425/t/tf-nightly-cpu/2.13.0.dev20230424-2.13.0.dev20230425/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [apkupload]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [apkupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkupload-0.0.8.tar.gz tmp/apkupload-0.0.9.tar.gz --markdown 20230425/a/apkupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 09:53:04] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-04-25 09:53:04] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.2-py3-none-any.whl.zip tmp/ant1Interface-0.0.6-py3-none-any.whl.zip --markdown 20230425/a/ant1Interface/0.0.2-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 09:53:05] INFO root fetch - processPackages [flare-utilities]: Start processing: fusionsc
+[2023-04-25 09:53:05] INFO root fetch - main [MainThread]: End processing [flare-utilities]: success
+[2023-04-25 09:53:05] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-04-25 09:53:05] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-04-25 09:53:05] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-04-25 09:53:05] INFO root fetch - processPackages [fusionsc]: Start processing: codeforlife-portal
+[2023-04-25 09:53:05] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-04-25 09:53:06] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-04-25 09:53:06] INFO root fetch - processPackages [pocketrockit]: Start processing: spaceone-api
+[2023-04-25 09:53:06] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-04-25 09:53:06] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-04-25 09:53:06] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2023-04-25 09:53:06] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-25 09:53:06] INFO root fetch - main [MainThread]: End processing [apkupload]: success
+[2023-04-25 09:53:06] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-04-25 09:53:06] INFO root fetch - main [MainThread]: End processing [accountingkits]: success
+[2023-04-25 09:53:06] INFO root fetch - main [MainThread]: End processing [upathlib]: success
+[2023-04-25 09:53:06] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-04-25 09:53:06] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-04-25 09:53:06] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-04-25 09:53:07] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-04-25 09:53:07] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230425/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-04-25 09:53:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701-py2]: success
+[2023-04-25 09:53:08] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2023-04-25 09:53:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701]: success
+[2023-04-25 09:53:10] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-04-25 09:53:10] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230425/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-04-25 09:53:10] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-04-25 09:53:16] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-04-25 09:53:16] INFO root fetch - main [MainThread]: Store serial: [17845809]

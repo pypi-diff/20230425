@@ -9285,3 +9285,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:16:48] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
 [2023-04-25 08:16:49] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2023-04-25 08:16:49] INFO root fetch - main [MainThread]: Store serial: [17844904]
+[2023-04-25 08:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844904]
+[2023-04-25 08:21:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dht11-spi
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ebi-eva-common-pyutils
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-disaggregation
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-ujson
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiddifypanel
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ffmpeg-normalize
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-cli
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-cli-core
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Products.CMFCore
+[2023-04-25 08:21:58] INFO root fetch - processPackages [dht11-spi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ffmpeg-normalize]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [azure-cli]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230424] Old Version: [1.5.3.dev20230423]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [hiddifypanel]: New version: [5.0.0.dev9] Old Version: [5.0.0.dev8]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [azure-cli-core]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [data-disaggregation]: New version: [0.8.2] Old Version: [0.6.0]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [types-ujson]: New version: [5.7.0.4] Old Version: [5.7.0.3]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ebi-eva-common-pyutils]: New version: [0.5.3.dev5] Old Version: [0.5.3.dev4]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [azure-cli-core]: executing diffoscope
+[2023-04-25 08:21:58] INFO root fetch - processPackages [azure-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cli-core-2.9.0.tar.gz tmp/azure-cli-core-2.9.1.tar.gz --markdown 20230425/a/azure-cli-core/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-04-25 08:21:58] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-04-25 08:21:58] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230423.tar.gz tmp/pretext-1.5.3.dev20230424.tar.gz --markdown 20230425/p/pretext/1.5.3.dev20230423-1.5.3.dev20230424/diff.md --exclude *.pyd
+[2023-04-25 08:21:58] INFO root fetch - processPackages [Products.CMFCore]: New version: [3.0] Old Version: [2.7.0]
+[2023-04-25 08:21:58] INFO root fetch - processPackages [azure-cli]: executing diffoscope
+[2023-04-25 08:21:58] INFO root fetch - processPackages [azure-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cli-2.9.0.tar.gz tmp/azure-cli-2.9.1.tar.gz --markdown 20230425/a/azure-cli/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-04-25 08:21:58] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-25 08:21:58] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-5.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-5.0.0.dev9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230425/h/hiddifypanel/5.0.0.dev8-5.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ffmpeg-normalize]: executing diffoscope
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ffmpeg-normalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-normalize-1.3.7.tar.gz tmp/ffmpeg-normalize-1.3.8.tar.gz --markdown 20230425/f/ffmpeg-normalize/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-04-25 08:21:58] INFO root fetch - processPackages [dht11-spi]: Downloading https://files.pythonhosted.org/packages/3d/09/d0ac1b484a4995210e0733436fb8bdb20a74c2d206b522a6f3d6dcba8b3f/dht11_spi-1.0.2.tar.gz
+[2023-04-25 08:21:58] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/00/c9/6de82ffcd496935e9779562403ac0a370e75ba597aa2f5ad568b4aad927a/types-ujson-5.7.0.3.tar.gz
+[2023-04-25 08:21:58] INFO root fetch - processPackages [data-disaggregation]: Downloading https://files.pythonhosted.org/packages/06/f2/7584e03023854f136dffb2b1cacdbdd1bf184a7c2cec8bda2b0420cde8f0/data-disaggregation-0.6.0.tar.gz
+[2023-04-25 08:21:58] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/df/24/d00e2fe213b670a6d2b133f84e3c86a8686b7d7d69f79955cd8a37998760/ebi_eva_common_pyutils-0.5.3.dev4.tar.gz
+[2023-04-25 08:21:58] INFO root fetch - processPackages [Products.CMFCore]: Downloading https://files.pythonhosted.org/packages/aa/9a/3ea4c31037851ce2ccb0c7f31525ef2f6f52ed389231fa2aa931c15b021f/Products.CMFCore-2.7.0.tar.gz
+[2023-04-25 08:21:59] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/fc/98/37e9e3bffc97b13f443b18cd617ca90c96275941b841d28bc3ed1db94c14/types-ujson-5.7.0.4.tar.gz
+[2023-04-25 08:21:59] INFO root fetch - processPackages [dht11-spi]: Downloading https://files.pythonhosted.org/packages/ee/40/2a97039f07221892f8b00851f49b5e74c0053e713d0f8fc082268f4e61bc/dht11_spi-1.0.3.tar.gz
+[2023-04-25 08:21:59] INFO root fetch - processPackages [dht11-spi]: executing diffoscope
+[2023-04-25 08:21:59] INFO root fetch - processPackages [dht11-spi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dht11_spi-1.0.2.tar.gz tmp/dht11_spi-1.0.3.tar.gz --markdown 20230425/d/dht11-spi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-25 08:21:59] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/8f/b9/66c40a49f5dc086ae390b7fa5c54e3828ae8befbf67b52a8df0cd80df2da/ebi_eva_common_pyutils-0.5.3.dev5.tar.gz
+[2023-04-25 08:21:59] INFO root fetch - processPackages [data-disaggregation]: Downloading https://files.pythonhosted.org/packages/f5/20/2a4ce1d40bf1620b6cc7ff551917def251727180c229571d5fc25a069d2c/data-disaggregation-0.8.2.tar.gz
+[2023-04-25 08:21:59] INFO root fetch - processPackages [types-ujson]: executing diffoscope
+[2023-04-25 08:21:59] INFO root fetch - processPackages [types-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-ujson-5.7.0.3.tar.gz tmp/types-ujson-5.7.0.4.tar.gz --markdown 20230425/t/types-ujson/5.7.0.3-5.7.0.4/diff.md --exclude *.pyd
+[2023-04-25 08:21:59] INFO root fetch - processPackages [Products.CMFCore]: Downloading https://files.pythonhosted.org/packages/e6/a0/96c574b9415f80741705f52678ea7d399e51d329c37c3424ac8063d429e8/Products.CMFCore-3.0.tar.gz
+[2023-04-25 08:21:59] INFO root fetch - processPackages [data-disaggregation]: executing diffoscope
+[2023-04-25 08:21:59] INFO root fetch - processPackages [data-disaggregation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-disaggregation-0.6.0.tar.gz tmp/data-disaggregation-0.8.2.tar.gz --markdown 20230425/d/data-disaggregation/0.6.0-0.8.2/diff.md --exclude *.pyd
+[2023-04-25 08:21:59] INFO root fetch - processPackages [ebi-eva-common-pyutils]: executing diffoscope
+[2023-04-25 08:21:59] INFO root fetch - processPackages [ebi-eva-common-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebi_eva_common_pyutils-0.5.3.dev4.tar.gz tmp/ebi_eva_common_pyutils-0.5.3.dev5.tar.gz --markdown 20230425/e/ebi-eva-common-pyutils/0.5.3.dev4-0.5.3.dev5/diff.md --exclude *.pyd
+[2023-04-25 08:21:59] INFO root fetch - processPackages [Products.CMFCore]: executing diffoscope
+[2023-04-25 08:21:59] INFO root fetch - processPackages [Products.CMFCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CMFCore-2.7.0.tar.gz tmp/Products.CMFCore-3.0.tar.gz --markdown 20230425/P/Products.CMFCore/2.7.0-3.0/diff.md --exclude *.pyd
+[2023-04-25 08:22:00] INFO root fetch - processPackages [dht11-spi]: Start processing: wait-for-dep
+[2023-04-25 08:22:00] INFO root fetch - main [MainThread]: End processing [dht11-spi]: success
+[2023-04-25 08:22:00] INFO root fetch - processPackages [wait-for-dep]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-25 08:22:00] INFO root fetch - processPackages [wait-for-dep]: executing diffoscope
+[2023-04-25 08:22:00] INFO root fetch - processPackages [wait-for-dep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wait-for-dep-0.4.0.tar.gz tmp/wait-for-dep-0.4.1.tar.gz --markdown 20230425/w/wait-for-dep/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-25 08:22:00] INFO root fetch - processPackages [types-ujson]: Start processing: api-Rocket
+[2023-04-25 08:22:00] INFO root fetch - main [MainThread]: End processing [types-ujson]: success
+[2023-04-25 08:22:00] INFO root fetch - processPackages [api-Rocket]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-25 08:22:00] INFO root fetch - processPackages [api-Rocket]: executing diffoscope
+[2023-04-25 08:22:00] INFO root fetch - processPackages [api-Rocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-Rocket-1.3.0.tar.gz tmp/api-Rocket-1.3.1.tar.gz --markdown 20230425/a/api-Rocket/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-25 08:22:01] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Start processing: mage-ai
+[2023-04-25 08:22:01] INFO root fetch - main [MainThread]: End processing [ebi-eva-common-pyutils]: success
+[2023-04-25 08:22:01] INFO root fetch - main [MainThread]: End processing [data-disaggregation]: success
+[2023-04-25 08:22:01] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-25 08:22:01] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-04-25 08:22:01] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230425/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-25 08:22:01] INFO root fetch - main [MainThread]: End processing [wait-for-dep]: success
+[2023-04-25 08:22:02] INFO root fetch - main [MainThread]: End processing [azure-cli-core]: success
+[2023-04-25 08:22:02] INFO root fetch - main [MainThread]: End processing [api-Rocket]: success
+[2023-04-25 08:22:03] INFO root fetch - main [MainThread]: End processing [ffmpeg-normalize]: success
+[2023-04-25 08:22:04] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-04-25 08:22:07] INFO root fetch - main [MainThread]: End processing [Products.CMFCore]: success
+[2023-04-25 08:22:09] INFO root fetch - main [MainThread]: End processing [azure-cli]: success
+[2023-04-25 08:22:12] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-04-25 08:22:16] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-25 08:22:16] INFO root fetch - main [MainThread]: Store serial: [17844970]

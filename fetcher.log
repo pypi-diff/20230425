@@ -11069,3 +11069,119 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:09:01] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-04-25 10:09:02] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
 [2023-04-25 10:09:02] INFO root fetch - main [MainThread]: Store serial: [17845944]
+[2023-04-25 10:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845944]
+[2023-04-25 10:14:11] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-attribute-archive
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Nuitka
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wxasync
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrecdp
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dipex
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dop-integration-libs
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nomenklatura
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fitransit
+[2023-04-25 10:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aliyun-python-sdk-ccc
+[2023-04-25 10:14:11] INFO root fetch - processPackages [qwak-core]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [pyrecdp]: New version: [1.0.1b20230425] Old Version: [1.0.1b202304142]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 10:14:11] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:14:11] INFO root fetch - processPackages [wxasync]: New version: [0.49] Old Version: [0.48]
+[2023-04-25 10:14:11] WARNING root fetch - processPackages [fitransit]: Skipping, unable to determine old version
+[2023-04-25 10:14:11] INFO root fetch - processPackages [nomenklatura]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [fitransit]: Start processing: dop-integration-libs
+[2023-04-25 10:14:11] INFO root fetch - main [MainThread]: End processing [fitransit] error
+[2023-04-25 10:14:11] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: New version: [2.4.3] Old Version: [2.3.0]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [Nuitka]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:14:11] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/bd/10/f09ea92f2abcaeb82b6cb953c92bbee331541b529c277d646678763669b8/qwak_core-0.0.34.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 10:14:11] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:14:11] INFO root fetch - processPackages [wxasync]: Downloading https://files.pythonhosted.org/packages/8d/40/4cc2719ebe92b4c78f81a832f74194e9b0aef73fbf52d3c2a6a47080209a/wxasync-0.48.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/fe/d1/f71feac7dad8f0fb32591f83490acf89b7ab88666e1293364580702b4355/pyrecdp-1.0.1b202304142.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: Downloading https://files.pythonhosted.org/packages/d6/94/56a0d76a08c9f5ea10c4696a59e1a235e7a83238dc1faa34bdfd693146a1/odoo_addon_product_attribute_archive-15.0.1.0.1-py3-none-any.whl
+[2023-04-25 10:14:11] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: Downloading https://files.pythonhosted.org/packages/b8/ab/db5fc7c64b49477be6f65a301523817503d09d6c72b5bc821abaf1faafaf/aliyun-python-sdk-ccc-2.3.0.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/d5/89/3016c08ec53ac92bd160b5039daa21de454b570e8376f8f5ce8d43882479/nomenklatura-2.9.4.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/6c/97/34937deca0cd12d0797d74ee8b56765a66273df296da5f7f973eb0dfe899/Nuitka-1.5.6.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-04-25 10:14:11] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.33.tar.gz tmp/qwak_core-0.0.34.tar.gz --markdown 20230425/q/qwak-core/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-04-25 10:14:11] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/f3/e9/a2b9f4ab6dd42b593f72cfbc21949506295b9fa9316a061357dd9efbbbf7/pyrecdp-1.0.1b20230425.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/54/7d/09aee7f4bad75a794be6bfe071dbfcf5d4737a15ad4809bb9d2fe86e888f/nomenklatura-2.9.5.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [wxasync]: Downloading https://files.pythonhosted.org/packages/ea/4a/3c68064db0c1de793f32c804f78edaa5d3c74ecb217b3d9dd6e398228356/wxasync-0.49.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: Downloading https://files.pythonhosted.org/packages/51/36/ce415c3fb776806fb4ee1c4a0d0500aed2b7c2802be4ec9be3cd0c944e48/odoo_addon_product_attribute_archive-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-25 10:14:11] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: Downloading https://files.pythonhosted.org/packages/bd/80/8463a766a37a380bc525a8ac7c612fb5a8c69bbef89840ed7930bb6d29a5/aliyun-python-sdk-ccc-2.4.3.tar.gz
+[2023-04-25 10:14:11] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/44/a0/dd3ef230a1f334a5cfd7f4628644938f26b894b6edcd8819440f80432452/Nuitka-1.5.7.tar.gz
+[2023-04-25 10:14:12] INFO root fetch - processPackages [pyrecdp]: executing diffoscope
+[2023-04-25 10:14:12] INFO root fetch - processPackages [pyrecdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrecdp-1.0.1b202304142.tar.gz tmp/pyrecdp-1.0.1b20230425.tar.gz --markdown 20230425/p/pyrecdp/1.0.1b202304142-1.0.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 10:14:12] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-04-25 10:14:12] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: executing diffoscope
+[2023-04-25 10:14:12] INFO root fetch - processPackages [aliyun-python-sdk-ccc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ccc-2.3.0.tar.gz tmp/aliyun-python-sdk-ccc-2.4.3.tar.gz --markdown 20230425/a/aliyun-python-sdk-ccc/2.3.0-2.4.3/diff.md --exclude *.pyd
+[2023-04-25 10:14:12] INFO root fetch - processPackages [wxasync]: executing diffoscope
+[2023-04-25 10:14:12] INFO root fetch - processPackages [wxasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxasync-0.48.tar.gz tmp/wxasync-0.49.tar.gz --markdown 20230425/w/wxasync/0.48-0.49/diff.md --exclude *.pyd
+[2023-04-25 10:14:12] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-04-25 10:14:12] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-2.9.4.tar.gz tmp/nomenklatura-2.9.5.tar.gz --markdown 20230425/n/nomenklatura/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-04-25 10:14:12] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: executing diffoscope
+[2023-04-25 10:14:12] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_attribute_archive-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_attribute_archive-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230425/o/odoo-addon-product-attribute-archive/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-25 10:14:12] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-04-25 10:14:12] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230425/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-04-25 10:14:12] INFO root fetch - processPackages [dop-integration-libs]: Start processing: git-batch
+[2023-04-25 10:14:12] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 10:14:12] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-04-25 10:14:12] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.5.6.tar.gz tmp/Nuitka-1.5.7.tar.gz --markdown 20230425/N/Nuitka/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-04-25 10:14:12] INFO root fetch - processPackages [git-batch]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-25 10:14:12] INFO root fetch - processPackages [dop-integration-libs]: Start processing: invenio-accounts
+[2023-04-25 10:14:12] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 10:14:12] INFO root fetch - processPackages [git-batch]: Downloading https://files.pythonhosted.org/packages/80/59/2c67bd9c90ba1f8933a9e01e0c36ef8624448b06286d8688849a27e03253/git_batch-2.0.8.tar.gz
+[2023-04-25 10:14:12] INFO root fetch - processPackages [invenio-accounts]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-25 10:14:13] INFO root fetch - processPackages [invenio-accounts]: Downloading https://files.pythonhosted.org/packages/8f/07/b0879063f4cbc5902479d40a9bc797d102ba91fb087487880ec931698257/invenio-accounts-2.1.0.tar.gz
+[2023-04-25 10:14:13] INFO root fetch - processPackages [git-batch]: Downloading https://files.pythonhosted.org/packages/0d/9a/2d5689bead957415cbbf9e884809859fbfc35f386c265ec32cddc3a81714/git_batch-2.0.9.tar.gz
+[2023-04-25 10:14:13] INFO root fetch - processPackages [git-batch]: executing diffoscope
+[2023-04-25 10:14:13] INFO root fetch - processPackages [git-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_batch-2.0.8.tar.gz tmp/git_batch-2.0.9.tar.gz --markdown 20230425/g/git-batch/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:14:13] INFO root fetch - processPackages [invenio-accounts]: Downloading https://files.pythonhosted.org/packages/1e/40/ae85b76d5f12c7da808483b6f98f08a7db52d43af93de6f2d3066e5009f1/invenio-accounts-2.2.0.tar.gz
+[2023-04-25 10:14:13] INFO root fetch - processPackages [invenio-accounts]: executing diffoscope
+[2023-04-25 10:14:13] INFO root fetch - processPackages [invenio-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-accounts-2.1.0.tar.gz tmp/invenio-accounts-2.2.0.tar.gz --markdown 20230425/i/invenio-accounts/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-25 10:14:13] INFO root fetch - processPackages [odoo-addon-product-attribute-archive]: Start processing: hwave
+[2023-04-25 10:14:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-attribute-archive]: success
+[2023-04-25 10:14:13] INFO root fetch - processPackages [wxasync]: Start processing: koai
+[2023-04-25 10:14:13] INFO root fetch - main [MainThread]: End processing [wxasync]: success
+[2023-04-25 10:14:13] INFO root fetch - processPackages [hwave]: New version: [1.0.0] Old Version: [0.2]
+[2023-04-25 10:14:13] INFO root fetch - processPackages [koai]: New version: [1.0.8.7] Old Version: [1.0.8.6]
+[2023-04-25 10:14:13] INFO root fetch - processPackages [pyrecdp]: Start processing: ramodels
+[2023-04-25 10:14:13] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
+[2023-04-25 10:14:14] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-25 10:14:14] INFO root fetch - processPackages [hwave]: Downloading https://files.pythonhosted.org/packages/8e/d6/942795f59a3e32d85c60ae6f922e71b0f61e9225dd6a29604a38e54f8ab3/hwave-0.2.tar.gz
+[2023-04-25 10:14:14] INFO root fetch - processPackages [nomenklatura]: Start processing: invenio-vocabularies
+[2023-04-25 10:14:14] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-04-25 10:14:14] INFO root fetch - processPackages [koai]: Downloading https://files.pythonhosted.org/packages/62/98/9ba318ca19905678e9542b97578d42192e5223fde1e42c18867408512df3/koai-1.0.8.6-cp38-cp38-macosx_13_0_arm64.whl
+[2023-04-25 10:14:14] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-25 10:14:14] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230425/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-25 10:14:14] INFO root fetch - processPackages [invenio-vocabularies]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-25 10:14:14] INFO root fetch - processPackages [hwave]: Downloading https://files.pythonhosted.org/packages/32/63/016aa213b58602eed46c16b3156a4bdb6d633c8d942168275250e3afb7e4/hwave-1.0.0.tar.gz
+[2023-04-25 10:14:14] INFO root fetch - processPackages [invenio-vocabularies]: Downloading https://files.pythonhosted.org/packages/13/35/acab539fcdc95934b5d26e9891f39a11092adfcc2d26089a08299bd896aa/invenio-vocabularies-1.4.0.tar.gz
+[2023-04-25 10:14:14] INFO root fetch - processPackages [hwave]: executing diffoscope
+[2023-04-25 10:14:14] INFO root fetch - processPackages [hwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hwave-0.2.tar.gz tmp/hwave-1.0.0.tar.gz --markdown 20230425/h/hwave/0.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-25 10:14:14] INFO root fetch - processPackages [koai]: Downloading https://files.pythonhosted.org/packages/a0/c8/6cf4c5f29c2342386bcb8446e06a79699da3d03f37b3bea7e7559ef7ad26/koai-1.0.8.7-cp38-cp38-macosx_13_0_arm64.whl
+[2023-04-25 10:14:14] INFO root fetch - processPackages [git-batch]: Start processing: mynotiontools
+[2023-04-25 10:14:14] INFO root fetch - main [MainThread]: End processing [git-batch]: success
+[2023-04-25 10:14:14] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-04-25 10:14:14] INFO root fetch - processPackages [koai]: executing diffoscope
+[2023-04-25 10:14:14] INFO root fetch - processPackages [koai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koai-1.0.8.6-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/koai-1.0.8.7-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230425/k/koai/1.0.8.6-1.0.8.7/diff.md --exclude *.pyd
+[2023-04-25 10:14:14] INFO root fetch - processPackages [invenio-vocabularies]: Downloading https://files.pythonhosted.org/packages/32/b6/00d9cdf37b748612d4db338707ac86c0b6e2e25eb6a84cc373c54b4324ed/invenio-vocabularies-1.5.0.tar.gz
+[2023-04-25 10:14:14] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-04-25 10:14:14] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230425/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:14:14] INFO root fetch - processPackages [invenio-vocabularies]: executing diffoscope
+[2023-04-25 10:14:14] INFO root fetch - processPackages [invenio-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-vocabularies-1.4.0.tar.gz tmp/invenio-vocabularies-1.5.0.tar.gz --markdown 20230425/i/invenio-vocabularies/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-25 10:14:15] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ccc]: success
+[2023-04-25 10:14:15] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-25 10:14:15] INFO root fetch - main [MainThread]: End processing [hwave]: success
+[2023-04-25 10:14:15] INFO root fetch - main [MainThread]: End processing [koai]: success
+[2023-04-25 10:14:15] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-04-25 10:14:16] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-04-25 10:14:17] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-04-25 10:14:17] INFO root fetch - main [MainThread]: End processing [invenio-accounts]: success
+[2023-04-25 10:14:17] INFO root fetch - main [MainThread]: End processing [invenio-vocabularies]: success
+[2023-04-25 10:14:50] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-04-25 10:14:50] INFO root fetch - main [MainThread]: Store serial: [17846002]

@@ -9224,3 +9224,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:11:34] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-04-25 08:11:35] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-04-25 08:11:35] INFO root fetch - main [MainThread]: Store serial: [17844840]
+[2023-04-25 08:16:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844840]
+[2023-04-25 08:16:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weather-provider-api
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruff
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mango-explorer-v4
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccdt
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pcb-parser
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zope.datetime
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygptj
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TreeSAK
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-enroll
+[2023-04-25 08:16:44] INFO root fetch - processPackages [mango-explorer-v4]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-25 08:16:44] INFO root fetch - processPackages [weather-provider-api]: New version: [2.41.21] Old Version: [2.40.20]
+[2023-04-25 08:16:44] INFO root fetch - processPackages [pygptj]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ruff]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 08:16:44] INFO root fetch - processPackages [ccdt]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-04-25 08:16:44] INFO root fetch - processPackages [pcb-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 08:16:44] INFO root fetch - processPackages [zope.datetime]: New version: [5.0.0] Old Version: [4.3.0]
+[2023-04-25 08:16:45] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-25 08:16:45] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-25 08:16:45] INFO root fetch - processPackages [mango-explorer-v4]: Downloading https://files.pythonhosted.org/packages/1f/1f/b9669e48cd49cfdf6031ac40d758c06b02e0ba49b0b03a3640baff011a58/mango_explorer_v4-0.8.2.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [weather-provider-api]: Downloading https://files.pythonhosted.org/packages/5f/50/927aba5e27a2e6db2745bb3193377359fb42dd8b191e47abe7ff4fc8de66/weather_provider_api-2.40.20.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [mango-explorer-v4]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [mango-explorer-v4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_explorer_v4-0.8.1.tar.gz tmp/mango_explorer_v4-0.8.2.tar.gz --markdown 20230425/m/mango-explorer-v4/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-25 08:16:45] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230425/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-25 08:16:45] INFO root fetch - processPackages [pcb-parser]: Downloading https://files.pythonhosted.org/packages/38/77/45f14145e5d95fb0f176430a2c3d3b67194d326845df0e711b4fd71a423e/pcb-parser-0.0.8.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/58/b3/af9f8b97289b105e36d7da2ff8ab12040b05c31e18eb84b42bdc3c936d91/ccdt-1.0.9.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [zope.datetime]: Downloading https://files.pythonhosted.org/packages/14/be/ed179f05fdf4cfaa2665d7548bcea0f6b09591cd3ffb19a477fce99c552b/zope.datetime-4.3.0.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/47/03/d97ee64c6c8899eed05f51278ea3a1de7aec597d746afa99b689f7e91c3c/ruff-0.0.98.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-1.0.6.tar.gz tmp/pygptj-1.0.7.tar.gz --markdown 20230425/p/pygptj/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-25 08:16:45] INFO root fetch - processPackages [pcb-parser]: Downloading https://files.pythonhosted.org/packages/03/3b/ce1ae85650133b6b1b20b1836ec8f2e8af3eff340b4d76c76aad3377ee10/pcb-parser-0.0.9.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [pcb-parser]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [pcb-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcb-parser-0.0.8.tar.gz tmp/pcb-parser-0.0.9.tar.gz --markdown 20230425/p/pcb-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 08:16:45] INFO root fetch - processPackages [weather-provider-api]: Downloading https://files.pythonhosted.org/packages/31/30/6d06c1dec9e4690135806dbc9d645119e0eded7e90583b4bef75b1dbfa53/weather_provider_api-2.41.21.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [weather-provider-api]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [weather-provider-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_provider_api-2.40.20.tar.gz tmp/weather_provider_api-2.41.21.tar.gz --markdown 20230425/w/weather-provider-api/2.40.20-2.41.21/diff.md --exclude *.pyd
+[2023-04-25 08:16:45] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/af/c1/ba0c0611173b9cad13eb1d3ca6b3536cb17c1c7a452a049a3402fa148f1b/ccdt-2.0.0.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [zope.datetime]: Downloading https://files.pythonhosted.org/packages/f5/c7/bfb29f9747b487c6bd88dad6a5dad80bb6e92e91341fc648b1ee4998ff08/zope.datetime-5.0.0.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/43/74/128be8dbfb351ff04131ec18fb5b96694cd3ca0c92c6acacfdfe8dc4235f/ruff-0.0.99.tar.gz
+[2023-04-25 08:16:45] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-1.0.9.tar.gz tmp/ccdt-2.0.0.tar.gz --markdown 20230425/c/ccdt/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-04-25 08:16:45] INFO root fetch - processPackages [zope.datetime]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [zope.datetime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.datetime-4.3.0.tar.gz tmp/zope.datetime-5.0.0.tar.gz --markdown 20230425/z/zope.datetime/4.3.0-5.0.0/diff.md --exclude *.pyd
+[2023-04-25 08:16:45] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230425/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-25 08:16:45] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2023-04-25 08:16:45] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.0.98.tar.gz tmp/ruff-0.0.99.tar.gz --markdown 20230425/r/ruff/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 08:16:46] INFO root fetch - main [MainThread]: End processing [pcb-parser]: success
+[2023-04-25 08:16:47] INFO root fetch - main [MainThread]: End processing [zope.datetime]: success
+[2023-04-25 08:16:47] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-04-25 08:16:47] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-04-25 08:16:47] INFO root fetch - main [MainThread]: End processing [weather-provider-api]: success
+[2023-04-25 08:16:47] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-04-25 08:16:47] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-04-25 08:16:48] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
+[2023-04-25 08:16:49] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2023-04-25 08:16:49] INFO root fetch - main [MainThread]: Store serial: [17844904]

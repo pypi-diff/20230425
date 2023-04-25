@@ -11494,3 +11494,118 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:35:46] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-25 10:35:47] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
 [2023-04-25 10:35:47] INFO root fetch - main [MainThread]: Store serial: [17846175]
+[2023-04-25 10:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17846175]
+[2023-04-25 10:40:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-serve
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyriksdagen
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiliot-tools
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basx-bread
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcvContext
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assisted-service-client
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygnssutils
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: margsoft
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-estimator-nightly
+[2023-04-25 10:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scipion-em-cryocare
+[2023-04-25 10:40:56] INFO root fetch - processPackages [margsoft]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [scipion-em-cryocare]: New version: [3.1.1] Old Version: [3.0.1]
+[2023-04-25 10:40:56] WARNING root fetch - processPackages [bcvContext]: Skipping, unable to determine old version
+[2023-04-25 10:40:56] INFO root fetch - processPackages [bcvContext]: Start processing: scipion-em-xmipptomo
+[2023-04-25 10:40:56] INFO root fetch - main [MainThread]: End processing [bcvContext] error
+[2023-04-25 10:40:56] INFO root fetch - processPackages [pyriksdagen]: New version: [0.8.2rc2] Old Version: [0.8.2rc1]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [pygnssutils]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [wiliot-tools]: New version: [4.0.4] Old Version: [4.0.2]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [basx-bread]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [scipion-em-xmipptomo]: New version: [3.23.3.6] Old Version: [3.23.3.5]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-25 10:40:56] INFO root fetch - processPackages [scipion-em-cryocare]: Downloading https://files.pythonhosted.org/packages/7f/4b/7174918195d54df1c4d00b73ca84b8431c8c4711037ef7b212ec532959e5/scipion-em-cryocare-3.0.1.tar.gz
+[2023-04-25 10:40:56] INFO root fetch - processPackages [margsoft]: Downloading https://files.pythonhosted.org/packages/ee/4b/d6d2ebbb9d6041942d8358a1cd04be02373c72e74a5a6075473b2a651de2/margsoft-0.0.8.tar.gz
+[2023-04-25 10:40:56] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-04-25 10:40:56] INFO root fetch - processPackages [wiliot-tools]: Downloading https://files.pythonhosted.org/packages/de/4e/699c7c934b8b49f529a341861ca5c5d5a8344b994408188f225388c0e8b1/wiliot-tools-4.0.2.tar.gz
+[2023-04-25 10:40:56] INFO root fetch - processPackages [pygnssutils]: Downloading https://files.pythonhosted.org/packages/0e/fe/2f6b8d8780c7e2347cd1a2ef6a0a7dece457686372cb08b9b08ebc92ae56/pygnssutils-1.0.6.tar.gz
+[2023-04-25 10:40:56] INFO root fetch - processPackages [basx-bread]: Downloading https://files.pythonhosted.org/packages/a8/1e/e11c6338169717c5af2d43551f8926d4450af7e7401b46aecbd9a4f1edd8/basx-bread-0.7.8.tar.gz
+[2023-04-25 10:40:56] INFO root fetch - processPackages [scipion-em-xmipptomo]: Downloading https://files.pythonhosted.org/packages/82/c9/773f506aad8873df80f59bcb123e550fe3d1063c81232f59840ac5ad5687/scipion-em-xmipptomo-3.23.3.6.tar.gz
+[2023-04-25 10:40:57] INFO root fetch - processPackages [pyriksdagen]: Downloading https://files.pythonhosted.org/packages/9e/da/514d23cadc799a46f17d3702ffd769938ea54afebcf96f13a88a7dca25e7/pyriksdagen-0.8.2rc2.tar.gz
+[2023-04-25 10:40:57] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230425/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [scipion-em-xmipptomo]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [scipion-em-xmipptomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-xmipptomo-3.23.3.5.tar.gz tmp/scipion-em-xmipptomo-3.23.3.6.tar.gz --markdown 20230425/s/scipion-em-xmipptomo/3.23.3.5-3.23.3.6/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230425/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-04-25 10:40:57] INFO root fetch - processPackages [pyriksdagen]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [pyriksdagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriksdagen-0.8.2rc1.tar.gz tmp/pyriksdagen-0.8.2rc2.tar.gz --markdown 20230425/p/pyriksdagen/0.8.2rc1-0.8.2rc2/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [wiliot-tools]: Downloading https://files.pythonhosted.org/packages/cf/ee/2193c660d74963f9a8df861ae9bb5d88386cdac1d8570ce5200d3d3f2287/wiliot-tools-4.0.4.tar.gz
+[2023-04-25 10:40:57] INFO root fetch - processPackages [scipion-em-cryocare]: Downloading https://files.pythonhosted.org/packages/19/5b/3b44a96da9de2f4b65d942597f43fe34e4ef90a74127334a55a662704b46/scipion-em-cryocare-3.1.1.tar.gz
+[2023-04-25 10:40:57] INFO root fetch - processPackages [wiliot-tools]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [wiliot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-tools-4.0.2.tar.gz tmp/wiliot-tools-4.0.4.tar.gz --markdown 20230425/w/wiliot-tools/4.0.2-4.0.4/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [pygnssutils]: Downloading https://files.pythonhosted.org/packages/b4/46/74831ee10d334f7e377ea31962f42555227e75d4f594ce294c2fb52be844/pygnssutils-1.0.7.tar.gz
+[2023-04-25 10:40:57] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230425/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [margsoft]: Downloading https://files.pythonhosted.org/packages/cd/ba/f56bd990e1b37ca65b9a04504b2b63e562cc7e1984a345cc5134d96bcfcf/margsoft-0.0.9.tar.gz
+[2023-04-25 10:40:57] INFO root fetch - processPackages [scipion-em-cryocare]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [scipion-em-cryocare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-cryocare-3.0.1.tar.gz tmp/scipion-em-cryocare-3.1.1.tar.gz --markdown 20230425/s/scipion-em-cryocare/3.0.1-3.1.1/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [pygnssutils]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [pygnssutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygnssutils-1.0.6.tar.gz tmp/pygnssutils-1.0.7.tar.gz --markdown 20230425/p/pygnssutils/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [margsoft]: executing diffoscope
+[2023-04-25 10:40:57] INFO root fetch - processPackages [margsoft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/margsoft-0.0.8.tar.gz tmp/margsoft-0.0.9.tar.gz --markdown 20230425/m/margsoft/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:40:57] INFO root fetch - processPackages [basx-bread]: Downloading https://files.pythonhosted.org/packages/ff/fd/a1afa0050c20cbcb12d05fb7b00df2e9cd774cc85942fc3b71f82142f4a7/basx-bread-0.7.9.tar.gz
+[2023-04-25 10:40:58] INFO root fetch - processPackages [scipion-em-xmipptomo]: Start processing: HSTI
+[2023-04-25 10:40:58] INFO root fetch - main [MainThread]: End processing [scipion-em-xmipptomo]: success
+[2023-04-25 10:40:58] INFO root fetch - processPackages [HSTI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 10:40:58] INFO root fetch - processPackages [margsoft]: Start processing: discake
+[2023-04-25 10:40:58] INFO root fetch - main [MainThread]: End processing [margsoft]: success
+[2023-04-25 10:40:58] INFO root fetch - processPackages [discake]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 10:40:58] INFO root fetch - processPackages [HSTI]: Downloading https://files.pythonhosted.org/packages/61/ba/843e4a6a39f024e15e9f248b8b9daf6551846c6e8b5257f75db604fdbd56/HSTI-0.0.8.tar.gz
+[2023-04-25 10:40:58] INFO root fetch - processPackages [basx-bread]: executing diffoscope
+[2023-04-25 10:40:58] INFO root fetch - processPackages [basx-bread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basx-bread-0.7.8.tar.gz tmp/basx-bread-0.7.9.tar.gz --markdown 20230425/b/basx-bread/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-25 10:40:58] INFO root fetch - processPackages [pyriksdagen]: Start processing: mongomotor
+[2023-04-25 10:40:58] INFO root fetch - main [MainThread]: End processing [pyriksdagen]: success
+[2023-04-25 10:40:58] INFO root fetch - processPackages [mongomotor]: New version: [0.9b6] Old Version: [0.9b5]
+[2023-04-25 10:40:58] INFO root fetch - processPackages [wiliot-tools]: Start processing: volcengine-python-sdk
+[2023-04-25 10:40:58] INFO root fetch - main [MainThread]: End processing [wiliot-tools]: success
+[2023-04-25 10:40:58] INFO root fetch - processPackages [discake]: Downloading https://files.pythonhosted.org/packages/cf/b9/ab76ac953bcc601ca12b656d357ac04b80d42b095b7a5c62a707a82f5616/discake-0.0.6.tar.gz
+[2023-04-25 10:40:59] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 10:40:59] INFO root fetch - processPackages [pygnssutils]: Start processing: invenio-administration
+[2023-04-25 10:40:59] INFO root fetch - main [MainThread]: End processing [pygnssutils]: success
+[2023-04-25 10:40:59] INFO root fetch - processPackages [discake]: executing diffoscope
+[2023-04-25 10:40:59] INFO root fetch - processPackages [discake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discake-0.0.5.tar.gz tmp/discake-0.0.6.tar.gz --markdown 20230425/d/discake/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 10:40:59] INFO root fetch - processPackages [mongomotor]: executing diffoscope
+[2023-04-25 10:40:59] INFO root fetch - processPackages [mongomotor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomotor-0.9b5.tar.gz tmp/mongomotor-0.9b6.tar.gz --markdown 20230425/m/mongomotor/0.9b5-0.9b6/diff.md --exclude *.pyd
+[2023-04-25 10:40:59] INFO root fetch - processPackages [invenio-administration]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-25 10:40:59] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-04-25 10:40:59] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230425/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:40:59] INFO root fetch - processPackages [scipion-em-cryocare]: Start processing: q2gui
+[2023-04-25 10:40:59] INFO root fetch - main [MainThread]: End processing [scipion-em-cryocare]: success
+[2023-04-25 10:40:59] INFO root fetch - processPackages [q2gui]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:40:59] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/f4/a3/a48513de6a8d7eed39e19aa643b267db9bfa7a4104e822b34a25e1eba2d9/invenio-administration-1.3.0.tar.gz
+[2023-04-25 10:40:59] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-04-25 10:40:59] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.8.tar.gz tmp/q2gui-0.1.9.tar.gz --markdown 20230425/q/q2gui/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:40:59] INFO root fetch - processPackages [langchain-serve]: Start processing: metaseg
+[2023-04-25 10:40:59] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-25 10:40:59] INFO root fetch - processPackages [metaseg]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-25 10:40:59] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/09/cc/474801c14155464f0132780586b28da512292d7e4dc429ce8430f6f8352f/invenio-administration-1.4.0.tar.gz
+[2023-04-25 10:40:59] INFO root fetch - processPackages [metaseg]: executing diffoscope
+[2023-04-25 10:40:59] INFO root fetch - processPackages [metaseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaseg-0.7.0.tar.gz tmp/metaseg-0.7.1.tar.gz --markdown 20230425/m/metaseg/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-25 10:40:59] INFO root fetch - processPackages [invenio-administration]: executing diffoscope
+[2023-04-25 10:40:59] INFO root fetch - processPackages [invenio-administration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-administration-1.3.0.tar.gz tmp/invenio-administration-1.4.0.tar.gz --markdown 20230425/i/invenio-administration/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-25 10:40:59] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: q2rad
+[2023-04-25 10:40:59] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-04-25 10:40:59] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-25 10:41:00] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-04-25 10:41:00] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230425/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-25 10:41:00] INFO root fetch - processPackages [HSTI]: Downloading https://files.pythonhosted.org/packages/d8/11/fc8e17c1c7ea1ed6d3fe2ace9c4bdf9f92089ddcd32e4c2f4e2c0d60dc8f/HSTI-0.0.9.tar.gz
+[2023-04-25 10:41:00] INFO root fetch - main [MainThread]: End processing [mongomotor]: success
+[2023-04-25 10:41:00] INFO root fetch - main [MainThread]: End processing [discake]: success
+[2023-04-25 10:41:00] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-04-25 10:41:01] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-25 10:41:01] INFO root fetch - processPackages [HSTI]: executing diffoscope
+[2023-04-25 10:41:01] INFO root fetch - processPackages [HSTI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HSTI-0.0.8.tar.gz tmp/HSTI-0.0.9.tar.gz --markdown 20230425/H/HSTI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:41:01] INFO root fetch - main [MainThread]: End processing [metaseg]: success
+[2023-04-25 10:41:01] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-04-25 10:41:02] INFO root fetch - main [MainThread]: End processing [invenio-administration]: success
+[2023-04-25 10:41:03] INFO root fetch - main [MainThread]: End processing [HSTI]: success
+[2023-04-25 10:41:27] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-04-25 10:42:46] INFO root fetch - main [MainThread]: End processing [basx-bread]: success
+[2023-04-25 10:42:46] INFO root fetch - main [MainThread]: Store serial: [17846227]

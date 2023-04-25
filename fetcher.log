@@ -13584,3 +13584,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 12:28:54] INFO root fetch - main [MainThread]: End processing [hey-mindsdb]: success
 [2023-04-25 12:28:57] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
 [2023-04-25 12:28:57] INFO root fetch - main [MainThread]: Store serial: [17847352]
+[2023-04-25 12:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17847352]
+[2023-04-25 12:34:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fds.sdk.DirectStreamingofTransactionMessages
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fds.sdk.FactSetConcordance
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fds.sdk.FixedIncomeCalculation
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fds.sdk.OpenFactSetPartnersDocuments
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: local-dialog-workflow-python-backend
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openxlab
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: questdb-connect
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: athiru-cloud-governance
+[2023-04-25 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apideck
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.FixedIncomeCalculation]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.DirectStreamingofTransactionMessages]: New version: [0.22.2] Old Version: [0.21.2]
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.FactSetConcordance]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-25 12:34:07] INFO root fetch - processPackages [athiru-cloud-governance]: New version: [1.1.89] Old Version: [1.1.76]
+[2023-04-25 12:34:07] WARNING root fetch - processPackages [local-dialog-workflow-python-backend]: Skipping, unable to determine old version
+[2023-04-25 12:34:07] WARNING root fetch - processPackages [fds.sdk.OpenFactSetPartnersDocuments]: Skipping, unable to determine old version
+[2023-04-25 12:34:07] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: Start processing: meltano
+[2023-04-25 12:34:07] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-04-25 12:34:07] INFO root fetch - main [MainThread]: End processing [local-dialog-workflow-python-backend] error
+[2023-04-25 12:34:07] INFO root fetch - processPackages [openxlab]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 12:34:07] INFO root fetch - processPackages [apideck]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-04-25 12:34:07] INFO root fetch - main [MainThread]: End processing [fds.sdk.OpenFactSetPartnersDocuments] error
+[2023-04-25 12:34:07] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-25 12:34:07] INFO root fetch - processPackages [meltano]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-25 12:34:07] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-25 12:34:07] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230425/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-25 12:34:07] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/7f/4b/22a149be5fcf4ffe9f263ed3e56405ab6c3ac51e2b7c598b7dfdec6af687/questdb-connect-0.0.11.tar.gz
+[2023-04-25 12:34:07] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/cd/fe/034591ae92adafb07eeccc322d1137b67e5f0cd444bcff14e61e4ab82f66/apideck-0.0.3.tar.gz
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.DirectStreamingofTransactionMessages]: Downloading https://files.pythonhosted.org/packages/22/5e/5e32a2b46339e7c47bb818554998c6ea208c45a71ecc0e9f035b833fe003/fds.sdk.DirectStreamingofTransactionMessages-0.21.2-py3-none-any.whl
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.FactSetConcordance]: Downloading https://files.pythonhosted.org/packages/db/e4/6e6382d5f924b54c0ce6b24af76cf478d65e045ab6dc8b235ffb4ba4cec1/fds.sdk.FactSetConcordance-0.9.0-py3-none-any.whl
+[2023-04-25 12:34:07] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/d4/59/6c446c9c450cc16adefee891458c59d9a6c2e8bd11ce406d39215f80b442/openxlab-0.0.6.tar.gz
+[2023-04-25 12:34:07] INFO root fetch - processPackages [athiru-cloud-governance]: Downloading https://files.pythonhosted.org/packages/16/4b/b102af6522458dfd51b84e90b38b996d7774e0987f6d1dae27a0b3a6cd1e/athiru-cloud-governance-1.1.76.tar.gz
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.FixedIncomeCalculation]: Downloading https://files.pythonhosted.org/packages/7a/a8/c6d4fadeaf6401cafd47e3fdd5616ca60f33f0d11d4b3c407910b890a158/fds.sdk.FixedIncomeCalculation-0.9.0-py3-none-any.whl
+[2023-04-25 12:34:07] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-04-25 12:34:07] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.5.tar.gz tmp/openxlab-0.0.6.tar.gz --markdown 20230425/o/openxlab/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 12:34:07] INFO root fetch - processPackages [meltano]: Downloading https://files.pythonhosted.org/packages/8c/af/1d475fa10a62821b47011974b1ec9d275f070c4d8968186bb5478d28aa36/meltano-2.8.0.tar.gz
+[2023-04-25 12:34:07] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/b2/0d/31d4cdf390d56721fd39f9a44051c5c5da17a5b7acaccb3a87e70c567a9a/questdb-connect-0.0.12.tar.gz
+[2023-04-25 12:34:07] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-04-25 12:34:07] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.11.tar.gz tmp/questdb-connect-0.0.12.tar.gz --markdown 20230425/q/questdb-connect/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.DirectStreamingofTransactionMessages]: Downloading https://files.pythonhosted.org/packages/b3/53/63ebae0fe63863c5b185b57710df1ed5195f664f66e406b3550e4cb2c516/fds.sdk.DirectStreamingofTransactionMessages-0.22.2-py3-none-any.whl
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.DirectStreamingofTransactionMessages]: executing diffoscope
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.DirectStreamingofTransactionMessages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.DirectStreamingofTransactionMessages-0.21.2-py3-none-any.whl.zip tmp/fds.sdk.DirectStreamingofTransactionMessages-0.22.2-py3-none-any.whl.zip --markdown 20230425/f/fds.sdk.DirectStreamingofTransactionMessages/0.21.2-0.22.2/diff.md --exclude *.pyd
+[2023-04-25 12:34:07] INFO root fetch - processPackages [athiru-cloud-governance]: Downloading https://files.pythonhosted.org/packages/b0/b1/09ca105535fa9c37bfef7b2c9297cddc089e5fa06a1bcd2cc54d75b91c67/athiru-cloud-governance-1.1.89.tar.gz
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.FactSetConcordance]: Downloading https://files.pythonhosted.org/packages/fc/08/7a60a90ec22cfd02a941bc7fbd6ba3fc848f18090b4e3d0ad17cd634dc2d/fds.sdk.FactSetConcordance-0.9.1-py3-none-any.whl
+[2023-04-25 12:34:07] INFO root fetch - processPackages [athiru-cloud-governance]: executing diffoscope
+[2023-04-25 12:34:07] INFO root fetch - processPackages [athiru-cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athiru-cloud-governance-1.1.76.tar.gz tmp/athiru-cloud-governance-1.1.89.tar.gz --markdown 20230425/a/athiru-cloud-governance/1.1.76-1.1.89/diff.md --exclude *.pyd
+[2023-04-25 12:34:07] INFO root fetch - processPackages [fds.sdk.FixedIncomeCalculation]: Downloading https://files.pythonhosted.org/packages/0f/7a/2c191b3de3e515a6c6f904abde66cee9df90f3b479231d32a308dbea1fa5/fds.sdk.FixedIncomeCalculation-0.9.1-py3-none-any.whl
+[2023-04-25 12:34:07] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/b5/e9/9d60fc3d675075a5c285772b27991688aa5b560b471536ca93a847145307/apideck-0.1.0.tar.gz
+[2023-04-25 12:34:07] INFO root fetch - processPackages [apideck]: executing diffoscope
+[2023-04-25 12:34:07] INFO root fetch - processPackages [apideck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apideck-0.0.3.tar.gz tmp/apideck-0.1.0.tar.gz --markdown 20230425/a/apideck/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-04-25 12:34:08] INFO root fetch - processPackages [fds.sdk.FactSetConcordance]: executing diffoscope
+[2023-04-25 12:34:08] INFO root fetch - processPackages [fds.sdk.FactSetConcordance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.FactSetConcordance-0.9.0-py3-none-any.whl.zip tmp/fds.sdk.FactSetConcordance-0.9.1-py3-none-any.whl.zip --markdown 20230425/f/fds.sdk.FactSetConcordance/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-25 12:34:08] INFO root fetch - processPackages [fds.sdk.FixedIncomeCalculation]: executing diffoscope
+[2023-04-25 12:34:08] INFO root fetch - processPackages [fds.sdk.FixedIncomeCalculation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.FixedIncomeCalculation-0.9.0-py3-none-any.whl.zip tmp/fds.sdk.FixedIncomeCalculation-0.9.1-py3-none-any.whl.zip --markdown 20230425/f/fds.sdk.FixedIncomeCalculation/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-25 12:34:08] INFO root fetch - processPackages [meltano]: Downloading https://files.pythonhosted.org/packages/17/ae/60b57de028b5a29982bad83f9cbf1a32f6c3d2f495fee37a2e5f94ee7881/meltano-2.9.0.tar.gz
+[2023-04-25 12:34:09] INFO root fetch - processPackages [meltano]: executing diffoscope
+[2023-04-25 12:34:09] INFO root fetch - processPackages [meltano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meltano-2.8.0.tar.gz tmp/meltano-2.9.0.tar.gz --markdown 20230425/m/meltano/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-25 12:34:09] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-04-25 12:34:09] INFO root fetch - main [MainThread]: End processing [fds.sdk.FixedIncomeCalculation]: success
+[2023-04-25 12:34:09] INFO root fetch - main [MainThread]: End processing [fds.sdk.DirectStreamingofTransactionMessages]: success
+[2023-04-25 12:34:09] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-04-25 12:34:09] INFO root fetch - main [MainThread]: End processing [fds.sdk.FactSetConcordance]: success
+[2023-04-25 12:34:10] INFO root fetch - main [MainThread]: End processing [athiru-cloud-governance]: success
+[2023-04-25 12:34:14] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-25 12:35:01] INFO root fetch - main [MainThread]: End processing [apideck]: success
+[2023-04-25 12:37:09] ERROR root fetch - processPackages [meltano]: Timeout during execution of pkgdiff
+[2023-04-25 12:37:09] INFO root fetch - main [MainThread]: End processing [meltano] error
+[2023-04-25 12:37:09] INFO root fetch - main [MainThread]: Store serial: [17847384]

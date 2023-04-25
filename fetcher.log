@@ -13001,3 +13001,134 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 11:46:45] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
 [2023-04-25 11:46:46] INFO root fetch - main [MainThread]: End processing [streamlit-component-dropfilltextarea]: success
 [2023-04-25 11:46:46] INFO root fetch - main [MainThread]: Store serial: [17847002]
+[2023-04-25 11:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17847002]
+[2023-04-25 11:51:56] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mmagic
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygbop
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: belt-logging
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoqo-qasm
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: garpixcms
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: payu-websdk
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hijri-converter
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dead-simple-framework
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bamsalvage
+[2023-04-25 11:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: electrickiwi-api
+[2023-04-25 11:51:56] INFO root fetch - processPackages [payu-websdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [hijri-converter]: New version: [2.3.0.post1] Old Version: [2.3.0]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [electrickiwi-api]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [bamsalvage]: New version: [0.1.4] Old Version: [0.1.3.1]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [dead-simple-framework]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [garpixcms]: New version: [4.0.0rc9] Old Version: [4.0.0rc8]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [pygbop]: New version: [0.1.1.5] Old Version: [0.1.1.3]
+[2023-04-25 11:51:56] WARNING root fetch - processPackages [mmagic]: Skipping, unable to determine old version
+[2023-04-25 11:51:56] INFO root fetch - processPackages [mmagic]: Start processing: alibabacloud-gateway-dingtalk
+[2023-04-25 11:51:56] INFO root fetch - main [MainThread]: End processing [mmagic] error
+[2023-04-25 11:51:56] INFO root fetch - processPackages [belt-logging]: New version: [0.0.2a0] Old Version: [0.0.1]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [qoqo-qasm]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [bamsalvage]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [bamsalvage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamsalvage-0.1.3.1-py3-none-any.whl.zip tmp/bamsalvage-0.1.4-py3-none-any.whl.zip --markdown 20230425/b/bamsalvage/0.1.3.1-0.1.4/diff.md --exclude *.pyd
+[2023-04-25 11:51:56] INFO root fetch - processPackages [hijri-converter]: Downloading https://files.pythonhosted.org/packages/62/91/ccaf4449a977072bb783fad23f54f093d301f1ec06ce7788dd8d5e8c5785/hijri-converter-2.3.0.post1.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [garpixcms]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [garpixcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpixcms-4.0.0rc8.tar.gz tmp/garpixcms-4.0.0rc9.tar.gz --markdown 20230425/g/garpixcms/4.0.0rc8-4.0.0rc9/diff.md --exclude *.pyd
+[2023-04-25 11:51:56] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-25 11:51:56] INFO root fetch - processPackages [payu-websdk]: Downloading https://files.pythonhosted.org/packages/d3/bd/f34d29a8b8217742d503cd820e56b93cc58d8496eaea0da736ef998c732b/payu_websdk-0.1.5.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [dead-simple-framework]: Downloading https://files.pythonhosted.org/packages/ee/25/cb8ae14b6b8f6c192121efc6795ec0739ec371e4d9752898b14a7d8f4a27/dead_simple_framework-1.3.5.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [hijri-converter]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [hijri-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hijri-converter-2.3.0.tar.gz tmp/hijri-converter-2.3.0.post1.tar.gz --markdown 20230425/h/hijri-converter/2.3.0-2.3.0.post1/diff.md --exclude *.pyd
+[2023-04-25 11:51:56] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gateway_dingtalk-1.0.0.tar.gz tmp/alibabacloud_gateway_dingtalk-1.0.1.tar.gz --markdown 20230425/a/alibabacloud-gateway-dingtalk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-25 11:51:56] INFO root fetch - processPackages [belt-logging]: Downloading https://files.pythonhosted.org/packages/16/f7/ec211af9e5ac7e48388deb05e4d7c55d078e913abf4e4772e6b24794c51f/belt_logging-0.0.1.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [electrickiwi-api]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [electrickiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electrickiwi-api-0.8.1.tar.gz tmp/electrickiwi-api-0.8.2.tar.gz --markdown 20230425/e/electrickiwi-api/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-25 11:51:56] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/75/12/401a6ea9e843be6252d65cddef833c1625203d801fde448ac70fbeea2b87/pygbop-0.1.1.3.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [payu-websdk]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [payu-websdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payu_websdk-0.1.4.tar.gz tmp/payu_websdk-0.1.5.tar.gz --markdown 20230425/p/payu-websdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-25 11:51:56] INFO root fetch - processPackages [dead-simple-framework]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [dead-simple-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dead_simple_framework-1.3.4.tar.gz tmp/dead_simple_framework-1.3.5.tar.gz --markdown 20230425/d/dead-simple-framework/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-25 11:51:56] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/20/36/0bfd96216a1a8ccf254cc1fad18c16415af1afafa2efe9acbb3fbaca032e/qoqo_qasm-0.7.1.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [belt-logging]: Downloading https://files.pythonhosted.org/packages/68/97/a95e7bee35822bed1ccee9208118c7dd867b0459153102f55dcaa48b2b9c/belt_logging-0.0.2a0.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/5e/60/5c60f7d9e9a0a3f9f8f5508d11e2038c39bf9b7f946415ff3af10cd43265/pygbop-0.1.1.5.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/38/c5/1e674a9534820440b8e31571fe6391777144075bb88c3f5ac98dc1031294/qoqo_qasm-0.7.2.tar.gz
+[2023-04-25 11:51:56] INFO root fetch - processPackages [belt-logging]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [belt-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belt_logging-0.0.1.tar.gz tmp/belt_logging-0.0.2a0.tar.gz --markdown 20230425/b/belt-logging/0.0.1-0.0.2a0/diff.md --exclude *.pyd
+[2023-04-25 11:51:56] INFO root fetch - processPackages [pygbop]: executing diffoscope
+[2023-04-25 11:51:56] INFO root fetch - processPackages [pygbop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygbop-0.1.1.3.tar.gz tmp/pygbop-0.1.1.5.tar.gz --markdown 20230425/p/pygbop/0.1.1.3-0.1.1.5/diff.md --exclude *.pyd
+[2023-04-25 11:51:57] INFO root fetch - processPackages [qoqo-qasm]: executing diffoscope
+[2023-04-25 11:51:57] INFO root fetch - processPackages [qoqo-qasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qasm-0.7.1.tar.gz tmp/qoqo_qasm-0.7.2.tar.gz --markdown 20230425/q/qoqo-qasm/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-25 11:51:57] INFO root fetch - processPackages [bamsalvage]: Start processing: alibabacloud-gateway-dingtalk-py2
+[2023-04-25 11:51:57] INFO root fetch - main [MainThread]: End processing [bamsalvage]: success
+[2023-04-25 11:51:57] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-25 11:51:57] INFO root fetch - processPackages [hijri-converter]: Start processing: flexypy
+[2023-04-25 11:51:57] INFO root fetch - main [MainThread]: End processing [hijri-converter]: success
+[2023-04-25 11:51:57] INFO root fetch - processPackages [flexypy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 11:51:57] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: executing diffoscope
+[2023-04-25 11:51:57] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gateway_dingtalk_py2-1.0.0.tar.gz tmp/alibabacloud_gateway_dingtalk_py2-1.0.1.tar.gz --markdown 20230425/a/alibabacloud-gateway-dingtalk-py2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-25 11:51:57] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk]: Start processing: hostphot
+[2023-04-25 11:51:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-gateway-dingtalk]: success
+[2023-04-25 11:51:57] INFO root fetch - processPackages [electrickiwi-api]: Start processing: tronapi-JCO
+[2023-04-25 11:51:57] INFO root fetch - main [MainThread]: End processing [electrickiwi-api]: success
+[2023-04-25 11:51:57] INFO root fetch - processPackages [tronapi-JCO]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-25 11:51:57] INFO root fetch - processPackages [hostphot]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-04-25 11:51:57] INFO root fetch - processPackages [payu-websdk]: Start processing: redvypr
+[2023-04-25 11:51:57] INFO root fetch - main [MainThread]: End processing [payu-websdk]: success
+[2023-04-25 11:51:58] INFO root fetch - processPackages [redvypr]: New version: [0.5.3] Old Version: [0.4.4]
+[2023-04-25 11:51:58] INFO root fetch - processPackages [dead-simple-framework]: Start processing: textual-datepicker
+[2023-04-25 11:51:58] INFO root fetch - main [MainThread]: End processing [dead-simple-framework]: success
+[2023-04-25 11:51:58] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/c2/97/caad04fa612f7b2e1f8ae7b67791f975e8184d2d5b15d405594f0f30cf06/hostphot-2.4.0.tar.gz
+[2023-04-25 11:51:58] INFO root fetch - processPackages [textual-datepicker]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-25 11:51:58] INFO root fetch - processPackages [belt-logging]: Start processing: thatdslibrary
+[2023-04-25 11:51:58] INFO root fetch - main [MainThread]: End processing [belt-logging]: success
+[2023-04-25 11:51:58] INFO root fetch - processPackages [textual-datepicker]: executing diffoscope
+[2023-04-25 11:51:58] INFO root fetch - processPackages [textual-datepicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_datepicker-0.2.2.tar.gz tmp/textual_datepicker-0.2.3.tar.gz --markdown 20230425/t/textual-datepicker/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-25 11:51:58] INFO root fetch - processPackages [pygbop]: Start processing: financeager-flask
+[2023-04-25 11:51:58] INFO root fetch - main [MainThread]: End processing [pygbop]: success
+[2023-04-25 11:51:58] INFO root fetch - processPackages [redvypr]: Downloading https://files.pythonhosted.org/packages/90/48/26d222c1b37c9930cc04ec2274a2e368b28248aefb19a9ea0b06426b046b/redvypr-0.4.4.tar.gz
+[2023-04-25 11:51:58] WARNING root fetch - processPackages [thatdslibrary]: Skipping, unable to determine old version
+[2023-04-25 11:51:58] INFO root fetch - processPackages [thatdslibrary]: Start processing: acmen
+[2023-04-25 11:51:58] INFO root fetch - main [MainThread]: End processing [thatdslibrary] error
+[2023-04-25 11:51:58] INFO root fetch - processPackages [financeager-flask]: New version: [1.0.0] Old Version: [0.5.0.0]
+[2023-04-25 11:51:58] INFO root fetch - processPackages [tronapi-JCO]: executing diffoscope
+[2023-04-25 11:51:58] INFO root fetch - processPackages [tronapi-JCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tronapi-JCO-3.1.5.tar.gz tmp/tronapi-JCO-3.1.6.tar.gz --markdown 20230425/t/tronapi-JCO/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-25 11:51:58] INFO root fetch - processPackages [flexypy]: executing diffoscope
+[2023-04-25 11:51:58] INFO root fetch - processPackages [flexypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexypy-0.0.7.tar.gz tmp/flexypy-0.0.8.tar.gz --markdown 20230425/f/flexypy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 11:51:58] WARNING root fetch - processPackages [acmen]: Skipping, unable to determine old version
+[2023-04-25 11:51:58] INFO root fetch - processPackages [acmen]: Start processing: pipelinewise-tap-mysql
+[2023-04-25 11:51:58] INFO root fetch - main [MainThread]: End processing [acmen] error
+[2023-04-25 11:51:58] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/d1/12/f5531d38b1af6d830a2db7a9a953fbbbe242cb6cada5f3233b2be948071c/hostphot-2.5.0.tar.gz
+[2023-04-25 11:51:58] INFO root fetch - processPackages [redvypr]: Downloading https://files.pythonhosted.org/packages/95/2e/a3ac56db9384dc0f451ab8a9b19f6b8af0056bcee6ce3d8e2b30bc03ff63/redvypr-0.5.3.tar.gz
+[2023-04-25 11:51:58] INFO root fetch - processPackages [pipelinewise-tap-mysql]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-04-25 11:51:58] INFO root fetch - processPackages [redvypr]: executing diffoscope
+[2023-04-25 11:51:58] INFO root fetch - processPackages [redvypr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvypr-0.4.4.tar.gz tmp/redvypr-0.5.3.tar.gz --markdown 20230425/r/redvypr/0.4.4-0.5.3/diff.md --exclude *.pyd
+[2023-04-25 11:51:58] INFO root fetch - processPackages [alibabacloud-gateway-dingtalk-py2]: Start processing: vayner-clean
+[2023-04-25 11:51:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-gateway-dingtalk-py2]: success
+[2023-04-25 11:51:58] INFO root fetch - processPackages [vayner-clean]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-25 11:51:59] INFO root fetch - processPackages [hostphot]: executing diffoscope
+[2023-04-25 11:51:59] INFO root fetch - processPackages [hostphot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostphot-2.4.0.tar.gz tmp/hostphot-2.5.0.tar.gz --markdown 20230425/h/hostphot/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-04-25 11:51:59] INFO root fetch - processPackages [textual-datepicker]: Start processing: pinpong
+[2023-04-25 11:51:59] INFO root fetch - main [MainThread]: End processing [textual-datepicker]: success
+[2023-04-25 11:51:59] INFO root fetch - processPackages [pinpong]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-25 11:51:59] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
+[2023-04-25 11:51:59] INFO root fetch - processPackages [pipelinewise-tap-mysql]: Downloading https://files.pythonhosted.org/packages/8f/87/63142f070d79fa045903e682e65d79e649133fbba52709438f89845d6d45/pipelinewise-tap-mysql-1.5.2.tar.gz
+[2023-04-25 11:51:59] INFO root fetch - processPackages [pinpong]: Downloading https://files.pythonhosted.org/packages/ae/15/2b5ead990ffec0a8f7052168f7f27802c7c2c10dc4cc4239dfd306ceaf51/pinpong-0.5.1.zip
+[2023-04-25 11:51:59] INFO root fetch - main [MainThread]: End processing [flexypy]: success
+[2023-04-25 11:51:59] INFO root fetch - processPackages [pipelinewise-tap-mysql]: Downloading https://files.pythonhosted.org/packages/7f/9a/8effe8054e6c6bbaeec5a8450eab5843ec5f7e7e19b6160396862545d437/pipelinewise-tap-mysql-1.5.3.tar.gz
+[2023-04-25 11:51:59] WARNING root fetch - processPackages [pinpong]: Skipping package: exceeds size limit 10940408>=10485760
+[2023-04-25 11:51:59] INFO root fetch - main [MainThread]: End processing [pinpong] error
+[2023-04-25 11:51:59] INFO root fetch - processPackages [pipelinewise-tap-mysql]: executing diffoscope
+[2023-04-25 11:51:59] INFO root fetch - processPackages [pipelinewise-tap-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipelinewise-tap-mysql-1.5.2.tar.gz tmp/pipelinewise-tap-mysql-1.5.3.tar.gz --markdown 20230425/p/pipelinewise-tap-mysql/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-04-25 11:52:00] INFO root fetch - main [MainThread]: End processing [tronapi-JCO]: success
+[2023-04-25 11:52:00] INFO root fetch - main [MainThread]: End processing [pipelinewise-tap-mysql]: success
+[2023-04-25 11:52:01] INFO root fetch - main [MainThread]: End processing [qoqo-qasm]: success
+[2023-04-25 11:52:01] INFO root fetch - main [MainThread]: End processing [redvypr]: success
+[2023-04-25 11:52:02] INFO root fetch - main [MainThread]: End processing [hostphot]: success
+[2023-04-25 11:52:04] INFO root fetch - processPackages [financeager-flask]: Downloading https://files.pythonhosted.org/packages/c7/0e/e44669db33bef28ce7abe0b74e769b4cbcd0de0ed1bbcfd50eb5da9abad9/financeager-flask-0.5.0.0.tar.gz
+[2023-04-25 11:52:04] INFO root fetch - processPackages [financeager-flask]: Downloading https://files.pythonhosted.org/packages/2e/8d/3c1d6dbe5ad45f9f9893c279911374ea3ea6aedb5dc64ac1d502e524cb7f/financeager-flask-1.0.0.tar.gz
+[2023-04-25 11:52:05] INFO root fetch - processPackages [financeager-flask]: executing diffoscope
+[2023-04-25 11:52:05] INFO root fetch - processPackages [financeager-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financeager-flask-0.5.0.0.tar.gz tmp/financeager-flask-1.0.0.tar.gz --markdown 20230425/f/financeager-flask/0.5.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-25 11:52:06] INFO root fetch - processPackages [vayner-clean]: Downloading https://files.pythonhosted.org/packages/c9/f9/6328003dd18cfc3b758289d2f717b48fe3635cf5b1e129a909ae5cc7a968/vayner_clean-0.1.7.tar.gz
+[2023-04-25 11:52:06] INFO root fetch - main [MainThread]: End processing [financeager-flask]: success
+[2023-04-25 11:52:06] INFO root fetch - processPackages [vayner-clean]: Downloading https://files.pythonhosted.org/packages/f7/15/ac465a4d9b58b187861115f6a19cc10d46d9649b8e21672bd6456584d7c5/vayner_clean-0.1.8.tar.gz
+[2023-04-25 11:52:06] INFO root fetch - processPackages [vayner-clean]: executing diffoscope
+[2023-04-25 11:52:06] INFO root fetch - processPackages [vayner-clean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vayner_clean-0.1.7.tar.gz tmp/vayner_clean-0.1.8.tar.gz --markdown 20230425/v/vayner-clean/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-25 11:52:07] INFO root fetch - main [MainThread]: End processing [vayner-clean]: success
+[2023-04-25 11:52:07] INFO root fetch - main [MainThread]: Store serial: [17847088]

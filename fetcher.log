@@ -8802,3 +8802,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 07:18:55] INFO root fetch - main [MainThread]: End processing [DXR]: success
 [2023-04-25 07:18:57] INFO root fetch - main [MainThread]: End processing [moftransformer]: success
 [2023-04-25 07:18:57] INFO root fetch - main [MainThread]: Store serial: [17844603]
+[2023-04-25 07:24:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844603]
+[2023-04-25 07:24:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-25 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-04-25 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcbot-predict-sdk
+[2023-04-25 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mango-explorer-v4
+[2023-04-25 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gqt
+[2023-04-25 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DXR
+[2023-04-25 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt3discord
+[2023-04-25 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teslajsonpy
+[2023-04-25 07:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: newcode-utils
+[2023-04-25 07:24:06] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 07:24:06] INFO root fetch - processPackages [newcode-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-25 07:24:06] INFO root fetch - processPackages [gqt]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-25 07:24:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230425] Old Version: [0.2.2.dev20230424]
+[2023-04-25 07:24:06] INFO root fetch - processPackages [DXR]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-04-25 07:24:06] INFO root fetch - processPackages [mango-explorer-v4]: New version: [0.8] Old Version: [0.7.9]
+[2023-04-25 07:24:06] INFO root fetch - processPackages [teslajsonpy]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-04-25 07:24:06] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-25 07:24:06] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-04-25 07:24:06] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230425/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 07:24:06] INFO root fetch - processPackages [DXR]: Downloading https://files.pythonhosted.org/packages/5a/93/5441180b1f2c29cf47df3ceda7a00f65e72a04b06b12eb560b08a2e3e483/DXR-1.7.6.tar.gz
+[2023-04-25 07:24:06] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-25 07:24:06] INFO root fetch - processPackages [gqt]: Downloading https://files.pythonhosted.org/packages/59/d7/27597e4c1792fdfc8c7360b9d941ca5b264c9ec1af605727cc16b3f00328/gqt-0.98.0.tar.gz
+[2023-04-25 07:24:06] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230425/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-25 07:24:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/20/84/035905fc02bf7b25e96518a56befea777b5e84b3635f68dec0159b14ffa2/rapidpe_rift_pipe-0.2.2.dev20230424.tar.gz
+[2023-04-25 07:24:06] INFO root fetch - processPackages [mango-explorer-v4]: Downloading https://files.pythonhosted.org/packages/d4/57/dd917d458c6607427983374cc16252ad0450a7b6083cfe31335293204cb3/mango_explorer_v4-0.8.tar.gz
+[2023-04-25 07:24:06] INFO root fetch - processPackages [teslajsonpy]: Downloading https://files.pythonhosted.org/packages/1a/12/3689d55c18bd89edd942e7a603f23d1e306e70083d80160ceb01a3f8ef35/teslajsonpy-3.8.0.tar.gz
+[2023-04-25 07:24:06] INFO root fetch - processPackages [newcode-utils]: Downloading https://files.pythonhosted.org/packages/5e/10/469378122a137f48f7239a0c2aeef9d770c574fcbfb60ea6ec3cc640273c/newcode-utils-0.0.4.tar.gz
+[2023-04-25 07:24:06] INFO root fetch - processPackages [DXR]: executing diffoscope
+[2023-04-25 07:24:06] INFO root fetch - processPackages [DXR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR-1.7.5.tar.gz tmp/DXR-1.7.6.tar.gz --markdown 20230425/D/DXR/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-04-25 07:24:06] INFO root fetch - processPackages [mango-explorer-v4]: executing diffoscope
+[2023-04-25 07:24:06] INFO root fetch - processPackages [mango-explorer-v4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_explorer_v4-0.7.9.tar.gz tmp/mango_explorer_v4-0.8.tar.gz --markdown 20230425/m/mango-explorer-v4/0.7.9-0.8/diff.md --exclude *.pyd
+[2023-04-25 07:24:07] INFO root fetch - processPackages [teslajsonpy]: Downloading https://files.pythonhosted.org/packages/df/64/56324ecf40b8c522b2c288951b4067d5d5897f17c016cf5c96fabb533b0e/teslajsonpy-3.8.1.tar.gz
+[2023-04-25 07:24:07] INFO root fetch - processPackages [newcode-utils]: Downloading https://files.pythonhosted.org/packages/98/8a/42db0226012d293e77abab2775e54ce009d4e73834957c0234fb43d6930a/newcode_utils-0.0.5.tar.gz
+[2023-04-25 07:24:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/0b/fb/529c7b9c10f1585139d9350ff80dfd22bc7ae87ddad6b602fa2b84c0ce7b/rapidpe_rift_pipe-0.2.2.dev20230425.tar.gz
+[2023-04-25 07:24:07] INFO root fetch - processPackages [gqt]: Downloading https://files.pythonhosted.org/packages/b8/a0/ea874c9fe56a3f91af65f702d5fcbd6d020c6e460fb6a0b0e7d5c59e765a/gqt-0.99.0.tar.gz
+[2023-04-25 07:24:07] INFO root fetch - processPackages [teslajsonpy]: executing diffoscope
+[2023-04-25 07:24:07] INFO root fetch - processPackages [teslajsonpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teslajsonpy-3.8.0.tar.gz tmp/teslajsonpy-3.8.1.tar.gz --markdown 20230425/t/teslajsonpy/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-04-25 07:24:07] INFO root fetch - processPackages [newcode-utils]: executing diffoscope
+[2023-04-25 07:24:07] INFO root fetch - processPackages [newcode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newcode-utils-0.0.4.tar.gz tmp/newcode_utils-0.0.5.tar.gz --markdown 20230425/n/newcode-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-25 07:24:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-04-25 07:24:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230424.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230425.tar.gz --markdown 20230425/r/rapidpe-rift-pipe/0.2.2.dev20230424-0.2.2.dev20230425/diff.md --exclude *.pyd
+[2023-04-25 07:24:07] INFO root fetch - processPackages [gqt]: executing diffoscope
+[2023-04-25 07:24:07] INFO root fetch - processPackages [gqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqt-0.98.0.tar.gz tmp/gqt-0.99.0.tar.gz --markdown 20230425/g/gqt/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-25 07:24:08] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-25 07:24:08] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-04-25 07:24:08] INFO root fetch - main [MainThread]: End processing [newcode-utils]: success
+[2023-04-25 07:24:08] INFO root fetch - main [MainThread]: End processing [teslajsonpy]: success
+[2023-04-25 07:24:08] INFO root fetch - main [MainThread]: End processing [gqt]: success
+[2023-04-25 07:24:08] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-04-25 07:24:09] INFO root fetch - main [MainThread]: End processing [DXR]: success
+[2023-04-25 07:24:10] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
+[2023-04-25 07:24:10] INFO root fetch - main [MainThread]: Store serial: [17844626]

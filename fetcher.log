@@ -16609,3 +16609,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 15:02:49] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
 [2023-04-25 15:03:17] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-25 15:03:17] INFO root fetch - main [MainThread]: Store serial: [17849162]
+[2023-04-25 15:08:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17849162]
+[2023-04-25 15:08:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sk-transformers
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: via-hub-logistc
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ms-reader
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sitcom
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SpectroscopicBinarySystem
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cobli-libi
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bdkpython
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-pipedrive
+[2023-04-25 15:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrfc
+[2023-04-25 15:08:27] WARNING root fetch - processPackages [SpectroscopicBinarySystem]: Skipping, unable to determine old version
+[2023-04-25 15:08:27] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Start processing: cornflakes
+[2023-04-25 15:08:27] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem] error
+[2023-04-25 15:08:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.4.24] Old Version: [2023.4.23]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [bdkpython]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [via-hub-logistc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [sk-transformers]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [cobli-libi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [ms-reader]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [tap-pipedrive]: New version: [1.2.0] Old Version: [1.1.8]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [bdkpython]: executing diffoscope
+[2023-04-25 15:08:27] INFO root fetch - processPackages [bdkpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdkpython-0.4.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/bdkpython-0.5.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230425/b/bdkpython/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-25 15:08:27] INFO root fetch - processPackages [pyrfc]: New version: [2.8.3] Old Version: [2.8.2]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [sitcom]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [cornflakes]: New version: [3.3.0] Old Version: [3.2.9]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/42/66/05162b9473c49f6c3d3fcc84f3a930de25c390a6ca4a0f47d25489c4a54e/fbgemm_gpu_nightly_cpu-2023.4.24-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-25 15:08:27] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/76/92/d7eef584a386f30caebc9e8ae2f4bcf9176a2cd921df3813a513a6eeb4a4/sitcom-1.4.3.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [cobli-libi]: Downloading https://files.pythonhosted.org/packages/b5/19/4a1158990133f9dbb8cb7a59930d9e072f3ad8affe274d458c8a2d32926b/cobli_libi-0.0.2-py3-none-any.whl
+[2023-04-25 15:08:27] INFO root fetch - processPackages [ms-reader]: Downloading https://files.pythonhosted.org/packages/89/3c/f28c58bae1ec1d894d660b81f9721f369adcc93f0a26c249804bd98560ae/ms_reader-1.4.1.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [tap-pipedrive]: Downloading https://files.pythonhosted.org/packages/8d/08/cc4fe1bc2bcbe3114dc8e7e7b0f9e2e13af54fed137dc6eaa11abbae7159/tap-pipedrive-1.1.8.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [sk-transformers]: Downloading https://files.pythonhosted.org/packages/bc/2b/411fc57454bd19db5aa1281490b9dcb0f213c4831a87dcfe0f5c4714b4aa/sk_transformers-0.9.0.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/c2/3f/282b01c8a76da8610b76209ffd825ce999797b7aef2974acbb55ad43ab1d/pyrfc-2.8.2.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [via-hub-logistc]: executing diffoscope
+[2023-04-25 15:08:27] INFO root fetch - processPackages [via-hub-logistc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-hub-logistc-1.0.8.tar.gz tmp/via-hub-logistc-1.0.9.tar.gz --markdown 20230425/v/via-hub-logistc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 15:08:27] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689619>=10485760
+[2023-04-25 15:08:27] INFO root fetch - processPackages [sitcom]: Start processing: SpectroscopicBinarySystem
+[2023-04-25 15:08:27] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-25 15:08:27] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-25 15:08:27] INFO root fetch - processPackages [cornflakes]: Downloading https://files.pythonhosted.org/packages/75/cb/73e3217bcf1bec3c8b9a2a68b062109f5e1e18e79296e8f235907de5f820/cornflakes-3.3.0.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/4a/00/643ec077f5fee84c466a88546247be21a534564072e997790ebfc66ad120/pyrfc-2.8.3.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [sk-transformers]: Downloading https://files.pythonhosted.org/packages/77/a4/ce45c10ca9075c08e23570453e2d0833ea58cd9c0b2a55e273d57a9393e8/sk_transformers-0.9.1.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [cobli-libi]: Downloading https://files.pythonhosted.org/packages/5a/cc/b28f0cd274c971326d0f2c83872d9e821a3309f06a3b0c746ad1ead45286/cobli-libi-0.0.3.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [ms-reader]: Downloading https://files.pythonhosted.org/packages/4f/7a/9cefee99cf454e6186d23e82f48577457fc50ffb931a017e72f86cb31efd/ms_reader-1.4.2.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/7a/8f/1c4290d7c659d2eee46a3c9effd38dca2330df14294e90dda71cc336a5d5/SpectroscopicBinarySystem-1.0.7.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [tap-pipedrive]: Downloading https://files.pythonhosted.org/packages/d0/78/6869c5d1abb270c0081dab6154b19aa43b66bc47f7e5532878e9bfd1a2a6/tap-pipedrive-1.2.0.tar.gz
+[2023-04-25 15:08:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-04-25 15:08:27] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.4.23-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.4.24-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230425/f/fbgemm-gpu-nightly-cpu/2023.4.23-2023.4.24/diff.md --exclude *.pyd
+[2023-04-25 15:08:27] INFO root fetch - processPackages [sk-transformers]: executing diffoscope
+[2023-04-25 15:08:27] INFO root fetch - processPackages [sk-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sk_transformers-0.9.0.tar.gz tmp/sk_transformers-0.9.1.tar.gz --markdown 20230425/s/sk-transformers/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-25 15:08:27] INFO root fetch - processPackages [cobli-libi]: executing diffoscope
+[2023-04-25 15:08:27] INFO root fetch - processPackages [cobli-libi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobli_libi-0.0.2-py3-none-any.whl.zip tmp/cobli-libi-0.0.3.tar.gz --markdown 20230425/c/cobli-libi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 15:08:27] INFO root fetch - processPackages [pyrfc]: executing diffoscope
+[2023-04-25 15:08:27] INFO root fetch - processPackages [pyrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfc-2.8.2.tar.gz tmp/pyrfc-2.8.3.tar.gz --markdown 20230425/p/pyrfc/2.8.2-2.8.3/diff.md --exclude *.pyd
+[2023-04-25 15:08:27] INFO root fetch - processPackages [ms-reader]: executing diffoscope
+[2023-04-25 15:08:27] INFO root fetch - processPackages [ms-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_reader-1.4.1.tar.gz tmp/ms_reader-1.4.2.tar.gz --markdown 20230425/m/ms-reader/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-25 15:08:27] INFO root fetch - processPackages [tap-pipedrive]: executing diffoscope
+[2023-04-25 15:08:27] INFO root fetch - processPackages [tap-pipedrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-pipedrive-1.1.8.tar.gz tmp/tap-pipedrive-1.2.0.tar.gz --markdown 20230425/t/tap-pipedrive/1.1.8-1.2.0/diff.md --exclude *.pyd
+[2023-04-25 15:08:28] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/6c/60/f689f7c7fcf088d892ce066c37d6785cde36780706f92609be1ab589a54d/SpectroscopicBinarySystem-1.0.8.tar.gz
+[2023-04-25 15:08:28] INFO root fetch - processPackages [cornflakes]: executing diffoscope
+[2023-04-25 15:08:28] INFO root fetch - processPackages [cornflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflakes-3.2.9.tar.gz tmp/cornflakes-3.3.0.tar.gz --markdown 20230425/c/cornflakes/3.2.9-3.3.0/diff.md --exclude *.pyd
+[2023-04-25 15:08:28] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-04-25 15:08:28] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.0.7.tar.gz tmp/SpectroscopicBinarySystem-1.0.8.tar.gz --markdown 20230425/S/SpectroscopicBinarySystem/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-25 15:08:29] INFO root fetch - processPackages [via-hub-logistc]: Start processing: streamlit-lang-tts
+[2023-04-25 15:08:29] INFO root fetch - main [MainThread]: End processing [via-hub-logistc]: success
+[2023-04-25 15:08:29] INFO root fetch - processPackages [streamlit-lang-tts]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 15:08:29] INFO root fetch - processPackages [cobli-libi]: Start processing: kcli
+[2023-04-25 15:08:29] INFO root fetch - main [MainThread]: End processing [cobli-libi]: success
+[2023-04-25 15:08:29] INFO root fetch - processPackages [kcli]: New version: [99.0.202304251220] Old Version: [99.0.202304251211]
+[2023-04-25 15:08:29] INFO root fetch - processPackages [streamlit-lang-tts]: Downloading https://files.pythonhosted.org/packages/95/27/f40ce2c1f8beb2eb57515ea94910482e7302616a7c3c26332ec45d8ba29a/streamlit_lang_tts-0.0.3.tar.gz
+[2023-04-25 15:08:29] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-25 15:08:29] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304251211-py3-none-any.whl.zip tmp/kcli-99.0.202304251220-py3-none-any.whl.zip --markdown 20230425/k/kcli/99.0.202304251211-99.0.202304251220/diff.md --exclude *.pyd
+[2023-04-25 15:08:29] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Start processing: nbdev-stdlib
+[2023-04-25 15:08:29] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-04-25 15:08:30] INFO root fetch - processPackages [streamlit-lang-tts]: Downloading https://files.pythonhosted.org/packages/ea/00/33d09ec0cd71449fc3da14350fbe7445489e8199769838317c5745bd6980/streamlit_lang_tts-0.0.4.tar.gz
+[2023-04-25 15:08:30] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 15:08:30] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-25 15:08:30] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230425/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 15:08:30] INFO root fetch - processPackages [streamlit-lang-tts]: executing diffoscope
+[2023-04-25 15:08:30] INFO root fetch - processPackages [streamlit-lang-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_lang_tts-0.0.3.tar.gz tmp/streamlit_lang_tts-0.0.4.tar.gz --markdown 20230425/s/streamlit-lang-tts/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 15:08:30] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-04-25 15:08:30] INFO root fetch - main [MainThread]: End processing [sk-transformers]: success
+[2023-04-25 15:08:30] INFO root fetch - main [MainThread]: End processing [ms-reader]: success
+[2023-04-25 15:08:30] INFO root fetch - main [MainThread]: End processing [pyrfc]: success
+[2023-04-25 15:08:30] INFO root fetch - main [MainThread]: End processing [tap-pipedrive]: success
+[2023-04-25 15:08:31] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-25 15:08:37] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-25 15:08:44] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
+[2023-04-25 15:08:49] INFO root fetch - main [MainThread]: End processing [streamlit-lang-tts]: success
+[2023-04-25 15:09:48] INFO root fetch - main [MainThread]: End processing [bdkpython]: success
+[2023-04-25 15:09:48] INFO root fetch - main [MainThread]: Store serial: [17849232]

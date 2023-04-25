@@ -15597,3 +15597,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 14:03:59] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
 [2023-04-25 14:03:59] INFO root fetch - main [MainThread]: End processing [JoUtil]: success
 [2023-04-25 14:03:59] INFO root fetch - main [MainThread]: Store serial: [17848596]
+[2023-04-25 14:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848596]
+[2023-04-25 14:09:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtgeo
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-agents-nightly
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aircode
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitget-python-connector
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-vocabularies
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vale
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RuiwangWtest
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bm-utilities
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: csc-mlops
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hydrogibs
+[2023-04-25 14:09:10] INFO root fetch - processPackages [vale]: New version: [2.24.4.0] Old Version: [2.23.3.0]
+[2023-04-25 14:09:10] INFO root fetch - processPackages [aircode]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-25 14:09:10] INFO root fetch - processPackages [bitget-python-connector]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 14:09:10] WARNING root fetch - processPackages [RuiwangWtest]: Skipping, unable to determine old version
+[2023-04-25 14:09:10] INFO root fetch - processPackages [RuiwangWtest]: Start processing: ChatLLM
+[2023-04-25 14:09:10] INFO root fetch - main [MainThread]: End processing [RuiwangWtest] error
+[2023-04-25 14:09:10] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 14:09:10] INFO root fetch - processPackages [bm-utilities]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 14:09:10] WARNING root fetch - processPackages [hydrogibs]: Skipping, unable to determine old version
+[2023-04-25 14:09:10] INFO root fetch - processPackages [csc-mlops]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-25 14:09:10] INFO root fetch - main [MainThread]: End processing [hydrogibs] error
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.25.9.19.45] Old Version: [2023.4.25.19.24.18]
+[2023-04-25 14:09:10] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-04-25 14:09:10] INFO root fetch - processPackages [xtgeo]: New version: [3.0.1] Old Version: [3.0.0rc1]
+[2023-04-25 14:09:10] INFO root fetch - processPackages [aircode]: Downloading https://files.pythonhosted.org/packages/a5/bc/f7495883cb5ac6c005decacff99eeba3f111b8cc5c82144babc38706b0b6/aircode-1.0.1.tar.gz
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-25 14:09:10] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.25.19.24.18.tar.gz tmp/ChatLLM-2023.4.25.9.19.45.tar.gz --markdown 20230425/C/ChatLLM/2023.4.25.19.24.18-2023.4.25.9.19.45/diff.md --exclude *.pyd
+[2023-04-25 14:09:10] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-04-25 14:09:10] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230425/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-04-25 14:09:10] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-04-25 14:09:10] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-1.0.8.tar.gz tmp/oarepo-vocabularies-1.0.9.tar.gz --markdown 20230425/o/oarepo-vocabularies/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 14:09:11] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/76/9a/c3f868950ec18fbc04f786caa767d7bad12b150ab39e2baf1814369ee5f1/vale-2.24.4.0.tar.gz
+[2023-04-25 14:09:11] INFO root fetch - processPackages [bitget-python-connector]: Downloading https://files.pythonhosted.org/packages/29/81/1ec710e0a598105759d967cb1d300bab85c8cfc416475cdb092ca08142c7/bitget-python-connector-0.0.3.tar.gz
+[2023-04-25 14:09:11] INFO root fetch - processPackages [csc-mlops]: Downloading https://files.pythonhosted.org/packages/d2/58/7576a9fe7c71826dd92861575b4a411190e0c11b9dd5fbcf8bb55fdd72a4/csc-mlops-0.9.8.tar.gz
+[2023-04-25 14:09:11] INFO root fetch - processPackages [vale]: executing diffoscope
+[2023-04-25 14:09:11] INFO root fetch - processPackages [vale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vale-2.23.3.0.tar.gz tmp/vale-2.24.4.0.tar.gz --markdown 20230425/v/vale/2.23.3.0-2.24.4.0/diff.md --exclude *.pyd
+[2023-04-25 14:09:11] INFO root fetch - processPackages [xtgeo]: Downloading https://files.pythonhosted.org/packages/db/48/4c10c00f9f47cd6c7d966ab62a73fa82caf8157364451764bce5e5d32ea1/xtgeo-3.0.0rc1-cp39-cp39-win_amd64.whl
+[2023-04-25 14:09:11] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/52/a0/1a612a30936b747f6a0d5cf3e3d4948b11f5d5ff25258a2beb918accece0/bm_utilities-0.0.6.tar.gz
+[2023-04-25 14:09:11] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-04-25 14:09:11] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.0.5.tar.gz tmp/bm_utilities-0.0.6.tar.gz --markdown 20230425/b/bm-utilities/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 14:09:11] INFO root fetch - processPackages [aircode]: Downloading https://files.pythonhosted.org/packages/43/5e/7e5c7c01d5c7fd15aac9fc48496b8571c84b7683bf340445effbf61097ab/aircode-1.0.2.tar.gz
+[2023-04-25 14:09:11] INFO root fetch - processPackages [bitget-python-connector]: executing diffoscope
+[2023-04-25 14:09:11] INFO root fetch - processPackages [bitget-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitget-python-connector-0.0.2.tar.gz tmp/bitget-python-connector-0.0.3.tar.gz --markdown 20230425/b/bitget-python-connector/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 14:09:11] INFO root fetch - processPackages [aircode]: executing diffoscope
+[2023-04-25 14:09:11] INFO root fetch - processPackages [aircode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aircode-1.0.1.tar.gz tmp/aircode-1.0.2.tar.gz --markdown 20230425/a/aircode/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-25 14:09:11] INFO root fetch - processPackages [csc-mlops]: Downloading https://files.pythonhosted.org/packages/e5/a4/ec8c3bb1d43aced620bbff331c2b83474a4f3c45ad0e9c0621a589df5fba/csc-mlops-0.9.9.tar.gz
+[2023-04-25 14:09:11] INFO root fetch - processPackages [xtgeo]: Downloading https://files.pythonhosted.org/packages/0f/9b/a7bda89fea6633e419fb5330e276105e918101465834266f3740e2d5e318/xtgeo-3.0.1-cp39-cp39-win_amd64.whl
+[2023-04-25 14:09:11] INFO root fetch - processPackages [csc-mlops]: executing diffoscope
+[2023-04-25 14:09:11] INFO root fetch - processPackages [csc-mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csc-mlops-0.9.8.tar.gz tmp/csc-mlops-0.9.9.tar.gz --markdown 20230425/c/csc-mlops/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-25 14:09:11] INFO root fetch - processPackages [xtgeo]: executing diffoscope
+[2023-04-25 14:09:11] INFO root fetch - processPackages [xtgeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtgeo-3.0.0rc1-cp39-cp39-win_amd64.whl.zip tmp/xtgeo-3.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20230425/x/xtgeo/3.0.0rc1-3.0.1/diff.md --exclude *.pyd
+[2023-04-25 14:09:12] INFO root fetch - main [MainThread]: End processing [vale]: success
+[2023-04-25 14:09:12] INFO root fetch - main [MainThread]: End processing [bitget-python-connector]: success
+[2023-04-25 14:09:12] INFO root fetch - main [MainThread]: End processing [aircode]: success
+[2023-04-25 14:09:12] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-04-25 14:09:12] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-04-25 14:09:13] INFO root fetch - main [MainThread]: End processing [csc-mlops]: success
+[2023-04-25 14:09:13] INFO root fetch - main [MainThread]: End processing [xtgeo]: success
+[2023-04-25 14:09:15] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-25 14:09:17] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-04-25 14:09:17] INFO root fetch - main [MainThread]: Store serial: [17848644]

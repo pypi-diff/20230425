@@ -12072,3 +12072,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:59:09] INFO root fetch - main [MainThread]: End processing [arkindex-base-worker]: success
 [2023-04-25 10:59:09] INFO root fetch - main [MainThread]: End processing [django-cookiebanner]: success
 [2023-04-25 10:59:09] INFO root fetch - main [MainThread]: Store serial: [17846444]
+[2023-04-25 11:04:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17846444]
+[2023-04-25 11:04:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voltron-robotics
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx-clip
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mammopy
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ev-fleet-sim
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor-dev
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: berlin
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codewithgpu
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyjpt
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: variant
+[2023-04-25 11:04:19] INFO root fetch - processPackages [onnx-clip]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [voltron-robotics]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [mammopy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [berlin]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [codewithgpu]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [pyjpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [ev-fleet-sim]: New version: [1.9.post3] Old Version: [1.9.post2]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [variant]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 11:04:19] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-25 11:04:19] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230425/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 11:04:19] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-25 11:04:19] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230425/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 11:04:19] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/68/d8/1cd9d8fa3a040ee3f1851f7a23274a54d62b69990c4523fe22d1c20fab64/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 11:04:19] INFO root fetch - processPackages [codewithgpu]: Downloading https://files.pythonhosted.org/packages/67/da/48d70c6f0366b673f65855384b7802944b6e2f231367aebd518c2dd62441/codewithgpu-0.2.3-py3-none-any.whl
+[2023-04-25 11:04:19] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-04-25 11:04:19] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230425/p/pyjpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 11:04:20] INFO root fetch - processPackages [codewithgpu]: executing diffoscope
+[2023-04-25 11:04:20] INFO root fetch - processPackages [codewithgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codewithgpu-0.2.2-py3-none-any.whl.zip tmp/codewithgpu-0.2.3-py3-none-any.whl.zip --markdown 20230425/c/codewithgpu/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-25 11:04:20] INFO root fetch - processPackages [onnx-clip]: Downloading https://files.pythonhosted.org/packages/dc/de/67f52560877a603d0b3a2b1c30925634cb4b794e39be2046669ec71188b1/onnx_clip-2.1.2.tar.gz
+[2023-04-25 11:04:20] INFO root fetch - processPackages [ev-fleet-sim]: Downloading https://files.pythonhosted.org/packages/9f/fa/97e1842a6936621deff659e680b528d87d2eb818019b674006332f84a1c6/ev-fleet-sim-1.9.post2.tar.gz
+[2023-04-25 11:04:20] INFO root fetch - processPackages [berlin]: Downloading https://files.pythonhosted.org/packages/15/bc/167df28ce1748f8fcfda6ec10286144703668f1898eb7d3d4bfbdfb7f071/berlin-0.3.0.tar.gz
+[2023-04-25 11:04:20] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/67/43/d940c12382e3c99c9d395325369a1a2dcc91ac816786ba5554dd1da8f728/mammopy-0.0.5.tar.gz
+[2023-04-25 11:04:20] INFO root fetch - processPackages [onnx-clip]: Downloading https://files.pythonhosted.org/packages/ae/02/5bbe072a0d0619d52e6a6947d3cf2f32918f321382ef5894d65ebd60f3a4/onnx_clip-2.2.0.tar.gz
+[2023-04-25 11:04:20] INFO root fetch - processPackages [mammopy]: Downloading https://files.pythonhosted.org/packages/bd/ed/f9227f781cc6af22f2d98ed24c49d162c833d4dfc73e8460ed6e565abccb/mammopy-0.0.6.tar.gz
+[2023-04-25 11:04:20] INFO root fetch - processPackages [mammopy]: executing diffoscope
+[2023-04-25 11:04:20] INFO root fetch - processPackages [mammopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mammopy-0.0.5.tar.gz tmp/mammopy-0.0.6.tar.gz --markdown 20230425/m/mammopy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-25 11:04:20] INFO root fetch - processPackages [berlin]: Downloading https://files.pythonhosted.org/packages/2a/ef/963fe7544edc961322688e145dad4b32d6c762ce84f79943f40c08379488/berlin-0.3.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 11:04:20] INFO root fetch - processPackages [berlin]: executing diffoscope
+[2023-04-25 11:04:20] INFO root fetch - processPackages [berlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berlin-0.3.0.tar.gz tmp/berlin-0.3.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230425/b/berlin/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-25 11:04:20] INFO root fetch - processPackages [onnx-clip]: executing diffoscope
+[2023-04-25 11:04:20] INFO root fetch - processPackages [onnx-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx_clip-2.1.2.tar.gz tmp/onnx_clip-2.2.0.tar.gz --markdown 20230425/o/onnx-clip/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-04-25 11:04:20] INFO root fetch - processPackages [je-editor]: Start processing: obsutils
+[2023-04-25 11:04:20] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-25 11:04:20] INFO root fetch - processPackages [variant]: Downloading https://files.pythonhosted.org/packages/0c/50/c5d1afa4fb0d5e41250f78fb4d0b3a0ebf97c5c51791c5366328fdf0fec8/variant-0.0.8.tar.gz
+[2023-04-25 11:04:20] WARNING root fetch - processPackages [obsutils]: Skipping, unable to determine old version
+[2023-04-25 11:04:20] INFO root fetch - processPackages [obsutils]: Start processing: saliency-maps-metrics
+[2023-04-25 11:04:20] INFO root fetch - main [MainThread]: End processing [obsutils] error
+[2023-04-25 11:04:20] INFO root fetch - processPackages [saliency-maps-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 11:04:20] INFO root fetch - processPackages [saliency-maps-metrics]: executing diffoscope
+[2023-04-25 11:04:20] INFO root fetch - processPackages [saliency-maps-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saliency_maps_metrics-0.0.8.tar.gz tmp/saliency_maps_metrics-0.0.9.tar.gz --markdown 20230425/s/saliency-maps-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 11:04:21] INFO root fetch - processPackages [je-editor-dev]: Start processing: egune
+[2023-04-25 11:04:21] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-25 11:04:21] INFO root fetch - processPackages [ev-fleet-sim]: Downloading https://files.pythonhosted.org/packages/a7/1d/a279a9aa98276f3d9d5c318a702dfc338e938dc6f69ac685509fd0f5bef2/ev-fleet-sim-1.9.post3.tar.gz
+[2023-04-25 11:04:21] INFO root fetch - processPackages [egune]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-25 11:04:21] INFO root fetch - processPackages [egune]: executing diffoscope
+[2023-04-25 11:04:21] INFO root fetch - processPackages [egune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egune-0.2.8.tar.gz tmp/egune-0.2.9.tar.gz --markdown 20230425/e/egune/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-25 11:04:21] INFO root fetch - processPackages [codewithgpu]: Start processing: variant
+[2023-04-25 11:04:21] INFO root fetch - main [MainThread]: End processing [codewithgpu]: success
+[2023-04-25 11:04:21] INFO root fetch - processPackages [variant]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 11:04:21] INFO root fetch - processPackages [ev-fleet-sim]: executing diffoscope
+[2023-04-25 11:04:21] INFO root fetch - processPackages [ev-fleet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ev-fleet-sim-1.9.post2.tar.gz tmp/ev-fleet-sim-1.9.post3.tar.gz --markdown 20230425/e/ev-fleet-sim/1.9.post2-1.9.post3/diff.md --exclude *.pyd
+[2023-04-25 11:04:21] INFO root fetch - processPackages [voltron-robotics]: Downloading https://files.pythonhosted.org/packages/37/51/7f6c4e2fada1b9232a813fd7dce04f6d62b7f5fb055c7256db9a61dbbd54/voltron-robotics-1.0.3.tar.gz
+[2023-04-25 11:04:22] INFO root fetch - processPackages [onnx-clip]: Start processing: edwh
+[2023-04-25 11:04:22] INFO root fetch - main [MainThread]: End processing [onnx-clip]: success
+[2023-04-25 11:04:22] INFO root fetch - processPackages [edwh]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 11:04:22] INFO root fetch - processPackages [saliency-maps-metrics]: Start processing: pyrew
+[2023-04-25 11:04:22] INFO root fetch - main [MainThread]: End processing [saliency-maps-metrics]: success
+[2023-04-25 11:04:22] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-25 11:04:22] INFO root fetch - processPackages [voltron-robotics]: Downloading https://files.pythonhosted.org/packages/cf/75/2c5d387ed46db18cd370e7715954115517bb51fc6e50662f1fb4aa658185/voltron-robotics-1.1.0.tar.gz
+[2023-04-25 11:04:22] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-25 11:04:22] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230425/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-25 11:04:22] INFO root fetch - processPackages [egune]: Start processing: autogluon.common
+[2023-04-25 11:04:22] INFO root fetch - main [MainThread]: End processing [egune]: success
+[2023-04-25 11:04:22] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.0b20230424] Old Version: [0.7.0b20230423]
+[2023-04-25 11:04:22] INFO root fetch - processPackages [voltron-robotics]: executing diffoscope
+[2023-04-25 11:04:22] INFO root fetch - processPackages [voltron-robotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voltron-robotics-1.0.3.tar.gz tmp/voltron-robotics-1.1.0.tar.gz --markdown 20230425/v/voltron-robotics/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-25 11:04:22] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-04-25 11:04:22] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.0b20230423.tar.gz tmp/autogluon.common-0.7.0b20230424.tar.gz --markdown 20230425/a/autogluon.common/0.7.0b20230423-0.7.0b20230424/diff.md --exclude *.pyd
+[2023-04-25 11:04:22] INFO root fetch - processPackages [edwh]: executing diffoscope
+[2023-04-25 11:04:22] INFO root fetch - processPackages [edwh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh-0.8.0.tar.gz tmp/edwh-0.9.0.tar.gz --markdown 20230425/e/edwh/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 11:04:22] INFO root fetch - main [MainThread]: End processing [ev-fleet-sim]: success
+[2023-04-25 11:04:22] INFO root fetch - main [MainThread]: End processing [berlin]: success
+[2023-04-25 11:04:23] INFO root fetch - processPackages [variant]: Downloading https://files.pythonhosted.org/packages/48/0e/e63d42f98ce2e6a9d7828c6fe1a77a925185681f51aa1eca4d3542774eea/variant-0.0.9.tar.gz
+[2023-04-25 11:04:23] INFO root fetch - processPackages [variant]: Downloading https://files.pythonhosted.org/packages/48/0e/e63d42f98ce2e6a9d7828c6fe1a77a925185681f51aa1eca4d3542774eea/variant-0.0.9.tar.gz
+[2023-04-25 11:04:23] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-25 11:04:23] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-04-25 11:04:23] INFO root fetch - processPackages [variant]: executing diffoscope
+[2023-04-25 11:04:23] INFO root fetch - processPackages [variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variant-0.0.8.tar.gz tmp/variant-0.0.9.tar.gz --markdown 20230425/v/variant/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 11:04:23] INFO root fetch - processPackages [variant]: executing diffoscope
+[2023-04-25 11:04:23] INFO root fetch - processPackages [variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variant-0.0.8.tar.gz tmp/variant-0.0.9.tar.gz --markdown 20230425/v/variant/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 11:04:23] INFO root fetch - main [MainThread]: End processing [voltron-robotics]: success
+[2023-04-25 11:04:24] INFO root fetch - main [MainThread]: End processing [mammopy]: success
+[2023-04-25 11:04:24] INFO root fetch - main [MainThread]: End processing [variant]: success
+[2023-04-25 11:04:24] INFO root fetch - main [MainThread]: End processing [variant]: success
+[2023-04-25 11:04:25] INFO root fetch - main [MainThread]: End processing [edwh]: success
+[2023-04-25 11:04:32] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-04-25 11:04:32] INFO root fetch - main [MainThread]: Store serial: [17846507]

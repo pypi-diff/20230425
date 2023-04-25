@@ -12173,3 +12173,161 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 11:04:25] INFO root fetch - main [MainThread]: End processing [edwh]: success
 [2023-04-25 11:04:32] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
 [2023-04-25 11:04:32] INFO root fetch - main [MainThread]: Store serial: [17846507]
+[2023-04-25 11:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17846507]
+[2023-04-25 11:09:45] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.core
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.features
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.tabular
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.multimodal
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.timeseries
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ibmcloudant
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.eda
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tsfpga
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.projen-awscdk-construct
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.1b20230425] Old Version: [0.7.0b20230424]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.1b20230425] Old Version: [0.7.0b20230424]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [ibmcloudant]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.1b20230425] Old Version: [0.7.0b20230424]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [tsfpga]: New version: [9.0.0] Old Version: [8.0.1]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230425] Old Version: [0.7.0b20230424]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.1b20230425] Old Version: [0.7.0b20230424]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230425] Old Version: [0.7.0b20230424]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon]: New version: [0.7.1b20230425] Old Version: [0.7.0b20230424]
+[2023-04-25 11:09:45] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/8b/59/6949425c3b8706910a9057db795cfdbeac0c8a299d52d17543237a1d58f0/autogluon.timeseries-0.7.1b20230425.tar.gz
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/46/b3/807d957b25ceef96ebc54385e9ff35d10804bec8ccc6f022191636dca17d/autogluon-0.7.1b20230425.tar.gz
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/8c/e9/e0e3ec0726c906f1dd5462a4db6f8b36d5ad0c0d8dcc79b55a419faac411/autogluon.eda-0.7.1b20230425.tar.gz
+[2023-04-25 11:09:45] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.0b20230424.tar.gz tmp/autogluon.timeseries-0.7.1b20230425.tar.gz --markdown 20230425/a/autogluon.timeseries/0.7.0b20230424-0.7.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-04-25 11:09:45] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.0b20230424.tar.gz tmp/autogluon-0.7.1b20230425.tar.gz --markdown 20230425/a/autogluon/0.7.0b20230424-0.7.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 11:09:46] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-04-25 11:09:46] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.0b20230424.tar.gz tmp/autogluon.eda-0.7.1b20230425.tar.gz --markdown 20230425/a/autogluon.eda/0.7.0b20230424-0.7.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 11:09:46] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-04-25 11:09:46] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230425/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 11:09:46] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/2a/d6/9bf45fd71689d60e4533978ea6e51a15afefb5a04f3a472b89ad4c229d5d/autogluon.tabular-0.7.1b20230425.tar.gz
+[2023-04-25 11:09:46] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-04-25 11:09:46] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.0b20230424.tar.gz tmp/autogluon.tabular-0.7.1b20230425.tar.gz --markdown 20230425/a/autogluon.tabular/0.7.0b20230424-0.7.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon]: Start processing: pocketrockit
+[2023-04-25 11:09:47] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-04-25 11:09:47] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 11:09:47] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: forestadmin-datasource-toolkit
+[2023-04-25 11:09:47] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-04-25 11:09:47] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/91/17/510583c7689f29b3b0d48c3a83df850cb7f225acab2c5a61eed19c37b309/pocketrockit-0.0.7.tar.gz
+[2023-04-25 11:09:47] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: variant
+[2023-04-25 11:09:47] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-04-25 11:09:47] INFO root fetch - processPackages [variant]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.eda]: Start processing: sss2024-clients
+[2023-04-25 11:09:47] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/9f/2c/74727159f60010062421ac70d4ef0e0e810705fbbd6c6623798ed3572f65/autogluon.core-0.7.1b20230425.tar.gz
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/6e/a9/e159eb425a31e663ca821a29e629ea549a4279a537136c92cb1e68c53268/autogluon.features-0.7.1b20230425.tar.gz
+[2023-04-25 11:09:47] WARNING root fetch - processPackages [sss2024-clients]: Skipping, unable to determine old version
+[2023-04-25 11:09:47] INFO root fetch - processPackages [sss2024-clients]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-04-25 11:09:47] INFO root fetch - main [MainThread]: End processing [sss2024-clients] error
+[2023-04-25 11:09:47] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-04-25 11:09:47] INFO root fetch - processPackages [variant]: executing diffoscope
+[2023-04-25 11:09:47] INFO root fetch - processPackages [variant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variant-0.0.8.tar.gz tmp/variant-0.0.9.tar.gz --markdown 20230425/v/variant/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 11:09:47] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/37/aef0972f584a7ccd5a02b58b58449fee7cfc5e203219dbfd89ec8ffdf6c9/forestadmin_datasource_toolkit-0.1.0b8.tar.gz
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.0b20230424.tar.gz tmp/autogluon.core-0.7.1b20230425.tar.gz --markdown 20230425/a/autogluon.core/0.7.0b20230424-0.7.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 11:09:47] INFO root fetch - processPackages [pocketrockit]: Downloading https://files.pythonhosted.org/packages/a8/ee/f1c11743551245aafc55139aecd6ab3e8159baee4fca46a33374bff27bcc/pocketrockit-0.0.8.tar.gz
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.0b20230424.tar.gz tmp/autogluon.features-0.7.1b20230425.tar.gz --markdown 20230425/a/autogluon.features/0.7.0b20230424-0.7.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 11:09:47] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/55/ec/8247e4e82a326de5c38702a86bb40c226be2e246beada914406074f12e31/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz
+[2023-04-25 11:09:47] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-04-25 11:09:47] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.7.tar.gz tmp/pocketrockit-0.0.8.tar.gz --markdown 20230425/p/pocketrockit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/0a/8d/e22f6fc6b7b7b8dd6b885d013760d4c84e9e5ffa42dbfa717dae3ae492d3/autogluon.multimodal-0.7.1b20230425.tar.gz
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-04-25 11:09:47] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.0b20230424.tar.gz tmp/autogluon.multimodal-0.7.1b20230425.tar.gz --markdown 20230425/a/autogluon.multimodal/0.7.0b20230424-0.7.1b20230425/diff.md --exclude *.pyd
+[2023-04-25 11:09:47] INFO root fetch - processPackages [tsfpga]: Downloading https://files.pythonhosted.org/packages/1c/80/3a4cbdb5bd6e2e20845e5cd3b47542e516e9a514480232c2bcc365312bf1/tsfpga-8.0.1.tar.gz
+[2023-04-25 11:09:48] INFO root fetch - processPackages [variant]: Start processing: forestadmin-agent-toolkit
+[2023-04-25 11:09:48] INFO root fetch - main [MainThread]: End processing [variant]: success
+[2023-04-25 11:09:48] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-04-25 11:09:48] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/b7/9a/988eb6cd1dfc14a2b6ace6915c6966ba385d85c30d7547c85b9cf0fe2dd9/forestadmin_datasource_toolkit-0.1.0b9.tar.gz
+[2023-04-25 11:09:48] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-04-25 11:09:48] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230425/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-04-25 11:09:48] INFO root fetch - processPackages [autogluon.features]: Start processing: affinitic.smartweb
+[2023-04-25 11:09:48] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-04-25 11:09:48] WARNING root fetch - processPackages [affinitic.smartweb]: Skipping, unable to determine old version
+[2023-04-25 11:09:48] INFO root fetch - processPackages [affinitic.smartweb]: Start processing: qwak-sdk
+[2023-04-25 11:09:48] INFO root fetch - main [MainThread]: End processing [affinitic.smartweb] error
+[2023-04-25 11:09:48] INFO root fetch - processPackages [qwak-sdk]: New version: [0.2.28rc0] Old Version: [0.2.27rc0]
+[2023-04-25 11:09:48] INFO root fetch - processPackages [tsfpga]: Downloading https://files.pythonhosted.org/packages/49/34/efa8bef3eed9f55657ed13baa8f2c79d94df3b4a9608915c0d7b664d711e/tsfpga-9.0.0.tar.gz
+[2023-04-25 11:09:48] INFO root fetch - processPackages [ibmcloudant]: Downloading https://files.pythonhosted.org/packages/09/b1/d68161d44a3858590e0788f069cbe5c86cecaefa30d7ca1b1618b9861069/ibmcloudant-0.4.0.tar.gz
+[2023-04-25 11:09:48] INFO root fetch - processPackages [pocketrockit]: Start processing: xpressinsight
+[2023-04-25 11:09:48] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-04-25 11:09:48] INFO root fetch - processPackages [xpressinsight]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-25 11:09:48] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/81/13/0c3fe634cf5d3e6712d4ec8d958264f0c031fc9a780b5218485b96f58641/forestadmin_agent_toolkit-0.1.0b8.tar.gz
+[2023-04-25 11:09:48] INFO root fetch - processPackages [autogluon.core]: Start processing: pytensor
+[2023-04-25 11:09:48] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-04-25 11:09:48] INFO root fetch - processPackages [pytensor]: New version: [2.9.1] Old Version: [2.8.11]
+[2023-04-25 11:09:49] INFO root fetch - processPackages [ibmcloudant]: Downloading https://files.pythonhosted.org/packages/b2/f9/01603067fa67ec81d07ec30c77c58efa6f9c5fd8d8648af101434d0b2e1a/ibmcloudant-0.4.1.tar.gz
+[2023-04-25 11:09:49] INFO root fetch - processPackages [tsfpga]: executing diffoscope
+[2023-04-25 11:09:49] INFO root fetch - processPackages [tsfpga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsfpga-8.0.1.tar.gz tmp/tsfpga-9.0.0.tar.gz --markdown 20230425/t/tsfpga/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-04-25 11:09:49] INFO root fetch - processPackages [ibmcloudant]: executing diffoscope
+[2023-04-25 11:09:49] INFO root fetch - processPackages [ibmcloudant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibmcloudant-0.4.0.tar.gz tmp/ibmcloudant-0.4.1.tar.gz --markdown 20230425/i/ibmcloudant/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-25 11:09:49] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/fd/3b/6f825c2133fe0d52dc022b27eabd3c44daf8b3ab6c0140b0ecfd5c497148/qwak_sdk-0.2.27rc0.tar.gz
+[2023-04-25 11:09:49] INFO root fetch - processPackages [xpressinsight]: Downloading https://files.pythonhosted.org/packages/fe/15/0e758e3a2b9ac1c379c248cd1b37fe6dba8d4fbad0ec8b0da38f94965d76/xpressinsight-1.4.0-py3-none-any.whl
+[2023-04-25 11:09:49] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/5d/a8/cc93e46665c09444e0e9c6a06cc8da0f8660d0d6d1a208c689da5587b742/qwak_sdk-0.2.28rc0.tar.gz
+[2023-04-25 11:09:49] INFO root fetch - processPackages [autogluon.multimodal]: Start processing: forestadmin-agent-flask
+[2023-04-25 11:09:49] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-04-25 11:09:49] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-04-25 11:09:49] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-04-25 11:09:49] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.2.27rc0.tar.gz tmp/qwak_sdk-0.2.28rc0.tar.gz --markdown 20230425/q/qwak-sdk/0.2.27rc0-0.2.28rc0/diff.md --exclude *.pyd
+[2023-04-25 11:09:49] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Start processing: write-the
+[2023-04-25 11:09:49] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-04-25 11:09:49] INFO root fetch - processPackages [write-the]: New version: [0.7.4] Old Version: [0.7.2]
+[2023-04-25 11:09:50] INFO root fetch - processPackages [autogluon.tabular]: Start processing: Age-detection
+[2023-04-25 11:09:50] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-04-25 11:09:50] WARNING root fetch - processPackages [Age-detection]: Skipping, unable to determine old version
+[2023-04-25 11:09:50] INFO root fetch - processPackages [Age-detection]: Start processing: papyru
+[2023-04-25 11:09:50] INFO root fetch - main [MainThread]: End processing [Age-detection] error
+[2023-04-25 11:09:50] INFO root fetch - processPackages [papyru]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-04-25 11:09:50] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/93/d6/4163252aeb081f46572450118d4384e037a1f82291ae1e051a483fe6ca2b/pytensor-2.8.11.tar.gz
+[2023-04-25 11:09:50] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e3/82/284d5a98e9849700b9bd0243463ae74bb810fb8f891ef63246ae48a9b25a/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz
+[2023-04-25 11:09:50] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/db/01961164568425eb2d6b5765179369ee253f7483d07942f3e15613dfc4c6/forestadmin_agent_toolkit-0.1.0b9.tar.gz
+[2023-04-25 11:09:50] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-04-25 11:09:50] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230425/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-04-25 11:09:50] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-04-25 11:09:50] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230425/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-04-25 11:09:50] INFO root fetch - processPackages [ibmcloudant]: Start processing: andisdk
+[2023-04-25 11:09:50] INFO root fetch - main [MainThread]: End processing [ibmcloudant]: success
+[2023-04-25 11:09:51] INFO root fetch - processPackages [papyru]: Downloading https://files.pythonhosted.org/packages/9f/40/f8206896f4ed7f2a4c048e325acc91b20175ebd3d58c91d5e6d4045f16b7/papyru-2.6.0.tar.gz
+[2023-04-25 11:09:51] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-25 11:09:51] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.7.2.tar.gz tmp/write_the-0.7.4.tar.gz --markdown 20230425/w/write-the/0.7.2-0.7.4/diff.md --exclude *.pyd
+[2023-04-25 11:09:51] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Start processing: pepperize.projen-awscdk-construct
+[2023-04-25 11:09:51] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-04-25 11:09:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 11:09:51] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-04-25 11:09:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-04-25 11:09:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230425/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 11:09:52] INFO root fetch - processPackages [xpressinsight]: Downloading https://files.pythonhosted.org/packages/46/50/40f1b9e1478b233f9ba3b320974e0be6c3243580646c5600c9a121a1a7c3/xpressinsight-1.5.0-py3-none-any.whl
+[2023-04-25 11:09:52] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-04-25 11:09:52] INFO root fetch - processPackages [xpressinsight]: executing diffoscope
+[2023-04-25 11:09:52] INFO root fetch - processPackages [xpressinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpressinsight-1.4.0-py3-none-any.whl.zip tmp/xpressinsight-1.5.0-py3-none-any.whl.zip --markdown 20230425/x/xpressinsight/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-25 11:09:52] INFO root fetch - processPackages [papyru]: Downloading https://files.pythonhosted.org/packages/28/10/6266c10e4ad20f652279c58122beed34690086f2f5704b99435821eac805/papyru-2.6.1.tar.gz
+[2023-04-25 11:09:52] INFO root fetch - processPackages [papyru]: executing diffoscope
+[2023-04-25 11:09:52] INFO root fetch - processPackages [papyru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papyru-2.6.0.tar.gz tmp/papyru-2.6.1.tar.gz --markdown 20230425/p/papyru/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-04-25 11:09:52] INFO root fetch - processPackages [andisdk]: New version: [1.8.4] Old Version: [1.16.0]
+[2023-04-25 11:09:52] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-04-25 11:09:53] INFO root fetch - processPackages [andisdk]: Downloading https://files.pythonhosted.org/packages/8b/23/5f73aea056f207a88000bc29f9f4774f33fad351d17109cef8c5bd6b562e/andisdk-1.16.0-py3-none-any.whl
+[2023-04-25 11:09:53] INFO root fetch - main [MainThread]: End processing [xpressinsight]: success
+[2023-04-25 11:09:53] INFO root fetch - main [MainThread]: End processing [papyru]: success
+[2023-04-25 11:09:53] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/a7/0d/621c9aaf5406a39b2defa66cedc2d54a377b0524b360de0c282668b3f57d/pytensor-2.9.1.tar.gz
+[2023-04-25 11:09:53] WARNING root fetch - processPackages [andisdk]: Skipping package: exceeds size limit 92840422>=10485760
+[2023-04-25 11:09:53] INFO root fetch - main [MainThread]: End processing [andisdk] error
+[2023-04-25 11:09:54] INFO root fetch - processPackages [pytensor]: executing diffoscope
+[2023-04-25 11:09:54] INFO root fetch - processPackages [pytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytensor-2.8.11.tar.gz tmp/pytensor-2.9.1.tar.gz --markdown 20230425/p/pytensor/2.8.11-2.9.1/diff.md --exclude *.pyd
+[2023-04-25 11:09:54] INFO root fetch - main [MainThread]: End processing [tsfpga]: success
+[2023-04-25 11:09:55] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/3e/f4/f6de754630a7c19c8ec4ce4d777e771d743b1e084b0ecf590ffcf9141d99/forestadmin_agent_flask-0.1.0b8.tar.gz
+[2023-04-25 11:09:56] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-25 11:09:56] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/16/5e/7c7f370b88a6f11719865650299ba7dd6f764570d0460a4859718445c239/forestadmin_agent_flask-0.1.0b9.tar.gz
+[2023-04-25 11:09:56] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-04-25 11:09:56] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230425/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-04-25 11:09:57] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-04-25 11:10:01] INFO root fetch - main [MainThread]: End processing [pytensor]: success
+[2023-04-25 11:10:01] INFO root fetch - main [MainThread]: Store serial: [17846612]

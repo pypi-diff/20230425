@@ -9441,3 +9441,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:27:30] INFO root fetch - main [MainThread]: End processing [stamox]: success
 [2023-04-25 08:27:34] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-25 08:27:34] INFO root fetch - main [MainThread]: Store serial: [17845015]
+[2023-04-25 08:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845015]
+[2023-04-25 08:32:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlops-core
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiconnectpy
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwaslab
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hiddifypanel
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remote-drawing-provider
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyiron-base
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jittor
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: api-Rocket
+[2023-04-25 08:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: refunc-cli
+[2023-04-25 08:32:45] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230424.0] Old Version: [16.0.20230420.0]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [remote-drawing-provider]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [mlops-core]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [audiconnectpy]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [refunc-cli]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [api-Rocket]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [gwaslab]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [pyiron-base]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [jittor]: New version: [1.3.7.9] Old Version: [1.3.7.8]
+[2023-04-25 08:32:45] INFO root fetch - processPackages [hiddifypanel]: New version: [5.0.0.dev9] Old Version: [5.0.0.dev8]
+[2023-04-25 08:32:46] INFO root fetch - processPackages [api-Rocket]: Downloading https://files.pythonhosted.org/packages/35/ab/06aeb8f50b9485081e1c9692b4df732479a882f0f582149222c3048d0763/api-Rocket-1.3.3.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [gwaslab]: Downloading https://files.pythonhosted.org/packages/57/4a/4ed921d4b6c0927c23727a987f62eeb1ab91df90b0b500b48e6f96b93fb1/gwaslab-3.4.8.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [remote-drawing-provider]: Downloading https://files.pythonhosted.org/packages/d4/4e/6a161cae704affe8593fb8b18855ed1ab125418f420f507761a1a7c9ae3e/remote-drawing-provider-1.0.0.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-5.0.0.dev8-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-5.0.0.dev9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230425/h/hiddifypanel/5.0.0.dev8-5.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-25 08:32:46] INFO root fetch - processPackages [refunc-cli]: Downloading https://files.pythonhosted.org/packages/46/88/f832939fff9bcf770220a0d7adf042f61f767f8546b7e4ca34e287685cd0/refunc-cli-1.2.0.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/e2/98/abe3a6136c2a7e94c4afa9c63c30ff424316103a2e62cb4a4f28b9b8e3af/audiconnectpy-1.3.1.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [jittor]: Downloading https://files.pythonhosted.org/packages/0f/37/7e8e5be1fc4241d3bc81603e676312098e7738b5a890f82c4b2f84dae1a9/jittor-1.3.7.8.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/89/e0/3a6c6e4057e938b216c9b573c919431c6dcf5c361b6253a8f895e9107602/pyiron_base-0.5.8.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [mlops-core]: Downloading https://files.pythonhosted.org/packages/c3/06/9fae6bbde7b5529dadfb52a0e96db5f8e71d468fa7d9aebd92c4ea8aadd2/mlops_core-0.2.6.tar.gz
+[2023-04-25 08:32:46] WARNING root fetch - processPackages [gwaslab]: Skipping package: exceeds size limit 20618587>=10485760
+[2023-04-25 08:32:46] INFO root fetch - processPackages [gwaslab]: Start processing: amdgpu-stats
+[2023-04-25 08:32:46] INFO root fetch - main [MainThread]: End processing [gwaslab] error
+[2023-04-25 08:32:46] INFO root fetch - processPackages [remote-drawing-provider]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [remote-drawing-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote-drawing-provider-0.0.4.tar.gz tmp/remote-drawing-provider-1.0.0.tar.gz --markdown 20230425/r/remote-drawing-provider/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-04-25 08:32:46] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/18/d4/ad3f369301f1f6fcc48ad58859218dd2ec283fe0b9d95b3ced5db946a4d2/odoo_addons_oca_purchase_workflow-16.0.20230424.0-py3-none-any.whl
+[2023-04-25 08:32:46] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-25 08:32:46] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-1.3.0.tar.gz tmp/audiconnectpy-1.3.1.tar.gz --markdown 20230425/a/audiconnectpy/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-25 08:32:46] INFO root fetch - processPackages [mlops-core]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [mlops-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_core-0.2.5.tar.gz tmp/mlops_core-0.2.6.tar.gz --markdown 20230425/m/mlops-core/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-25 08:32:46] INFO root fetch - processPackages [api-Rocket]: Downloading https://files.pythonhosted.org/packages/c9/b4/af02ae8b7fcc48dd1460b3c792bb45aee104bedc4f53964bba77ca1bdc79/api-Rocket-1.3.4.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230420.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230424.0-py3-none-any.whl.zip --markdown 20230425/o/odoo-addons-oca-purchase-workflow/16.0.20230420.0-16.0.20230424.0/diff.md --exclude *.pyd
+[2023-04-25 08:32:46] INFO root fetch - processPackages [refunc-cli]: Downloading https://files.pythonhosted.org/packages/69/bb/a50d5744d80bdeee282aa575c0217a21db6e4a38e02271aa3863f15291da/refunc-cli-1.2.1.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/94/02/23fc1ded0c2031e26d32ed245a1defa515cc11989dfb8f8eed344fd551bc/amdgpu_stats-0.1.4.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [api-Rocket]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [api-Rocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-Rocket-1.3.3.tar.gz tmp/api-Rocket-1.3.4.tar.gz --markdown 20230425/a/api-Rocket/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-25 08:32:46] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/82/a2/6326e2f76111a92bf086d931cfc7f540414c18281e0f6278a2033a021352/pyiron_base-0.5.9.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [refunc-cli]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [refunc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refunc-cli-1.2.0.tar.gz tmp/refunc-cli-1.2.1.tar.gz --markdown 20230425/r/refunc-cli/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-25 08:32:46] INFO root fetch - processPackages [pyiron-base]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [pyiron-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_base-0.5.8.tar.gz tmp/pyiron_base-0.5.9.tar.gz --markdown 20230425/p/pyiron-base/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-25 08:32:46] INFO root fetch - processPackages [jittor]: Downloading https://files.pythonhosted.org/packages/4d/1f/180d6ec29b637a69bca961ea43f2e59f607d23b8bb6759496234f0d5db0e/jittor-1.3.7.9.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [amdgpu-stats]: Downloading https://files.pythonhosted.org/packages/9a/3c/8a499c3d8b91e57a9c898666b450dbb70d5302ff6b4388e9e1b163373b5d/amdgpu_stats-0.1.5.tar.gz
+[2023-04-25 08:32:46] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-04-25 08:32:46] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.4.tar.gz tmp/amdgpu_stats-0.1.5.tar.gz --markdown 20230425/a/amdgpu-stats/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-25 08:32:47] INFO root fetch - processPackages [jittor]: executing diffoscope
+[2023-04-25 08:32:47] INFO root fetch - processPackages [jittor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jittor-1.3.7.8.tar.gz tmp/jittor-1.3.7.9.tar.gz --markdown 20230425/j/jittor/1.3.7.8-1.3.7.9/diff.md --exclude *.pyd
+[2023-04-25 08:32:48] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Start processing: stoobly-agent
+[2023-04-25 08:32:48] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-04-25 08:32:48] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-25 08:32:48] INFO root fetch - processPackages [remote-drawing-provider]: Start processing: qodex-moxa-il1214
+[2023-04-25 08:32:48] INFO root fetch - main [MainThread]: End processing [remote-drawing-provider]: success
+[2023-04-25 08:32:48] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-04-25 08:32:48] INFO root fetch - processPackages [qodex-moxa-il1214]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-04-25 08:32:48] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-04-25 08:32:48] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-04-25 08:32:48] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230425/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-25 08:32:48] INFO root fetch - main [MainThread]: End processing [mlops-core]: success
+[2023-04-25 08:32:48] INFO root fetch - main [MainThread]: End processing [api-Rocket]: success
+[2023-04-25 08:32:48] INFO root fetch - processPackages [qodex-moxa-il1214]: Downloading https://files.pythonhosted.org/packages/2d/e7/294aa828848153539449fe1251f6236e7c8bd3e505896d1f7a8dea05ecf2/qodex_moxa_il1214-0.0.33-py3-none-any.whl
+[2023-04-25 08:32:48] INFO root fetch - main [MainThread]: End processing [refunc-cli]: success
+[2023-04-25 08:32:48] INFO root fetch - processPackages [qodex-moxa-il1214]: Downloading https://files.pythonhosted.org/packages/56/98/8b5d6935b18c4ee1704cc6fbd5b3f4fe8ca30c908bd7171d2af776bca1f5/qodex_moxa_il1214-0.0.34-py3-none-any.whl
+[2023-04-25 08:32:48] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2023-04-25 08:32:48] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-04-25 08:32:48] INFO root fetch - processPackages [qodex-moxa-il1214]: executing diffoscope
+[2023-04-25 08:32:48] INFO root fetch - processPackages [qodex-moxa-il1214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_moxa_il1214-0.0.33-py3-none-any.whl.zip tmp/qodex_moxa_il1214-0.0.34-py3-none-any.whl.zip --markdown 20230425/q/qodex-moxa-il1214/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-04-25 08:32:49] INFO root fetch - main [MainThread]: End processing [pyiron-base]: success
+[2023-04-25 08:32:50] INFO root fetch - main [MainThread]: End processing [qodex-moxa-il1214]: success
+[2023-04-25 08:32:51] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-04-25 08:32:57] INFO root fetch - main [MainThread]: End processing [jittor]: success
+[2023-04-25 08:33:05] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-25 08:33:05] INFO root fetch - main [MainThread]: Store serial: [17845062]

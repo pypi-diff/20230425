@@ -9185,3 +9185,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:06:04] INFO root fetch - main [MainThread]: End processing [jutool]: success
 [2023-04-25 08:06:21] INFO root fetch - main [MainThread]: End processing [newcode-utils]: success
 [2023-04-25 08:06:21] INFO root fetch - main [MainThread]: Store serial: [17844818]
+[2023-04-25 08:11:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844818]
+[2023-04-25 08:11:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 08:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2023-04-25 08:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jutool
+[2023-04-25 08:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qwak-core
+[2023-04-25 08:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-enroll
+[2023-04-25 08:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: casadi
+[2023-04-25 08:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rest-api-supporter
+[2023-04-25 08:11:29] INFO root fetch - processPackages [qwak-core]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-04-25 08:11:29] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 08:11:29] INFO root fetch - processPackages [jutool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-25 08:11:29] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-25 08:11:29] INFO root fetch - processPackages [casadi]: New version: [3.6.2] Old Version: [3.6.1]
+[2023-04-25 08:11:29] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230425] Old Version: [2.4.0.dev20230424]
+[2023-04-25 08:11:29] INFO root fetch - processPackages [jutool]: executing diffoscope
+[2023-04-25 08:11:29] INFO root fetch - processPackages [jutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool-0.2.8-py3-none-any.whl.zip tmp/jutool-0.2.9-py3-none-any.whl.zip --markdown 20230425/j/jutool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-25 08:11:29] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-04-25 08:11:29] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230425/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-25 08:11:29] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/7b/65/ab9300050e177f4bfbf5f4becc3f91c55010fe9d9b4f1df2de404d0b87a0/rest-api-supporter-0.0.3.tar.gz
+[2023-04-25 08:11:29] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/33/85/e014f9480593a5c63032f4f584489e30b7780527641aa021c8407406e4bf/qwak_core-0.0.33.tar.gz
+[2023-04-25 08:11:29] INFO root fetch - processPackages [casadi]: Downloading https://files.pythonhosted.org/packages/96/24/90ae85442c60daf9af7b6fbd36f25293ff29898582c56e425758457c61e4/casadi-3.6.1.tar.gz
+[2023-04-25 08:11:30] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/08/f5/ba8ab329095799c3e3424e236938817aa24a8d3969f6fe4f38faea4d07ff/pyg-nightly-2.4.0.dev20230424.tar.gz
+[2023-04-25 08:11:30] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-04-25 08:11:30] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.32.tar.gz tmp/qwak_core-0.0.33.tar.gz --markdown 20230425/q/qwak-core/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-04-25 08:11:30] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/58/b7/8e5564aad151b80d5877245add96fb1ba6d7eff6f897853214521208b3b7/rest-api-supporter-0.0.4.tar.gz
+[2023-04-25 08:11:30] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-04-25 08:11:30] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.3.tar.gz tmp/rest-api-supporter-0.0.4.tar.gz --markdown 20230425/r/rest-api-supporter/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 08:11:30] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/76/1e/43bb9abfca67f72d30f6039c93f874f4d857d7ef5f684a5d7f451593f351/pyg-nightly-2.4.0.dev20230425.tar.gz
+[2023-04-25 08:11:30] INFO root fetch - processPackages [casadi]: Downloading https://files.pythonhosted.org/packages/ef/39/6b64c78cdde1348afe5eb0e75387d36888b00f47248e34c026a079a286da/casadi-3.6.2-cp27-none-manylinux1_i686.whl
+[2023-04-25 08:11:30] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-04-25 08:11:30] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230424.tar.gz tmp/pyg-nightly-2.4.0.dev20230425.tar.gz --markdown 20230425/p/pyg-nightly/2.4.0.dev20230424-2.4.0.dev20230425/diff.md --exclude *.pyd
+[2023-04-25 08:11:30] WARNING root fetch - processPackages [casadi]: Skipping package: exceeds size limit 47469371>=10485760
+[2023-04-25 08:11:30] INFO root fetch - main [MainThread]: End processing [casadi] error
+[2023-04-25 08:11:31] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-04-25 08:11:31] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-04-25 08:11:31] INFO root fetch - main [MainThread]: End processing [jutool]: success
+[2023-04-25 08:11:34] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-04-25 08:11:35] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-04-25 08:11:35] INFO root fetch - main [MainThread]: Store serial: [17844840]

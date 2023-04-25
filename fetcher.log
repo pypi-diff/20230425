@@ -9616,3 +9616,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:38:19] INFO root fetch - main [MainThread]: End processing [naruno]: success
 [2023-04-25 08:38:20] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
 [2023-04-25 08:38:20] INFO root fetch - main [MainThread]: Store serial: [17845114]
+[2023-04-25 08:43:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845114]
+[2023-04-25 08:43:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zero-3rdparty
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-lib
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: api-Rocket
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-data-services-lwdp
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tableauserverclient
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nope-py
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resqpy
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ats-case
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cythonbuilder
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quorum-data-py
+[2023-04-25 08:43:30] INFO root fetch - processPackages [zero-3rdparty]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.2.0.dev4794429115] Old Version: [2.0.2.0.dev4766015884]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [api-Rocket]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [tableauserverclient]: New version: [0.9.31.post0.dev1] Old Version: [0.9]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ats-case]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-25 08:43:30] WARNING root fetch - processPackages [nope-py]: Skipping, unable to determine old version
+[2023-04-25 08:43:30] INFO root fetch - processPackages [nope-py]: Start processing: electrickiwi-api
+[2023-04-25 08:43:30] INFO root fetch - main [MainThread]: End processing [nope-py] error
+[2023-04-25 08:43:30] INFO root fetch - processPackages [quorum-data-py]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [resqpy]: New version: [4.8.1] Old Version: [4.8.0]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [cythonbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [electrickiwi-api]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-25 08:43:30] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/02/77/9b25da26d84e860f91f7869dd90591c0aec5e456c230be79db7208e01a37/zero_3rdparty-0.0.8-py3-none-any.whl
+[2023-04-25 08:43:30] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/3a/37/f439fc46ad12d47c469a89b962f6930daa6f1af9319dce3ed5f398a5b0f2/model_lib-0.0.8-py3-none-any.whl
+[2023-04-25 08:43:30] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/d1/2d/4f3b5f616ec6266485b57d5e8fb80b0f5a30de9306520539479ca9b32830/th2_data_services_lwdp-2.0.2.0.dev4766015884.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [tableauserverclient]: Downloading https://files.pythonhosted.org/packages/ed/53/fcb3b0f66a515f8b97f74809fdfffc56e54940e69e33ac00bd37d27c5802/tableauserverclient-0.9.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/b9/c3/cfc5304c541cd77848a0772b8c8ba3e8f9c7ecfc15aa6431a158740877b5/ats_case-0.6.5.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [resqpy]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [resqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resqpy-4.8.0.tar.gz tmp/resqpy-4.8.1.tar.gz --markdown 20230425/r/resqpy/4.8.0-4.8.1/diff.md --exclude *.pyd
+[2023-04-25 08:43:30] INFO root fetch - processPackages [electrickiwi-api]: Downloading https://files.pythonhosted.org/packages/0f/c6/aa4ca34e7bc78607015f8055671d44ae921b2a20fd44d270f767b36a17ce/electrickiwi-api-0.8.1.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [api-Rocket]: Downloading https://files.pythonhosted.org/packages/61/b7/aff4d216a452473eb9b73c640a5420a1106a23c018e5089b75171e315cda/api-Rocket-1.3.5.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [quorum-data-py]: Downloading https://files.pythonhosted.org/packages/0b/43/6ac00b76c143552dc0f71060436322ba40e44e3faeb7a0af3699a8f1a9e6/quorum_data_py-1.2.2.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.6.4.tar.gz tmp/ats_case-0.6.5.tar.gz --markdown 20230425/a/ats-case/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-04-25 08:43:30] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/c0/73/77cf63b146fa8306411cd488917202d67315a73ab713499ab6a96eb8452e/th2_data_services_lwdp-2.0.2.0.dev4794429115.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [zero-3rdparty]: Downloading https://files.pythonhosted.org/packages/ac/57/d5880eac743d0a1370807895ce1e784289fd0b2bd6cbcba1b3fb57043af3/zero_3rdparty-0.0.9-py3-none-any.whl
+[2023-04-25 08:43:30] INFO root fetch - processPackages [cythonbuilder]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [cythonbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythonbuilder-0.1.8.tar.gz tmp/cythonbuilder-0.1.9.tar.gz --markdown 20230425/c/cythonbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 08:43:30] INFO root fetch - processPackages [api-Rocket]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [api-Rocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-Rocket-1.3.4.tar.gz tmp/api-Rocket-1.3.5.tar.gz --markdown 20230425/a/api-Rocket/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-25 08:43:30] INFO root fetch - processPackages [model-lib]: Downloading https://files.pythonhosted.org/packages/0e/81/219c8c28610fddb4410a4cb595f3323d27988d35dd0ab098737ad0d8b598/model_lib-0.0.9-py3-none-any.whl
+[2023-04-25 08:43:30] INFO root fetch - processPackages [tableauserverclient]: Downloading https://files.pythonhosted.org/packages/21/89/39392be084ef09a0b0736c90d20e59d200142cafffdda120cba4074ecccf/tableauserverclient-0.9.31.post0.dev1.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [quorum-data-py]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [quorum-data-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quorum_data_py-1.2.1.tar.gz tmp/quorum_data_py-1.2.2.tar.gz --markdown 20230425/q/quorum-data-py/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-25 08:43:30] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.2.0.dev4766015884.tar.gz tmp/th2_data_services_lwdp-2.0.2.0.dev4794429115.tar.gz --markdown 20230425/t/th2-data-services-lwdp/2.0.2.0.dev4766015884-2.0.2.0.dev4794429115/diff.md --exclude *.pyd
+[2023-04-25 08:43:30] INFO root fetch - processPackages [electrickiwi-api]: Downloading https://files.pythonhosted.org/packages/3d/da/0352f6e22a75380327e93710781b16ae67bf5ca27ead31e6c98738dd43e5/electrickiwi-api-0.8.2.tar.gz
+[2023-04-25 08:43:30] INFO root fetch - processPackages [zero-3rdparty]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [zero-3rdparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip --markdown 20230425/z/zero-3rdparty/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 08:43:30] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230425/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 08:43:30] INFO root fetch - processPackages [tableauserverclient]: executing diffoscope
+[2023-04-25 08:43:30] INFO root fetch - processPackages [tableauserverclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableauserverclient-0.9.tar.gz tmp/tableauserverclient-0.9.31.post0.dev1.tar.gz --markdown 20230425/t/tableauserverclient/0.9-0.9.31.post0.dev1/diff.md --exclude *.pyd
+[2023-04-25 08:43:31] INFO root fetch - processPackages [electrickiwi-api]: executing diffoscope
+[2023-04-25 08:43:31] INFO root fetch - processPackages [electrickiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/electrickiwi-api-0.8.1.tar.gz tmp/electrickiwi-api-0.8.2.tar.gz --markdown 20230425/e/electrickiwi-api/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-25 08:43:32] INFO root fetch - processPackages [api-Rocket]: Start processing: ssb-altinn-python
+[2023-04-25 08:43:32] INFO root fetch - main [MainThread]: End processing [api-Rocket]: success
+[2023-04-25 08:43:32] INFO root fetch - processPackages [ats-case]: Start processing: cloudmonitor
+[2023-04-25 08:43:32] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-04-25 08:43:32] INFO root fetch - processPackages [cloudmonitor]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-04-25 08:43:32] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-25 08:43:32] INFO root fetch - processPackages [cloudmonitor]: executing diffoscope
+[2023-04-25 08:43:32] INFO root fetch - processPackages [cloudmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmonitor-0.0.1.8.tar.gz tmp/cloudmonitor-0.0.1.9.tar.gz --markdown 20230425/c/cloudmonitor/0.0.1.8-0.0.1.9/diff.md --exclude *.pyd
+[2023-04-25 08:43:32] INFO root fetch - processPackages [quorum-data-py]: Start processing: yyxx-game-pkg
+[2023-04-25 08:43:32] INFO root fetch - main [MainThread]: End processing [quorum-data-py]: success
+[2023-04-25 08:43:32] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.4.7.1] Old Version: [2023.4.4.1]
+[2023-04-25 08:43:32] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-04-25 08:43:32] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.4.4.1.tar.gz tmp/yyxx_game_pkg-2023.4.7.1.tar.gz --markdown 20230425/y/yyxx-game-pkg/2023.4.4.1-2023.4.7.1/diff.md --exclude *.pyd
+[2023-04-25 08:43:32] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/bf/df/b3e2633aec6e3d0646f8efcd65c6d1fea20aded596090d7849346dd1992c/ssb_altinn_python-0.2.2.tar.gz
+[2023-04-25 08:43:32] INFO root fetch - main [MainThread]: End processing [zero-3rdparty]: success
+[2023-04-25 08:43:32] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
+[2023-04-25 08:43:32] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-04-25 08:43:32] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-04-25 08:43:32] INFO root fetch - main [MainThread]: End processing [electrickiwi-api]: success
+[2023-04-25 08:43:33] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/f8/1e/2150e1c66bac5c3e94539fc7e54019911faaa8bafb077413f20a136f70e3/ssb_altinn_python-0.2.3.tar.gz
+[2023-04-25 08:43:33] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2023-04-25 08:43:33] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.2.2.tar.gz tmp/ssb_altinn_python-0.2.3.tar.gz --markdown 20230425/s/ssb-altinn-python/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-25 08:43:33] INFO root fetch - main [MainThread]: End processing [cloudmonitor]: success
+[2023-04-25 08:43:33] INFO root fetch - main [MainThread]: End processing [tableauserverclient]: success
+[2023-04-25 08:43:34] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2023-04-25 08:43:34] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-04-25 08:43:35] INFO root fetch - main [MainThread]: End processing [resqpy]: success
+[2023-04-25 08:43:35] INFO root fetch - main [MainThread]: Store serial: [17845155]

@@ -9938,3 +9938,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 09:04:33] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-04-25 09:04:43] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-04-25 09:04:43] INFO root fetch - main [MainThread]: Store serial: [17845308]
+[2023-04-25 09:09:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845308]
+[2023-04-25 09:09:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discordlevelingcard
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantplay
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: subgrounds
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arlas-tagger-api
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-python-sdk-cdn
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swiftshadow
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: st-quill-dark-mode
+[2023-04-25 09:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-25 09:09:52] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [jupyterlab]: New version: [4.0.0b2] Old Version: [4.0.0b1]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [st-quill-dark-mode]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [subgrounds]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [arlas-tagger-api]: New version: [24.0.1] Old Version: [23.0.4]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [swiftshadow]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [discordlevelingcard]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: New version: [3.8.6] Old Version: [3.8.5]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [st-quill-dark-mode]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [st-quill-dark-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-quill-dark-mode-0.0.1.tar.gz tmp/st-quill-dark-mode-0.0.2.tar.gz --markdown 20230425/s/st-quill-dark-mode/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-25 09:09:52] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/e8/7d/5b0cfb08ebd7d57b63f5af26f6c42c21db94de1f1aa850f6df9dee6c19b7/quantplay-1.2.8.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [arlas-tagger-api]: Downloading https://files.pythonhosted.org/packages/fd/b3/579c7eeffd372e87c719166cbeeaeec3e28cbe9dd107f1e0f7d73bf673d2/arlas-tagger_api-23.0.4.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [swiftshadow]: Downloading https://files.pythonhosted.org/packages/a1/85/579ff762f715ba92ad94990dcd7dab959935368eb569d23d2845bb696306/swiftshadow-0.0.0.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: Downloading https://files.pythonhosted.org/packages/5b/c9/1962f2f9f5d87d1c70f04fae4c74cd14606fa934ffbc1cf7626240a38cdd/aliyun-python-sdk-cdn-3.8.5.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [subgrounds]: Downloading https://files.pythonhosted.org/packages/3d/24/321354321e460c05630f7568d3fdcf7d1bd5d58d88b4906a6106ff6b1fb7/subgrounds-1.4.0.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [jupyterlab]: Downloading https://files.pythonhosted.org/packages/89/c0/9f10f2bcfbba5d8a2b5ff21c2940cc2ee01e1edc7fcc7e908680ffe384cb/jupyterlab-4.0.0b1.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/19/3b/b3bcbacf0846c30a0cfe5927468504ce92224d97a66e3c1419b6576aad58/quantplay-1.2.9.tar.gz
+[2023-04-25 09:09:52] WARNING root fetch - processPackages [jupyterlab]: Skipping package: exceeds size limit 18136277>=10485760
+[2023-04-25 09:09:52] INFO root fetch - processPackages [jupyterlab]: Start processing: odoo-addon-base-tier-validation
+[2023-04-25 09:09:52] INFO root fetch - main [MainThread]: End processing [jupyterlab] error
+[2023-04-25 09:09:52] INFO root fetch - processPackages [discordlevelingcard]: Downloading https://files.pythonhosted.org/packages/4b/dc/fb156bd4b48f02068893feb44de5326b73c979f575e0eb05b67f6c0298f3/discordlevelingcard-0.4.9.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3.17]
+[2023-04-25 09:09:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230425/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-25 09:09:52] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230425/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-25 09:09:52] INFO root fetch - processPackages [arlas-tagger-api]: Downloading https://files.pythonhosted.org/packages/59/10/9a8526bd5ac91eab1a68d1f99e89b5e685648d87bd163a59757deb57a437/arlas-tagger_api-24.0.1.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [swiftshadow]: Downloading https://files.pythonhosted.org/packages/f7/5e/02980f7df81724a9e1d3128e71602bcf15afe1e729376fd0f860ea3fe497/swiftshadow-0.1.0.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: Downloading https://files.pythonhosted.org/packages/60/a5/b75ca51ae475284342f10f400d9711502254f58862d9de977c6fc826e558/aliyun-python-sdk-cdn-3.8.6.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [subgrounds]: Downloading https://files.pythonhosted.org/packages/92/37/6eab8744e40179fb38a1a12b5d1709d9ed3ac55020bfe4dd6c99ab250fe5/subgrounds-1.5.0.tar.gz
+[2023-04-25 09:09:52] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.3.17-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4-py3-none-any.whl.zip --markdown 20230425/o/odoo-addon-base-tier-validation/16.0.1.0.3.17-16.0.1.0.4/diff.md --exclude *.pyd
+[2023-04-25 09:09:52] INFO root fetch - processPackages [discordlevelingcard]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [discordlevelingcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordlevelingcard-0.4.8.tar.gz tmp/discordlevelingcard-0.4.9.tar.gz --markdown 20230425/d/discordlevelingcard/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-25 09:09:52] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [arlas-tagger-api]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [arlas-tagger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlas-tagger_api-23.0.4.tar.gz tmp/arlas-tagger_api-24.0.1.tar.gz --markdown 20230425/a/arlas-tagger-api/23.0.4-24.0.1/diff.md --exclude *.pyd
+[2023-04-25 09:09:52] INFO root fetch - processPackages [aliyun-python-sdk-cdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cdn-3.8.5.tar.gz tmp/aliyun-python-sdk-cdn-3.8.6.tar.gz --markdown 20230425/a/aliyun-python-sdk-cdn/3.8.5-3.8.6/diff.md --exclude *.pyd
+[2023-04-25 09:09:52] INFO root fetch - processPackages [swiftshadow]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [swiftshadow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftshadow-0.0.0.tar.gz tmp/swiftshadow-0.1.0.tar.gz --markdown 20230425/s/swiftshadow/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-04-25 09:09:52] INFO root fetch - processPackages [subgrounds]: executing diffoscope
+[2023-04-25 09:09:52] INFO root fetch - processPackages [subgrounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subgrounds-1.4.0.tar.gz tmp/subgrounds-1.5.0.tar.gz --markdown 20230425/s/subgrounds/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-25 09:09:53] INFO root fetch - processPackages [st-quill-dark-mode]: Start processing: odoo-addons-oca-server-ux
+[2023-04-25 09:09:53] INFO root fetch - main [MainThread]: End processing [st-quill-dark-mode]: success
+[2023-04-25 09:09:53] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230425.0] Old Version: [16.0.20230401.0]
+[2023-04-25 09:09:53] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/7d/9c/2537946dad484366c16261dac9a27b89f3bc20d335d754a9bbcb2f7acc75/odoo_addons_oca_server_ux-16.0.20230401.0-py3-none-any.whl
+[2023-04-25 09:09:54] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/bf/0d/971c93985292abe16eb4fe621940283b1c9ef958630e8755bfe6f91555d4/odoo_addons_oca_server_ux-16.0.20230425.0-py3-none-any.whl
+[2023-04-25 09:09:54] INFO root fetch - main [MainThread]: End processing [subgrounds]: success
+[2023-04-25 09:09:54] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-04-25 09:09:54] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230401.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230425.0-py3-none-any.whl.zip --markdown 20230425/o/odoo-addons-oca-server-ux/16.0.20230401.0-16.0.20230425.0/diff.md --exclude *.pyd
+[2023-04-25 09:09:54] INFO root fetch - main [MainThread]: End processing [swiftshadow]: success
+[2023-04-25 09:09:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-25 09:09:54] INFO root fetch - main [MainThread]: End processing [discordlevelingcard]: success
+[2023-04-25 09:09:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-25 09:09:54] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-04-25 09:09:54] INFO root fetch - main [MainThread]: End processing [arlas-tagger-api]: success
+[2023-04-25 09:09:55] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-25 09:09:55] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-04-25 09:09:55] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cdn]: success
+[2023-04-25 09:09:57] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-04-25 09:09:57] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230425/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-04-25 09:10:08] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-04-25 09:10:08] INFO root fetch - main [MainThread]: Store serial: [17845355]

@@ -9089,3 +9089,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 07:50:30] INFO root fetch - main [MainThread]: End processing [clera]: success
 [2023-04-25 07:50:30] INFO root fetch - main [MainThread]: End processing [ho-protocols]: success
 [2023-04-25 07:50:30] INFO root fetch - main [MainThread]: Store serial: [17844776]
+[2023-04-25 07:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844776]
+[2023-04-25 07:55:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-25 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zapit
+[2023-04-25 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manga2pdf
+[2023-04-25 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rl-algo-impls
+[2023-04-25 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jurebes
+[2023-04-25 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scippnexus
+[2023-04-25 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudmonitor
+[2023-04-25 07:55:39] INFO root fetch - processPackages [rl-algo-impls]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-04-25 07:55:39] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-04-25 07:55:39] INFO root fetch - processPackages [zapit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 07:55:39] INFO root fetch - processPackages [cloudmonitor]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2023-04-25 07:55:39] INFO root fetch - processPackages [scippnexus]: New version: [23.4.1] Old Version: [23.4.0]
+[2023-04-25 07:55:39] INFO root fetch - processPackages [manga2pdf]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 07:55:39] INFO root fetch - processPackages [rl-algo-impls]: executing diffoscope
+[2023-04-25 07:55:39] INFO root fetch - processPackages [rl-algo-impls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl_algo_impls-0.0.5.tar.gz tmp/rl_algo_impls-0.0.8.tar.gz --markdown 20230425/r/rl-algo-impls/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 07:55:39] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/e1/3c/8bba24c55dd8fe6ff8995e567765f4dce29a33c7fbafe89059d965f6adb9/jurebes-0.1.1a4-py3-none-any.whl
+[2023-04-25 07:55:39] INFO root fetch - processPackages [zapit]: Downloading https://files.pythonhosted.org/packages/a0/ee/f851dea90645db52d1aff34fadc2067e95fa59d08a6d918f515d4989fe7c/zapit-0.1.0.tar.gz
+[2023-04-25 07:55:39] INFO root fetch - processPackages [scippnexus]: Downloading https://files.pythonhosted.org/packages/f3/3d/373fbef8390cae765d3bf0700257224535c7ae107d06d8e0720a71f65ef7/scippnexus-23.4.0.tar.gz
+[2023-04-25 07:55:39] INFO root fetch - processPackages [cloudmonitor]: Downloading https://files.pythonhosted.org/packages/91/d7/2f7cb6a85d8c23a5eeca55b19124c974c362bb8d86a5c3c938e7b9223090/cloudmonitor-0.0.1.9.tar.gz
+[2023-04-25 07:55:39] INFO root fetch - processPackages [manga2pdf]: Downloading https://files.pythonhosted.org/packages/c0/62/3e13c566337b86a2d66c8c8227d65672fbff5a29b05b22a9f805f14b64c1/manga2pdf-0.1.0.tar.gz
+[2023-04-25 07:55:39] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-25 07:55:39] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a3-py3-none-any.whl.zip tmp/jurebes-0.1.1a4-py3-none-any.whl.zip --markdown 20230425/j/jurebes/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-04-25 07:55:40] INFO root fetch - processPackages [zapit]: Downloading https://files.pythonhosted.org/packages/44/b3/147133a70a268b8927490116af8c76f2f3e11ff09eaca59c4d474db5bfb2/zapit-0.1.1.tar.gz
+[2023-04-25 07:55:40] INFO root fetch - processPackages [cloudmonitor]: executing diffoscope
+[2023-04-25 07:55:40] INFO root fetch - processPackages [cloudmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmonitor-0.0.1.8.tar.gz tmp/cloudmonitor-0.0.1.9.tar.gz --markdown 20230425/c/cloudmonitor/0.0.1.8-0.0.1.9/diff.md --exclude *.pyd
+[2023-04-25 07:55:40] INFO root fetch - processPackages [scippnexus]: Downloading https://files.pythonhosted.org/packages/54/32/a009537171e4eb2f70d51a729c49e1f5895e78bb3f74072ab956d79083ca/scippnexus-23.4.1.tar.gz
+[2023-04-25 07:55:40] INFO root fetch - processPackages [manga2pdf]: Downloading https://files.pythonhosted.org/packages/53/85/751c0394ecaa82ed5bd694851144f6da0c2e6e9578b3394a2a6e238a1621/manga2pdf-0.1.1.tar.gz
+[2023-04-25 07:55:40] INFO root fetch - processPackages [zapit]: executing diffoscope
+[2023-04-25 07:55:40] INFO root fetch - processPackages [zapit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zapit-0.1.0.tar.gz tmp/zapit-0.1.1.tar.gz --markdown 20230425/z/zapit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 07:55:40] INFO root fetch - processPackages [scippnexus]: executing diffoscope
+[2023-04-25 07:55:40] INFO root fetch - processPackages [scippnexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scippnexus-23.4.0.tar.gz tmp/scippnexus-23.4.1.tar.gz --markdown 20230425/s/scippnexus/23.4.0-23.4.1/diff.md --exclude *.pyd
+[2023-04-25 07:55:40] INFO root fetch - processPackages [manga2pdf]: executing diffoscope
+[2023-04-25 07:55:40] INFO root fetch - processPackages [manga2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga2pdf-0.1.0.tar.gz tmp/manga2pdf-0.1.1.tar.gz --markdown 20230425/m/manga2pdf/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 07:55:41] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-25 07:55:41] INFO root fetch - main [MainThread]: End processing [cloudmonitor]: success
+[2023-04-25 07:55:41] INFO root fetch - main [MainThread]: End processing [zapit]: success
+[2023-04-25 07:55:41] INFO root fetch - main [MainThread]: End processing [manga2pdf]: success
+[2023-04-25 07:55:41] INFO root fetch - main [MainThread]: End processing [rl-algo-impls]: success
+[2023-04-25 07:55:41] INFO root fetch - main [MainThread]: End processing [scippnexus]: success
+[2023-04-25 07:55:41] INFO root fetch - main [MainThread]: Store serial: [17844793]

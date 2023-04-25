@@ -11264,3 +11264,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:20:02] INFO root fetch - main [MainThread]: End processing [pip-licenses]: success
 [2023-04-25 10:20:03] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
 [2023-04-25 10:20:03] INFO root fetch - main [MainThread]: Store serial: [17846039]
+[2023-04-25 10:25:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17846039]
+[2023-04-25 10:25:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-Ayra
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: originpro
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-accounts-api
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panda-client
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dop-integration-libs
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discake
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dop-integration-libs
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apkupload
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dop-integration-libs
+[2023-04-25 10:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-model-builder-files
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:25:13] WARNING root fetch - processPackages [discake]: Skipping, unable to determine old version
+[2023-04-25 10:25:13] INFO root fetch - main [MainThread]: End processing [discake] error
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:25:13] INFO root fetch - processPackages [apkupload]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 10:25:13] INFO root fetch - processPackages [django-accounts-api]: New version: [0.2.1] Old Version: [0.2.0a1]
+[2023-04-25 10:25:13] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:25:13] INFO root fetch - processPackages [originpro]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-25 10:25:13] INFO root fetch - processPackages [py-Ayra]: New version: [8.6.4] Old Version: [8.6.3]
+[2023-04-25 10:25:13] INFO root fetch - processPackages [oarepo-model-builder-files]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-04-25 10:25:13] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-04-25 10:25:13] INFO root fetch - processPackages [apkupload]: executing diffoscope
+[2023-04-25 10:25:13] INFO root fetch - processPackages [apkupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkupload-0.0.8.tar.gz tmp/apkupload-0.0.9.tar.gz --markdown 20230425/a/apkupload/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:25:13] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/b9/1e/5b75021aadfbf672fcc6c19fe964ede93030417aeb79c2f42e8d94b9d957/py-Ayra-8.6.3.tar.gz
+[2023-04-25 10:25:13] INFO root fetch - processPackages [django-accounts-api]: Downloading https://files.pythonhosted.org/packages/e5/54/4dbfac281895b9083e5593fa7fbc18c9e9fef387f824b2e21d0dccafd469/django_accounts_api-0.2.0a1.tar.gz
+[2023-04-25 10:25:13] INFO root fetch - processPackages [oarepo-model-builder-files]: Downloading https://files.pythonhosted.org/packages/d9/c9/7b42774d857d0c40af3c3de4c76b2e7f30926be5a2b93c11086675f709a0/oarepo-model-builder-files-3.1.4.tar.gz
+[2023-04-25 10:25:13] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-04-25 10:25:13] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230425/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-04-25 10:25:13] INFO root fetch - processPackages [originpro]: Downloading https://files.pythonhosted.org/packages/2f/74/f3bbc2857a16124d09d4af5c35df263289e9ac14763586cd5ed1ab37d336/originpro-1.1.5-py3-none-any.whl
+[2023-04-25 10:25:13] INFO root fetch - processPackages [oarepo-model-builder-files]: Downloading https://files.pythonhosted.org/packages/a8/47/ffab8dac68b09a6c4bd1be18d8e79a6542fcdac4691487f4ecf88774adc6/oarepo-model-builder-files-3.1.5.tar.gz
+[2023-04-25 10:25:13] INFO root fetch - processPackages [originpro]: Downloading https://files.pythonhosted.org/packages/b8/06/28445031b1849b3258a2f34ff38a674ebafd452d9c5357ca18e91a15fbc1/originpro-1.1.6-py3-none-any.whl
+[2023-04-25 10:25:13] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/89/ed/024d0ea8acd19a4dfe8ed2463c2458b827bd9c67e56aa13f968a7d6aeb59/py-Ayra-8.6.4.tar.gz
+[2023-04-25 10:25:13] INFO root fetch - processPackages [django-accounts-api]: Downloading https://files.pythonhosted.org/packages/3d/b6/783ce8b1c8296a34143a7134d07bca124c91c137c40b9ac163fbe7828a1d/django_accounts_api-0.2.1.tar.gz
+[2023-04-25 10:25:14] INFO root fetch - processPackages [oarepo-model-builder-files]: executing diffoscope
+[2023-04-25 10:25:14] INFO root fetch - processPackages [oarepo-model-builder-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-files-3.1.4.tar.gz tmp/oarepo-model-builder-files-3.1.5.tar.gz --markdown 20230425/o/oarepo-model-builder-files/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-04-25 10:25:14] INFO root fetch - processPackages [originpro]: executing diffoscope
+[2023-04-25 10:25:14] INFO root fetch - processPackages [originpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/originpro-1.1.5-py3-none-any.whl.zip tmp/originpro-1.1.6-py3-none-any.whl.zip --markdown 20230425/o/originpro/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-25 10:25:14] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-04-25 10:25:14] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-8.6.3.tar.gz tmp/py-Ayra-8.6.4.tar.gz --markdown 20230425/p/py-Ayra/8.6.3-8.6.4/diff.md --exclude *.pyd
+[2023-04-25 10:25:14] INFO root fetch - processPackages [django-accounts-api]: executing diffoscope
+[2023-04-25 10:25:14] INFO root fetch - processPackages [django-accounts-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_accounts_api-0.2.0a1.tar.gz tmp/django_accounts_api-0.2.1.tar.gz --markdown 20230425/d/django-accounts-api/0.2.0a1-0.2.1/diff.md --exclude *.pyd
+[2023-04-25 10:25:14] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 10:25:14] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 10:25:14] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 10:25:14] INFO root fetch - main [MainThread]: End processing [apkupload]: success
+[2023-04-25 10:25:15] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-04-25 10:25:15] INFO root fetch - main [MainThread]: End processing [django-accounts-api]: success
+[2023-04-25 10:25:15] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-files]: success
+[2023-04-25 10:25:15] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-04-25 10:25:15] INFO root fetch - main [MainThread]: End processing [originpro]: success
+[2023-04-25 10:25:15] INFO root fetch - main [MainThread]: Store serial: [17846069]

@@ -13654,3 +13654,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 12:37:09] ERROR root fetch - processPackages [meltano]: Timeout during execution of pkgdiff
 [2023-04-25 12:37:09] INFO root fetch - main [MainThread]: End processing [meltano] error
 [2023-04-25 12:37:09] INFO root fetch - main [MainThread]: Store serial: [17847384]
+[2023-04-25 12:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17847384]
+[2023-04-25 12:42:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KelpMark
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: larry-utils
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mobility-tools
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robocorp-vault
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tidypath
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kelvin-rest-api-client
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scoary-2
+[2023-04-25 12:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: whatsappchat2dataframe
+[2023-04-25 12:42:18] WARNING root fetch - processPackages [KelpMark]: Skipping, unable to determine old version
+[2023-04-25 12:42:18] INFO root fetch - processPackages [KelpMark]: Start processing: robocorp-browser
+[2023-04-25 12:42:18] INFO root fetch - main [MainThread]: End processing [KelpMark] error
+[2023-04-25 12:42:18] INFO root fetch - processPackages [nwebclient]: New version: [1.0.78] Old Version: [1.0.68]
+[2023-04-25 12:42:18] WARNING root fetch - processPackages [robocorp-vault]: Skipping, unable to determine old version
+[2023-04-25 12:42:18] INFO root fetch - processPackages [robocorp-vault]: Start processing: robocorp-excel
+[2023-04-25 12:42:18] INFO root fetch - processPackages [larry-utils]: New version: [0.3.1] Old Version: [0.2.7]
+[2023-04-25 12:42:18] INFO root fetch - main [MainThread]: End processing [robocorp-vault] error
+[2023-04-25 12:42:18] INFO root fetch - processPackages [whatsappchat2dataframe]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 12:42:18] INFO root fetch - processPackages [tidypath]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-25 12:42:18] INFO root fetch - processPackages [mobility-tools]: New version: [0.1] Old Version: [0.0.1]
+[2023-04-25 12:42:18] INFO root fetch - processPackages [kelvin-rest-api-client]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-04-25 12:42:18] INFO root fetch - processPackages [scoary-2]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-25 12:42:18] INFO root fetch - processPackages [robocorp-excel]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-25 12:42:18] INFO root fetch - processPackages [robocorp-browser]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-25 12:42:18] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-25 12:42:18] INFO root fetch - processPackages [larry-utils]: Downloading https://files.pythonhosted.org/packages/5a/e0/7eadafa92b17ffae9a75ec8bb3043bb0d765259f48ee92703d9b302fa694/larry_utils-0.2.7.tar.gz
+[2023-04-25 12:42:18] INFO root fetch - processPackages [kelvin-rest-api-client]: Downloading https://files.pythonhosted.org/packages/31/39/96a580c55d97ea2a369480e6a1542b7e2f5045ab973dc40f810a3f19aa2d/kelvin-rest-api-client-2.2.1.tar.gz
+[2023-04-25 12:42:18] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/fd/d4/ecc1b36882d961e51f793482f431dfc8591552a7eef3695eca976261aa51/nwebclient-1.0.68.tar.gz
+[2023-04-25 12:42:18] INFO root fetch - processPackages [whatsappchat2dataframe]: Downloading https://files.pythonhosted.org/packages/70/c3/c87f7f4a8d261de813328dca9fbb4e69297a8ded572e8376c8573666bef7/whatsappchat2dataframe-0.0.3.tar.gz
+[2023-04-25 12:42:18] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/6d/37/0d22fe04d7c729fac0c86a059eb1cfa26a0fc07509133a3e15654a10c11f/tidypath-1.1.3.tar.gz
+[2023-04-25 12:42:18] INFO root fetch - processPackages [scoary-2]: Downloading https://files.pythonhosted.org/packages/6b/48/90060aae6f5f7104749b0e106c4a1b69e342191c1f7845057c955ef0d389/scoary-2-0.0.7.tar.gz
+[2023-04-25 12:42:18] INFO root fetch - processPackages [mobility-tools]: Downloading https://files.pythonhosted.org/packages/29/8f/1bb7532f93fd140fe2572c50936839fb9154634f6842731fdd322a8a7f50/mobility-tools-0.0.1.tar.gz
+[2023-04-25 12:42:18] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/33/26/b205a3a09a2cbbe45cb835bff39996b257a1141e12e748a97a728610048e/robocorp_browser-0.1.0.tar.gz
+[2023-04-25 12:42:18] INFO root fetch - processPackages [robocorp-excel]: Downloading https://files.pythonhosted.org/packages/74/e1/2e4ee080c2f87faa84827b320d557cf726bc43edbec3841737b03e61948e/robocorp_excel-0.1.0.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [kelvin-rest-api-client]: Downloading https://files.pythonhosted.org/packages/65/9c/1362d12934dcfd701c098ff3904bcd0bb21f4d095538dfd0a2a171f1e5a4/kelvin-rest-api-client-2.2.2.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230425/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [larry-utils]: Downloading https://files.pythonhosted.org/packages/3b/ee/d9a99a5231755647c3937c6bd967be806a98ee96c9c8ad2cd95e7dcdef46/larry_utils-0.3.1.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [whatsappchat2dataframe]: Downloading https://files.pythonhosted.org/packages/82/a1/6c5e368df713aec6054897c39e2f5b664799a898d0e52635590dd24c6263/whatsappchat2dataframe-0.0.4.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/de/ad/0bdeb336b25af76792cc456e438f2e7d6745cecb902a9020fb5ea12ef515/tidypath-1.1.4.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [robocorp-browser]: Downloading https://files.pythonhosted.org/packages/60/4c/28da7d4950c5381b766f85e224e9b7df4b1cefc9cf66e6a1378e148151e1/robocorp_browser-0.2.0.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/ef/c0/7bc99fa2d9bd2c52cce88d8e5ccce5cd4d32735382458f0c3d56ce4f4758/nwebclient-1.0.78.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [robocorp-excel]: Downloading https://files.pythonhosted.org/packages/98/2b/0a798b1fae1cc65996e00ee1da2337d5b02d70360d9ec2408fd8317fdbda/robocorp_excel-0.2.0.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [mobility-tools]: Downloading https://files.pythonhosted.org/packages/d9/38/7eae70573af84810532ad144681a516009781dcd677a5f1dbbc72628e5c8/mobility-tools-0.1.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [scoary-2]: Downloading https://files.pythonhosted.org/packages/80/07/820dbcd5021f666c233466fc037e589d6f40abd23186d6295df4a8beb0cd/scoary-2-0.0.9.tar.gz
+[2023-04-25 12:42:19] INFO root fetch - processPackages [kelvin-rest-api-client]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [kelvin-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin-rest-api-client-2.2.1.tar.gz tmp/kelvin-rest-api-client-2.2.2.tar.gz --markdown 20230425/k/kelvin-rest-api-client/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [larry-utils]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [larry-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/larry_utils-0.2.7.tar.gz tmp/larry_utils-0.3.1.tar.gz --markdown 20230425/l/larry-utils/0.2.7-0.3.1/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [whatsappchat2dataframe]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [whatsappchat2dataframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsappchat2dataframe-0.0.3.tar.gz tmp/whatsappchat2dataframe-0.0.4.tar.gz --markdown 20230425/w/whatsappchat2dataframe/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [robocorp-browser]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [robocorp-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_browser-0.1.0.tar.gz tmp/robocorp_browser-0.2.0.tar.gz --markdown 20230425/r/robocorp-browser/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [robocorp-excel]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [robocorp-excel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_excel-0.1.0.tar.gz tmp/robocorp_excel-0.2.0.tar.gz --markdown 20230425/r/robocorp-excel/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.68.tar.gz tmp/nwebclient-1.0.78.tar.gz --markdown 20230425/n/nwebclient/1.0.68-1.0.78/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [tidypath]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [tidypath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidypath-1.1.3.tar.gz tmp/tidypath-1.1.4.tar.gz --markdown 20230425/t/tidypath/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [mobility-tools]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [mobility-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobility-tools-0.0.1.tar.gz tmp/mobility-tools-0.1.tar.gz --markdown 20230425/m/mobility-tools/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-04-25 12:42:19] INFO root fetch - processPackages [scoary-2]: executing diffoscope
+[2023-04-25 12:42:19] INFO root fetch - processPackages [scoary-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoary-2-0.0.7.tar.gz tmp/scoary-2-0.0.9.tar.gz --markdown 20230425/s/scoary-2/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 12:42:21] INFO root fetch - processPackages [larry-utils]: Start processing: robocorp-http
+[2023-04-25 12:42:21] INFO root fetch - main [MainThread]: End processing [larry-utils]: success
+[2023-04-25 12:42:21] INFO root fetch - processPackages [robocorp-http]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-25 12:42:21] INFO root fetch - processPackages [robocorp-browser]: Start processing: certora-cli-alpha-master
+[2023-04-25 12:42:21] INFO root fetch - main [MainThread]: End processing [robocorp-browser]: success
+[2023-04-25 12:42:21] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230425.2.27.754191] Old Version: [20230425.1.16.436186]
+[2023-04-25 12:42:21] INFO root fetch - processPackages [robocorp-http]: Downloading https://files.pythonhosted.org/packages/9e/96/083dba94953fa318f0187cf252c1a76d187cab641204dac92d33ef456eaf/robocorp_http-0.1.0.tar.gz
+[2023-04-25 12:42:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/5e/c0/1240bb7921801787ce580543c5ff9f8e4908a4ebdc0f993e944e6dc859c9/certora-cli-alpha-master-20230425.1.16.436186.tar.gz
+[2023-04-25 12:42:21] INFO root fetch - processPackages [bagbag]: Start processing: codesnipper
+[2023-04-25 12:42:21] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-04-25 12:42:21] INFO root fetch - main [MainThread]: End processing [whatsappchat2dataframe]: success
+[2023-04-25 12:42:21] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38076953>=10485760
+[2023-04-25 12:42:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-25 12:42:21] INFO root fetch - processPackages [codesnipper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 12:42:21] INFO root fetch - processPackages [robocorp-http]: Downloading https://files.pythonhosted.org/packages/29/3d/7e433eeeb19adc2a655a024fe8e3d0109763e2cee962572e6e822092775a/robocorp_http-0.2.0.tar.gz
+[2023-04-25 12:42:21] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-04-25 12:42:21] INFO root fetch - main [MainThread]: End processing [robocorp-excel]: success
+[2023-04-25 12:42:22] INFO root fetch - main [MainThread]: End processing [tidypath]: success
+[2023-04-25 12:42:22] INFO root fetch - processPackages [robocorp-http]: executing diffoscope
+[2023-04-25 12:42:22] INFO root fetch - processPackages [robocorp-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_http-0.1.0.tar.gz tmp/robocorp_http-0.2.0.tar.gz --markdown 20230425/r/robocorp-http/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-25 12:42:22] INFO root fetch - processPackages [codesnipper]: Downloading https://files.pythonhosted.org/packages/65/d9/de05aee394ce1c78ccb349444481193ec865390ada7522b386dd36d2df9f/codesnipper-0.1.8.tar.gz
+[2023-04-25 12:42:22] INFO root fetch - main [MainThread]: End processing [mobility-tools]: success
+[2023-04-25 12:42:22] INFO root fetch - main [MainThread]: End processing [kelvin-rest-api-client]: success
+[2023-04-25 12:42:22] INFO root fetch - main [MainThread]: End processing [scoary-2]: success
+[2023-04-25 12:42:22] INFO root fetch - processPackages [codesnipper]: Downloading https://files.pythonhosted.org/packages/e3/a7/e4e37561040f5cfb9ce25a151c9d8d2ef413ac81e59f80f16350ceab4b94/codesnipper-0.1.9.tar.gz
+[2023-04-25 12:42:22] INFO root fetch - processPackages [codesnipper]: executing diffoscope
+[2023-04-25 12:42:22] INFO root fetch - processPackages [codesnipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codesnipper-0.1.8.tar.gz tmp/codesnipper-0.1.9.tar.gz --markdown 20230425/c/codesnipper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 12:42:23] INFO root fetch - main [MainThread]: End processing [robocorp-http]: success
+[2023-04-25 12:42:24] INFO root fetch - main [MainThread]: End processing [codesnipper]: success
+[2023-04-25 12:42:24] INFO root fetch - main [MainThread]: Store serial: [17847445]

@@ -10912,3 +10912,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 09:58:33] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
 [2023-04-25 09:58:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-25 09:58:35] INFO root fetch - main [MainThread]: Store serial: [17845858]
+[2023-04-25 10:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17845858]
+[2023-04-25 10:03:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-workflows
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: invenio-drafts-resources
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iCEED
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyutils-basstal
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: powerbot-backtesting
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyproject-parser
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-crm-partner-assign
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dop-integration-libs
+[2023-04-25 10:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsonrpc-py
+[2023-04-25 10:03:43] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-25 10:03:43] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 10:03:43] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 10:03:43] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 10:03:43] INFO root fetch - processPackages [pyutils-basstal]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-04-25 10:03:43] WARNING root fetch - processPackages [iCEED]: Skipping, unable to determine old version
+[2023-04-25 10:03:43] INFO root fetch - main [MainThread]: End processing [iCEED] error
+[2023-04-25 10:03:43] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: New version: [16.0.0.1.2] Old Version: [15.0.0.1.1]
+[2023-04-25 10:03:43] INFO root fetch - processPackages [powerbot-backtesting]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-25 10:03:43] INFO root fetch - processPackages [invenio-drafts-resources]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-04-25 10:03:43] INFO root fetch - processPackages [pyproject-parser]: New version: [0.9.0b1] Old Version: [0.8.0]
+[2023-04-25 10:03:43] INFO root fetch - processPackages [jsonrpc-py]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-04-25 10:03:43] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2023-04-25 10:03:43] INFO root fetch - processPackages [pyutils-basstal]: Downloading https://files.pythonhosted.org/packages/a2/9f/16e4f231d99673bc3f4a4ba72971cd6228f4ada9c528abf5587f02fcbd31/pyutils_basstal-0.3.9.tar.gz
+[2023-04-25 10:03:43] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Downloading https://files.pythonhosted.org/packages/ce/10/7af8b08e6371e1680ff9dc5786d87d13f38e81498d5a74bc16416d4055d0/odoo_addon_crm_partner_assign-15.0.0.1.1-py3-none-any.whl
+[2023-04-25 10:03:43] INFO root fetch - processPackages [invenio-drafts-resources]: Downloading https://files.pythonhosted.org/packages/0e/0f/3d4b46c0d188b3ea804531e651b53b268c19a53192489404301b70cfd00d/invenio-drafts-resources-1.3.0.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [powerbot-backtesting]: Downloading https://files.pythonhosted.org/packages/22/6d/1b9f7c2cbb0fa1ba15fba7ef7e4552298f2a589a3e2081be34f5c58bff7f/powerbot-backtesting-2.0.8.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [pyproject-parser]: Downloading https://files.pythonhosted.org/packages/0f/42/5a3ef456683026069cc24a59be8d9ba15f4d5da83bc182fe6934b52482b0/pyproject-parser-0.8.0.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: Downloading https://files.pythonhosted.org/packages/c7/0a/4346603b98c864ba34be23d5226b4e10ac5006262bcdfcf9d96d4e83041e/odoo_addon_crm_partner_assign-16.0.0.1.2-py3-none-any.whl
+[2023-04-25 10:03:44] INFO root fetch - processPackages [invenio-drafts-resources]: Downloading https://files.pythonhosted.org/packages/ad/0d/309bdc614601324462cc7832bbcf8da5e8e793c2c2302fc2e21193dddf03/invenio-drafts-resources-1.4.0.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [pyutils-basstal]: Downloading https://files.pythonhosted.org/packages/15/94/ab997a5c297d7a74aca3d0c36f11133ed6b382710483bacc097b0c28625e/pyutils_basstal-0.4.0.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [jsonrpc-py]: Downloading https://files.pythonhosted.org/packages/bf/2d/a4586249c8f6e172bce0a6cfefebeaf4ab7b00227bd8ce6b56ce1b63f40c/jsonrpc-py-3.0.4.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: executing diffoscope
+[2023-04-25 10:03:44] INFO root fetch - processPackages [odoo-addon-crm-partner-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_partner_assign-15.0.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_crm_partner_assign-16.0.0.1.2-py3-none-any.whl.zip --markdown 20230425/o/odoo-addon-crm-partner-assign/15.0.0.1.1-16.0.0.1.2/diff.md --exclude *.pyd
+[2023-04-25 10:03:44] INFO root fetch - processPackages [pyutils-basstal]: executing diffoscope
+[2023-04-25 10:03:44] INFO root fetch - processPackages [pyutils-basstal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutils_basstal-0.3.9.tar.gz tmp/pyutils_basstal-0.4.0.tar.gz --markdown 20230425/p/pyutils-basstal/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-04-25 10:03:44] INFO root fetch - processPackages [powerbot-backtesting]: Downloading https://files.pythonhosted.org/packages/37/31/e5656bc0fab32531a06b68daa37d7a38d04851a0fdcd9cc189b9a354ddff/powerbot-backtesting-2.0.9.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [invenio-drafts-resources]: executing diffoscope
+[2023-04-25 10:03:44] INFO root fetch - processPackages [invenio-drafts-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-drafts-resources-1.3.0.tar.gz tmp/invenio-drafts-resources-1.4.0.tar.gz --markdown 20230425/i/invenio-drafts-resources/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-04-25 10:03:44] INFO root fetch - processPackages [pyproject-parser]: Downloading https://files.pythonhosted.org/packages/2d/47/75f983abf8b8eb50df0855d4da234205a93e5aeb8c42c8c03472f0481fb3/pyproject-parser-0.9.0b1.tar.gz
+[2023-04-25 10:03:44] INFO root fetch - processPackages [jsonrpc-py]: executing diffoscope
+[2023-04-25 10:03:44] INFO root fetch - processPackages [jsonrpc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrpc-py-3.0.3.tar.gz tmp/jsonrpc-py-3.0.4.tar.gz --markdown 20230425/j/jsonrpc-py/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-04-25 10:03:44] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2023-04-25 10:03:44] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20230425/c/cpg-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-25 10:03:44] INFO root fetch - processPackages [powerbot-backtesting]: executing diffoscope
+[2023-04-25 10:03:44] INFO root fetch - processPackages [powerbot-backtesting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbot-backtesting-2.0.8.tar.gz tmp/powerbot-backtesting-2.0.9.tar.gz --markdown 20230425/p/powerbot-backtesting/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:03:44] INFO root fetch - processPackages [pyproject-parser]: executing diffoscope
+[2023-04-25 10:03:44] INFO root fetch - processPackages [pyproject-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-parser-0.8.0.tar.gz tmp/pyproject-parser-0.9.0b1.tar.gz --markdown 20230425/p/pyproject-parser/0.8.0-0.9.0b1/diff.md --exclude *.pyd
+[2023-04-25 10:03:44] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 10:03:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-partner-assign]: success
+[2023-04-25 10:03:45] INFO root fetch - main [MainThread]: End processing [pyutils-basstal]: success
+[2023-04-25 10:03:45] INFO root fetch - main [MainThread]: End processing [pyproject-parser]: success
+[2023-04-25 10:03:46] INFO root fetch - main [MainThread]: End processing [jsonrpc-py]: success
+[2023-04-25 10:03:47] INFO root fetch - main [MainThread]: End processing [powerbot-backtesting]: success
+[2023-04-25 10:03:47] INFO root fetch - main [MainThread]: End processing [invenio-drafts-resources]: success
+[2023-04-25 10:03:48] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2023-04-25 10:03:48] INFO root fetch - main [MainThread]: Store serial: [17845889]

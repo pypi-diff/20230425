@@ -15460,3 +15460,140 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 13:58:15] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2023-04-25 13:58:42] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2023-04-25 13:58:42] INFO root fetch - main [MainThread]: Store serial: [17848513]
+[2023-04-25 14:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848513]
+[2023-04-25 14:03:52] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprocessors-afp_entities
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raga-cli
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JoUtil
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bm-utilities
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bluetooth-mesh
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitget-python-connector
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crunch-cli
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docstring-auditor
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ediri-scaleway
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atlantiscore
+[2023-04-25 14:03:52] INFO root fetch - processPackages [docstring-auditor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [raga-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [JoUtil]: New version: [1.2.1] Old Version: [1.0.8]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [bm-utilities]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [bitget-python-connector]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [atlantiscore]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [pyprocessors-afp_entities]: New version: [0.5.98] Old Version: [0.5.92]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ediri-scaleway]: New version: [2.17.0] Old Version: [2.16.3]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [bluetooth-mesh]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-25 14:03:52] INFO root fetch - processPackages [docstring-auditor]: Downloading https://files.pythonhosted.org/packages/d5/7d/9289bc1782a00a2a6eb81cb46e4e7dbd78690f0b85f53c7f843c0a9e56e0/docstring_auditor-0.1.0.tar.gz
+[2023-04-25 14:03:52] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-25 14:03:52] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230425/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 14:03:52] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/4d/78/e8936422bbda0e79396924e330d82b38cbd8233d18b94966b7a2e4faca9b/bm_utilities-0.0.4.tar.gz
+[2023-04-25 14:03:52] INFO root fetch - processPackages [atlantiscore]: Downloading https://files.pythonhosted.org/packages/87/28/6af945e878ad79bef60a7e2b248f406c1b794af3753912bac236210e18de/atlantiscore-1.8.0.tar.gz
+[2023-04-25 14:03:52] INFO root fetch - processPackages [bitget-python-connector]: Downloading https://files.pythonhosted.org/packages/22/13/dcf8dd5352e700cc46786f20a1e097086b7dd00e0c932a548c33df859038/bitget-python-connector-0.0.1.tar.gz
+[2023-04-25 14:03:52] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/03/0b/03ed46f0c97d850925f26234d55f7463fe4d0ae9160a0552d640e9f1f504/ediri_scaleway-2.16.3.tar.gz
+[2023-04-25 14:03:52] INFO root fetch - processPackages [JoUtil]: Downloading https://files.pythonhosted.org/packages/75/f8/6448d41293e8fc20a4b5e79da2567964f7373780f07b9e826188c9e413df/JoUtil-1.0.8-py3-none-any.whl
+[2023-04-25 14:03:52] INFO root fetch - processPackages [bluetooth-mesh]: Downloading https://files.pythonhosted.org/packages/59/78/0f342a734dfe7870b57f7077616c1822fcc5ed16ff228cbfa8ecbf8755d3/bluetooth-mesh-0.8.3.tar.gz
+[2023-04-25 14:03:52] INFO root fetch - processPackages [pyprocessors-afp_entities]: Downloading https://files.pythonhosted.org/packages/48/94/41dcfec32fa11cc8f4cb5016cbde90ee54a1437fc80d48528a4b020896a8/pyprocessors-afp_entities-0.5.92.tar.gz
+[2023-04-25 14:03:52] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/fb/db/bcb2341ebe2ff8da2ce5129310afd5c852e1ee207580693406c026619b6e/raga-cli-0.1.2.tar.gz
+[2023-04-25 14:03:52] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-04-25 14:03:52] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.1.tar.gz tmp/raga-cli-0.1.2.tar.gz --markdown 20230425/r/raga-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 14:03:52] INFO root fetch - processPackages [bluetooth-mesh]: executing diffoscope
+[2023-04-25 14:03:52] INFO root fetch - processPackages [bluetooth-mesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth-mesh-0.8.2.tar.gz tmp/bluetooth-mesh-0.8.3.tar.gz --markdown 20230425/b/bluetooth-mesh/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-25 14:03:53] INFO root fetch - processPackages [docstring-auditor]: Downloading https://files.pythonhosted.org/packages/7c/83/18a25db73d5b8c8c73bab7089d6d180d8a29d7bd9a46226be5533ed7a8a1/docstring_auditor-0.1.1.tar.gz
+[2023-04-25 14:03:53] INFO root fetch - processPackages [docstring-auditor]: executing diffoscope
+[2023-04-25 14:03:53] INFO root fetch - processPackages [docstring-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_auditor-0.1.0.tar.gz tmp/docstring_auditor-0.1.1.tar.gz --markdown 20230425/d/docstring-auditor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 14:03:53] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/1a/9e/a8011557c5f21baa8984675b54cdd10d2dd138da23b30b8fe059766e030a/bm_utilities-0.0.5.tar.gz
+[2023-04-25 14:03:53] INFO root fetch - processPackages [bitget-python-connector]: Downloading https://files.pythonhosted.org/packages/57/e0/20f866f32b4422aa9c9af15b6aef86a2f5c671e188ed8bde65f0be960773/bitget-python-connector-0.0.2.tar.gz
+[2023-04-25 14:03:53] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-04-25 14:03:53] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.0.4.tar.gz tmp/bm_utilities-0.0.5.tar.gz --markdown 20230425/b/bm-utilities/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-25 14:03:53] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/41/c9/159b28f57b8d23a12aada1d4fc0e53a01a2d608caa40c49ccbac80a00e48/ediri_scaleway-2.17.0.tar.gz
+[2023-04-25 14:03:53] INFO root fetch - processPackages [bitget-python-connector]: executing diffoscope
+[2023-04-25 14:03:53] INFO root fetch - processPackages [bitget-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitget-python-connector-0.0.1.tar.gz tmp/bitget-python-connector-0.0.2.tar.gz --markdown 20230425/b/bitget-python-connector/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-25 14:03:53] INFO root fetch - processPackages [atlantiscore]: Downloading https://files.pythonhosted.org/packages/19/64/f58d936b1439d1fb94ed7e5a07cabaa61e124327cac1160569a27c5ca5f0/atlantiscore-1.9.0.tar.gz
+[2023-04-25 14:03:53] INFO root fetch - processPackages [ediri-scaleway]: executing diffoscope
+[2023-04-25 14:03:53] INFO root fetch - processPackages [ediri-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_scaleway-2.16.3.tar.gz tmp/ediri_scaleway-2.17.0.tar.gz --markdown 20230425/e/ediri-scaleway/2.16.3-2.17.0/diff.md --exclude *.pyd
+[2023-04-25 14:03:53] INFO root fetch - processPackages [atlantiscore]: executing diffoscope
+[2023-04-25 14:03:53] INFO root fetch - processPackages [atlantiscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlantiscore-1.8.0.tar.gz tmp/atlantiscore-1.9.0.tar.gz --markdown 20230425/a/atlantiscore/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-25 14:03:54] INFO root fetch - processPackages [crunch-cli]: Start processing: hunter
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-25 14:03:54] INFO root fetch - processPackages [hunter]: New version: [3.6.0] Old Version: [3.5.1]
+[2023-04-25 14:03:54] INFO root fetch - processPackages [hunter]: Downloading https://files.pythonhosted.org/packages/7a/80/9ae486f9edc40db99594473984a85d420bd21aeb14ad3c0f391529beb4c6/hunter-3.5.1.tar.gz
+[2023-04-25 14:03:54] INFO root fetch - processPackages [bm-utilities]: Start processing: aircode
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-04-25 14:03:54] WARNING root fetch - processPackages [aircode]: Skipping, unable to determine old version
+[2023-04-25 14:03:54] INFO root fetch - processPackages [aircode]: Start processing: LoadingBar-Py-Diggs
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [aircode] error
+[2023-04-25 14:03:54] INFO root fetch - processPackages [bitget-python-connector]: Start processing: pyprocessors-afp_entities
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [bitget-python-connector]: success
+[2023-04-25 14:03:54] INFO root fetch - processPackages [pyprocessors-afp_entities]: New version: [0.5.98] Old Version: [0.5.92]
+[2023-04-25 14:03:54] WARNING root fetch - processPackages [LoadingBar-Py-Diggs]: Skipping, unable to determine old version
+[2023-04-25 14:03:54] INFO root fetch - processPackages [LoadingBar-Py-Diggs]: Start processing: langforge-ai
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [LoadingBar-Py-Diggs] error
+[2023-04-25 14:03:54] INFO root fetch - processPackages [langforge-ai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-25 14:03:54] INFO root fetch - processPackages [docstring-auditor]: Start processing: sampo
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [docstring-auditor]: success
+[2023-04-25 14:03:54] INFO root fetch - processPackages [pyprocessors-afp_entities]: Downloading https://files.pythonhosted.org/packages/5d/14/220ae666de984e54d9708514c18155f1c9d2977442032ab69d413275780a/pyprocessors-afp_entities-0.5.98.tar.gz
+[2023-04-25 14:03:54] INFO root fetch - processPackages [pyprocessors-afp_entities]: Downloading https://files.pythonhosted.org/packages/5d/14/220ae666de984e54d9708514c18155f1c9d2977442032ab69d413275780a/pyprocessors-afp_entities-0.5.98.tar.gz
+[2023-04-25 14:03:54] INFO root fetch - processPackages [JoUtil]: Downloading https://files.pythonhosted.org/packages/b4/f8/0e9ebbd35d423e15b5d9ef9cff2c791a78a45e2f2b3fb03c11f817bc493b/JoUtil-1.2.1-py3-none-any.whl
+[2023-04-25 14:03:54] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-25 14:03:54] INFO root fetch - processPackages [atlantiscore]: Start processing: miso2
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [atlantiscore]: success
+[2023-04-25 14:03:54] INFO root fetch - processPackages [miso2]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-04-25 14:03:54] INFO root fetch - processPackages [hunter]: Downloading https://files.pythonhosted.org/packages/4e/2c/673adafc25ec9a43bd975d98f1d7619d9df0b131e40eca553afb9450ca22/hunter-3.6.0.tar.gz
+[2023-04-25 14:03:54] INFO root fetch - processPackages [langforge-ai]: Downloading https://files.pythonhosted.org/packages/7d/65/0b8f2f5a3fa9916ea30d65ea0851ed5eca0424bee915a7da05cdd9bec353/langforge_ai-0.1.2-py3-none-any.whl
+[2023-04-25 14:03:54] INFO root fetch - processPackages [JoUtil]: executing diffoscope
+[2023-04-25 14:03:54] INFO root fetch - processPackages [JoUtil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JoUtil-1.0.8-py3-none-any.whl.zip tmp/JoUtil-1.2.1-py3-none-any.whl.zip --markdown 20230425/J/JoUtil/1.0.8-1.2.1/diff.md --exclude *.pyd
+[2023-04-25 14:03:54] INFO root fetch - processPackages [raga-cli]: Start processing: skylab
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-04-25 14:03:54] INFO root fetch - processPackages [hunter]: executing diffoscope
+[2023-04-25 14:03:54] INFO root fetch - processPackages [hunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hunter-3.5.1.tar.gz tmp/hunter-3.6.0.tar.gz --markdown 20230425/h/hunter/3.5.1-3.6.0/diff.md --exclude *.pyd
+[2023-04-25 14:03:54] INFO root fetch - processPackages [skylab]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 14:03:54] INFO root fetch - processPackages [miso2]: Downloading https://files.pythonhosted.org/packages/44/52/22905a86a45358edcb984240e6ca9f253b7fc84766faddd60483539c61dc/miso2-3.0.2.tar.gz
+[2023-04-25 14:03:54] WARNING root fetch - processPackages [langforge-ai]: Skipping package: exceeds size limit 23295623>=10485760
+[2023-04-25 14:03:54] INFO root fetch - processPackages [langforge-ai]: Start processing: lnhub_rest
+[2023-04-25 14:03:54] INFO root fetch - main [MainThread]: End processing [langforge-ai] error
+[2023-04-25 14:03:54] INFO root fetch - processPackages [lnhub_rest]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-25 14:03:54] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-25 14:03:54] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230425/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-25 14:03:55] INFO root fetch - processPackages [skylab]: Downloading https://files.pythonhosted.org/packages/e9/55/a3d4e3e622bf8fcd3ae0cbd3e81288d362926ef897b90b1bd93a5fe0f79e/skylab-0.1.0.tar.gz
+[2023-04-25 14:03:55] INFO root fetch - processPackages [lnhub_rest]: Downloading https://files.pythonhosted.org/packages/35/0a/b75aa60701a8f486b3a19da89a31cf053478f845bc12827c602c2bb33e79/lnhub_rest-0.9.2.tar.gz
+[2023-04-25 14:03:55] INFO root fetch - processPackages [lnhub_rest]: executing diffoscope
+[2023-04-25 14:03:55] INFO root fetch - processPackages [lnhub_rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnhub_rest-0.9.1.tar.gz tmp/lnhub_rest-0.9.2.tar.gz --markdown 20230425/l/lnhub_rest/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-25 14:03:55] INFO root fetch - processPackages [miso2]: Downloading https://files.pythonhosted.org/packages/42/e8/0ee1a606e8f435442b0b2d960f3968d372ecba49785ed80b9360288384cc/miso2-3.0.3.tar.gz
+[2023-04-25 14:03:55] INFO root fetch - processPackages [miso2]: executing diffoscope
+[2023-04-25 14:03:55] INFO root fetch - processPackages [miso2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miso2-3.0.2.tar.gz tmp/miso2-3.0.3.tar.gz --markdown 20230425/m/miso2/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-04-25 14:03:55] INFO root fetch - processPackages [skylab]: Downloading https://files.pythonhosted.org/packages/c1/3a/efa1aceceb5c951819cdaae1b4a43ba8094422d9f9184c5cc19713b1bfe9/skylab-0.1.1.tar.gz
+[2023-04-25 14:03:55] INFO root fetch - processPackages [skylab]: executing diffoscope
+[2023-04-25 14:03:55] INFO root fetch - processPackages [skylab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skylab-0.1.0.tar.gz tmp/skylab-0.1.1.tar.gz --markdown 20230425/s/skylab/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 14:03:55] INFO root fetch - processPackages [pyprocessors-afp_entities]: executing diffoscope
+[2023-04-25 14:03:55] INFO root fetch - processPackages [pyprocessors-afp_entities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-afp_entities-0.5.92.tar.gz tmp/pyprocessors-afp_entities-0.5.98.tar.gz --markdown 20230425/p/pyprocessors-afp_entities/0.5.92-0.5.98/diff.md --exclude *.pyd
+[2023-04-25 14:03:55] INFO root fetch - processPackages [pyprocessors-afp_entities]: executing diffoscope
+[2023-04-25 14:03:55] INFO root fetch - processPackages [pyprocessors-afp_entities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-afp_entities-0.5.92.tar.gz tmp/pyprocessors-afp_entities-0.5.98.tar.gz --markdown 20230425/p/pyprocessors-afp_entities/0.5.92-0.5.98/diff.md --exclude *.pyd
+[2023-04-25 14:03:56] INFO root fetch - processPackages [bluetooth-mesh]: Start processing: vale
+[2023-04-25 14:03:56] INFO root fetch - main [MainThread]: End processing [bluetooth-mesh]: success
+[2023-04-25 14:03:56] INFO root fetch - processPackages [vale]: New version: [2.23.3.0] Old Version: [2.20.2.0]
+[2023-04-25 14:03:56] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/72/09/d5526aaa7f9c301d104df964d03f796ac999ad7e7f6ea14666ce2cc6c6a3/vale-2.20.2.0.tar.gz
+[2023-04-25 14:03:56] INFO root fetch - processPackages [skylab]: Start processing: pulumi-proxmoxve
+[2023-04-25 14:03:56] INFO root fetch - main [MainThread]: End processing [skylab]: success
+[2023-04-25 14:03:56] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-04-25 14:03:56] INFO root fetch - processPackages [miso2]: Start processing: maus
+[2023-04-25 14:03:56] INFO root fetch - main [MainThread]: End processing [miso2]: success
+[2023-04-25 14:03:56] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-25 14:03:56] INFO root fetch - processPackages [vale]: Downloading https://files.pythonhosted.org/packages/76/33/2df6559a330f6fb9529a87c06d5e60dbfa434a6be0b28dee5df75e20ba40/vale-2.23.3.0.tar.gz
+[2023-04-25 14:03:56] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/57/70/c2900eca8d055abc5545e7a05fdb175f0fb25c489cbdae0a6525344e8535/pulumi_proxmoxve-3.1.0.tar.gz
+[2023-04-25 14:03:56] INFO root fetch - processPackages [vale]: executing diffoscope
+[2023-04-25 14:03:56] INFO root fetch - processPackages [vale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vale-2.20.2.0.tar.gz tmp/vale-2.23.3.0.tar.gz --markdown 20230425/v/vale/2.20.2.0-2.23.3.0/diff.md --exclude *.pyd
+[2023-04-25 14:03:56] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-04-25 14:03:56] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230425/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 14:03:57] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/46/3c/3ce7084c8438eb2576a1c10975ce39d1b79315c4a365d04d7d6469ac2015/pulumi_proxmoxve-4.0.0.tar.gz
+[2023-04-25 14:03:57] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2023-04-25 14:03:57] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-3.1.0.tar.gz tmp/pulumi_proxmoxve-4.0.0.tar.gz --markdown 20230425/p/pulumi-proxmoxve/3.1.0-4.0.0/diff.md --exclude *.pyd
+[2023-04-25 14:03:57] INFO root fetch - main [MainThread]: End processing [vale]: success
+[2023-04-25 14:03:57] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-25 14:03:58] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-04-25 14:03:58] INFO root fetch - main [MainThread]: End processing [hunter]: success
+[2023-04-25 14:03:58] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2023-04-25 14:03:58] INFO root fetch - main [MainThread]: End processing [pyprocessors-afp_entities]: success
+[2023-04-25 14:03:59] INFO root fetch - main [MainThread]: End processing [pyprocessors-afp_entities]: success
+[2023-04-25 14:03:59] INFO root fetch - main [MainThread]: End processing [lnhub_rest]: success
+[2023-04-25 14:03:59] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
+[2023-04-25 14:03:59] INFO root fetch - main [MainThread]: End processing [JoUtil]: success
+[2023-04-25 14:03:59] INFO root fetch - main [MainThread]: Store serial: [17848596]

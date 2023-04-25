@@ -7988,3 +7988,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:45:59] INFO root fetch - processPackages [teleexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teleexception-0.3.8-py3-none-any.whl.zip tmp/teleexception-0.3.9-py3-none-any.whl.zip --markdown 20230425/t/teleexception/0.3.8-0.3.9/diff.md --exclude *.pyd
 [2023-04-25 05:46:00] INFO root fetch - main [MainThread]: End processing [teleexception]: success
 [2023-04-25 05:46:00] INFO root fetch - main [MainThread]: Store serial: [17844105]
+[2023-04-25 05:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844105]
+[2023-04-25 05:51:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crossmark-jotform-api
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skye
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-google
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chateval
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crossmark-jotform-api
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-events-notify
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdo-image-parameter-api
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crossmark-jotform-api
+[2023-04-25 05:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sohuprompt
+[2023-04-25 05:51:08] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-25 05:51:08] INFO root fetch - processPackages [chateval]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 05:51:08] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-25 05:51:08] INFO root fetch - processPackages [sdo-image-parameter-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 05:51:08] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-25 05:51:09] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-04-25 05:51:09] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-25 05:51:09] INFO root fetch - processPackages [skye]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-25 05:51:09] INFO root fetch - processPackages [sohuprompt]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-25 05:51:09] INFO root fetch - processPackages [chateval]: executing diffoscope
+[2023-04-25 05:51:09] INFO root fetch - processPackages [chateval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chateval-0.0.8.tar.gz tmp/chateval-0.0.9.tar.gz --markdown 20230425/c/chateval/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 05:51:09] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/33/b5/a7a841507c7d30c4d63c1247855692828ae1a6662aa38fd3ea58f886d64c/crossmark-jotform-api-0.0.6.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/33/b5/a7a841507c7d30c4d63c1247855692828ae1a6662aa38fd3ea58f886d64c/crossmark-jotform-api-0.0.6.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/33/b5/a7a841507c7d30c4d63c1247855692828ae1a6662aa38fd3ea58f886d64c/crossmark-jotform-api-0.0.6.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-04-25 05:51:09] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230425/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-25 05:51:09] INFO root fetch - processPackages [sdo-image-parameter-api]: Downloading https://files.pythonhosted.org/packages/09/06/a6b32b09433fbd5bead7f60af3c54bb034516bae4ee0c8f57983cfe8613c/sdo_image_parameter_api-0.0.2.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/d8/f4/9ab8e2e2522a5948d629b0bd16f22f288db43248762b6cd553bc6317e064/cdktf-cdktf-provider-google_beta-7.0.1.tar.gz
+[2023-04-25 05:51:09] WARNING root fetch - processPackages [sdo-image-parameter-api]: Skipping package: exceeds size limit 55850698>=10485760
+[2023-04-25 05:51:09] INFO root fetch - main [MainThread]: End processing [sdo-image-parameter-api] error
+[2023-04-25 05:51:09] INFO root fetch - processPackages [skye]: Downloading https://files.pythonhosted.org/packages/af/eb/3f00983595114eb0b66fe5bc14bb3f6225bbf564ea308316504c13d4b1ba/skye-0.0.4.tar.gz
+[2023-04-25 05:51:09] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 57378594>=10485760
+[2023-04-25 05:51:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-04-25 05:51:09] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/2e/85/9d249ddbe71788fddfac474014be3beefe79d0da4593ae08f73eb6938b73/cdktf-cdktf-provider-google-7.0.1.tar.gz
+[2023-04-25 05:51:09] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 52045213>=10485760
+[2023-04-25 05:51:09] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/ba/3c/f5dbc0ba7ce8ad3b4d9aac4914209e848cf4fcb1e9cad25f891dcdd1d778/crossmark-jotform-api-0.0.7.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/ba/3c/f5dbc0ba7ce8ad3b4d9aac4914209e848cf4fcb1e9cad25f891dcdd1d778/crossmark-jotform-api-0.0.7.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/ba/3c/f5dbc0ba7ce8ad3b4d9aac4914209e848cf4fcb1e9cad25f891dcdd1d778/crossmark-jotform-api-0.0.7.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [sohuprompt]: Downloading https://files.pythonhosted.org/packages/72/0a/87625de71d93c2572316a4aa5386a9b457d1cc16b319b65361a3d9aab395/sohuprompt-1.0.4.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [skye]: Downloading https://files.pythonhosted.org/packages/a1/98/150d363d48eab653c3dff9c046e662f0f90ca3479221da635206e63cb006/skye-0.0.5.tar.gz
+[2023-04-25 05:51:09] INFO root fetch - processPackages [sohuprompt]: executing diffoscope
+[2023-04-25 05:51:09] INFO root fetch - processPackages [sohuprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sohuprompt-1.0.3.tar.gz tmp/sohuprompt-1.0.4.tar.gz --markdown 20230425/s/sohuprompt/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-25 05:51:09] INFO root fetch - processPackages [skye]: executing diffoscope
+[2023-04-25 05:51:09] INFO root fetch - processPackages [skye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skye-0.0.4.tar.gz tmp/skye-0.0.5.tar.gz --markdown 20230425/s/skye/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.0.6.tar.gz tmp/crossmark-jotform-api-0.0.7.tar.gz --markdown 20230425/c/crossmark-jotform-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.0.6.tar.gz tmp/crossmark-jotform-api-0.0.7.tar.gz --markdown 20230425/c/crossmark-jotform-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-04-25 05:51:09] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.0.6.tar.gz tmp/crossmark-jotform-api-0.0.7.tar.gz --markdown 20230425/c/crossmark-jotform-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-25 05:51:10] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-04-25 05:51:10] INFO root fetch - main [MainThread]: End processing [chateval]: success
+[2023-04-25 05:51:10] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-04-25 05:51:10] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-04-25 05:51:10] INFO root fetch - main [MainThread]: End processing [skye]: success
+[2023-04-25 05:51:10] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-04-25 05:51:11] INFO root fetch - main [MainThread]: End processing [sohuprompt]: success
+[2023-04-25 05:51:11] INFO root fetch - main [MainThread]: Store serial: [17844136]

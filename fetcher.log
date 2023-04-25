@@ -14707,3 +14707,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 13:20:30] INFO root fetch - main [MainThread]: End processing [symbolic]: success
 [2023-04-25 13:20:37] INFO root fetch - main [MainThread]: End processing [cwltool]: success
 [2023-04-25 13:20:37] INFO root fetch - main [MainThread]: Store serial: [17848040]
+[2023-04-25 13:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848040]
+[2023-04-25 13:25:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SAPsim
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyffmpeg
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blockpipe-client
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-development-cli
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dop-integration-libs
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchtnt-nightly
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chemotools
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schnetpack
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ChatLLM
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: example-package-RuiwangW
+[2023-04-25 13:25:46] INFO root fetch - processPackages [blockpipe-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 13:25:46] INFO root fetch - processPackages [SAPsim]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-25 13:25:46] INFO root fetch - processPackages [chemotools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 13:25:46] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.25.9.19.45] Old Version: [2023.4.25.19.24.18]
+[2023-04-25 13:25:46] INFO root fetch - processPackages [schnetpack]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-25 13:25:46] INFO root fetch - processPackages [pyffmpeg]: New version: [2.4.2.9] Old Version: [2.4.2.8]
+[2023-04-25 13:25:46] WARNING root fetch - processPackages [example-package-RuiwangW]: Skipping, unable to determine old version
+[2023-04-25 13:25:46] INFO root fetch - processPackages [example-package-RuiwangW]: Start processing: abilian-devtools
+[2023-04-25 13:25:46] INFO root fetch - processPackages [qontract-development-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-25 13:25:46] INFO root fetch - main [MainThread]: End processing [example-package-RuiwangW] error
+[2023-04-25 13:25:46] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-25 13:25:46] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-25 13:25:46] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230425/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 13:25:46] INFO root fetch - processPackages [blockpipe-client]: Downloading https://files.pythonhosted.org/packages/1a/5d/571b78706508558f654fc20c61fac1c94209a1b8250c89bca91d4cd70a9e/blockpipe-client-0.1.1.tar.gz
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/e4/53/752a335da391cbe9119e025f08fc73b7be3fc096c00d1e45c8e404a203f1/ChatLLM-2023.4.25.19.24.18.tar.gz
+[2023-04-25 13:25:46] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-04-25 13:25:46] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.4.8.tar.gz tmp/torchtnt-nightly-2023.4.9.tar.gz --markdown 20230425/t/torchtnt-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-25 13:25:46] INFO root fetch - processPackages [abilian-devtools]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-25 13:25:46] INFO root fetch - processPackages [chemotools]: Downloading https://files.pythonhosted.org/packages/a4/fa/4b535fc354bf39a56cdfcc0c096bdf6d2b738fbb6cd75b60b8ffae5d3bc6/chemotools-0.0.8.tar.gz
+[2023-04-25 13:25:46] INFO root fetch - processPackages [qontract-development-cli]: Downloading https://files.pythonhosted.org/packages/4d/84/65a1f000e3fb4ab56a106e097a02fab33e39918f43d537bd2fdd3a4085e1/qontract_development_cli-0.8.1.tar.gz
+[2023-04-25 13:25:46] INFO root fetch - processPackages [pyffmpeg]: Downloading https://files.pythonhosted.org/packages/c7/b7/e4aa1af2814d75d47c9ec7721b28676db53c299f46e9f69188ac913f8f48/pyffmpeg-2.4.2.8-py3-none-win_amd64.whl
+[2023-04-25 13:25:46] INFO root fetch - processPackages [blockpipe-client]: Downloading https://files.pythonhosted.org/packages/91/7a/82e3339bcba594b21015a5170add99d5b006bc2d43856a3eb27995812b56/blockpipe-client-0.1.2.tar.gz
+[2023-04-25 13:25:46] INFO root fetch - processPackages [SAPsim]: Downloading https://files.pythonhosted.org/packages/56/91/d766f7cb2d7b2900672a8665a146ec65656148ee10e7e55f78705ca014b0/SAPsim-1.0.1.tar.gz
+[2023-04-25 13:25:46] INFO root fetch - processPackages [schnetpack]: Downloading https://files.pythonhosted.org/packages/42/b9/fae29df254f42759e4ff1458c11b9b3fe87c854ab6d3be0ebf23bb8efe82/schnetpack-2.0.3.tar.gz
+[2023-04-25 13:25:46] INFO root fetch - processPackages [abilian-devtools]: Downloading https://files.pythonhosted.org/packages/16/34/e0efadacf16462adc853a42041299ad6e7e4b795cc22a8f93c5b66f4a287/abilian_devtools-0.4.8.tar.gz
+[2023-04-25 13:25:46] INFO root fetch - processPackages [blockpipe-client]: executing diffoscope
+[2023-04-25 13:25:46] INFO root fetch - processPackages [blockpipe-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockpipe-client-0.1.1.tar.gz tmp/blockpipe-client-0.1.2.tar.gz --markdown 20230425/b/blockpipe-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-25 13:25:46] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.25.19.24.18.tar.gz tmp/ChatLLM-2023.4.25.9.19.45.tar.gz --markdown 20230425/C/ChatLLM/2023.4.25.19.24.18-2023.4.25.9.19.45/diff.md --exclude *.pyd
+[2023-04-25 13:25:46] INFO root fetch - processPackages [SAPsim]: executing diffoscope
+[2023-04-25 13:25:46] INFO root fetch - processPackages [SAPsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAPsim-1.0.0.tar.gz tmp/SAPsim-1.0.1.tar.gz --markdown 20230425/S/SAPsim/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-25 13:25:46] INFO root fetch - processPackages [schnetpack]: executing diffoscope
+[2023-04-25 13:25:46] INFO root fetch - processPackages [schnetpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schnetpack-2.0.2.tar.gz tmp/schnetpack-2.0.3.tar.gz --markdown 20230425/s/schnetpack/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-25 13:25:47] INFO root fetch - processPackages [chemotools]: Downloading https://files.pythonhosted.org/packages/5b/ca/82965eff739116141e64dd814023d634fbc085ef8721f45f9155363a3926/chemotools-0.0.9.tar.gz
+[2023-04-25 13:25:47] WARNING root fetch - processPackages [pyffmpeg]: Skipping package: exceeds size limit 41008066>=10485760
+[2023-04-25 13:25:47] INFO root fetch - main [MainThread]: End processing [pyffmpeg] error
+[2023-04-25 13:25:47] INFO root fetch - processPackages [chemotools]: executing diffoscope
+[2023-04-25 13:25:47] INFO root fetch - processPackages [chemotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemotools-0.0.8.tar.gz tmp/chemotools-0.0.9.tar.gz --markdown 20230425/c/chemotools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 13:25:47] INFO root fetch - processPackages [abilian-devtools]: Downloading https://files.pythonhosted.org/packages/ff/2c/2376e356cbf2050a286821ee7a05fba2ad54ccdce95ff75cb586cd276493/abilian_devtools-0.4.9.tar.gz
+[2023-04-25 13:25:47] INFO root fetch - processPackages [qontract-development-cli]: Downloading https://files.pythonhosted.org/packages/7a/59/8f3e14541da4cbaada05a9b68948b677057a6d05e31d5d48cf737ffc94b9/qontract_development_cli-0.9.0.tar.gz
+[2023-04-25 13:25:47] INFO root fetch - processPackages [abilian-devtools]: executing diffoscope
+[2023-04-25 13:25:47] INFO root fetch - processPackages [abilian-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abilian_devtools-0.4.8.tar.gz tmp/abilian_devtools-0.4.9.tar.gz --markdown 20230425/a/abilian-devtools/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-25 13:25:47] INFO root fetch - processPackages [qontract-development-cli]: executing diffoscope
+[2023-04-25 13:25:47] INFO root fetch - processPackages [qontract-development-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_development_cli-0.8.1.tar.gz tmp/qontract_development_cli-0.9.0.tar.gz --markdown 20230425/q/qontract-development-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 13:25:48] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-25 13:25:48] INFO root fetch - main [MainThread]: End processing [blockpipe-client]: success
+[2023-04-25 13:25:48] INFO root fetch - main [MainThread]: End processing [SAPsim]: success
+[2023-04-25 13:25:48] INFO root fetch - main [MainThread]: End processing [abilian-devtools]: success
+[2023-04-25 13:25:48] INFO root fetch - main [MainThread]: End processing [chemotools]: success
+[2023-04-25 13:25:49] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-04-25 13:25:49] INFO root fetch - main [MainThread]: End processing [schnetpack]: success
+[2023-04-25 13:25:49] INFO root fetch - main [MainThread]: End processing [qontract-development-cli]: success
+[2023-04-25 13:25:50] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-25 13:25:50] INFO root fetch - main [MainThread]: Store serial: [17848105]

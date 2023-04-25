@@ -15103,3 +15103,118 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 13:41:45] INFO root fetch - main [MainThread]: End processing [threedi-api-client]: success
 [2023-04-25 13:41:56] INFO root fetch - main [MainThread]: End processing [graphscope]: success
 [2023-04-25 13:41:56] INFO root fetch - main [MainThread]: Store serial: [17848321]
+[2023-04-25 13:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848321]
+[2023-04-25 13:47:05] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gs-apps
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-coordinator
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-engine
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clarinpl-embeddings
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-include
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mitzu
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CommonlyTools
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corbett
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aircode-cli
+[2023-04-25 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca-spark2
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-coordinator]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-apps]: New version: [0.21.0a20230424] Old Version: [0.21.0a20230423]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [corbett]: New version: [0.1.0rc0] Old Version: [0.1.0]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-include]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [clarinpl-embeddings]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-04-25 13:47:06] WARNING root fetch - processPackages [aircode-cli]: Skipping, unable to determine old version
+[2023-04-25 13:47:06] INFO root fetch - processPackages [aircode-cli]: Start processing: hydrogibs
+[2023-04-25 13:47:06] INFO root fetch - main [MainThread]: End processing [aircode-cli] error
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230425] Old Version: [2.4.0b20230424]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [mitzu]: New version: [0.6.0rc2] Old Version: [0.6.0rc1]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [CommonlyTools]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [hydrogibs]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/44/71/50b63cab236e6c60e1711c732aeeb7ebb0c810007108c8fd1a1004188baf/gs_apps-0.21.0a20230423-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 13:47:06] INFO root fetch - processPackages [clarinpl-embeddings]: Downloading https://files.pythonhosted.org/packages/98/68/ea1299fec2e4297914077fe1e4ac8faac6cf68d0d79a397fb3f191a8a82d/clarinpl-embeddings-0.0.1rc8.tar.gz
+[2023-04-25 13:47:06] INFO root fetch - processPackages [corbett]: Downloading https://files.pythonhosted.org/packages/82/fd/b145e5aec9727fb9ab48b67cc8a0123443ed2d9567006f446e97817c5364/corbett-0.1.0.tar.gz
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/14/24/6aa7d96461fb18c825639db76c5c3edc7abfca148e3e55cc010cbf4d9a02/gs_include-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/bd/b0/b9b1a1a65be3a78a220a726aa90bda0d1e1a17bbc47999c157c784a7320e/gs_engine-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 13:47:06] INFO root fetch - processPackages [CommonlyTools]: Downloading https://files.pythonhosted.org/packages/ba/1d/c622716972322e3215dca24094edc694e08c80c2a1f845056f5bf5c76120/CommonlyTools-2.0.7.tar.gz
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/a6/a5/cdddc4ecf7314750d3ea25e8ea226e59c8b331bbb79b2180fd8cf543ce91/bigdl_orca_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl
+[2023-04-25 13:47:06] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/69/a8/de3a89dc6c3e5af66004aa3e79719b7f81b204d80db34d5c7d25ea3dfa0f/hydrogibs-0.1.1.tar.gz
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/gs_coordinator-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230425/g/gs-coordinator/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-25 13:47:06] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369248>=10485760
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-friesian-spark2
+[2023-04-25 13:47:06] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-04-25 13:47:06] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47786981>=10485760
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-apps]: Start processing: awehflow
+[2023-04-25 13:47:06] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-04-25 13:47:06] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.0.6.tar.gz tmp/CommonlyTools-2.0.7.tar.gz --markdown 20230425/C/CommonlyTools/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-04-25 13:47:06] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 73794505>=10485760
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-include]: Start processing: bigdl-chronos-spark2
+[2023-04-25 13:47:06] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-04-25 13:47:06] INFO root fetch - processPackages [awehflow]: New version: [2.4.3.0] Old Version: [2.2.3.1]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230425] Old Version: [2.4.0b20230424]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.9.tar.gz tmp/hydrogibs-0.1.1.tar.gz --markdown 20230425/h/hydrogibs/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230425] Old Version: [2.4.0b20230424]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/0f/56/9fee962e81d9880a303b454929fb4e33aaa889176f29a7984819ffaf61b2/mitzu-0.6.0rc2.tar.gz
+[2023-04-25 13:47:06] INFO root fetch - processPackages [awehflow]: Downloading https://files.pythonhosted.org/packages/9e/60/29f521c4908e9e461bc3506ccc07dee1024980ec70393f961e171bc71e1b/awehflow-2.2.3.1.tar.gz
+[2023-04-25 13:47:06] INFO root fetch - processPackages [corbett]: Downloading https://files.pythonhosted.org/packages/08/a8/d36e6427ba6bf8355a7c58bb85d815728e80a483f3011740511c1b93309b/corbett-0.1.0rc0.tar.gz
+[2023-04-25 13:47:06] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.0rc1.tar.gz tmp/mitzu-0.6.0rc2.tar.gz --markdown 20230425/m/mitzu/0.6.0rc1-0.6.0rc2/diff.md --exclude *.pyd
+[2023-04-25 13:47:06] INFO root fetch - processPackages [clarinpl-embeddings]: Downloading https://files.pythonhosted.org/packages/9e/e6/7c87bd5c730a95fa44ef0e1d3a26bbba1652e8529df01d1b47ea100c2b28/clarinpl-embeddings-0.0.1rc9.tar.gz
+[2023-04-25 13:47:06] INFO root fetch - processPackages [corbett]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [corbett]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corbett-0.1.0.tar.gz tmp/corbett-0.1.0rc0.tar.gz --markdown 20230425/c/corbett/0.1.0-0.1.0rc0/diff.md --exclude *.pyd
+[2023-04-25 13:47:06] WARNING root fetch - processPackages [gs-engine]: Skipping package: exceeds size limit 88119450>=10485760
+[2023-04-25 13:47:06] INFO root fetch - processPackages [gs-engine]: Start processing: bigdl-spark2
+[2023-04-25 13:47:06] INFO root fetch - main [MainThread]: End processing [gs-engine] error
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/27/09/e5d74fd6913dd4c0be3cf609055a0aca37dbca79dbb54b5e77c715f868bb/bigdl_friesian_spark2-2.4.0b20230425-py3-none-manylinux1_x86_64.whl
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/74/6d/263ff2488bef422967fb6face40ba0f237d4d12995f4503c1374495609de/bigdl_chronos_spark2-2.4.0b20230425-py3-none-manylinux1_x86_64.whl
+[2023-04-25 13:47:06] INFO root fetch - processPackages [awehflow]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [awehflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awehflow-2.2.3.1.tar.gz tmp/awehflow-2.4.3.0.tar.gz --markdown 20230425/a/awehflow/2.2.3.1-2.4.3.0/diff.md --exclude *.pyd
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230425] Old Version: [2.4.0b20230424]
+[2023-04-25 13:47:06] INFO root fetch - processPackages [clarinpl-embeddings]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [clarinpl-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarinpl-embeddings-0.0.1rc8.tar.gz tmp/clarinpl-embeddings-0.0.1rc9.tar.gz --markdown 20230425/c/clarinpl-embeddings/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip --markdown 20230425/b/bigdl-chronos-spark2/2.4.0b20230424-2.4.0b20230425/diff.md --exclude *.pyd
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/cd/1b/f43f5ff9f544612bd89bc42935510cfc44fa36f9f0c3a7f2e5eb290956dd/bigdl_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-04-25 13:47:06] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip --markdown 20230425/b/bigdl-friesian-spark2/2.4.0b20230424-2.4.0b20230425/diff.md --exclude *.pyd
+[2023-04-25 13:47:07] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/aa/c6/26c7ab82d47aa5755d3345a07b62fe0460e1fa2b0ca83ed56102aa6c6fee/bigdl_spark2-2.4.0b20230425-py3-none-manylinux1_x86_64.whl
+[2023-04-25 13:47:07] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-04-25 13:47:07] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230424-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip --markdown 20230425/b/bigdl-spark2/2.4.0b20230424-2.4.0b20230425/diff.md --exclude *.pyd
+[2023-04-25 13:47:07] INFO root fetch - processPackages [CommonlyTools]: Start processing: sqlalchemy-iris
+[2023-04-25 13:47:07] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-25 13:47:07] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.7.1b1] Old Version: [0.7.0]
+[2023-04-25 13:47:08] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/88/62/d40efc013b376c6645c758bcd7053caee7106c695d37bf15db1c86359e9b/sqlalchemy-iris-0.7.0.tar.gz
+[2023-04-25 13:47:08] INFO root fetch - processPackages [hydrogibs]: Start processing: docstring-auditor
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-04-25 13:47:08] WARNING root fetch - processPackages [docstring-auditor]: Skipping, unable to determine old version
+[2023-04-25 13:47:08] INFO root fetch - processPackages [docstring-auditor]: Start processing: jupyterlab-hai-platform-ext
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [docstring-auditor] error
+[2023-04-25 13:47:08] INFO root fetch - processPackages [gs-coordinator]: Start processing: pysdcxx
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-04-25 13:47:08] WARNING root fetch - processPackages [jupyterlab-hai-platform-ext]: Skipping, unable to determine old version
+[2023-04-25 13:47:08] INFO root fetch - processPackages [jupyterlab-hai-platform-ext]: Start processing: modelon-impact-client
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [jupyterlab-hai-platform-ext] error
+[2023-04-25 13:47:08] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/4f/25/646a4d06c40e455e23135c3dd511bca51040e3c039d20be6263975fff7c3/sqlalchemy-iris-0.7.1b1.tar.gz
+[2023-04-25 13:47:08] INFO root fetch - processPackages [pysdcxx]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-25 13:47:08] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [corbett]: success
+[2023-04-25 13:47:08] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2023-04-25 13:47:08] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.7.0.tar.gz tmp/sqlalchemy-iris-0.7.1b1.tar.gz --markdown 20230425/s/sqlalchemy-iris/0.7.0-0.7.1b1/diff.md --exclude *.pyd
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [clarinpl-embeddings]: success
+[2023-04-25 13:47:08] INFO root fetch - processPackages [pysdcxx]: Downloading https://files.pythonhosted.org/packages/dd/38/e823c871bfd8439a7d81b0a4f5e8e811807e10f63ed5ca3b4ab4c39d2778/pysdcxx-0.1.3.tar.gz
+[2023-04-25 13:47:08] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/36/b4/452920b23dc5fce52f2d517cc942c5d5772022ddd6efdd2f337fe1b61977/modelon_impact_client-3.0.0.dev8.tar.gz
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [awehflow]: success
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-04-25 13:47:08] INFO root fetch - processPackages [pysdcxx]: Downloading https://files.pythonhosted.org/packages/a3/c6/6d2e5428bcdab63df5f113844ed9ddf41d6fc1684d5020157b654134ed75/pysdcxx-0.1.4.tar.gz
+[2023-04-25 13:47:08] INFO root fetch - processPackages [pysdcxx]: executing diffoscope
+[2023-04-25 13:47:08] INFO root fetch - processPackages [pysdcxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdcxx-0.1.3.tar.gz tmp/pysdcxx-0.1.4.tar.gz --markdown 20230425/p/pysdcxx/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-25 13:47:08] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/4a/46/39f10d958eb7e1d3b6b332803f3e61b95fe2d424c01272f00a98cf4ec411/modelon_impact_client-3.0.0.dev9.tar.gz
+[2023-04-25 13:47:08] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-04-25 13:47:09] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-04-25 13:47:09] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230425/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-25 13:47:09] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-04-25 13:47:09] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-04-25 13:47:09] INFO root fetch - main [MainThread]: End processing [pysdcxx]: success
+[2023-04-25 13:47:10] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-04-25 13:47:10] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2023-04-25 13:47:10] INFO root fetch - main [MainThread]: Store serial: [17848379]

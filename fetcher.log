@@ -9162,3 +9162,26 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 08:00:52] INFO root fetch - main [MainThread]: End processing [commonpy]: success
 [2023-04-25 08:00:53] INFO root fetch - main [MainThread]: End processing [remote-drawing-provider]: success
 [2023-04-25 08:00:53] INFO root fetch - main [MainThread]: Store serial: [17844807]
+[2023-04-25 08:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17844807]
+[2023-04-25 08:06:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-25 08:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newcode-utils
+[2023-04-25 08:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phasellm
+[2023-04-25 08:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jutool
+[2023-04-25 08:06:01] INFO root fetch - processPackages [newcode-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 08:06:01] INFO root fetch - processPackages [phasellm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-25 08:06:01] INFO root fetch - processPackages [jutool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-25 08:06:02] INFO root fetch - processPackages [newcode-utils]: Downloading https://files.pythonhosted.org/packages/9d/fc/3a40d903fb922c88ec45bece5c06da36d563bf2403fe4d56cd0f4418f254/newcode_utils-0.1.1.tar.gz
+[2023-04-25 08:06:02] INFO root fetch - processPackages [jutool]: Downloading https://files.pythonhosted.org/packages/e9/73/36828bcbadcca59731bb4e060206c0a1c7e58f157246d45365c353617aee/jutool-0.2.8-py3-none-any.whl
+[2023-04-25 08:06:02] INFO root fetch - processPackages [phasellm]: Downloading https://files.pythonhosted.org/packages/52/ab/4bb30d4c30aa7b8ed8f51791cd3cbe935c1c4e2246ff58c3385ffac3a509/phasellm-0.0.3.tar.gz
+[2023-04-25 08:06:02] INFO root fetch - processPackages [phasellm]: executing diffoscope
+[2023-04-25 08:06:02] INFO root fetch - processPackages [phasellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasellm-0.0.2.tar.gz tmp/phasellm-0.0.3.tar.gz --markdown 20230425/p/phasellm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-25 08:06:02] INFO root fetch - processPackages [jutool]: Downloading https://files.pythonhosted.org/packages/9f/47/a44227caec17afe754c67ba45891ee85f4ebec6c9e310b3c6fa59d5b9083/jutool-0.2.9-py3-none-any.whl
+[2023-04-25 08:06:02] INFO root fetch - processPackages [newcode-utils]: Downloading https://files.pythonhosted.org/packages/73/69/1b77b3319cc91116a4c5d1f2ebe1dc62bdb3d00be841fc00d4b51c6598b2/newcode_utils-0.1.2.tar.gz
+[2023-04-25 08:06:02] INFO root fetch - processPackages [newcode-utils]: executing diffoscope
+[2023-04-25 08:06:02] INFO root fetch - processPackages [newcode-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newcode_utils-0.1.1.tar.gz tmp/newcode_utils-0.1.2.tar.gz --markdown 20230425/n/newcode-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 08:06:02] INFO root fetch - processPackages [jutool]: executing diffoscope
+[2023-04-25 08:06:02] INFO root fetch - processPackages [jutool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutool-0.2.8-py3-none-any.whl.zip tmp/jutool-0.2.9-py3-none-any.whl.zip --markdown 20230425/j/jutool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-25 08:06:03] INFO root fetch - main [MainThread]: End processing [phasellm]: success
+[2023-04-25 08:06:04] INFO root fetch - main [MainThread]: End processing [jutool]: success
+[2023-04-25 08:06:21] INFO root fetch - main [MainThread]: End processing [newcode-utils]: success
+[2023-04-25 08:06:21] INFO root fetch - main [MainThread]: Store serial: [17844818]

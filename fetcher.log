@@ -13132,3 +13132,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 11:52:06] INFO root fetch - processPackages [vayner-clean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vayner_clean-0.1.7.tar.gz tmp/vayner_clean-0.1.8.tar.gz --markdown 20230425/v/vayner-clean/0.1.7-0.1.8/diff.md --exclude *.pyd
 [2023-04-25 11:52:07] INFO root fetch - main [MainThread]: End processing [vayner-clean]: success
 [2023-04-25 11:52:07] INFO root fetch - main [MainThread]: Store serial: [17847088]
+[2023-04-25 11:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17847088]
+[2023-04-25 11:57:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptdeploy
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graph2topictm
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-ak-ee637c8293f64104af9686dc12e0cd18
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssb-altinn-python
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-web-runner
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-web-runner-dev
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rich-format
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shiv-userdirs
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Axelrod
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-25 11:57:18] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-25 11:57:18] WARNING root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: Skipping, unable to determine old version
+[2023-04-25 11:57:18] INFO root fetch - main [MainThread]: End processing [antchain-ak-ee637c8293f64104af9686dc12e0cd18] error
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2023-04-25 11:57:18] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.2.2.tar.gz tmp/ssb_altinn_python-0.2.3.tar.gz --markdown 20230425/s/ssb-altinn-python/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-25 11:57:18] WARNING root fetch - processPackages [graph2topictm]: Skipping, unable to determine old version
+[2023-04-25 11:57:18] INFO root fetch - processPackages [shiv-userdirs]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-25 11:57:18] INFO root fetch - main [MainThread]: End processing [graph2topictm] error
+[2023-04-25 11:57:18] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-25 11:57:18] INFO root fetch - processPackages [Axelrod]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-04-25 11:57:18] WARNING root fetch - processPackages [rich-format]: Skipping, unable to determine old version
+[2023-04-25 11:57:18] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 11:57:18] INFO root fetch - main [MainThread]: End processing [rich-format] error
+[2023-04-25 11:57:18] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 11:57:19] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-04-25 11:57:19] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230425/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-25 11:57:19] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/98/dc/9b478fd57590174657ab4a34dd1a26e204245a4f2e1a88b6a6c338c1ec39/je_web_runner-0.0.8.tar.gz
+[2023-04-25 11:57:19] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/3d/5f/1255d66a56fb12701863ce7676f49de0a0fa1c8ebea7082713c306d9eae0/je_web_runner_dev-0.0.8.tar.gz
+[2023-04-25 11:57:19] INFO root fetch - processPackages [Axelrod]: Downloading https://files.pythonhosted.org/packages/d9/7e/a79aedded3a071f52888eb45f2bfdc61900dc51db5ca37fa6b96a3e075fa/Axelrod-4.9.0.tar.gz
+[2023-04-25 11:57:19] INFO root fetch - processPackages [shiv-userdirs]: Downloading https://files.pythonhosted.org/packages/8a/36/a1bf2d48173c5e1a311958b6e19a7d3323821befde982350474a6c0196db/shiv-userdirs-1.0.2.tar.gz
+[2023-04-25 11:57:19] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2023-04-25 11:57:19] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-04-25 11:57:20] INFO root fetch - processPackages [je-web-runner]: Downloading https://files.pythonhosted.org/packages/a0/6f/4829ef02077ea8ae3e3f1ae6127458670b79505fe73799371e9490b214c2/je_web_runner-0.0.9.tar.gz
+[2023-04-25 11:57:20] INFO root fetch - processPackages [shiv-userdirs]: Downloading https://files.pythonhosted.org/packages/10/71/9a950c79be20f0c8d27bedcd25cefc95ee61fc3ff0e51ee354b0d20fc917/shiv-userdirs-1.0.3.tar.gz
+[2023-04-25 11:57:20] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-04-25 11:57:20] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-04-25 11:57:20] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230425/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 11:57:20] INFO root fetch - processPackages [shiv-userdirs]: executing diffoscope
+[2023-04-25 11:57:20] INFO root fetch - processPackages [shiv-userdirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiv-userdirs-1.0.2.tar.gz tmp/shiv-userdirs-1.0.3.tar.gz --markdown 20230425/s/shiv-userdirs/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-25 11:57:20] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-04-25 11:57:20] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230425/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 11:57:20] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-25 11:57:20] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230425/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-25 11:57:21] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-04-25 11:57:21] INFO root fetch - main [MainThread]: End processing [shiv-userdirs]: success
+[2023-04-25 11:57:21] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-04-25 11:57:21] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-25 11:57:22] INFO root fetch - processPackages [Axelrod]: Downloading https://files.pythonhosted.org/packages/f8/37/531a1af4e6909f01089879f142cd91b6dbab743995cadcdeeab8a70bf18d/Axelrod-4.9.1.tar.gz
+[2023-04-25 11:57:22] INFO root fetch - processPackages [Axelrod]: executing diffoscope
+[2023-04-25 11:57:22] INFO root fetch - processPackages [Axelrod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Axelrod-4.9.0.tar.gz tmp/Axelrod-4.9.1.tar.gz --markdown 20230425/A/Axelrod/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-04-25 11:57:24] INFO root fetch - main [MainThread]: End processing [Axelrod]: success
+[2023-04-25 11:57:24] INFO root fetch - main [MainThread]: Store serial: [17847128]

@@ -11989,3 +11989,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 10:53:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-move-source-relocate]: success
 [2023-04-25 10:53:55] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-04-25 10:53:55] INFO root fetch - main [MainThread]: Store serial: [17846404]
+[2023-04-25 10:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17846404]
+[2023-04-25 10:59:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mflike
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynotiontools
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slot-machine-serializers
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oxalis
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spacetool
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-de-holidays
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: q2rad
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codewithgpu
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dist-meta
+[2023-04-25 10:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arkindex-base-worker
+[2023-04-25 10:59:05] INFO root fetch - processPackages [mflike]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [slot-machine-serializers]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [mynotiontools]: New version: [0.0.9] Old Version: [0.0.8.2]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [odoo14-addon-l10n-de-holidays]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [oxalis]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [dist-meta]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [codewithgpu]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [spacetool]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [arkindex-base-worker]: New version: [0.3.3rc2] Old Version: [0.3.3rc1]
+[2023-04-25 10:59:05] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-04-25 10:59:05] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230425/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [mynotiontools]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [mynotiontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynotiontools-0.0.8.2.tar.gz tmp/mynotiontools-0.0.9.tar.gz --markdown 20230425/m/mynotiontools/0.0.8.2-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/92/94/4585e397a21c57a18b9e5b7ad9c0c470270f8e349415a27b1b6fa5ceafd9/arkindex-base-worker-0.3.3rc1.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [odoo14-addon-l10n-de-holidays]: Downloading https://files.pythonhosted.org/packages/64/a6/4eae2e36cae60a0f9522a438ee7330e7b26317a52d21befc0936f1eb2ac7/odoo14_addon_l10n_de_holidays-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-04-25 10:59:06] INFO root fetch - processPackages [dist-meta]: Downloading https://files.pythonhosted.org/packages/4c/4f/93323c7333c6fe3722dfff6421314dc52538fcc89bb2931d30adf148a053/dist-meta-0.7.0.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [codewithgpu]: Downloading https://files.pythonhosted.org/packages/71/39/6395302434dc3a6d837427485aeba2e5b3cc9f3156377fd453c229a6ffb5/codewithgpu-0.2.2-py3-none-any.whl
+[2023-04-25 10:59:06] INFO root fetch - processPackages [spacetool]: Downloading https://files.pythonhosted.org/packages/b4/b7/1b530c91993cbedb8b6971de4d6a29ebae2766900ec894e034b1c8a0cb31/spacetool-1.0.2.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/8f/9e/5ebf0166a502b45a5c45cca153aeb333dc3a1d7acdaf2d8996d08d7ec492/oxalis-0.5.5.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [slot-machine-serializers]: Downloading https://files.pythonhosted.org/packages/7e/3c/53c1e62ce9f6f6b16c12364e5b6e3aa171d4eec3391a4d27ab651089158b/slot_machine_serializers-0.2.1.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [spacetool]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [spacetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetool-1.0.1.tar.gz tmp/spacetool-1.0.2.tar.gz --markdown 20230425/s/spacetool/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [codewithgpu]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [codewithgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codewithgpu-0.2.1-py3-none-any.whl.zip tmp/codewithgpu-0.2.2-py3-none-any.whl.zip --markdown 20230425/c/codewithgpu/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [arkindex-base-worker]: Downloading https://files.pythonhosted.org/packages/c7/92/95bc0f667bb90cf3fa84f634fd74b1c7fba3c6f85e1927614fc01605673e/arkindex-base-worker-0.3.3rc2.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [dist-meta]: Downloading https://files.pythonhosted.org/packages/be/37/3e9230d8dfef89089706dd9db0808dd59aac6dc3bd86a297949bb869903e/dist-meta-0.8.0.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/ce/89/a6032f0b52a24c25276029949931644ed8f9fbc47255007a14d5a3286983/oxalis-0.5.6.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [slot-machine-serializers]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [slot-machine-serializers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slot_machine_serializers-0.2.0.tar.gz tmp/slot_machine_serializers-0.2.1.tar.gz --markdown 20230425/s/slot-machine-serializers/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [odoo14-addon-l10n-de-holidays]: Downloading https://files.pythonhosted.org/packages/1b/25/bbde2ee7648a3cf17152e8e091f60ba8a65f0b00f4a57f4a9e6a5b7e7fdf/odoo14_addon_l10n_de_holidays-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-25 10:59:06] INFO root fetch - processPackages [mflike]: Downloading https://files.pythonhosted.org/packages/64/d1/5b735115294dcef9af82027d80a1f8e5c501a9ac687d85a3abcdba1b5945/mflike-0.8.2.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [arkindex-base-worker]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [arkindex-base-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkindex-base-worker-0.3.3rc1.tar.gz tmp/arkindex-base-worker-0.3.3rc2.tar.gz --markdown 20230425/a/arkindex-base-worker/0.3.3rc1-0.3.3rc2/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [dist-meta]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [dist-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dist-meta-0.7.0.tar.gz tmp/dist-meta-0.8.0.tar.gz --markdown 20230425/d/dist-meta/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.5.5.tar.gz tmp/oxalis-0.5.6.tar.gz --markdown 20230425/o/oxalis/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [odoo14-addon-l10n-de-holidays]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [odoo14-addon-l10n-de-holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_de_holidays-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_de_holidays-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230425/o/odoo14-addon-l10n-de-holidays/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-04-25 10:59:06] INFO root fetch - processPackages [mflike]: Downloading https://files.pythonhosted.org/packages/99/1d/3902afbdb900ab98cd75dba3882d867081ff13ae57d96e00f0ff0a846d7e/mflike-0.8.3.tar.gz
+[2023-04-25 10:59:06] INFO root fetch - processPackages [mflike]: executing diffoscope
+[2023-04-25 10:59:06] INFO root fetch - processPackages [mflike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mflike-0.8.2.tar.gz tmp/mflike-0.8.3.tar.gz --markdown 20230425/m/mflike/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-25 10:59:07] INFO root fetch - processPackages [mynotiontools]: Start processing: egune
+[2023-04-25 10:59:07] INFO root fetch - main [MainThread]: End processing [mynotiontools]: success
+[2023-04-25 10:59:07] INFO root fetch - processPackages [egune]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-25 10:59:07] INFO root fetch - processPackages [egune]: executing diffoscope
+[2023-04-25 10:59:07] INFO root fetch - processPackages [egune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egune-0.2.8.tar.gz tmp/egune-0.2.9.tar.gz --markdown 20230425/e/egune/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-25 10:59:07] INFO root fetch - processPackages [q2rad]: Start processing: maus
+[2023-04-25 10:59:07] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-04-25 10:59:07] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-25 10:59:07] INFO root fetch - processPackages [spacetool]: Start processing: django-cookiebanner
+[2023-04-25 10:59:07] INFO root fetch - main [MainThread]: End processing [spacetool]: success
+[2023-04-25 10:59:07] INFO root fetch - processPackages [django-cookiebanner]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-25 10:59:07] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-04-25 10:59:07] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230425/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 10:59:07] INFO root fetch - main [MainThread]: End processing [codewithgpu]: success
+[2023-04-25 10:59:08] INFO root fetch - main [MainThread]: End processing [slot-machine-serializers]: success
+[2023-04-25 10:59:08] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-04-25 10:59:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-de-holidays]: success
+[2023-04-25 10:59:08] INFO root fetch - processPackages [django-cookiebanner]: Downloading https://files.pythonhosted.org/packages/62/58/1feb9b303ca17edc82d4f6f7a4c2c66fd03152e1aa92fd4733d53439e281/django_cookiebanner-0.2.7.tar.gz
+[2023-04-25 10:59:08] INFO root fetch - main [MainThread]: End processing [dist-meta]: success
+[2023-04-25 10:59:08] INFO root fetch - processPackages [django-cookiebanner]: Downloading https://files.pythonhosted.org/packages/08/75/31d0e47b632dbe52fa4f1c94de1c6b1e20fb04e7bcab8b4436cd97c7095a/django_cookiebanner-0.2.8.tar.gz
+[2023-04-25 10:59:08] INFO root fetch - processPackages [django-cookiebanner]: executing diffoscope
+[2023-04-25 10:59:08] INFO root fetch - processPackages [django-cookiebanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cookiebanner-0.2.7.tar.gz tmp/django_cookiebanner-0.2.8.tar.gz --markdown 20230425/d/django-cookiebanner/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-25 10:59:08] INFO root fetch - main [MainThread]: End processing [egune]: success
+[2023-04-25 10:59:09] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-04-25 10:59:09] INFO root fetch - main [MainThread]: End processing [mflike]: success
+[2023-04-25 10:59:09] INFO root fetch - main [MainThread]: End processing [arkindex-base-worker]: success
+[2023-04-25 10:59:09] INFO root fetch - main [MainThread]: End processing [django-cookiebanner]: success
+[2023-04-25 10:59:09] INFO root fetch - main [MainThread]: Store serial: [17846444]

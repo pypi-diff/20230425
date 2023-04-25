@@ -14412,3 +14412,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 13:04:18] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-25 13:04:38] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2023-04-25 13:04:38] INFO root fetch - main [MainThread]: Store serial: [17847810]
+[2023-04-25 13:09:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17847810]
+[2023-04-25 13:09:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-altinn-python
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nexus-remoting
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discounts
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bdi.example-package-soranito
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tronapi-JCO
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dvc-objects
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terminally
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qcompute
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: text-generation
+[2023-04-25 13:09:47] INFO root fetch - processPackages [bdi.example-package-soranito]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-25 13:09:47] INFO root fetch - processPackages [discounts]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-25 13:09:47] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 13:09:47] INFO root fetch - processPackages [tronapi-JCO]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-04-25 13:09:47] WARNING root fetch - processPackages [terminally]: Skipping, unable to determine old version
+[2023-04-25 13:09:47] INFO root fetch - processPackages [terminally]: Start processing: vtece4564-gamelib
+[2023-04-25 13:09:47] INFO root fetch - processPackages [nexus-remoting]: New version: [2.0.0b1] Old Version: [1.0.5]
+[2023-04-25 13:09:47] INFO root fetch - processPackages [qcompute]: New version: [3.3.3] Old Version: [3.3.0]
+[2023-04-25 13:09:47] INFO root fetch - main [MainThread]: End processing [terminally] error
+[2023-04-25 13:09:47] INFO root fetch - processPackages [text-generation]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-25 13:09:47] INFO root fetch - processPackages [dvc-objects]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 13:09:47] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 13:09:47] INFO root fetch - processPackages [bdi.example-package-soranito]: Downloading https://files.pythonhosted.org/packages/ca/e7/ee8e33ee7c57b9c4d8e1016de6d69678b7e759e7ba88734f69887ec8bcb2/bdi.example_package_soranito-1.2.0.tar.gz
+[2023-04-25 13:09:47] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/67/c3/cc1cff294503270ca565fec915077ed812ffc9ea28d0c3baf81300b25918/ssb_altinn_python-0.2.6.tar.gz
+[2023-04-25 13:09:47] INFO root fetch - processPackages [tronapi-JCO]: Downloading https://files.pythonhosted.org/packages/84/b8/d3ac28e5eb56217b505e5d6489a4ce30c4bb1b26e1795009a8168d37670e/tronapi-JCO-3.1.7.tar.gz
+[2023-04-25 13:09:47] INFO root fetch - processPackages [nexus-remoting]: Downloading https://files.pythonhosted.org/packages/14/fd/91df40aff30610903cfc462d9c01bc77815ff81612b53ea415618dc926f1/nexus_remoting-1.0.5-py3-none-any.whl
+[2023-04-25 13:09:47] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/bc/df/73361bacbd1309f1c294796ef25e1906cb21c3b1e39cc33c9b2cf45650e3/dvc-objects-0.8.0.tar.gz
+[2023-04-25 13:09:47] INFO root fetch - processPackages [text-generation]: Downloading https://files.pythonhosted.org/packages/19/2f/025c0e2d6f4488c5ba3fc29c9ffcf7c022c1136c5e81e8615e4f84768c3b/text-generation-0.5.0.tar.gz
+[2023-04-25 13:09:47] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-04-25 13:09:47] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230425/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230425/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [discounts]: Downloading https://files.pythonhosted.org/packages/49/f1/4076458ca6990334c5cd2f4ec60877bd220f5b5a2c992552dec4cde979f9/discounts-0.0.8.tar.gz
+[2023-04-25 13:09:48] INFO root fetch - processPackages [bdi.example-package-soranito]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [bdi.example-package-soranito]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdi.example_package_soranito-1.1.0.tar.gz tmp/bdi.example_package_soranito-1.2.0.tar.gz --markdown 20230425/b/bdi.example-package-soranito/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.2.5.tar.gz tmp/ssb_altinn_python-0.2.6.tar.gz --markdown 20230425/s/ssb-altinn-python/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [qcompute]: Downloading https://files.pythonhosted.org/packages/eb/24/47aaf11f4297f67f8feb82665e58d5a811b08e909da77fa2d54c40d2bf7a/qcompute-3.3.3.tar.gz
+[2023-04-25 13:09:48] INFO root fetch - processPackages [tronapi-JCO]: Downloading https://files.pythonhosted.org/packages/7a/24/1394b0dd1d24559beed3200c319bb23fd462c9844649ee9804b54ff2f3d9/tronapi-JCO-3.1.8.tar.gz
+[2023-04-25 13:09:48] INFO root fetch - processPackages [discounts]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [discounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discounts-0.0.7.tar.gz tmp/discounts-0.0.8.tar.gz --markdown 20230425/d/discounts/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [text-generation]: Downloading https://files.pythonhosted.org/packages/26/0f/3a70beceb4565f9bce9bbec6350c285f9d737b6823d08239aa5823788f8e/text-generation-0.5.1.tar.gz
+[2023-04-25 13:09:48] INFO root fetch - processPackages [qcompute]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [qcompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcompute-3.3.0.tar.gz tmp/qcompute-3.3.3.tar.gz --markdown 20230425/q/qcompute/3.3.0-3.3.3/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [nexus-remoting]: Downloading https://files.pythonhosted.org/packages/68/20/0c361b12ad68ece18bb11b9ec5027a26a175d09e827f718d3b6b34fa424e/nexus_remoting-2.0.0b1-py3-none-any.whl
+[2023-04-25 13:09:48] INFO root fetch - processPackages [tronapi-JCO]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [tronapi-JCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tronapi-JCO-3.1.7.tar.gz tmp/tronapi-JCO-3.1.8.tar.gz --markdown 20230425/t/tronapi-JCO/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [dvc-objects]: Downloading https://files.pythonhosted.org/packages/0e/18/e00adb4b827fc8f0d52d3b67d2d82af47094f116204a62904453ea2bd952/dvc-objects-0.9.0.tar.gz
+[2023-04-25 13:09:48] INFO root fetch - processPackages [text-generation]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [text-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-generation-0.5.0.tar.gz tmp/text-generation-0.5.1.tar.gz --markdown 20230425/t/text-generation/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [nexus-remoting]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [nexus-remoting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_remoting-1.0.5-py3-none-any.whl.zip tmp/nexus_remoting-2.0.0b1-py3-none-any.whl.zip --markdown 20230425/n/nexus-remoting/1.0.5-2.0.0b1/diff.md --exclude *.pyd
+[2023-04-25 13:09:48] INFO root fetch - processPackages [dvc-objects]: executing diffoscope
+[2023-04-25 13:09:48] INFO root fetch - processPackages [dvc-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-objects-0.8.0.tar.gz tmp/dvc-objects-0.9.0.tar.gz --markdown 20230425/d/dvc-objects/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 13:09:49] INFO root fetch - processPackages [bdi.example-package-soranito]: Start processing: blockpipe-client
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [bdi.example-package-soranito]: success
+[2023-04-25 13:09:49] WARNING root fetch - processPackages [blockpipe-client]: Skipping, unable to determine old version
+[2023-04-25 13:09:49] INFO root fetch - processPackages [blockpipe-client]: Start processing: indexed-pq
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [blockpipe-client] error
+[2023-04-25 13:09:49] INFO root fetch - processPackages [indexed-pq]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-25 13:09:49] INFO root fetch - processPackages [ssb-altinn-python]: Start processing: bigdl-nano
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2023-04-25 13:09:49] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230425] Old Version: [2.4.0b20230424]
+[2023-04-25 13:09:49] INFO root fetch - processPackages [discounts]: Start processing: AppZoo
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [discounts]: success
+[2023-04-25 13:09:49] INFO root fetch - processPackages [AppZoo]: New version: [2023.4.6.14.25.49] Old Version: [2023.4.25.19.8.56]
+[2023-04-25 13:09:49] INFO root fetch - processPackages [text-generation]: Start processing: bigdl-chronos
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [text-generation]: success
+[2023-04-25 13:09:49] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230425] Old Version: [2.4.0b20230424]
+[2023-04-25 13:09:49] INFO root fetch - processPackages [indexed-pq]: Downloading https://files.pythonhosted.org/packages/84/8f/0653508f5a43dbe0e89a6543037bc2fcd0ddaf135cdee82956573845966e/indexed_pq-0.1.4.tar.gz
+[2023-04-25 13:09:49] INFO root fetch - processPackages [nexus-remoting]: Start processing: pepperize.cdk-private-bucket
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [nexus-remoting]: success
+[2023-04-25 13:09:49] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 13:09:49] INFO root fetch - processPackages [AppZoo]: Downloading https://files.pythonhosted.org/packages/9d/c5/94aad01ada4a092f44622b8b11b0986fcce9fbc3d5661b3c7f7bdcb140b4/AppZoo-2023.4.25.19.8.56.tar.gz
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-25 13:09:49] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-04-25 13:09:49] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230425/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 13:09:49] INFO root fetch - main [MainThread]: End processing [tronapi-JCO]: success
+[2023-04-25 13:09:49] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/cb/37/7e886de29d2b09f42a675939cf2107f1542b6195002210c2c7d336634b19/bigdl_nano-2.4.0b20230425-py3-none-win_amd64.whl
+[2023-04-25 13:09:49] INFO root fetch - processPackages [indexed-pq]: Downloading https://files.pythonhosted.org/packages/98/68/4e0f703f56805008e88dff748335bc9dd6370bf2a2b3026ed7a42a65f8b1/indexed_pq-0.1.5.tar.gz
+[2023-04-25 13:09:50] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/42/d5/063e125a1c24613293982e23ed570f6955d2fa262c905290845367cb613f/bigdl_chronos-2.4.0b20230425-py3-none-win_amd64.whl
+[2023-04-25 13:09:50] INFO root fetch - processPackages [indexed-pq]: executing diffoscope
+[2023-04-25 13:09:50] INFO root fetch - processPackages [indexed-pq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexed_pq-0.1.4.tar.gz tmp/indexed_pq-0.1.5.tar.gz --markdown 20230425/i/indexed-pq/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-25 13:09:50] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-04-25 13:09:50] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230424-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230425-py3-none-win_amd64.whl.zip --markdown 20230425/b/bigdl-chronos/2.4.0b20230424-2.4.0b20230425/diff.md --exclude *.pyd
+[2023-04-25 13:09:50] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-04-25 13:09:50] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230424-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230425-py3-none-win_amd64.whl.zip --markdown 20230425/b/bigdl-nano/2.4.0b20230424-2.4.0b20230425/diff.md --exclude *.pyd
+[2023-04-25 13:09:50] INFO root fetch - main [MainThread]: End processing [qcompute]: success
+[2023-04-25 13:09:50] INFO root fetch - main [MainThread]: End processing [dvc-objects]: success
+[2023-04-25 13:09:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-04-25 13:09:51] INFO root fetch - main [MainThread]: End processing [indexed-pq]: success
+[2023-04-25 13:09:51] INFO root fetch - processPackages [AppZoo]: executing diffoscope
+[2023-04-25 13:09:51] INFO root fetch - processPackages [AppZoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppZoo-2023.4.25.19.8.56.tar.gz tmp/AppZoo-2023.4.6.14.25.49.tar.gz --markdown 20230425/A/AppZoo/2023.4.25.19.8.56-2023.4.6.14.25.49/diff.md --exclude *.pyd
+[2023-04-25 13:09:52] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-04-25 13:09:53] INFO root fetch - main [MainThread]: End processing [AppZoo]: success
+[2023-04-25 13:09:57] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-04-25 13:09:57] INFO root fetch - main [MainThread]: Store serial: [17847861]

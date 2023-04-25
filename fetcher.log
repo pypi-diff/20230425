@@ -13847,3 +13847,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 12:47:38] INFO root fetch - main [MainThread]: End processing [dplus-ceres]: success
 [2023-04-25 12:47:40] INFO root fetch - main [MainThread]: End processing [AppZoo]: success
 [2023-04-25 12:47:40] INFO root fetch - main [MainThread]: Store serial: [17847495]
+[2023-04-25 12:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17847495]
+[2023-04-25 12:52:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeUtils
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminally
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinabs-dynapcnn
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmo-dataviz
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maus
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-auth-saml-environment
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swiftshadow
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccdt
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybio
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codesnipper
+[2023-04-25 12:52:56] WARNING root fetch - processPackages [terminally]: Skipping, unable to determine old version
+[2023-04-25 12:52:56] INFO root fetch - processPackages [terminally]: Start processing: AppZoo
+[2023-04-25 12:52:56] INFO root fetch - main [MainThread]: End processing [terminally] error
+[2023-04-25 12:52:56] WARNING root fetch - processPackages [cmo-dataviz]: Skipping, unable to determine old version
+[2023-04-25 12:52:56] WARNING root fetch - processPackages [odoo-addon-auth-saml-environment]: Skipping, unable to determine old version
+[2023-04-25 12:52:56] INFO root fetch - processPackages [cmo-dataviz]: Start processing: riscv-config
+[2023-04-25 12:52:56] INFO root fetch - processPackages [odoo-addon-auth-saml-environment]: Start processing: pointclass
+[2023-04-25 12:52:56] INFO root fetch - main [MainThread]: End processing [cmo-dataviz] error
+[2023-04-25 12:52:56] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-04-25 12:52:56] INFO root fetch - processPackages [pybio]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-25 12:52:56] INFO root fetch - processPackages [swiftshadow]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-25 12:52:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-saml-environment] error
+[2023-04-25 12:52:56] INFO root fetch - processPackages [ccdt]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-25 12:52:56] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-25 12:52:56] WARNING root fetch - processPackages [pointclass]: Skipping, unable to determine old version
+[2023-04-25 12:52:56] INFO root fetch - processPackages [codesnipper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 12:52:56] INFO root fetch - processPackages [pointclass]: Start processing: climetlab
+[2023-04-25 12:52:56] INFO root fetch - main [MainThread]: End processing [pointclass] error
+[2023-04-25 12:52:56] INFO root fetch - processPackages [MeUtils]: New version: [2023.4.6.14.28.33] Old Version: [2023.4.6.14.19.58]
+[2023-04-25 12:52:57] INFO root fetch - processPackages [AppZoo]: New version: [2023.4.6.14.25.49] Old Version: [2023.4.25.18.45.4]
+[2023-04-25 12:52:57] INFO root fetch - processPackages [riscv-config]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-04-25 12:52:57] INFO root fetch - processPackages [codesnipper]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [AppZoo]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [codesnipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codesnipper-0.1.8.tar.gz tmp/codesnipper-0.1.9.tar.gz --markdown 20230425/c/codesnipper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 12:52:57] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230425/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 12:52:57] INFO root fetch - processPackages [AppZoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppZoo-2023.4.25.18.45.4.tar.gz tmp/AppZoo-2023.4.6.14.25.49.tar.gz --markdown 20230425/A/AppZoo/2023.4.25.18.45.4-2023.4.6.14.25.49/diff.md --exclude *.pyd
+[2023-04-25 12:52:57] INFO root fetch - processPackages [pybio]: Downloading https://files.pythonhosted.org/packages/ae/3e/20398514ba8c6194707b63a8c90a063a11d9f5f5087fdb2dc6ba037aa2aa/pybio-0.3.2.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.4.6.14.19.58.tar.gz tmp/MeUtils-2023.4.6.14.28.33.tar.gz --markdown 20230425/M/MeUtils/2023.4.6.14.19.58-2023.4.6.14.28.33/diff.md --exclude *.pyd
+[2023-04-25 12:52:57] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [swiftshadow]: Downloading https://files.pythonhosted.org/packages/44/c0/660256333e66ad4b985d9dd69afefe2c4485186c7f4fe3e0c3b1f39c40a3/swiftshadow-0.1.2.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/70/e4/548e4150406d57f9f4e2bd60f5b9794962ae568d57521c8f93f20e5c2659/ccdt-2.0.1.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [climetlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-25 12:52:57] INFO root fetch - processPackages [swiftshadow]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [swiftshadow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftshadow-0.1.1.tar.gz tmp/swiftshadow-0.1.2.tar.gz --markdown 20230425/s/swiftshadow/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 12:52:57] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d6/99/c9ea2923ac931a21222f0adc9cf6e2f73e917ba1872ded8c1080b153ed36/ccdt-2.0.2.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/db/6d/a65baa433c96d08ee4c6d1cfbe1c0a5763bc35da5ded747d4a8eddebb428/climetlab-0.9.8.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [riscv-config]: Downloading https://files.pythonhosted.org/packages/20/02/8e169d14105f7105536c58277b9e27b985c9503a4f682efa473d7ef934fb/riscv_config-3.8.1.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [pybio]: Downloading https://files.pythonhosted.org/packages/6c/f6/4b94e84c4288ea73a47168b0e63ff907bbb47a9d6d21e6103fee63a4ee87/pybio-0.3.3.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.0.1.tar.gz tmp/ccdt-2.0.2.tar.gz --markdown 20230425/c/ccdt/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-25 12:52:57] INFO root fetch - processPackages [pybio]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [pybio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybio-0.3.2.tar.gz tmp/pybio-0.3.3.tar.gz --markdown 20230425/p/pybio/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-25 12:52:57] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [riscv-config]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [riscv-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riscv_config-3.8.0.tar.gz tmp/riscv_config-3.8.1.tar.gz --markdown 20230425/r/riscv-config/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-04-25 12:52:57] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/83/c3/c4d839d84ba4b462b80d34c1f967286e0291e6a2bf10ae84af528abaff6f/climetlab-0.9.9.tar.gz
+[2023-04-25 12:52:57] INFO root fetch - processPackages [climetlab]: executing diffoscope
+[2023-04-25 12:52:57] INFO root fetch - processPackages [climetlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climetlab-0.9.8.tar.gz tmp/climetlab-0.9.9.tar.gz --markdown 20230425/c/climetlab/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-25 12:52:58] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-04-25 12:52:58] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230425/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-04-25 12:52:58] INFO root fetch - main [MainThread]: End processing [swiftshadow]: success
+[2023-04-25 12:52:59] INFO root fetch - main [MainThread]: End processing [codesnipper]: success
+[2023-04-25 12:52:59] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-04-25 12:52:59] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-04-25 12:53:00] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-04-25 12:53:00] INFO root fetch - main [MainThread]: End processing [pybio]: success
+[2023-04-25 12:53:00] INFO root fetch - main [MainThread]: End processing [AppZoo]: success
+[2023-04-25 12:53:00] INFO root fetch - main [MainThread]: End processing [climetlab]: success
+[2023-04-25 12:53:01] INFO root fetch - main [MainThread]: End processing [riscv-config]: success
+[2023-04-25 12:53:02] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-04-25 12:53:02] INFO root fetch - main [MainThread]: Store serial: [17847540]

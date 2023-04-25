@@ -7419,3 +7419,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 04:46:48] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-04-25 04:46:51] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-04-25 04:46:51] INFO root fetch - main [MainThread]: Store serial: [17843780]
+[2023-04-25 04:51:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843780]
+[2023-04-25 04:52:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CommonlyTools
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj-beatcloud
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-export
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xyz-util
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: noba
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vald-client-python
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-rx
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ChatLLM
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metaphor-models
+[2023-04-25 04:52:01] INFO root fetch - processPackages [CommonlyTools]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-04-25 04:52:01] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.4.1b7] Old Version: [2.4.1b6]
+[2023-04-25 04:52:01] WARNING root fetch - processPackages [ChatLLM]: Skipping, unable to determine old version
+[2023-04-25 04:52:01] INFO root fetch - processPackages [edc-rx]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-25 04:52:01] INFO root fetch - processPackages [ChatLLM]: Start processing: xj-thread
+[2023-04-25 04:52:01] INFO root fetch - main [MainThread]: End processing [ChatLLM] error
+[2023-04-25 04:52:01] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-04-25 04:52:01] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-25 04:52:01] INFO root fetch - processPackages [vald-client-python]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-04-25 04:52:01] INFO root fetch - processPackages [edc-export]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-25 04:52:01] INFO root fetch - processPackages [noba]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xyz-util]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-25 04:52:02] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/5e/78/6f992846b93817bdb7576a72ba00bcde31c0f34409cd28bf26a438014339/domolibrary-0.0.85.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/50/e0/6cb4780b8756db7a12f6e069f40f212481c97f8d15c31b9d80a40584f49e/dj_beatcloud-2.4.1b7.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [edc-rx]: Downloading https://files.pythonhosted.org/packages/50/b8/2e8659592e0e0c239c97320bc94429be6696b86e001be6aca717a898b713/edc-rx-0.1.4.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [vald-client-python]: Downloading https://files.pythonhosted.org/packages/d5/89/4be725d6747580ecb86e6abff34e16f19786c80ce430b35edb3c68f6d95d/vald-client-python-1.7.4.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [noba]: Downloading https://files.pythonhosted.org/packages/55/6d/bd9873c42cc3074bbcd5d49307f7379bca55ae9d68af790ed8c755b7c12f/noba-1.0.0.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [edc-export]: Downloading https://files.pythonhosted.org/packages/54/bf/546e613c95646829058880d98eefb65fcd6856ed0b54ed989131668bca3f/edc-export-0.3.7.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [CommonlyTools]: Downloading https://files.pythonhosted.org/packages/13/88/394baf7958dbf05b86a44ce312f051d65ae36b32a5a8a5682831cb4936f2/CommonlyTools-2.0.6.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/14/ae/fbb4ba402ea8db8b4c638e44efcfa6bf776962b53db978a47e476346eec7/xyz_util-0.7.5-py3-none-any.whl
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.4.1b6.tar.gz tmp/dj_beatcloud-2.4.1b7.tar.gz --markdown 20230425/d/dj-beatcloud/2.4.1b6-2.4.1b7/diff.md --exclude *.pyd
+[2023-04-25 04:52:02] INFO root fetch - processPackages [vald-client-python]: Downloading https://files.pythonhosted.org/packages/fd/cc/efc72e694ed06e955a4b5c426f06e8c2d2e8a2bf89fdd0de46fcd6037063/vald-client-python-1.7.5.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.0.5.tar.gz tmp/CommonlyTools-2.0.6.tar.gz --markdown 20230425/C/CommonlyTools/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-04-25 04:52:02] INFO root fetch - processPackages [edc-rx]: Downloading https://files.pythonhosted.org/packages/7e/2c/1fd9b3876fad24457177d1da6f0c2b111af185c9f3e71aa1958ee2a08586/edc-rx-0.1.5.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.85.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230425/d/domolibrary/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 04:52:02] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/64/7a/32a69ac317111c7388e0ab4419913e8ab6bfe61c92f58f576cc55010d420/xyz_util-0.7.6-py3-none-any.whl
+[2023-04-25 04:52:02] INFO root fetch - processPackages [vald-client-python]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [vald-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vald-client-python-1.7.4.tar.gz tmp/vald-client-python-1.7.5.tar.gz --markdown 20230425/v/vald-client-python/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-04-25 04:52:02] INFO root fetch - processPackages [edc-export]: Downloading https://files.pythonhosted.org/packages/f1/e1/b25a4518013301e7ea2fda91e1862c6e14878c736bb1369bdd42d4ec974c/edc-export-0.3.8.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [edc-rx]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [edc-rx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-rx-0.1.4.tar.gz tmp/edc-rx-0.1.5.tar.gz --markdown 20230425/e/edc-rx/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20230425/m/metaphor-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xyz-util]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xyz-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_util-0.7.5-py3-none-any.whl.zip tmp/xyz_util-0.7.6-py3-none-any.whl.zip --markdown 20230425/x/xyz-util/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-04-25 04:52:02] INFO root fetch - processPackages [edc-export]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [edc-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-export-0.3.7.tar.gz tmp/edc-export-0.3.8.tar.gz --markdown 20230425/e/edc-export/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-25 04:52:02] INFO root fetch - processPackages [noba]: Downloading https://files.pythonhosted.org/packages/53/59/4295246d1129b8314e4bf3fd9be7431815160df48261518c4d0b3cbe6df9/noba-1.1.0.tar.gz
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-04-25 04:52:02] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230425/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-25 04:52:03] INFO root fetch - processPackages [noba]: executing diffoscope
+[2023-04-25 04:52:03] INFO root fetch - processPackages [noba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noba-1.0.0.tar.gz tmp/noba-1.1.0.tar.gz --markdown 20230425/n/noba/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-25 04:52:03] INFO root fetch - processPackages [CommonlyTools]: Start processing: domolibrary
+[2023-04-25 04:52:03] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-25 04:52:03] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-04-25 04:52:03] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-25 04:52:03] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.85.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230425/d/domolibrary/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 04:52:04] INFO root fetch - processPackages [dj-beatcloud]: Start processing: yyxx-game-pkg
+[2023-04-25 04:52:04] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-04-25 04:52:04] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.4.7.1] Old Version: [2023.4.4.1]
+[2023-04-25 04:52:04] INFO root fetch - processPackages [xyz-util]: Start processing: montecarlodata
+[2023-04-25 04:52:04] INFO root fetch - main [MainThread]: End processing [xyz-util]: success
+[2023-04-25 04:52:04] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/b6/98/6c6c04dcbd07dd95ff83dd3a4b13c989f497e2c0b39aaa4c7ff71786884d/yyxx_game_pkg-2023.4.4.1.tar.gz
+[2023-04-25 04:52:04] INFO root fetch - processPackages [montecarlodata]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-25 04:52:04] INFO root fetch - processPackages [edc-rx]: Start processing: np-queuey
+[2023-04-25 04:52:04] INFO root fetch - main [MainThread]: End processing [edc-rx]: success
+[2023-04-25 04:52:04] INFO root fetch - processPackages [np-queuey]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 04:52:04] INFO root fetch - processPackages [montecarlodata]: Downloading https://files.pythonhosted.org/packages/db/0d/aecc03a79df2b9dfdaef8e4452e6b9e2947bf5ad211f43e5f9a4d27ac076/montecarlodata-0.9.1.tar.gz
+[2023-04-25 04:52:04] INFO root fetch - processPackages [np-queuey]: Downloading https://files.pythonhosted.org/packages/eb/55/e3aaebf1335dc92e7cc223e8ff2317075c3fe2ab4aa2e457eb66dc6008c8/np_queuey-0.1.8.tar.gz
+[2023-04-25 04:52:04] INFO root fetch - processPackages [montecarlodata]: Downloading https://files.pythonhosted.org/packages/db/e4/113cd728e2daba98e9a0ab50ceb4c29e0d6c8d370f1b4e6edf9b9fa5ae12/montecarlodata-0.9.2.tar.gz
+[2023-04-25 04:52:04] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-04-25 04:52:04] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.1.8.tar.gz tmp/np_queuey-0.1.9.tar.gz --markdown 20230425/n/np-queuey/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 04:52:05] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2023-04-25 04:52:05] INFO root fetch - processPackages [montecarlodata]: executing diffoscope
+[2023-04-25 04:52:05] INFO root fetch - processPackages [montecarlodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/montecarlodata-0.9.1.tar.gz tmp/montecarlodata-0.9.2.tar.gz --markdown 20230425/m/montecarlodata/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-25 04:52:05] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-04-25 04:52:05] INFO root fetch - main [MainThread]: End processing [vald-client-python]: success
+[2023-04-25 04:52:05] INFO root fetch - main [MainThread]: End processing [edc-export]: success
+[2023-04-25 04:52:05] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-25 04:52:05] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/cd/9a/12636c9635c64b6e3a0d829f7140bfedffc34e3f5b29499126503f8dce9f/yyxx_game_pkg-2023.4.7.1.tar.gz
+[2023-04-25 04:52:05] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-04-25 04:52:06] INFO root fetch - main [MainThread]: End processing [noba]: success
+[2023-04-25 04:52:06] INFO root fetch - main [MainThread]: End processing [montecarlodata]: success
+[2023-04-25 04:52:06] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-25 04:52:07] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-04-25 04:52:07] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.4.4.1.tar.gz tmp/yyxx_game_pkg-2023.4.7.1.tar.gz --markdown 20230425/y/yyxx-game-pkg/2023.4.4.1-2023.4.7.1/diff.md --exclude *.pyd
+[2023-04-25 04:52:09] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-04-25 04:52:09] INFO root fetch - main [MainThread]: Store serial: [17843830]

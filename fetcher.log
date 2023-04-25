@@ -16535,3 +16535,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 14:57:26] INFO root fetch - main [MainThread]: End processing [McStasScript]: success
 [2023-04-25 14:57:29] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
 [2023-04-25 14:57:29] INFO root fetch - main [MainThread]: Store serial: [17849110]
+[2023-04-25 15:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17849110]
+[2023-04-25 15:02:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scancode-toolkit-mini
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: via-hub-logistc
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auterion-cli
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serialdatalog
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xapi-python
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tronapi-JCO
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vaststream
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yente
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plex-nfs-watchdog
+[2023-04-25 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto
+[2023-04-25 15:02:40] INFO root fetch - processPackages [via-hub-logistc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-25 15:02:40] INFO root fetch - processPackages [tronapi-JCO]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-04-25 15:02:40] INFO root fetch - processPackages [scancode-toolkit-mini]: New version: [32.0.0rc1] Old Version: [31.2.6]
+[2023-04-25 15:02:40] INFO root fetch - processPackages [vaststream]: New version: [2.1.1] Old Version: [2.1.0.2]
+[2023-04-25 15:02:40] INFO root fetch - processPackages [auterion-cli]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-25 15:02:40] INFO root fetch - processPackages [via-hub-logistc]: executing diffoscope
+[2023-04-25 15:02:40] INFO root fetch - processPackages [via-hub-logistc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-hub-logistc-1.0.8.tar.gz tmp/via-hub-logistc-1.0.9.tar.gz --markdown 20230425/v/via-hub-logistc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-25 15:02:40] INFO root fetch - processPackages [tronapi-JCO]: executing diffoscope
+[2023-04-25 15:02:40] INFO root fetch - processPackages [tronapi-JCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tronapi-JCO-3.1.8.tar.gz tmp/tronapi-JCO-3.1.9.tar.gz --markdown 20230425/t/tronapi-JCO/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-04-25 15:02:41] WARNING root fetch - processPackages [xapi-python]: Skipping, unable to determine old version
+[2023-04-25 15:02:41] INFO root fetch - processPackages [xapi-python]: Start processing: xrprimer
+[2023-04-25 15:02:41] INFO root fetch - main [MainThread]: End processing [xapi-python] error
+[2023-04-25 15:02:41] INFO root fetch - processPackages [plex-nfs-watchdog]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 15:02:41] WARNING root fetch - processPackages [serialdatalog]: Skipping, unable to determine old version
+[2023-04-25 15:02:41] INFO root fetch - processPackages [yente]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-04-25 15:02:41] INFO root fetch - processPackages [serialdatalog]: Start processing: origen-ai-ecl
+[2023-04-25 15:02:41] INFO root fetch - main [MainThread]: End processing [serialdatalog] error
+[2023-04-25 15:02:41] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-25 15:02:41] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev8] Old Version: [4.1.9.dev7]
+[2023-04-25 15:02:41] INFO root fetch - processPackages [scancode-toolkit-mini]: Downloading https://files.pythonhosted.org/packages/b0/6e/247626e9df9b56ce617682157107b25e76b17792fcd65bd088be277989e3/scancode-toolkit-mini-31.2.6.tar.gz
+[2023-04-25 15:02:41] INFO root fetch - processPackages [xrprimer]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-04-25 15:02:41] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-25 15:02:41] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.2.8.tar.gz tmp/origen_ai_ecl-0.2.9.tar.gz --markdown 20230425/o/origen-ai-ecl/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-25 15:02:41] INFO root fetch - processPackages [vaststream]: Downloading https://files.pythonhosted.org/packages/9c/1b/8dac3ef1a75f1e1064e17216294fb8a81454ec12cbc2f543823143f205b6/vaststream-2.1.0.2-cp39-cp39-win_amd64.whl
+[2023-04-25 15:02:41] INFO root fetch - processPackages [xrprimer]: Downloading https://files.pythonhosted.org/packages/82/a9/5730e667b052843f87e7de36a75d3dc7ddef0cb9840b88cb2a99ee498968/xrprimer-0.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-25 15:02:41] INFO root fetch - processPackages [plex-nfs-watchdog]: Downloading https://files.pythonhosted.org/packages/f1/5b/b708c23fbdf4adb6a3dfaf1a8863d0b0f0ffa3647153eb16dcbf0918e02b/plex-nfs-watchdog-0.0.3.tar.gz
+[2023-04-25 15:02:41] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/6a/94/8b2ad920d2824a10901a5fc3edd212f8d5f663f39b356d811fcdfe090f20/yente-3.3.0.tar.gz
+[2023-04-25 15:02:41] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/43/1d/9bfdedcfc1ad1e30cc77b6395f4c1da2aa8791088c5caf625344e4842787/auterion-cli-1.0.5.tar.gz
+[2023-04-25 15:02:41] WARNING root fetch - processPackages [scancode-toolkit-mini]: Skipping package: exceeds size limit 15947023>=10485760
+[2023-04-25 15:02:41] INFO root fetch - processPackages [scancode-toolkit-mini]: Start processing: odoo13-addon-partner-exception
+[2023-04-25 15:02:41] INFO root fetch - main [MainThread]: End processing [scancode-toolkit-mini] error
+[2023-04-25 15:02:41] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-04-25 15:02:41] INFO root fetch - processPackages [odoo13-addon-partner-exception]: New version: [13.0.1.0.1.dev2] Old Version: [13.0.1.0.1]
+[2023-04-25 15:02:41] INFO root fetch - processPackages [plex-nfs-watchdog]: Downloading https://files.pythonhosted.org/packages/4b/eb/c639728758c7de0e4d76ca4ed282b3e7f4dfbdc28201c50a1843a994e0a3/plex-nfs-watchdog-0.0.4.tar.gz
+[2023-04-25 15:02:41] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/f7/c9/a70f93c0a7254144222b83f9776b336abc48d50675f6024ede3cd79b91e7/yente-3.3.1.tar.gz
+[2023-04-25 15:02:41] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/87/2d/75640b42a80922102405568a544ca140bc7d4b81e3d919d6eb06370154ff/auterion-cli-1.0.6.tar.gz
+[2023-04-25 15:02:41] INFO root fetch - processPackages [odoo13-addon-partner-exception]: Downloading https://files.pythonhosted.org/packages/a6/f5/0fb737ed6a1ac0de046d3fb682c3d014e40c49f5f4ce34d208eed255b782/odoo13_addon_partner_exception-13.0.1.0.1-py3-none-any.whl
+[2023-04-25 15:02:41] INFO root fetch - processPackages [vaststream]: Downloading https://files.pythonhosted.org/packages/f0/fe/4d4f85e24a36ab1706b26a06977ee5517aa457255c777727dce2413dfe36/vaststream-2.1.1-cp37-abi3-win_amd64.whl
+[2023-04-25 15:02:41] INFO root fetch - processPackages [plex-nfs-watchdog]: executing diffoscope
+[2023-04-25 15:02:41] INFO root fetch - processPackages [plex-nfs-watchdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plex-nfs-watchdog-0.0.3.tar.gz tmp/plex-nfs-watchdog-0.0.4.tar.gz --markdown 20230425/p/plex-nfs-watchdog/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 15:02:41] INFO root fetch - processPackages [yente]: executing diffoscope
+[2023-04-25 15:02:41] INFO root fetch - processPackages [yente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yente-3.3.0.tar.gz tmp/yente-3.3.1.tar.gz --markdown 20230425/y/yente/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-04-25 15:02:41] WARNING root fetch - processPackages [xrprimer]: Skipping package: exceeds size limit 11135249>=10485760
+[2023-04-25 15:02:41] INFO root fetch - main [MainThread]: End processing [xrprimer] error
+[2023-04-25 15:02:41] INFO root fetch - processPackages [auterion-cli]: executing diffoscope
+[2023-04-25 15:02:41] INFO root fetch - processPackages [auterion-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auterion-cli-1.0.5.tar.gz tmp/auterion-cli-1.0.6.tar.gz --markdown 20230425/a/auterion-cli/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-25 15:02:41] WARNING root fetch - processPackages [vaststream]: Skipping package: exceeds size limit 11623403>=10485760
+[2023-04-25 15:02:41] INFO root fetch - main [MainThread]: End processing [vaststream] error
+[2023-04-25 15:02:41] INFO root fetch - processPackages [odoo13-addon-partner-exception]: Downloading https://files.pythonhosted.org/packages/5b/43/4277880712831fb12b9ea4c7fb929dbb079e92c4a0a3b02569fefbae21a8/odoo13_addon_partner_exception-13.0.1.0.1.dev2-py3-none-any.whl
+[2023-04-25 15:02:42] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-25 15:02:42] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev7.tar.gz tmp/moto-4.1.9.dev8.tar.gz --markdown 20230425/m/moto/4.1.9.dev7-4.1.9.dev8/diff.md --exclude *.pyd
+[2023-04-25 15:02:42] INFO root fetch - processPackages [odoo13-addon-partner-exception]: executing diffoscope
+[2023-04-25 15:02:42] INFO root fetch - processPackages [odoo13-addon-partner-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_partner_exception-13.0.1.0.1-py3-none-any.whl.zip tmp/odoo13_addon_partner_exception-13.0.1.0.1.dev2-py3-none-any.whl.zip --markdown 20230425/o/odoo13-addon-partner-exception/13.0.1.0.1-13.0.1.0.1.dev2/diff.md --exclude *.pyd
+[2023-04-25 15:02:43] INFO root fetch - main [MainThread]: End processing [plex-nfs-watchdog]: success
+[2023-04-25 15:02:43] INFO root fetch - main [MainThread]: End processing [via-hub-logistc]: success
+[2023-04-25 15:02:43] INFO root fetch - main [MainThread]: End processing [odoo13-addon-partner-exception]: success
+[2023-04-25 15:02:43] INFO root fetch - main [MainThread]: End processing [auterion-cli]: success
+[2023-04-25 15:02:43] INFO root fetch - main [MainThread]: End processing [tronapi-JCO]: success
+[2023-04-25 15:02:44] INFO root fetch - main [MainThread]: End processing [yente]: success
+[2023-04-25 15:02:49] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-25 15:03:17] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-25 15:03:17] INFO root fetch - main [MainThread]: Store serial: [17849162]

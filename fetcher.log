@@ -15660,3 +15660,107 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 14:09:15] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-25 14:09:17] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-04-25 14:09:17] INFO root fetch - main [MainThread]: Store serial: [17848644]
+[2023-04-25 14:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848644]
+[2023-04-25 14:14:26] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-organization-python
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-glightbox
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kof-parser
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RIFT
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-bank-python
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maus
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asyncscope
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openlimit
+[2023-04-25 14:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pz-server-lib
+[2023-04-25 14:14:26] INFO root fetch - processPackages [asyncscope]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [kof-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [pz-server-lib]: New version: [0.1.7] Old Version: [0.1.6.dev0]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [openlimit]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [mkdocs-glightbox]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [RIFT]: New version: [0.0.15.8rc9] Old Version: [0.0.15.8rc7]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-25 14:14:26] INFO root fetch - processPackages [asyncscope]: Downloading https://files.pythonhosted.org/packages/bd/46/f5938d277124d5120e87ff498e87a4126517c6b39271066ff523fc8a7328/asyncscope-0.9.1.tar.gz
+[2023-04-25 14:14:26] INFO root fetch - processPackages [pz-server-lib]: Downloading https://files.pythonhosted.org/packages/9d/fe/b5bca3a8c2feb9e2aa68df55eb94a6ee35221d2e9e3c3ac135e57dc3bd28/pz-server-lib-0.1.6.dev0.tar.gz
+[2023-04-25 14:14:26] INFO root fetch - processPackages [kof-parser]: Downloading https://files.pythonhosted.org/packages/3a/6a/9dfd0aa9a4c6830248077727c5c91acffd94825964620148f49be0b1d52a/kof-parser-0.0.8.tar.gz
+[2023-04-25 14:14:26] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-25 14:14:26] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230425/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-25 14:14:26] INFO root fetch - processPackages [mkdocs-glightbox]: Downloading https://files.pythonhosted.org/packages/63/62/43065c68dd4be382060e684656b6fb1b25de6013b04eaf58001f8096f1eb/mkdocs-glightbox-0.3.3.tar.gz
+[2023-04-25 14:14:26] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-04-25 14:14:26] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230425/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-25 14:14:26] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-25 14:14:26] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230425/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-25 14:14:26] INFO root fetch - processPackages [RIFT]: executing diffoscope
+[2023-04-25 14:14:26] INFO root fetch - processPackages [RIFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RIFT-0.0.15.8rc7.tar.gz tmp/RIFT-0.0.15.8rc9.tar.gz --markdown 20230425/R/RIFT/0.0.15.8rc7-0.0.15.8rc9/diff.md --exclude *.pyd
+[2023-04-25 14:14:26] INFO root fetch - processPackages [openlimit]: Downloading https://files.pythonhosted.org/packages/09/81/824e0dfacac381459cf78c3459aa623f66d50de13ec4c65352567e5680fc/openlimit-0.2.5.tar.gz
+[2023-04-25 14:14:27] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-25 14:14:27] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230425/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-25 14:14:27] INFO root fetch - processPackages [asyncscope]: Downloading https://files.pythonhosted.org/packages/c3/8a/76392e99e9c4e22bc359a7f06e07a73c220ac461e11a3ff26acc5ccd8373/asyncscope-0.9.2.tar.gz
+[2023-04-25 14:14:27] INFO root fetch - processPackages [openlimit]: executing diffoscope
+[2023-04-25 14:14:27] INFO root fetch - processPackages [openlimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlimit-0.2.4.tar.gz tmp/openlimit-0.2.5.tar.gz --markdown 20230425/o/openlimit/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-25 14:14:27] INFO root fetch - processPackages [kof-parser]: Downloading https://files.pythonhosted.org/packages/61/9c/9c564fb38dbaab42148e3bdcc1588496c9cc0d0277c030d731ed21a787df/kof-parser-0.0.9.tar.gz
+[2023-04-25 14:14:27] INFO root fetch - processPackages [pz-server-lib]: Downloading https://files.pythonhosted.org/packages/d2/fd/7c54e1023d26a5156d65d10bc6992b7cc04bfdb91c52e7c6988f67e43b76/pz-server-lib-0.1.7.tar.gz
+[2023-04-25 14:14:27] INFO root fetch - processPackages [mkdocs-glightbox]: Downloading https://files.pythonhosted.org/packages/a2/2d/d43cc9c22f4bc0f65bba2b78b18470eedff07a0b2bca5c0496a00c2c0ec9/mkdocs-glightbox-0.3.4.tar.gz
+[2023-04-25 14:14:27] INFO root fetch - processPackages [asyncscope]: executing diffoscope
+[2023-04-25 14:14:27] INFO root fetch - processPackages [asyncscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncscope-0.9.1.tar.gz tmp/asyncscope-0.9.2.tar.gz --markdown 20230425/a/asyncscope/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-25 14:14:27] INFO root fetch - processPackages [kof-parser]: executing diffoscope
+[2023-04-25 14:14:27] INFO root fetch - processPackages [kof-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kof-parser-0.0.8.tar.gz tmp/kof-parser-0.0.9.tar.gz --markdown 20230425/k/kof-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 14:14:27] INFO root fetch - processPackages [pz-server-lib]: executing diffoscope
+[2023-04-25 14:14:27] INFO root fetch - processPackages [pz-server-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-server-lib-0.1.6.dev0.tar.gz tmp/pz-server-lib-0.1.7.tar.gz --markdown 20230425/p/pz-server-lib/0.1.6.dev0-0.1.7/diff.md --exclude *.pyd
+[2023-04-25 14:14:27] INFO root fetch - processPackages [mkdocs-glightbox]: executing diffoscope
+[2023-04-25 14:14:27] INFO root fetch - processPackages [mkdocs-glightbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-glightbox-0.3.3.tar.gz tmp/mkdocs-glightbox-0.3.4.tar.gz --markdown 20230425/m/mkdocs-glightbox/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-25 14:14:28] INFO root fetch - processPackages [openlimit]: Start processing: kcli
+[2023-04-25 14:14:28] INFO root fetch - main [MainThread]: End processing [openlimit]: success
+[2023-04-25 14:14:28] INFO root fetch - processPackages [kcli]: New version: [99.0.202304251211] Old Version: [99.0.202304242129]
+[2023-04-25 14:14:29] INFO root fetch - processPackages [kof-parser]: Start processing: zoomaker
+[2023-04-25 14:14:29] INFO root fetch - main [MainThread]: End processing [kof-parser]: success
+[2023-04-25 14:14:29] WARNING root fetch - processPackages [zoomaker]: Skipping, unable to determine old version
+[2023-04-25 14:14:29] INFO root fetch - processPackages [zoomaker]: Start processing: nexus-api
+[2023-04-25 14:14:29] INFO root fetch - main [MainThread]: End processing [zoomaker] error
+[2023-04-25 14:14:29] INFO root fetch - processPackages [nexus-api]: New version: [2.0.0b8] Old Version: [2.0.0b7]
+[2023-04-25 14:14:29] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/65/9b/86b5c56ad8e83b93eaf016269effb070964e5892216d7e9278645198d935/kcli-99.0.202304251211-py3-none-any.whl
+[2023-04-25 14:14:29] INFO root fetch - processPackages [nexus-api]: executing diffoscope
+[2023-04-25 14:14:29] INFO root fetch - processPackages [nexus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_api-2.0.0b7-py3-none-any.whl.zip tmp/nexus_api-2.0.0b8-py3-none-any.whl.zip --markdown 20230425/n/nexus-api/2.0.0b7-2.0.0b8/diff.md --exclude *.pyd
+[2023-04-25 14:14:29] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-04-25 14:14:29] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-25 14:14:29] INFO root fetch - processPackages [asyncscope]: Start processing: nexus-extensibility
+[2023-04-25 14:14:29] INFO root fetch - main [MainThread]: End processing [asyncscope]: success
+[2023-04-25 14:14:29] INFO root fetch - processPackages [nexus-extensibility]: New version: [2.0.0b8] Old Version: [2.0.0b7]
+[2023-04-25 14:14:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-25 14:14:29] INFO root fetch - processPackages [mkdocs-glightbox]: Start processing: gym-trading-env
+[2023-04-25 14:14:29] INFO root fetch - main [MainThread]: End processing [mkdocs-glightbox]: success
+[2023-04-25 14:14:29] INFO root fetch - processPackages [gym-trading-env]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 14:14:29] INFO root fetch - processPackages [nexus-extensibility]: executing diffoscope
+[2023-04-25 14:14:29] INFO root fetch - processPackages [nexus-extensibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_extensibility-2.0.0b7-py3-none-any.whl.zip tmp/nexus_extensibility-2.0.0b8-py3-none-any.whl.zip --markdown 20230425/n/nexus-extensibility/2.0.0b7-2.0.0b8/diff.md --exclude *.pyd
+[2023-04-25 14:14:29] INFO root fetch - processPackages [maus]: Start processing: dedscumulus
+[2023-04-25 14:14:29] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-04-25 14:14:29] INFO root fetch - processPackages [pz-server-lib]: Start processing: hydrogibs
+[2023-04-25 14:14:29] INFO root fetch - main [MainThread]: End processing [pz-server-lib]: success
+[2023-04-25 14:14:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-04-25 14:14:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230425/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-25 14:14:29] INFO root fetch - processPackages [gym-trading-env]: executing diffoscope
+[2023-04-25 14:14:29] INFO root fetch - processPackages [gym-trading-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym-trading-env-0.1.8.tar.gz tmp/gym-trading-env-0.1.9.tar.gz --markdown 20230425/g/gym-trading-env/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 14:14:29] INFO root fetch - processPackages [hydrogibs]: New version: [0.1.2] Old Version: [0.0.9]
+[2023-04-25 14:14:29] INFO root fetch - processPackages [dedscumulus]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-25 14:14:29] INFO root fetch - processPackages [dedscumulus]: Downloading https://files.pythonhosted.org/packages/c8/26/88121f4a8fe6a2047abe509ba0430a9559eef5d7f2ff3ef2de653b049d4c/dedscumulus-0.0.7-py3-none-any.whl
+[2023-04-25 14:14:29] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-25 14:14:29] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304242129-py3-none-any.whl.zip tmp/kcli-99.0.202304251211-py3-none-any.whl.zip --markdown 20230425/k/kcli/99.0.202304242129-99.0.202304251211/diff.md --exclude *.pyd
+[2023-04-25 14:14:29] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/82/12/5f44fa0a4b18f0a68a51f90095d8ab0b7abf27bd86374d7f2ce2c68d9c81/hydrogibs-0.1.2.tar.gz
+[2023-04-25 14:14:29] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-04-25 14:14:29] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.9.tar.gz tmp/hydrogibs-0.1.2.tar.gz --markdown 20230425/h/hydrogibs/0.0.9-0.1.2/diff.md --exclude *.pyd
+[2023-04-25 14:14:29] INFO root fetch - processPackages [dedscumulus]: Downloading https://files.pythonhosted.org/packages/d8/74/3ea2a5309b028f85e0f26ad50a63492479289974efb1aab85da474ad7c30/dedscumulus-0.0.8-py3-none-any.whl
+[2023-04-25 14:14:30] INFO root fetch - processPackages [dedscumulus]: executing diffoscope
+[2023-04-25 14:14:30] INFO root fetch - processPackages [dedscumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dedscumulus-0.0.7-py3-none-any.whl.zip tmp/dedscumulus-0.0.8-py3-none-any.whl.zip --markdown 20230425/d/dedscumulus/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-25 14:14:30] INFO root fetch - main [MainThread]: End processing [RIFT]: success
+[2023-04-25 14:14:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-04-25 14:14:30] INFO root fetch - main [MainThread]: End processing [nexus-extensibility]: success
+[2023-04-25 14:14:31] INFO root fetch - main [MainThread]: End processing [nexus-api]: success
+[2023-04-25 14:14:31] INFO root fetch - main [MainThread]: End processing [gym-trading-env]: success
+[2023-04-25 14:14:31] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-25 14:14:31] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-04-25 14:14:31] INFO root fetch - main [MainThread]: End processing [dedscumulus]: success
+[2023-04-25 14:14:32] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-25 14:14:37] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-25 14:14:37] INFO root fetch - main [MainThread]: Store serial: [17848701]

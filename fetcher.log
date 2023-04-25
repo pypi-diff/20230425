@@ -7713,3 +7713,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 05:09:23] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
 [2023-04-25 05:09:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
 [2023-04-25 05:09:23] INFO root fetch - main [MainThread]: Store serial: [17843944]
+[2023-04-25 05:14:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843944]
+[2023-04-25 05:14:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-edc
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: analphipy
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griseo
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smdb-api
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-forward
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bkapi-plugins-py
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hmku
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GANDLF
+[2023-04-25 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domolibrary
+[2023-04-25 05:14:32] INFO root fetch - processPackages [smdb-api]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-04-25 05:14:32] WARNING root fetch - processPackages [hmku]: Skipping, unable to determine old version
+[2023-04-25 05:14:32] INFO root fetch - main [MainThread]: End processing [hmku] error
+[2023-04-25 05:14:32] INFO root fetch - processPackages [openai-forward]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-25 05:14:32] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230424] Old Version: [0.0.16.dev20230423]
+[2023-04-25 05:14:32] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-04-25 05:14:32] INFO root fetch - processPackages [openai-forward]: executing diffoscope
+[2023-04-25 05:14:32] INFO root fetch - processPackages [openai-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_forward-0.1.0.tar.gz tmp/openai_forward-0.1.1.tar.gz --markdown 20230425/o/openai-forward/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-25 05:14:32] INFO root fetch - processPackages [smdb-api]: executing diffoscope
+[2023-04-25 05:14:32] INFO root fetch - processPackages [smdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smdb_api-0.9.1.tar.gz tmp/smdb_api-0.9.12.tar.gz --markdown 20230425/s/smdb-api/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-04-25 05:14:32] INFO root fetch - processPackages [analphipy]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-04-25 05:14:32] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-25 05:14:32] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.425] Old Version: [0.1]
+[2023-04-25 05:14:32] INFO root fetch - processPackages [griseo]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 05:14:32] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/fc/e5/f79f9ac60723f0acd66ffd37e3a90cb861392158275bcea7b4854e77f5c7/domolibrary-0.0.86.tar.gz
+[2023-04-25 05:14:32] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/4b/a5/14d8f055f43c5172ce695a48244acfe77af995933b13e8f0fd3c0dc3ffe8/GANDLF-0.0.16.dev20230424.tar.gz
+[2023-04-25 05:14:32] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-04-25 05:14:32] INFO root fetch - processPackages [griseo]: Downloading https://files.pythonhosted.org/packages/0c/4c/8b341707a6a364d57be3d2cd9287385a06f00d6af645eab16d55bbeca4a3/griseo-0.9.0.tar.gz
+[2023-04-25 05:14:32] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/52/fe/38919bfc7499e01ac72e9f0be6b5cedaedcd062e04ae61a2de88ea0b58db/bkapi_plugins_py-0.1.tar.gz
+[2023-04-25 05:14:32] INFO root fetch - processPackages [analphipy]: Downloading https://files.pythonhosted.org/packages/31/ba/186f0db64e1f28a88ec2653185c9aa77bf00220c3b0f6c87c037dd8791d4/analphipy-0.0.6.tar.gz
+[2023-04-25 05:14:32] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-04-25 05:14:32] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230423.tar.gz tmp/GANDLF-0.0.16.dev20230424.tar.gz --markdown 20230425/G/GANDLF/0.0.16.dev20230423-0.0.16.dev20230424/diff.md --exclude *.pyd
+[2023-04-25 05:14:33] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-25 05:14:33] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.86.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230425/d/domolibrary/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 05:14:33] INFO root fetch - processPackages [griseo]: executing diffoscope
+[2023-04-25 05:14:33] INFO root fetch - processPackages [griseo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griseo-0.8.0.tar.gz tmp/griseo-0.9.0.tar.gz --markdown 20230425/g/griseo/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 05:14:33] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-04-25 05:14:33] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/07/1f/2d40ca95f2c4f90621e8f3491880b35b6c9ba0ad0c5de77ee5f1d11923e9/bkapi_plugins_py-0.425.tar.gz
+[2023-04-25 05:14:33] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-04-25 05:14:33] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230425/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-25 05:14:33] INFO root fetch - processPackages [analphipy]: Downloading https://files.pythonhosted.org/packages/e8/d1/e5d4673d7e3b5275ac91d70b7e8002180d285ed88c5e133ff617c93c23b9/analphipy-0.1.0.tar.gz
+[2023-04-25 05:14:33] INFO root fetch - processPackages [analphipy]: executing diffoscope
+[2023-04-25 05:14:33] INFO root fetch - processPackages [analphipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analphipy-0.0.6.tar.gz tmp/analphipy-0.1.0.tar.gz --markdown 20230425/a/analphipy/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-04-25 05:14:33] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-04-25 05:14:33] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi_plugins_py-0.1.tar.gz tmp/bkapi_plugins_py-0.425.tar.gz --markdown 20230425/b/bkapi-plugins-py/0.1-0.425/diff.md --exclude *.pyd
+[2023-04-25 05:14:33] INFO root fetch - main [MainThread]: End processing [openai-forward]: success
+[2023-04-25 05:14:34] INFO root fetch - main [MainThread]: End processing [smdb-api]: success
+[2023-04-25 05:14:34] INFO root fetch - main [MainThread]: End processing [griseo]: success
+[2023-04-25 05:14:34] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-04-25 05:14:34] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-04-25 05:14:34] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-25 05:14:36] INFO root fetch - main [MainThread]: End processing [analphipy]: success
+[2023-04-25 05:14:37] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-04-25 05:14:37] INFO root fetch - main [MainThread]: Store serial: [17843970]

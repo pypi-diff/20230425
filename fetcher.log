@@ -15995,3 +15995,127 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 14:30:13] INFO root fetch - main [MainThread]: End processing [lightly]: success
 [2023-04-25 14:30:22] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-04-25 14:30:22] INFO root fetch - main [MainThread]: Store serial: [17848821]
+[2023-04-25 14:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17848821]
+[2023-04-25 14:35:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sesg
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netin
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydrogibs
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ape-vyper
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sampo
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SpectroscopicBinarySystem
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: via-hub-logistc
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-access-sdk
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: origen-ai-ecl
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gym-trading-env
+[2023-04-25 14:35:31] INFO root fetch - processPackages [netin]: New version: [1.0.5.8] Old Version: [1.0.5.7]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [gym-trading-env]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [via-hub-logistc]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [hydrogibs]: New version: [0.1.5] Old Version: [0.0.9]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [ape-vyper]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-04-25 14:35:31] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-04-25 14:35:31] ERROR root fetch - processPackages [SpectroscopicBinarySystem]: Unable to fetch info: No such project/version 'SpectroscopicBinarySystem' 1.0.2
+[2023-04-25 14:35:31] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Start processing: pyham
+[2023-04-25 14:35:31] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem] error
+[2023-04-25 14:35:31] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-25 14:35:31] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230425/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-25 14:35:31] INFO root fetch - processPackages [pyham]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-25 14:35:32] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/fb/5b/234ade8cbee780c60103973f669863553d23d804a0f0669c67b6d2f5aac7/origen_ai_ecl-0.2.7.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230425/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-04-25 14:35:32] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230425/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-04-25 14:35:32] INFO root fetch - processPackages [gym-trading-env]: Downloading https://files.pythonhosted.org/packages/1b/f1/f42bf7e0f08e610c319720f13391e64a5effeeb5acfcbafc5d85812ebd44/gym-trading-env-0.2.2.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [ape-vyper]: Downloading https://files.pythonhosted.org/packages/80/61/709c0623f0359d0780ca2fefe2794fddb17b2baef5107d4719a110480493/ape-vyper-0.6.3.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/47/88/7dd1a43e31ab3f472ddb9ee6cc2d15df51463603dcff847328929e6fb1e9/hydrogibs-0.1.5.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [via-hub-logistc]: Downloading https://files.pythonhosted.org/packages/6a/61/0bdfdbea7b0aebf35b57955e857e0ca8595dfd401342f58244d22b59195f/via-hub-logistc-1.0.4.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [netin]: Downloading https://files.pythonhosted.org/packages/ae/b6/95604954984d99ef1eea035c8a30ecf3f16a4b01417268c517eb0a1a9141/netin-1.0.5.8.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [pyham]: Downloading https://files.pythonhosted.org/packages/a6/80/e3cc464ddbf39d3b1891257791e3859ab8ddf7a2e894cb01370cbfaf187c/pyham-1.1.8.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [gym-trading-env]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [gym-trading-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym-trading-env-0.2.1.tar.gz tmp/gym-trading-env-0.2.2.tar.gz --markdown 20230425/g/gym-trading-env/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-25 14:35:32] INFO root fetch - processPackages [via-hub-logistc]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [via-hub-logistc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-hub-logistc-1.0.3.tar.gz tmp/via-hub-logistc-1.0.4.tar.gz --markdown 20230425/v/via-hub-logistc/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-25 14:35:32] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.9.tar.gz tmp/hydrogibs-0.1.5.tar.gz --markdown 20230425/h/hydrogibs/0.0.9-0.1.5/diff.md --exclude *.pyd
+[2023-04-25 14:35:32] INFO root fetch - processPackages [netin]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [netin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netin-1.0.5.7.tar.gz tmp/netin-1.0.5.8.tar.gz --markdown 20230425/n/netin/1.0.5.7-1.0.5.8/diff.md --exclude *.pyd
+[2023-04-25 14:35:32] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/2d/15/cbece39b8f2b3e0ea2761329b510d1f4fd432c49256e32d989f90ee8cb43/origen_ai_ecl-0.2.8.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [ape-vyper]: Downloading https://files.pythonhosted.org/packages/4f/f3/f1347b6a7e142a7238b2c0d5a352ea0005c986a07cea76ede228f8cb1f52/ape-vyper-0.6.4.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [pyham]: Downloading https://files.pythonhosted.org/packages/cc/a3/b38c4d1a53f9a8f37e22c6be5861045189a68b1f5a484336f163c90f47f4/pyham-1.1.9.tar.gz
+[2023-04-25 14:35:32] INFO root fetch - processPackages [ape-vyper]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [ape-vyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-vyper-0.6.3.tar.gz tmp/ape-vyper-0.6.4.tar.gz --markdown 20230425/a/ape-vyper/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-04-25 14:35:32] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.2.7.tar.gz tmp/origen_ai_ecl-0.2.8.tar.gz --markdown 20230425/o/origen-ai-ecl/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-25 14:35:32] INFO root fetch - processPackages [pyham]: executing diffoscope
+[2023-04-25 14:35:32] INFO root fetch - processPackages [pyham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyham-1.1.8.tar.gz tmp/pyham-1.1.9.tar.gz --markdown 20230425/p/pyham/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-25 14:35:33] INFO root fetch - processPackages [gym-trading-env]: Start processing: scaleway
+[2023-04-25 14:35:33] INFO root fetch - main [MainThread]: End processing [gym-trading-env]: success
+[2023-04-25 14:35:33] INFO root fetch - processPackages [scaleway]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 14:35:33] INFO root fetch - processPackages [sesg]: Start processing: bigdl-orca-spark3
+[2023-04-25 14:35:33] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230425] Old Version: [2.4.0b20230424]
+[2023-04-25 14:35:34] INFO root fetch - processPackages [hydrogibs]: Start processing: bigdl-friesian-spark3
+[2023-04-25 14:35:34] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-25 14:35:34] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/67/21/46013cb213bcbce9880e47a1fd5eac7b117e02988532588010d357c0a9cc/scaleway-0.8.0.tar.gz
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/9b/b3/14e0acf9ddb51f6445b67f3981ef3de06a6ed2c4f50bb8333f32b1791010/bigdl_orca_spark3-2.4.0b20230424-py3-none-manylinux1_x86_64.whl
+[2023-04-25 14:35:34] INFO root fetch - processPackages [via-hub-logistc]: Start processing: scaleway-async
+[2023-04-25 14:35:34] INFO root fetch - main [MainThread]: End processing [via-hub-logistc]: success
+[2023-04-25 14:35:34] INFO root fetch - processPackages [ape-vyper]: Start processing: bigdl-chronos-spark3
+[2023-04-25 14:35:34] INFO root fetch - main [MainThread]: End processing [ape-vyper]: success
+[2023-04-25 14:35:34] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207456>=10485760
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: scaleway-core
+[2023-04-25 14:35:34] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-25 14:35:34] INFO root fetch - processPackages [scaleway-async]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 14:35:34] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/3a/7e/88f0ee5e46853b67c7b855cc0bb27325c4930c08c2f05fadf0a4c9a0bc35/scaleway-0.9.0.tar.gz
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230423-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230424-py3-none-manylinux1_x86_64.whl.zip --markdown 20230425/b/bigdl-friesian-spark3/2.4.0b20230423-2.4.0b20230424/diff.md --exclude *.pyd
+[2023-04-25 14:35:34] INFO root fetch - processPackages [scaleway-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 14:35:34] INFO root fetch - processPackages [netin]: Start processing: bigdl-spark3
+[2023-04-25 14:35:34] INFO root fetch - main [MainThread]: End processing [netin]: success
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230424] Old Version: [2.4.0b20230423]
+[2023-04-25 14:35:34] INFO root fetch - processPackages [scaleway]: executing diffoscope
+[2023-04-25 14:35:34] INFO root fetch - processPackages [scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-0.8.0.tar.gz tmp/scaleway-0.9.0.tar.gz --markdown 20230425/s/scaleway/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 14:35:34] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/eb/08/72eca403ef3cc6b54711cd4effb064f70bc6b35fb4b15bd32c586c082078/scaleway_async-0.8.0.tar.gz
+[2023-04-25 14:35:34] INFO root fetch - processPackages [sampo]: Start processing: via-hub-logistc
+[2023-04-25 14:35:34] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-04-25 14:35:34] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/27/da/6b45c21159f8281050256a34c8fbf4014a1c64e70e4086b70acac676a2bc/scaleway_core-0.8.0.tar.gz
+[2023-04-25 14:35:34] INFO root fetch - processPackages [via-hub-logistc]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-04-25 14:35:34] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230423-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230424-py3-none-manylinux1_x86_64.whl.zip --markdown 20230425/b/bigdl-chronos-spark3/2.4.0b20230423-2.4.0b20230424/diff.md --exclude *.pyd
+[2023-04-25 14:35:34] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: sitcom
+[2023-04-25 14:35:34] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-04-25 14:35:34] INFO root fetch - processPackages [sitcom]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-25 14:35:34] INFO root fetch - processPackages [sitcom]: Downloading https://files.pythonhosted.org/packages/3b/11/daa34a4e2bd96c7996779aebdaf6860e3959457cacfff46b3c103f26b890/sitcom-1.4.1.tar.gz
+[2023-04-25 14:35:34] INFO root fetch - processPackages [via-hub-logistc]: Downloading https://files.pythonhosted.org/packages/4b/de/a8228d626ca708433eddd46e007db85d62ae7e32b9b7c21a35f31d2409dc/via-hub-logistc-1.0.5.tar.gz
+[2023-04-25 14:35:34] WARNING root fetch - processPackages [sitcom]: Skipping package: exceeds size limit 10689471>=10485760
+[2023-04-25 14:35:34] INFO root fetch - processPackages [sitcom]: Start processing: python-roborock
+[2023-04-25 14:35:34] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-25 14:35:35] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-04-25 14:35:35] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230423-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230424-py3-none-manylinux1_x86_64.whl.zip --markdown 20230425/b/bigdl-spark3/2.4.0b20230423-2.4.0b20230424/diff.md --exclude *.pyd
+[2023-04-25 14:35:35] INFO root fetch - processPackages [python-roborock]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-25 14:35:35] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/92/c5/a4f956878eb6796ff1d5815e34389477cfb80c4c6e5b662840e1f4193337/scaleway_async-0.9.0.tar.gz
+[2023-04-25 14:35:35] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/9d/2c/dedd0b5233c66256c6420cb2d4a13c24719c1e1ac0c9216c3625fda1c368/scaleway_core-0.9.0.tar.gz
+[2023-04-25 14:35:35] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-25 14:35:35] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.7.2.tar.gz tmp/python_roborock-0.7.3.tar.gz --markdown 20230425/p/python-roborock/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-25 14:35:35] INFO root fetch - processPackages [via-hub-logistc]: executing diffoscope
+[2023-04-25 14:35:35] INFO root fetch - processPackages [via-hub-logistc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-hub-logistc-1.0.4.tar.gz tmp/via-hub-logistc-1.0.5.tar.gz --markdown 20230425/v/via-hub-logistc/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-25 14:35:35] INFO root fetch - processPackages [scaleway-core]: executing diffoscope
+[2023-04-25 14:35:35] INFO root fetch - processPackages [scaleway-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_core-0.8.0.tar.gz tmp/scaleway_core-0.9.0.tar.gz --markdown 20230425/s/scaleway-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 14:35:35] INFO root fetch - processPackages [scaleway-async]: executing diffoscope
+[2023-04-25 14:35:35] INFO root fetch - processPackages [scaleway-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_async-0.8.0.tar.gz tmp/scaleway_async-0.9.0.tar.gz --markdown 20230425/s/scaleway-async/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 14:35:35] INFO root fetch - main [MainThread]: End processing [pyham]: success
+[2023-04-25 14:35:36] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-04-25 14:35:36] INFO root fetch - main [MainThread]: End processing [via-hub-logistc]: success
+[2023-04-25 14:35:36] INFO root fetch - main [MainThread]: End processing [scaleway-core]: success
+[2023-04-25 14:35:37] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-25 14:35:37] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-04-25 14:35:37] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-04-25 14:35:38] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
+[2023-04-25 14:35:39] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-25 14:35:39] INFO root fetch - main [MainThread]: End processing [scaleway]: success
+[2023-04-25 14:35:39] INFO root fetch - main [MainThread]: Store serial: [17848887]

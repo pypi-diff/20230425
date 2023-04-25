@@ -6817,3 +6817,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-25 03:52:04] INFO root fetch - main [MainThread]: End processing [mplot]: success
 [2023-04-25 03:52:05] INFO root fetch - main [MainThread]: End processing [ChatDocument]: success
 [2023-04-25 03:52:05] INFO root fetch - main [MainThread]: Store serial: [17843444]
+[2023-04-25 03:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17843444]
+[2023-04-25 03:57:14] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-partner
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-sls-lambda-toolkit
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-boto3-mediaconvert
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-rekognition
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-ec2
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-codecatalyst
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kivy-widgets
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypy-boto3-appflow
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3
+[2023-04-25 03:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dynast
+[2023-04-25 03:57:15] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [antchain-partner]: New version: [1.0.20] Old Version: [1.0.19]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-rekognition]: New version: [1.26.8] Old Version: [1.26.28]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [dynast]: New version: [1.2.0rc2] Old Version: [1.2.0rc1]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [kivy-widgets]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: New version: [1.26.82] Old Version: [1.26.21]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-appflow]: New version: [1.26.78] Old Version: [1.26.53]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-mediaconvert]: New version: [1.26.98] Old Version: [1.26.84]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-ec2]: New version: [1.26.97.post1] Old Version: [1.26.97]
+[2023-04-25 03:57:15] INFO root fetch - processPackages [dynast]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [dynast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynast-1.2.0rc1.tar.gz tmp/dynast-1.2.0rc2.tar.gz --markdown 20230425/d/dynast/1.2.0rc1-1.2.0rc2/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [antchain-partner]: Downloading https://files.pythonhosted.org/packages/50/9e/d6ca4941d49718b935a4d47b4399bc8f37a70c033768cea787927c85e81a/antchain_partner-1.0.19.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-rekognition]: Downloading https://files.pythonhosted.org/packages/30/69/9cf0a41f18c3260ace475dd983059d92acf632dcb0ac11089106edf79c0c/mypy-boto3-rekognition-1.26.28.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [kivy-widgets]: Downloading https://files.pythonhosted.org/packages/49/22/40658867932c81ea89e159c5f108f1e606b8237e210556177f201a8d8a4e/kivy_widgets-0.1.5.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-appflow]: Downloading https://files.pythonhosted.org/packages/02/45/0779af46d436e5afb84f5ebd6fa7337a2efde0a9a7ad75af2ed9f026f944/mypy-boto3-appflow-1.26.53.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Downloading https://files.pythonhosted.org/packages/41/2a/cc6d43aec413e6173e29a35a770747df0fbcbecda1116d275cff76a1d141/mypy-boto3-codecatalyst-1.26.21.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/d5/b3/b7add8ef42166b4b6fe8070c7809196e841899fae0741fbab7f1135a68d0/mypy-boto3-1.26.98.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-mediaconvert]: Downloading https://files.pythonhosted.org/packages/70/c2/cd3fbd4d1b3bacc2e80a9c4df7c18566cc7a48062d4258aba8af9971eb94/mypy-boto3-mediaconvert-1.26.84.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/13/55/9dcab42e56b53245f06a92b7d85137e2b5ba681c6cb45d5e244d8be620e0/py-sls-lambda-toolkit-0.0.4.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-ec2]: Downloading https://files.pythonhosted.org/packages/5b/98/13ec2a19201b1097448fe81d7802d99a5fe96490610380d07bd94aa5369b/mypy-boto3-ec2-1.26.97.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [antchain-partner]: Downloading https://files.pythonhosted.org/packages/5f/48/56a139413e30dad118a38efa978f5a21bf3ba92c6c300b58b5e5d37d08d0/antchain_partner-1.0.20.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.0.3.tar.gz tmp/py-sls-lambda-toolkit-0.0.4.tar.gz --markdown 20230425/p/py-sls-lambda-toolkit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [kivy-widgets]: Downloading https://files.pythonhosted.org/packages/34/99/c57d5d404819c50ba0cd49c9f478651969a1df49593b904d38d9ce9dfd2d/kivy_widgets-0.1.6.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-rekognition]: Downloading https://files.pythonhosted.org/packages/be/46/b12faf034bd1f64586116ebf441f68c4383719bd08d998ef061861bbb314/mypy-boto3-rekognition-1.26.8.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Downloading https://files.pythonhosted.org/packages/63/84/c1bc323cfabe21aef536901450275ae7170f0759a61f63c4f247f33aaa28/mypy-boto3-codecatalyst-1.26.82.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-mediaconvert]: Downloading https://files.pythonhosted.org/packages/df/80/71a5b3dd852f1bff66799f3ec8bf57e7b0da788ad25d2c4a43be7630fefa/mypy-boto3-mediaconvert-1.26.98.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-rekognition]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-rekognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-rekognition-1.26.28.tar.gz tmp/mypy-boto3-rekognition-1.26.8.tar.gz --markdown 20230425/m/mypy-boto3-rekognition/1.26.28-1.26.8/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [antchain-partner]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [antchain-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_partner-1.0.19.tar.gz tmp/antchain_partner-1.0.20.tar.gz --markdown 20230425/a/antchain-partner/1.0.19-1.0.20/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/81/43/73d34fd042cd1ac9b681ac1fd409840a1e5f0082a2cc009605bd1dcf20f5/mypy-boto3-1.26.99.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-mediaconvert]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-mediaconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-mediaconvert-1.26.84.tar.gz tmp/mypy-boto3-mediaconvert-1.26.98.tar.gz --markdown 20230425/m/mypy-boto3-mediaconvert/1.26.84-1.26.98/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [kivy-widgets]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [kivy-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_widgets-0.1.5.tar.gz tmp/kivy_widgets-0.1.6.tar.gz --markdown 20230425/k/kivy-widgets/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-appflow]: Downloading https://files.pythonhosted.org/packages/ca/0c/102bc02405c6496eb04ce0d44b79ab8497048502319aaa51e20cb3ab40c0/mypy-boto3-appflow-1.26.78.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-codecatalyst-1.26.21.tar.gz tmp/mypy-boto3-codecatalyst-1.26.82.tar.gz --markdown 20230425/m/mypy-boto3-codecatalyst/1.26.21-1.26.82/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-ec2]: Downloading https://files.pythonhosted.org/packages/eb/c1/10fccbf003ae0a0cdeed2575cf46b6c72f196f7a1a5ceaa0815d4707e004/mypy-boto3-ec2-1.26.97.post1.tar.gz
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230425/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-appflow]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-appflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-appflow-1.26.53.tar.gz tmp/mypy-boto3-appflow-1.26.78.tar.gz --markdown 20230425/m/mypy-boto3-appflow/1.26.53-1.26.78/diff.md --exclude *.pyd
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-ec2]: executing diffoscope
+[2023-04-25 03:57:15] INFO root fetch - processPackages [mypy-boto3-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-ec2-1.26.97.tar.gz tmp/mypy-boto3-ec2-1.26.97.post1.tar.gz --markdown 20230425/m/mypy-boto3-ec2/1.26.97-1.26.97.post1/diff.md --exclude *.pyd
+[2023-04-25 03:57:16] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Start processing: boto3-stubs
+[2023-04-25 03:57:16] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-04-25 03:57:16] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-25 03:57:17] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/5b/57/dabc8ee7c1ea46b18a76ac91d2886b6637914ee5505abaea53f246e0834f/boto3-stubs-1.26.98.tar.gz
+[2023-04-25 03:57:17] INFO root fetch - processPackages [mypy-boto3-mediaconvert]: Start processing: boto3-stubs-lite
+[2023-04-25 03:57:17] INFO root fetch - main [MainThread]: End processing [mypy-boto3-mediaconvert]: success
+[2023-04-25 03:57:17] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-04-25 03:57:17] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Start processing: instater
+[2023-04-25 03:57:17] INFO root fetch - main [MainThread]: End processing [mypy-boto3-codecatalyst]: success
+[2023-04-25 03:57:17] INFO root fetch - processPackages [instater]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-25 03:57:17] INFO root fetch - processPackages [mypy-boto3-appflow]: Start processing: CONGA
+[2023-04-25 03:57:17] INFO root fetch - main [MainThread]: End processing [mypy-boto3-appflow]: success
+[2023-04-25 03:57:17] INFO root fetch - processPackages [CONGA]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-04-25 03:57:17] INFO root fetch - processPackages [antchain-partner]: Start processing: hakurei-sqlalchemy-graphqlapi
+[2023-04-25 03:57:17] INFO root fetch - main [MainThread]: End processing [antchain-partner]: success
+[2023-04-25 03:57:17] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-04-25 03:57:17] INFO root fetch - processPackages [instater]: Downloading https://files.pythonhosted.org/packages/e8/89/314696eda0200e6a4f2d7ed4dea4920b830facf2b3650a37fcd3e0237ce5/instater-0.8.0.tar.gz
+[2023-04-25 03:57:17] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: executing diffoscope
+[2023-04-25 03:57:17] INFO root fetch - processPackages [hakurei-sqlalchemy-graphqlapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev8.tar.gz tmp/hakurei_sqlalchemy-graphqlapi-0.0.1.dev9.tar.gz --markdown 20230425/h/hakurei-sqlalchemy-graphqlapi/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-25 03:57:17] INFO root fetch - processPackages [mypy-boto3]: Start processing: satdigitalinvoice
+[2023-04-25 03:57:17] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-04-25 03:57:17] INFO root fetch - processPackages [CONGA]: Downloading https://files.pythonhosted.org/packages/35/30/8f07825a09d0c0cccaef2202dd0256c5b0318967d38364ab030f535a4954/CONGA-3.0.4.tar.gz
+[2023-04-25 03:57:17] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/03/38/d650a2736258e070c5460a889b9b8ba1ced51d29cf6b09c17f1582eb6e40/boto3-stubs-lite-1.26.98.tar.gz
+[2023-04-25 03:57:17] INFO root fetch - processPackages [satdigitalinvoice]: New version: [4.0.0] Old Version: [3.0.3]
+[2023-04-25 03:57:17] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/47/b8/8410b925ba42498e88d5a4524e93639247a1d0fadb51ec4e7e0130cbc6d8/boto3-stubs-1.26.99.tar.gz
+[2023-04-25 03:57:17] INFO root fetch - processPackages [instater]: Downloading https://files.pythonhosted.org/packages/05/4f/61792cbbc33d0e4e2dbb02b1a3beded7ce77f77c3b34dadfe58e479c56e6/instater-0.9.0.tar.gz
+[2023-04-25 03:57:17] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/d3/66/8217c8e7b144c4d5acb6078fe197b6e45dd4302e4c05b47fe1b14697b111/satdigitalinvoice-3.0.3.tar.gz
+[2023-04-25 03:57:17] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-04-25 03:57:17] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230425/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-25 03:57:17] INFO root fetch - processPackages [CONGA]: Downloading https://files.pythonhosted.org/packages/02/38/ab184a2ce2508a89815c08a75f2f91837bb6636eae1c06eed2b93af2e116/CONGA-3.0.5.tar.gz
+[2023-04-25 03:57:17] INFO root fetch - processPackages [instater]: executing diffoscope
+[2023-04-25 03:57:17] INFO root fetch - processPackages [instater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instater-0.8.0.tar.gz tmp/instater-0.9.0.tar.gz --markdown 20230425/i/instater/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-25 03:57:18] INFO root fetch - processPackages [CONGA]: executing diffoscope
+[2023-04-25 03:57:18] INFO root fetch - processPackages [CONGA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CONGA-3.0.4.tar.gz tmp/CONGA-3.0.5.tar.gz --markdown 20230425/C/CONGA/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-04-25 03:57:18] INFO root fetch - processPackages [mypy-boto3-rekognition]: Start processing: DGLD
+[2023-04-25 03:57:18] INFO root fetch - main [MainThread]: End processing [mypy-boto3-rekognition]: success
+[2023-04-25 03:57:18] INFO root fetch - processPackages [DGLD]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-25 03:57:18] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/0a/3a/99d5df2f1d78e0665014253e20d62ee01b989d2f64f6364a06a605a7584e/satdigitalinvoice-4.0.0.tar.gz
+[2023-04-25 03:57:18] INFO root fetch - processPackages [DGLD]: Downloading https://files.pythonhosted.org/packages/4b/94/4b38222cbbe082dadc6d4c297e203db55bfdcb9f950d18cd7a44cdea6c39/DGLD-0.2.0.tar.gz
+[2023-04-25 03:57:18] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/40/77/05b803ffd38643d059c7254b8adbf5dba05fb83975f15d0b8696d5a2a98b/boto3-stubs-lite-1.26.99.tar.gz
+[2023-04-25 03:57:18] INFO root fetch - processPackages [satdigitalinvoice]: executing diffoscope
+[2023-04-25 03:57:18] INFO root fetch - processPackages [satdigitalinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satdigitalinvoice-3.0.3.tar.gz tmp/satdigitalinvoice-4.0.0.tar.gz --markdown 20230425/s/satdigitalinvoice/3.0.3-4.0.0/diff.md --exclude *.pyd
+[2023-04-25 03:57:18] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-04-25 03:57:18] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230425/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-04-25 03:57:18] INFO root fetch - processPackages [DGLD]: Downloading https://files.pythonhosted.org/packages/ec/58/a23acca07455bda72c887863de17c3d8237d7bdc9dbe24f07aee3279c247/DGLD-0.3.0.tar.gz
+[2023-04-25 03:57:18] INFO root fetch - main [MainThread]: End processing [dynast]: success
+[2023-04-25 03:57:18] INFO root fetch - processPackages [DGLD]: executing diffoscope
+[2023-04-25 03:57:18] INFO root fetch - processPackages [DGLD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230425:/home/abi/fetcher/20230425:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DGLD-0.2.0.tar.gz tmp/DGLD-0.3.0.tar.gz --markdown 20230425/D/DGLD/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-25 03:57:18] INFO root fetch - main [MainThread]: End processing [hakurei-sqlalchemy-graphqlapi]: success
+[2023-04-25 03:57:19] INFO root fetch - main [MainThread]: End processing [mypy-boto3-ec2]: success
+[2023-04-25 03:57:19] INFO root fetch - main [MainThread]: End processing [instater]: success
+[2023-04-25 03:57:19] INFO root fetch - main [MainThread]: End processing [CONGA]: success
+[2023-04-25 03:57:19] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-04-25 03:57:19] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
+[2023-04-25 03:57:19] INFO root fetch - main [MainThread]: End processing [satdigitalinvoice]: success
+[2023-04-25 03:57:20] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-04-25 03:57:20] INFO root fetch - main [MainThread]: End processing [DGLD]: success
+[2023-04-25 03:57:20] INFO root fetch - main [MainThread]: Store serial: [17843496]
